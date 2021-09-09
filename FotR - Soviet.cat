@@ -6003,16 +6003,13 @@
         <categoryLink id="463a-4642-2c75-2e58" name="New CategoryLink" hidden="false" targetId="2e78-c158-e8a3-ca4d" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e99a-ded9-19a1-63e6" name="1 Battery" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e99a-ded9-19a1-63e6" name="1 Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="e3a1-3f5f-e6ee-49e0">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5f9-e144-ee29-0428" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e808-d24d-7558-dda8" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e3a1-3f5f-e6ee-49e0" name="76.2mm ZiS-3 Field Gun" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05a7-c3b0-ca0e-883e" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5371-6487-a515-489f" type="max"/>
-              </constraints>
+            <selectionEntry id="e3a1-3f5f-e6ee-49e0" name="2x 76.2mm ZiS-3 Field Gun" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="3e01-903b-bbde-cd63" name="76.2mm/L54 самоxoдная пушка обр. 1942 г. [ЗиС-3]" hidden="false" targetId="8e03-ed22-66b4-daa3" type="profile"/>
               </infoLinks>
@@ -6024,11 +6021,7 @@
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4837-1251-1e22-e792" name="BM-13 Katyusha" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8490-c3ce-1252-d56b" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a7d-1712-78c9-4c5d" type="max"/>
-              </constraints>
+            <selectionEntry id="4837-1251-1e22-e792" name="2x BM-13 Katyusha" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="3dcb-ef37-2e2a-373c" name="132mm Rocket [M-13]" hidden="false" targetId="ce83-614a-3130-f319" type="profile"/>
                 <infoLink id="fe6e-1105-4f67-3e69" name="Multiple Rocket Launchers" hidden="false" targetId="9763-1356-fa4b-8973" type="rule"/>
@@ -6041,11 +6034,7 @@
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dd0f-3112-ae47-3530" name="122mm/L23 Howitzer" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79ca-84f7-0ca4-aa39" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd13-54ea-f815-2018" type="max"/>
-              </constraints>
+            <selectionEntry id="dd0f-3112-ae47-3530" name="2x 122mm/L23 Howitzer" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="af9b-e336-6048-e9a3" name="122mm/L23 гаубица обр. 1938 г. [M-30]" hidden="false" targetId="cc17-14ec-846f-c2da" type="profile"/>
               </infoLinks>
@@ -6057,11 +6046,7 @@
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="508e-058d-a3f8-bd0c" name="152mm/L24 Howitzer" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa9-d43c-52c9-ba08" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47f8-ba38-e96a-0549" type="max"/>
-              </constraints>
+            <selectionEntry id="508e-058d-a3f8-bd0c" name="2x 152mm/L24 Howitzer" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="c9db-4bfe-6c8a-0d20" name="152mm/L24 гаубица обр. 1938 г. [М-10]" hidden="false" targetId="4beb-48e9-3bc6-13c2" type="profile"/>
               </infoLinks>
@@ -6073,11 +6058,7 @@
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5762-7ebf-ee3c-4510" name="203mm/L49 Howitzer" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61b4-25cb-3c54-97dd" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d83a-f062-273f-317c" type="max"/>
-              </constraints>
+            <selectionEntry id="5762-7ebf-ee3c-4510" name="2x 203mm/L49 Howitzer" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="6605-0f78-c444-103f" name="203mm/L24 гаубица обр. 1931 г. [Б-4]" hidden="false" targetId="983f-7ed7-ebb1-a43e" type="profile"/>
               </infoLinks>
@@ -6105,16 +6086,13 @@
         <categoryLink id="56a4-3d1c-517d-ff11" name="New CategoryLink" hidden="false" targetId="2e78-c158-e8a3-ca4d" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="40c3-be4a-81f8-e2a4" name="1 Battery" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="40c3-be4a-81f8-e2a4" name="1 Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="e51e-6bb0-b364-fb78">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9168-de78-6c47-790a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e870-83c9-ab94-b326" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e51e-6bb0-b364-fb78" name="82mm Medium Mortar" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da30-fd83-2f38-fa27" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26dc-ec28-53bc-1cb8" type="max"/>
-              </constraints>
+            <selectionEntry id="e51e-6bb0-b364-fb78" name="2x 82mm Medium Mortar" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="baa3-4135-74c7-8b7f" name="82mm Medium Mortar [82-pm-41]" hidden="false" targetId="76c9-4f92-3762-519e" type="profile"/>
               </infoLinks>
@@ -6126,11 +6104,7 @@
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fedc-a5b5-fbff-c494" name="120mm Heavy Mortar" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1648-e4a1-e017-3c76" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ea5-d0a5-bce0-1c5a" type="max"/>
-              </constraints>
+            <selectionEntry id="fedc-a5b5-fbff-c494" name="2x 120mm Heavy Mortar" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="d4f8-9a90-27e1-8367" name="120mm Heavy Mortar [120-pm-43]" hidden="false" targetId="0e04-838b-0f6b-804c" type="profile"/>
               </infoLinks>

@@ -3748,16 +3748,13 @@ Roll
         <categoryLink id="486a-434f-bb1c-4204" name="New CategoryLink" hidden="false" targetId="9129-9e5d-90a7-6b3e" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5bcc-ee51-bac3-db4b" name="1 Battery" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5bcc-ee51-bac3-db4b" name="1 Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="7526-639e-2b55-d428">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bd1-74ac-148c-bcdc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b62f-4ace-73df-d58a" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="7526-639e-2b55-d428" name="3-inch Mortars" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0873-b976-d911-2289" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf08-2306-5fac-bfe8" type="max"/>
-              </constraints>
+            <selectionEntry id="7526-639e-2b55-d428" name="2x 3-inch Mortars" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="76d6-e3db-4299-5c63" name="ML 3-inch Medium Mortar" hidden="false" targetId="2000-6598-77e4-1cb4" type="profile"/>
               </infoLinks>
@@ -3769,11 +3766,7 @@ Roll
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="edc2-d123-88ea-8687" name="4.2-inch Mortars" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c12-bf51-ab93-75a5" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2255-cadb-7e0a-b209" type="max"/>
-              </constraints>
+            <selectionEntry id="edc2-d123-88ea-8687" name="2x 4.2-inch Mortars" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="1b2e-e14c-50e6-b3e6" name="ML 4.2-inch Heavy Mortar" hidden="false" targetId="d893-fcc5-c7cb-ecff" type="profile"/>
               </infoLinks>
@@ -3899,18 +3892,15 @@ Roll
         <categoryLink id="9bfa-db28-e831-990e" name="New CategoryLink" hidden="false" targetId="9129-9e5d-90a7-6b3e" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="229f-35e4-a99b-834f" name="1 Battery" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="229f-35e4-a99b-834f" name="1 Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="8124-2389-96b6-9e1e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3110-b1a5-2296-5615" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9560-63d8-a205-5d68" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8124-2389-96b6-9e1e" name="25 pdr Field Guns" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1908-4532-b7e7-5e97" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dad-f7d6-c423-30f7" type="max"/>
-              </constraints>
+            <selectionEntry id="8124-2389-96b6-9e1e" name="2x 25 pdr Field Guns" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="7aee-f056-7111-0fff" name="25 pdr Field Gun" hidden="false" targetId="a685-473c-80a8-6a46" type="profile"/>
+                <infoLink id="7aee-f056-7111-0fff" name="QF 25-pdr Mk.II Field Gun" hidden="false" targetId="a685-473c-80a8-6a46" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="90.0"/>
@@ -3920,11 +3910,7 @@ Roll
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6259-fff3-4c7c-4c3c" name="BL 5.5-inch Field Guns" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b108-f58f-7fab-0f0e" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce5a-816c-c246-478c" type="max"/>
-              </constraints>
+            <selectionEntry id="6259-fff3-4c7c-4c3c" name="2x BL 5.5-inch Field Guns" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="8e4e-5ecd-82c3-123f" name="BL 5.5-inch Field Gun" hidden="false" targetId="0f2c-c77b-a0f5-fe24" type="profile"/>
               </infoLinks>
@@ -3936,11 +3922,7 @@ Roll
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7ed3-9513-fc9f-9643" name="BL 4.5-inch Field Guns" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5fc-93bf-cfd4-e7ed" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bb6-941e-378c-fece" type="max"/>
-              </constraints>
+            <selectionEntry id="7ed3-9513-fc9f-9643" name="2x BL 4.5-inch Field Guns" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="7af4-3ead-d065-f342" name="BL 4.5-inch Field Gun" hidden="false" targetId="b628-7685-2864-53ef" type="profile"/>
               </infoLinks>
@@ -3952,11 +3934,7 @@ Roll
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1005-6baa-e64e-0add" name="155mm/L45 [M1 Long Tom]" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ae5-b41b-006c-2307" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="781c-ccfd-2b8a-928c" type="max"/>
-              </constraints>
+            <selectionEntry id="1005-6baa-e64e-0add" name="2x 155mm/L45 [M1 Long Tom]" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="609b-97b1-c2d3-f5af" name="155mm/L45 [M1 Long Tom]" hidden="false" targetId="8dfa-f2b3-f9a3-fdbc" type="profile"/>
               </infoLinks>

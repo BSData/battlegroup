@@ -3203,18 +3203,15 @@
         <categoryLink id="c493-d7f9-b55c-7145" name="New CategoryLink" hidden="false" targetId="7a0c-54c8-aa6a-6084" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="90f2-5683-236e-d592" name="1 Battery" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="90f2-5683-236e-d592" name="1 Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="08ab-3e37-87c1-fe28">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b4b-6e80-1e84-23ea" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9030-7068-d869-93ad" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="08ab-3e37-87c1-fe28" name="105mm/L22 Howitzer" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04a2-d9d1-0cc8-c74a" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="981f-9f68-9778-ae8c" type="max"/>
-              </constraints>
+            <selectionEntry id="08ab-3e37-87c1-fe28" name="2x 105mm/L22 Howitzer" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="4c98-7a55-aa1d-43a3" name="105mm/L22 [M2A1 Howitzer]" hidden="false" targetId="e0d7-e88d-8953-c686" type="profile"/>
+                <infoLink id="4c98-7a55-aa1d-43a3" name="105mm/L22 Howizter M2A1" hidden="false" targetId="e0d7-e88d-8953-c686" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="90.0"/>
@@ -3224,13 +3221,9 @@
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="176d-9386-ca95-06c4" name="155mm/L45 Howitzer" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4df0-f4b3-487e-413c" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88a9-5aa0-b09f-d58e" type="max"/>
-              </constraints>
+            <selectionEntry id="176d-9386-ca95-06c4" name="2x 155mm/L45 Howitzer" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="a704-81cf-5dbc-1c20" name="155mm/L45 [M1A1 Long Tom]" hidden="false" targetId="1c9a-4ad7-56bc-1d33" type="profile"/>
+                <infoLink id="a704-81cf-5dbc-1c20" name="155mm/L45 Gun M1A1 &apos;Long Tom&apos;" hidden="false" targetId="1c9a-4ad7-56bc-1d33" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="140.0"/>
@@ -3256,37 +3249,30 @@
         <categoryLink id="3f1c-10de-b63d-ba8b" name="New CategoryLink" hidden="false" targetId="7a0c-54c8-aa6a-6084" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="cb70-b445-fe82-e0bf" name="1 Battery" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="cb70-b445-fe82-e0bf" name="1 Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="7bd9-0ca0-6c89-389c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd1c-fecb-e437-816c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8a0-e480-8f56-bed9" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="be99-fff7-ff2d-e8c5" name="81mm Medium Mortar" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5212-a778-6d11-d61f" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cc2-d521-28f7-424c" type="max"/>
-              </constraints>
+            <selectionEntry id="eab7-f296-f555-76b9" name="2x 4.2-inch Heavy Mortar" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="aa8f-fa61-ba8c-6a6c" name="81mm Mortar M1" hidden="false" targetId="2061-06b9-16fe-6970" type="profile"/>
+                <infoLink id="637d-7448-303e-54b1" name="4.2-inch M2 Heavy Mortar" hidden="false" targetId="c0b0-2b86-fa7c-881b" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="54.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="72.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9d5b-353e-afbd-4b45" name="4.2-inch Heavy Mortar" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a394-d426-d7dd-3538" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba29-a53f-5083-01e1" type="max"/>
-              </constraints>
+            <selectionEntry id="7bd9-0ca0-6c89-389c" name="2x 81mm Medium Mortar" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="9ab7-f9b2-a15c-6eda" name="4.2-inch M2 Heavy Mortar" hidden="false" targetId="c0b0-2b86-fa7c-881b" type="profile"/>
+                <infoLink id="9868-2619-730e-29a5" name="81mm Mortar M1" hidden="false" targetId="2061-06b9-16fe-6970" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="72.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="54.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
