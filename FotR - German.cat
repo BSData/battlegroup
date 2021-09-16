@@ -6873,7 +6873,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="94.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
