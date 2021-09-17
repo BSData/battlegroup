@@ -50,6 +50,51 @@ For Aimed Fire with High Explosives, roll to hit for each of the squad&apos;s mo
 
 For Aimed Fire with AP, roll to hit for each mortar of the squad&apos;s mortars as normal, with each bomb having an AP value of 1.</description>
     </rule>
+    <rule id="cd5d-2f5f-9683-a4ad" name="Well Concealed" hidden="false">
+      <description>The Japanese have disguised all their positions very well. All Defenses, and any Japanese units in them, have an additional -1 to being Spotted for Aimed Fire for the entire game. This modifier is lost if a unit moves out of the defenses.</description>
+    </rule>
+    <rule id="1e75-e528-c0f8-8f92" name="Light Machine Gun Dug-Out" hidden="false">
+      <description>2 men and a Type 96 LMG in reinforced cover. The cover is lost if the LMG team moves.</description>
+    </rule>
+    <rule id="935e-9103-8e45-6b5e" name="Heavy Machine Gun Dug-Out" hidden="false">
+      <description>3 men and a tripod Type 92 HMG in reinforced cover. The cover is lost if the HMG team moves.</description>
+    </rule>
+    <rule id="7b32-4ca7-220f-ccc8" name="Machine Gun Bunker" hidden="false">
+      <description>3 men and a tripod Type 92 HMG and a loader team, in hardened cover. The cover is lost if the MG team move.</description>
+    </rule>
+    <rule id="ddf7-fea2-d7a8-a775" name="Mortar Pit" hidden="false">
+      <description>3 men and an 81mm mortar in reinforced cover. The cover is lost if the mortar team moves.</description>
+    </rule>
+    <rule id="688b-59ea-bc3a-6eca" name="Concealed Cave Entrance" hidden="false">
+      <description>Before the game write down, or mark on a map, the location of the concealed cave entrance. It must be positioned in an area of terrain (jungle, rocks, etc), not in the open, but otherwise can be anywhere on the tabletop. Up to 6 infantry units can be hidden in the cave (kept in reserve off-table), and these units can emerge from the cave at the start of any Japanese turn. Place a unit within 4&quot; of the cave entrance and give them an order as normal. All the units do not have to emerge on the same turn.</description>
+    </rule>
+    <rule id="2138-12b8-1d68-9c7f" name="Booby Trap Labyrinth" hidden="false">
+      <description>The Japanese have sown this battlefield with small, anti-infantry booby traps; single mines, grenades on trip wires, punji stakes pits, etc. Each time the Japanese player draws a BR counter with the value of 5, he may use it as a small booby trap attack instead. Play on a single enemy infantry unit that moved last turn. They take a 3/5+ HE attack as they set off a booby trap and must take a morale test if any casualties are taken. The Japanese player then discards the 5 BR counter.</description>
+    </rule>
+    <rule id="12b0-3086-f2ef-d1eb" name="Booby Trapped Terrain" hidden="false">
+      <description>A chosen piece of terrain (note down which), anywhere on the table has been wired with a booby-trap bomb. The first time an enemy unit enters or uses the terrain piece as cover, roll a D6. On a 2+, the bomb detonates and the unit takes a 5/3+ HE hit. On a 1, there is a fault and the booby trap fails to go off.</description>
+    </rule>
+    <rule id="007d-bb1b-73a1-907d" name="Dummy Bunker" hidden="false">
+      <description>A single bunker or casemate of any size, with nothing in it. This does not have to be revealed until an enemy infantry unit gets within 5&quot; of the bunker model.</description>
+    </rule>
+    <rule id="48da-10af-4b53-4ed0" name="Rifleman Spider Hole" hidden="false">
+      <description>1 man with a rifle in hardened cover (2+ cover save). A single Japanese soldier, very well concealed in a small covered pit.</description>
+    </rule>
+    <rule id="cea4-dec2-9d5c-0fb1" name="LMG Spider Hole" hidden="false">
+      <description>1 man with a Type 96 LMG in hardened cover (2+ cover save).</description>
+    </rule>
+    <rule id="6588-f2ba-12fa-5d66" name="Light Mortar Spider Hole" hidden="false">
+      <description>1 man with a Type 89 light mortar in hardened cover (2+ cover save)</description>
+    </rule>
+    <rule id="8e09-10fc-62a8-b7bd" name="Anti-Tank Spider Hole" hidden="false">
+      <description>1 man with anti-tank grenades in hardened cover (2+ cover save)</description>
+    </rule>
+    <rule id="d4d7-def6-5c43-e315" name="High Ground Observation Post" hidden="false">
+      <description>The positions your troops are holding are overlooked by high ground, held by your side. In this battle, all your mortar and artillery observers count as being Mortar/Artillery Spotter+. You also gain an extra Pre-Registered Target Point.</description>
+    </rule>
+    <rule id="a84a-2aaf-5970-de05" name="Tunnel Access" hidden="false">
+      <description>A hidden trapdoor and ladder leading into tunnels. A single infantry squad or team (of any type) can be held in reserve (off-table) and emerge from the tunnel, see Hidden special rules.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="8fed-0796-27cf-e925" name="Type 94 Tankette" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
@@ -708,13 +753,6 @@ Engineer</characteristic>
         <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Assault Troops, Elite</characteristic>
       </characteristics>
     </profile>
-    <profile id="c301-e38a-deea-739d" name="Rilfeman Spider Hole" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
-      <characteristics>
-        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">1 Man</characteristic>
-        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
-        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Elite, Hidden, Nikaku</characteristic>
-      </characteristics>
-    </profile>
     <profile id="a0a7-3c3c-45fa-40a0" name="Infantry Platoon Command Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
       <characteristics>
         <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
@@ -824,6 +862,83 @@ Engineer</characteristic>
         <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 2 / AP 3</characteristic>
         <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 2 / AP 2</characteristic>
         <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cd11-b155-7a4a-7f9c" name="Spider Hole" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">1 Man</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Elite, Hidden, Nikaku</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3830-cb7b-4077-6e78" name="Motorcycle HMG Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Scout</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8d87-891b-8edf-26d0" name="Infantry Patrol" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">6 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Scout, Assault Troops</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b44a-e050-86d4-fcd6" name="Motorised Patrol" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Scout, Mortar Spotter</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4381-b3e1-2fee-9d78" name="Pioneer Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">7 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Engineers, Elite, Assault Troops</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4433-b354-6904-f6b4" name="Flamethrower Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Elite</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9eaf-4971-88db-6f36" name="Penal Labour Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">12 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Officer, Engineers, Auxiliary, Unarmed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="07f9-6ee5-1a9a-6adc" name="Light Bridging Unit" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">6 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Bridging</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b099-9c26-5b37-4802" name="Light Repair Unit" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Vehicle Repair</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4525-2743-4a6e-cdbf" name="Supply Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">1 Man</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Resupply</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6837-ad9e-0108-ca3f" name="2 Mules or Bullocks" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Mules or Bullocks</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
