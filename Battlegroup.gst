@@ -590,6 +590,42 @@ A Timed Airstrike is a one-use weapon; once it has dropped its bombs, remove the
 
 Counter battery fire missions are only used when they are successful.  You may continue to attempt a counter-battery mission until it works. You may include more than one counter- battery mission, and any number may be used each turn.</description>
     </rule>
+    <rule id="46b5-358a-d28a-ddd9" name="Allied Air Superiority" hidden="false">
+      <description>The Allied air forces have control of the air. On drawing an Air Attack counter, a Japanese aircraft will only arrive on a roll of a 6, instead of the usual 5-6.</description>
+    </rule>
+    <rule id="91f6-ce4f-8b66-d69f" name="Communications Breakdown " hidden="false">
+      <description>With radios (at least working ones) in very short supply, without telephone wires, communications with off-table units are difficult. Communication checks (usually a default 3+ dice roll) require a 4+ roll instead, unless otherwise stated. Wire teams are not affected by this rule and remain a 2+ roll. Communications tests can still be re-rolled by units with the Communications special rule.</description>
+    </rule>
+    <rule id="9b69-fe9a-cac3-37b2" name="Direct Lay" hidden="false">
+      <description>Direct lay is mortars engaging targets that they themselves can see (not usual practice). A medium mortar team with the Direct Lay special rule isn&apos;t restricted to using Indirect Fire rules. It may use Suppressing Fire or Direct Fire with High Explosives to target the enemy.
+
+On an &apos;Open Fire!&apos; order, a medium mortar team using Direct Lay must fire twice at the same target unit it has line of sight to, up to a maximum range of 50&quot;.</description>
+    </rule>
+    <rule id="2cf8-2a7f-a7d9-e1e5" name="Hidden" hidden="false">
+      <description>The small units and defenses are so well hidden that, whilst in battle, the enemy will not find them. Units with the hidden special rule are not deployed on the tabletop as normal but remain &apos;hidden&apos;.
+
+At the start of your turn, a hidden unit can be placed anywhere on the tabletop, but not within 10&quot; of an unpinned enemy infantry unit. Once revealed, the unit can then be given an Order as normal.</description>
+    </rule>
+    <rule id="b95c-e7fe-15f2-1617" name="Rounds on the Way" hidden="false">
+      <description>An effect of the lack of good communications and the longer response times of off-table mortar and artillery batteries is that once a fire mission has been requested it cannot be cancelled.
+
+Regardless of other factors, where the spotter round lands, etc., a mortar or artillery spotter unit cannot cancel a fire mission. This means that the Orders required to fire the guns must be spent, and the mortar or artillery fire may hit your own side.
+
+All timed barrages and air strikes must also go ahead as planned; they cannot be cancelled either.</description>
+    </rule>
+    <rule id="c28e-5901-8c13-c057" name="Unarmed" hidden="false">
+      <description>The squad is armed with a mixture of knives, bayonets, bamboo spears, machetes, etc. They have no firepower. The squad&apos;s Rate of Fire is 0 for all firing (Suppressing Fire or Aimed Fire), but counts as 1 per man during a close assault.
+
+An unarmed squad gets no D6 bonus for &apos;Grenade!&apos; during a close assault.</description>
+    </rule>
+    <rule id="79aa-a0a1-5606-7d95" name="To the Last Man" hidden="false">
+      <description>The Last Man Standing rule (see page 46 of the rule book) does not apply. If the last man is pinned then he is not removed as a casualty and, thus, no BR counter is taken. The last man can still be unpinned and used as normal until removed as a casualty.</description>
+    </rule>
+    <rule id="35d7-91c5-3bc2-7d4d" name="Amphibious" hidden="false">
+      <description>This vehicle can move in water as if it was moving off-road.
+
+In an exception to the normal rules for pinning, amphibious vehicles in the water that become pinned can still be given the Top Speed order as normal, but cannot fire any weapons or disembark transported units (they are taking cover inside). The vehicle has nowhere to hide anyway, so it keeps going! This pinning exception does not apply to DUKWs, which are treated as normal.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="f270-1b11-b6cc-36cc" name="Vehicle MG - Pintle" hidden="false" typeId="119d-02c5-95d4-335f" typeName="Small Arms">
