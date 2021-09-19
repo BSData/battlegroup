@@ -265,6 +265,40 @@
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="01e4-e4b2-73f5-5bf6" name="Gun Dug-out" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="348d-560d-ef38-be7a" name="Gun Dug-out" hidden="false">
+          <description>Reinforced cover for a single gun and crew until the gun moves. The gun must be purchased from the army list.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d5d1-a2e4-ac06-ffdc" name="Sniper Hideout" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="44d8-53c7-196f-ac09" name="Sniper Hideout" hidden="false">
+          <description>A single sniper in hardened cover. It can be placed anywhere outside the opponent&apos;s deployment zone. The cover is lost if the sniper moves.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c60f-01b2-8e8e-5e81" name="Sniper Scout" hidden="false" targetId="3a16-b52f-5af2-e7a5" type="rule"/>
+        <infoLink id="63c1-b5c4-7b7a-a024" name="Sniper" hidden="false" targetId="e97a-ad19-1007-905a" type="profile"/>
+        <infoLink id="40ad-894d-a94a-105f" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
+        <infoLink id="5b3a-1aca-7422-89d1" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="31e8-cd06-ed3c-0427" name="&apos;Fight, Damn You!&apos;" hidden="false" collective="false" import="true" defaultSelectionEntryId="4052-a6bd-128f-11a3">
@@ -589,6 +623,57 @@ A Timed Airstrike is a one-use weapon; once it has dropped its bombs, remove the
       <description>If the enemy is going to open fire with off-table guns, simply interrupt him and declare a counter battery mission.  Roll a D6; if the result is greater than 4+ the off-table battery cannot fire, and no orders are used.
 
 Counter battery fire missions are only used when they are successful.  You may continue to attempt a counter-battery mission until it works. You may include more than one counter- battery mission, and any number may be used each turn.</description>
+    </rule>
+    <rule id="46b5-358a-d28a-ddd9" name="Allied Air Superiority" hidden="false">
+      <description>The Allied air forces have control of the air. On drawing an Air Attack counter, a Japanese aircraft will only arrive on a roll of a 6, instead of the usual 5-6.</description>
+    </rule>
+    <rule id="91f6-ce4f-8b66-d69f" name="Communications Breakdown " hidden="false">
+      <description>With radios (at least working ones) in very short supply, without telephone wires, communications with off-table units are difficult. Communication checks (usually a default 3+ dice roll) require a 4+ roll instead, unless otherwise stated. Wire teams are not affected by this rule and remain a 2+ roll. Communications tests can still be re-rolled by units with the Communications special rule.</description>
+    </rule>
+    <rule id="9b69-fe9a-cac3-37b2" name="Direct Lay" hidden="false">
+      <description>Direct lay is mortars engaging targets that they themselves can see (not usual practice). A medium mortar team with the Direct Lay special rule isn&apos;t restricted to using Indirect Fire rules. It may use Suppressing Fire or Direct Fire with High Explosives to target the enemy.
+
+On an &apos;Open Fire!&apos; order, a medium mortar team using Direct Lay must fire twice at the same target unit it has line of sight to, up to a maximum range of 50&quot;.</description>
+    </rule>
+    <rule id="2cf8-2a7f-a7d9-e1e5" name="Hidden" hidden="false">
+      <description>The small units and defenses are so well hidden that, whilst in battle, the enemy will not find them. Units with the hidden special rule are not deployed on the tabletop as normal but remain &apos;hidden&apos;.
+
+At the start of your turn, a hidden unit can be placed anywhere on the tabletop, but not within 10&quot; of an unpinned enemy infantry unit. Once revealed, the unit can then be given an Order as normal.</description>
+    </rule>
+    <rule id="b95c-e7fe-15f2-1617" name="Rounds on the Way" hidden="false">
+      <description>An effect of the lack of good communications and the longer response times of off-table mortar and artillery batteries is that once a fire mission has been requested it cannot be cancelled.
+
+Regardless of other factors, where the spotter round lands, etc., a mortar or artillery spotter unit cannot cancel a fire mission. This means that the Orders required to fire the guns must be spent, and the mortar or artillery fire may hit your own side.
+
+All timed barrages and air strikes must also go ahead as planned; they cannot be cancelled either.</description>
+    </rule>
+    <rule id="c28e-5901-8c13-c057" name="Unarmed" hidden="false">
+      <description>The squad is armed with a mixture of knives, bayonets, bamboo spears, machetes, etc. They have no firepower. The squad&apos;s Rate of Fire is 0 for all firing (Suppressing Fire or Aimed Fire), but counts as 1 per man during a close assault.
+
+An unarmed squad gets no D6 bonus for &apos;Grenade!&apos; during a close assault.</description>
+    </rule>
+    <rule id="79aa-a0a1-5606-7d95" name="To the Last Man" hidden="false">
+      <description>The Last Man Standing rule (see page 46 of the rule book) does not apply. If the last man is pinned then he is not removed as a casualty and, thus, no BR counter is taken. The last man can still be unpinned and used as normal until removed as a casualty.</description>
+    </rule>
+    <rule id="35d7-91c5-3bc2-7d4d" name="Amphibious" hidden="false">
+      <description>This vehicle can move in water as if it was moving off-road.
+
+In an exception to the normal rules for pinning, amphibious vehicles in the water that become pinned can still be given the Top Speed order as normal, but cannot fire any weapons or disembark transported units (they are taking cover inside). The vehicle has nowhere to hide anyway, so it keeps going! This pinning exception does not apply to DUKWs, which are treated as normal.</description>
+    </rule>
+    <rule id="32f8-3deb-8a6b-3054" name="Dug-in Tank" hidden="false">
+      <description>A single dug-in tank used as a static bunker. The tank cannot move at all in game, but always counts as an obscurred target and gains +1 level to its armour values from all directions. Any tank bought from the Tank assets section may be dug-in.</description>
+    </rule>
+    <rule id="f305-a059-d8ef-ab56" name="Dug-in Tank Platoon" hidden="false">
+      <description>Three dug-in tanks used as static bunkers. All tanks must be of the same type. The tanks cannot move at all in the game, but always count as an obscurred target and gains +1 level to its armour values from all directions. Any tanks bought from the Tank assets section may be dug-in as a platoon.</description>
+    </rule>
+    <rule id="34f0-4f91-9fd1-df1a" name="Command Bunker" hidden="false">
+      <description>A command post in a wood and earth bunker. 4 men in hardened cover. The cover is lost if the command unit moves.</description>
+    </rule>
+    <rule id="4ef0-61c7-2756-89f9" name="Artillery Observation Post" hidden="false">
+      <description>A forward observer team in hardened cover. The cover is lost if the FAO team move. Includes an FAO team of 2 men.</description>
+    </rule>
+    <rule id="1f61-e4f9-c8e2-e2c7" name="Fight Damn You!" hidden="false">
+      <description>The presence of a political officer &apos;bolsters&apos; the morale of the troops (or instils fear). If a battlegroup includes an officer with the &apos;Fight Damn You!&apos; special rule, then before the start of the game, roll a D6 and add the result to the battlegroup&apos;s BR total.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
