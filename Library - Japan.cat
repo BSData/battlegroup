@@ -95,6 +95,33 @@ For Aimed Fire with AP, roll to hit for each mortar of the squad&apos;s mortars 
     <rule id="a84a-2aaf-5970-de05" name="Tunnel Access" hidden="false">
       <description>A hidden trapdoor and ladder leading into tunnels. A single infantry squad or team (of any type) can be held in reserve (off-table) and emerge from the tunnel, see Hidden special rules.</description>
     </rule>
+    <rule id="da94-cb85-1a23-5200" name="Coastal &apos;Fortress Artillery&apos; Casemate" hidden="false">
+      <description>A 150mmL40 naval gun behind a &apos;cruiser&apos; type gun shield (3-sided turret), with a 6 crew and a 3 man loader team, in a hardened bunker (2+ cover save).</description>
+    </rule>
+    <rule id="5a73-a8e4-5478-ee6b" name="Off Shore Mines" hidden="false">
+      <description>Off the coast, the sea has been heavily mined. Each time a unit takes a move, and it is beyond 10&quot; from the shore, the defender rolls a D6. On a 6, it hits a mine and takes a hit with a HE rating of 7/2+ and an armour penetration value of 10.</description>
+    </rule>
+    <rule id="530a-fbd9-bc36-3f00" name="Sea Rocks/Corale Reef" hidden="false">
+      <description>An area, up to 10&quot; long, of exposed sea rocks or a coral reef. They are impassible to enemy units. Any boat that hits the rocks or coral reef takes D6 hits from the impact.</description>
+    </rule>
+    <rule id="9d0f-5fe4-5b94-4364" name="Type 10 120mm AA gun dug-out" hidden="false">
+      <description>A single 120mmL45 heavy anti-aircraft gun with 6 crew and a 3 man loader team, in reinforced cover.</description>
+    </rule>
+    <rule id="5665-2d7a-0277-4bfd" name="Type 96 25mm AA gun dug-out" hidden="false">
+      <description>A single-barrelled 25mm anti-aircraft gun with 3 crew and a 3 man loader team, in reinforced cover. </description>
+    </rule>
+    <rule id="663b-b572-dcf1-0f8d" name="Mined Barbed Wire" hidden="false">
+      <description>Up to 20&quot; of barbed wire. It is an obstacle for vehicles and infantry. Roll a dice for any unit crossing it; on a 5+, they set off a mine with a HE rating of 7/2+ and an AP rating of 10.</description>
+    </rule>
+    <rule id="5c4b-690d-cd8f-794a" name="Soft Sand" hidden="false">
+      <description>An area of beach, up to 10&quot; x 10&quot;, with wet that will not support the weight of armoured vehicles. Any armoured vehicle that moves over this area must roll a D6. On a 4+, it becomes immobilised.</description>
+    </rule>
+    <rule id="9459-1747-b6b8-0352" name="Sea Cliffs" hidden="false">
+      <description>Up to 20&quot; of sea cliffs. These are impassable to all units, except for infantry units with grapnels or in transports equipped with grapnels or ladders.</description>
+    </rule>
+    <rule id="b5f9-0bfa-9ea1-06e2" name="Reinforced Trenches" hidden="false">
+      <description>Up to 10&quot; of trenches which count as hardened cover.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="8fed-0796-27cf-e925" name="Type 94 Tankette" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
@@ -746,7 +773,7 @@ Engineer</characteristic>
         <characteristic name="Max Range" typeId="442b-2a41-2e42-ff51">5&quot;</characteristic>
       </characteristics>
     </profile>
-    <profile id="b63e-6369-4766-f8d5" name="Amphibious Rilfe Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+    <profile id="b63e-6369-4766-f8d5" name="Amphibious Rifle Section" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
       <characteristics>
         <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">7 Men</characteristic>
         <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
@@ -939,6 +966,69 @@ Engineer</characteristic>
         <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Mules or Bullocks</characteristic>
         <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
         <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a117-579b-7168-b834" name="INA Platoon Command Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Officer</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e117-3c7e-909b-3cdf" name="INA Rifle Section" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">6 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0806-ccab-da93-0425" name="INA Light MG Section" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">5 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5087-e6a0-d448-fe88" name="Amphibious Platoon Command Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Officer, Mortar Spotter</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a3a0-5c9b-30c1-c589" name="Last Remnants Command Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Officer, Assault Troops, Elite</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bec2-fa28-fd70-ffcc" name="Last Remnants Rifle Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">7 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Assault Troops, Elite</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bca5-a2eb-858f-3e91" name="Unarmed Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2D6 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Assault Troops, Elite, Nikaku, Unarmed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d3b8-ac9d-9592-ccd3" name="Suicide Assault Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Assault Troops, Elite, Unarmed, Hidden, Nikaku</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8c98-d8a5-e7d2-561e" name="&apos;Nikaku&apos; Suicide Bomber" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">1 Man</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Assault Troops, Elite, Unarmed, Hidden, Nikaku</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

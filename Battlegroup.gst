@@ -273,6 +273,10 @@
       </rules>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d5d1-a2e4-ac06-ffdc" name="Sniper Hideout" hidden="false" collective="false" import="true" type="unit">
@@ -290,6 +294,9 @@
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -664,6 +671,9 @@ In an exception to the normal rules for pinning, amphibious vehicles in the wate
     </rule>
     <rule id="4ef0-61c7-2756-89f9" name="Artillery Observation Post" hidden="false">
       <description>A forward observer team in hardened cover. The cover is lost if the FAO team move. Includes an FAO team of 2 men.</description>
+    </rule>
+    <rule id="1f61-e4f9-c8e2-e2c7" name="Fight Damn You!" hidden="false">
+      <description>The presence of a political officer &apos;bolsters&apos; the morale of the troops (or instils fear). If a battlegroup includes an officer with the &apos;Fight Damn You!&apos; special rule, then before the start of the game, roll a D6 and add the result to the battlegroup&apos;s BR total.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
