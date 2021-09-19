@@ -2087,15 +2087,15 @@
           </constraints>
           <infoLinks>
             <infoLink id="fc14-914b-9768-0afc" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
-            <infoLink id="fea6-9248-51d2-3aa1" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
-            <infoLink id="2d2b-3f0b-b52a-1204" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
-            <infoLink id="748e-5f89-0b4a-ca33" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
-            <infoLink id="54e9-2637-b1d3-7108" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+            <infoLink id="75ee-39be-aeb3-8c22" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="dd85-5c89-0294-3a58" name="M4A4 Sherman V - Troop Commander" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="e502-54d3-8d4a-5db0" name="M4A4 Sherman V" hidden="false" targetId="1bb7-445f-21ab-4f4b" type="profile"/>
+                <infoLink id="3d9d-17c4-62ae-8850" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
+                <infoLink id="d615-9e52-0817-9cdd" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+                <infoLink id="9a53-0313-b486-9bc8" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
@@ -2108,6 +2108,9 @@
             <selectionEntry id="3927-1af4-96e7-95f3" name="M4A2 Sherman III - Troop Commander" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="94ad-2119-2a45-084a" name="M4A2 Sherman III" hidden="false" targetId="d055-566d-0244-92c4" type="profile"/>
+                <infoLink id="35ec-24d9-1fcd-7423" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
+                <infoLink id="b679-2c84-3366-2258" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+                <infoLink id="4625-7f53-e286-fbe1" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
@@ -2124,15 +2127,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be2f-8173-92e2-bc62" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="698c-46af-5b87-554a" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="5219-3df3-7cb9-7207" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
-            <infoLink id="7d44-e3af-e506-2899" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
-            <infoLink id="3b5f-b315-58d3-46a6" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
-          </infoLinks>
           <selectionEntries>
             <selectionEntry id="2eeb-2ec7-6f7c-2b47" name="M4A2 Sherman III" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="e8dc-c599-a760-6aed" name="M4A2 Sherman III" hidden="false" targetId="d055-566d-0244-92c4" type="profile"/>
+                <infoLink id="2edc-fd93-a7c8-7809" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
+                <infoLink id="6c12-8458-4766-b5d1" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+                <infoLink id="78c6-99d7-5e6c-31e8" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
@@ -2145,6 +2146,9 @@
             <selectionEntry id="bf8d-cb27-4954-45f9" name="M4A4 Sherman V" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="5abb-65f0-27a1-c7d2" name="M4A4 Sherman V" hidden="false" targetId="1bb7-445f-21ab-4f4b" type="profile"/>
+                <infoLink id="32d4-d4ff-395f-3365" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
+                <infoLink id="07f0-800f-652f-89a9" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+                <infoLink id="3928-798b-e646-7d0a" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
@@ -2161,14 +2165,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5632-0c05-0a02-0757" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fc5-4eea-689f-f019" type="min"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="71b3-64e2-8610-dc2d" name="QF 17-pdr (AP), Turret" hidden="false" targetId="dad1-97e8-39c0-b7ee" type="profile"/>
-            <infoLink id="f3ad-cfac-b811-8c87" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
-          </infoLinks>
           <selectionEntries>
             <selectionEntry id="0ee5-5d9d-1b5b-01a7" name="M4 Sherman IC Firefly" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="9096-5573-37c6-8911" name="M4 Sherman IC Firefly" hidden="false" targetId="e410-2ae7-2d4f-6221" type="profile"/>
+                <infoLink id="7137-477d-c657-f95a" name="QF 17-pdr (AP), Turret" hidden="false" targetId="dad1-97e8-39c0-b7ee" type="profile"/>
+                <infoLink id="61df-524a-3636-ef6d" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
@@ -2181,6 +2183,8 @@
             <selectionEntry id="30b1-e8f6-e06e-7761" name="M4A4 Sherman VC Firefly" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="be57-b820-993b-c1f6" name="M4A4 Sherman VC Firefly" hidden="false" targetId="59e6-dd6e-157b-5c06" type="profile"/>
+                <infoLink id="8557-476c-8f64-189b" name="QF 17-pdr (AP), Turret" hidden="false" targetId="dad1-97e8-39c0-b7ee" type="profile"/>
+                <infoLink id="f77a-11f4-b127-e4ab" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
@@ -5919,14 +5923,14 @@
           <infoLinks>
             <infoLink id="eb8d-2948-6cc5-06c8" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
             <infoLink id="0cc9-c21a-822b-7cab" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
-            <infoLink id="4540-f7c0-8dea-e779" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
-            <infoLink id="1e4b-4ef3-32b7-5294" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
-            <infoLink id="cca0-83ea-a1cd-2232" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="eb7d-f567-984a-72fb" name="M4A4 Sherman V - Troop Commander" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="3a5f-4642-6171-8662" name="M4A4 Sherman V" hidden="false" targetId="1bb7-445f-21ab-4f4b" type="profile"/>
+                <infoLink id="49ea-a6ff-6cca-cc79" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
+                <infoLink id="5201-7b62-1a69-8f0a" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+                <infoLink id="6992-8c54-63e9-2974" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
@@ -5939,6 +5943,9 @@
             <selectionEntry id="a7a9-28c7-8362-8bfd" name="M4A2 Sherman III - Troop Commander" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="aa8e-bf0a-40e0-a60e" name="M4A2 Sherman III" hidden="false" targetId="d055-566d-0244-92c4" type="profile"/>
+                <infoLink id="3f50-49a6-f13d-4f7f" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
+                <infoLink id="4812-74c3-be4c-1e29" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+                <infoLink id="4fff-7be1-a7d6-c81b" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
@@ -5955,15 +5962,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8910-8837-3520-2718" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c2c-8086-887b-5063" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="c7ee-a3e3-be5c-04e6" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
-            <infoLink id="c5c4-1812-5981-4924" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
-            <infoLink id="98ed-4e94-4021-3709" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
-          </infoLinks>
           <selectionEntries>
             <selectionEntry id="c308-f430-693c-2c27" name="M4A2 Sherman III" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="f4f7-74e5-44e2-63d0" name="M4A2 Sherman III" hidden="false" targetId="d055-566d-0244-92c4" type="profile"/>
+                <infoLink id="faed-6faf-ba90-ffd9" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
+                <infoLink id="d8b4-97dc-f842-9712" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+                <infoLink id="64a7-5e62-ef2b-1cf4" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
@@ -5976,6 +5981,9 @@
             <selectionEntry id="c7b0-f9d1-0401-6d36" name="M4A4 Sherman V" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="3543-8c6d-051f-7fe1" name="M4A4 Sherman V" hidden="false" targetId="1bb7-445f-21ab-4f4b" type="profile"/>
+                <infoLink id="62d2-c93e-55b6-9bd9" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
+                <infoLink id="131d-267b-63ed-5789" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+                <infoLink id="3d72-6495-13c1-e03f" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
@@ -5992,14 +6000,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ae0-15da-94b3-d167" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f532-1410-736c-45c5" type="min"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="a883-d871-5923-e6f1" name="QF 17-pdr (AP), Turret" hidden="false" targetId="dad1-97e8-39c0-b7ee" type="profile"/>
-            <infoLink id="1613-8967-c1a7-feef" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
-          </infoLinks>
           <selectionEntries>
             <selectionEntry id="b7fd-a43e-1cb5-213a" name="M4 Sherman IC Firefly" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="0d51-6dfd-ed1e-1186" name="M4 Sherman IC Firefly" hidden="false" targetId="e410-2ae7-2d4f-6221" type="profile"/>
+                <infoLink id="e003-86fb-13a8-058c" name="QF 17-pdr (AP), Turret" hidden="false" targetId="dad1-97e8-39c0-b7ee" type="profile"/>
+                <infoLink id="8b9f-cd70-63a2-9d29" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
@@ -6012,6 +6018,8 @@
             <selectionEntry id="f719-d8b4-b262-9f68" name="M4A4 Sherman VC Firefly" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="8176-1bff-08a4-f237" name="M4A4 Sherman VC Firefly" hidden="false" targetId="59e6-dd6e-157b-5c06" type="profile"/>
+                <infoLink id="5e3f-1d0e-8c50-aaa9" name="QF 17-pdr (AP), Turret" hidden="false" targetId="dad1-97e8-39c0-b7ee" type="profile"/>
+                <infoLink id="6735-e93a-9d4a-3849" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>

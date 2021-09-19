@@ -8612,6 +8612,9 @@
         <infoLink id="b539-4216-8f77-2dce" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
         <infoLink id="859f-97cc-2d56-404e" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ac59-a927-7be7-bb78" name="New CategoryLink" hidden="false" targetId="2e78-c158-e8a3-ca4d" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7ab1-5b5d-4491-4137" name="Forward Observer Team" hidden="false" collective="false" import="true" type="model">
           <constraints>
