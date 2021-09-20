@@ -14,6 +14,7 @@
     <publication id="3484-73ee-e32a-508f" name="Dispatches Issue 1" shortName="D-1"/>
     <publication id="9834-69c1-08f3-0e7a" name="Dispatches Issue 2"/>
     <publication id="8894-bc8f-b32a-f223" name="Dispatches Issue 3"/>
+    <publication id="891e-dbba-3bad-3d88" name="Pacific War" shortName="Pacific"/>
   </publications>
   <costTypes>
     <costType id="d842-fd8f-4744-0a94" name="pts" defaultCostLimit="-1.0" hidden="false"/>
