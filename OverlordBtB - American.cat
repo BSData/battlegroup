@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8b63-051e-0ef4-5986" name="Overlord:BtB - American" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8b63-051e-0ef4-5986" name="Overlord:BtB - American" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e528-fb28-cd48-a390" name="Infantry Units - Armored Division Battlegroup" hidden="false"/>
     <categoryEntry id="abcc-871f-c887-9c86" name="Foward Headquarters Units - Armored Division Battlegroup" hidden="false"/>

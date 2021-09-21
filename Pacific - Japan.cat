@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2253-8187-a53a-2b00" name="Pacific - Japan" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2253-8187-a53a-2b00" name="Pacific - Japan" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="f721-aa78-2e0d-59f1" name="Additional Fire Support" hidden="false"/>
     <categoryEntry id="55aa-263f-107e-2dbf" name="Artillery Units" hidden="false"/>
@@ -4409,6 +4409,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1441-1a33-6a76-12c2" name="Anti-Tank Section" hidden="false" collective="false" import="true" type="unit">
@@ -4730,6 +4731,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cf30-568d-c6d3-1c8e" name="Anti-Tank Section" hidden="false" collective="false" import="true" type="unit">
@@ -5496,6 +5498,11 @@
             <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16c6-f87c-500a-3452" type="atMost"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8a6-3e8a-5827-a207" type="max"/>
@@ -5558,6 +5565,11 @@
             <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16c6-f87c-500a-3452" type="atMost"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bf9-e637-55d3-fefe" type="max"/>
@@ -5584,6 +5596,11 @@
             <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16c6-f87c-500a-3452" type="atMost"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="ada8-ba64-3787-5b45" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
@@ -5605,6 +5622,11 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16c6-f87c-500a-3452" type="atMost"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5635,6 +5657,11 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16c6-f87c-500a-3452" type="atMost"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5684,6 +5711,11 @@
             <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16c6-f87c-500a-3452" type="atMost"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="f102-494a-0834-4ac5" name="Mined Barbed Wire" hidden="false" targetId="663b-b572-dcf1-0f8d" type="rule"/>
@@ -5704,6 +5736,11 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16c6-f87c-500a-3452" type="atMost"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5727,6 +5764,11 @@
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16c6-f87c-500a-3452" type="atMost"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5755,6 +5797,11 @@
             <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16c6-f87c-500a-3452" type="atMost"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="45ab-647c-cf8f-4826" name="Reinforced Trenches" hidden="false" targetId="b5f9-0bfa-9ea1-06e2" type="rule"/>
@@ -5769,6 +5816,20 @@
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="16c6-f87c-500a-3452" name="Amphibious Assault Scenario" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="79df-8b0b-7e2e-02b4" name="Amphibious Assault Scenario" hidden="false">
+          <description>This battlegroup is fighting on a beach using the amphibious assault scenario.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
