@@ -374,7 +374,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="2cf8-3b4d-99c2-fca7" name="Wire Team" hidden="false" targetId="45a6-d5ef-e10e-87ed" type="profile"/>
-            <infoLink id="172f-7fe2-6767-ed55" name="Type 99 Arisaka (Rifle)" hidden="false" targetId="833f-4d76-9465-5596" type="profile"/>
+            <infoLink id="172f-7fe2-6767-ed55" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
@@ -1402,11 +1402,10 @@
     </selectionEntry>
     <selectionEntry id="1e9b-4c01-0fdb-2831" name="Mortar Pit" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="b6e6-a0ea-a784-aba6" name="Mortar Pit" hidden="false" targetId="ddf7-fea2-d7a8-a775" type="rule"/>
+        <infoLink id="b6e6-a0ea-a784-aba6" name="81mm Mortar M1" hidden="false" targetId="2061-06b9-16fe-6970" type="profile"/>
         <infoLink id="1fb9-a9b4-67ce-5ef2" name="Mortar Team [Medium]" hidden="false" targetId="b154-d174-97ab-f75f" type="profile"/>
-        <infoLink id="5aef-0eb2-1cd6-cef3" name="Type 97 81mm Medium Mortar" hidden="false" targetId="1fd0-d28e-a334-950b" type="profile"/>
-        <infoLink id="2a34-e48d-858e-91a1" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
-        <infoLink id="c13f-eeea-efb9-0040" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
+        <infoLink id="5aef-0eb2-1cd6-cef3" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+        <infoLink id="2a34-e48d-858e-91a1" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="26b2-21a1-7bd8-850a" name="New CategoryLink" hidden="false" targetId="8142-add6-9b3e-9a82" primary="true"/>
@@ -2055,10 +2054,6 @@
           </conditions>
         </modifier>
       </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55b8-3c7f-b0e2-14ed" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6db1-6b05-d014-ce51" type="min"/>
-      </constraints>
       <infoLinks>
         <infoLink id="21be-0430-a5b0-2e40" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
         <infoLink id="bac3-2595-5cdb-b4e0" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
@@ -2068,6 +2063,10 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6059-ce90-f558-4025" name="Anti-Aircraft Halftrack" hidden="false" collective="false" import="true" defaultSelectionEntryId="bb42-a8d0-3c1c-8acd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4d6-7aba-7f02-7327" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aba-c868-660e-bc59" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="bb42-a8d0-3c1c-8acd" name="M15" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
@@ -2078,6 +2077,9 @@
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1ca2-0f3e-f7d2-3231" name="M16" hidden="false" collective="false" import="true" type="model">
@@ -2088,6 +2090,9 @@
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="32.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2097,11 +2102,30 @@
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b45-2295-b9ce-0cf9" name="Off-Table Artillery Support Request" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="fbf1-4006-313a-07b7" name="American Fire Mission Requests" hidden="false" targetId="1ad7-0fcc-5d48-94ba" type="infoGroup"/>
+        <infoLink id="fbf1-4006-313a-07b7" name="American Fire Mission Requests" hidden="false" targetId="1ad7-0fcc-5d48-94ba" type="infoGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="7c95-d9f2-94a3-9c85" name="American Fire Mission Requests2" hidden="false" targetId="cee1-ba4e-8203-e1d4" type="infoGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c2d-5504-9bbe-fc3b" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dd0d-c8b8-58e0-bd15" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
@@ -2691,7 +2715,7 @@
                   </constraints>
                   <infoLinks>
                     <infoLink id="20ee-c0c4-43d0-4da5" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
-                    <infoLink id="7719-af25-ba51-5c70" name="Type 99 Arisaka (Rifle)" hidden="false" targetId="833f-4d76-9465-5596" type="profile"/>
+                    <infoLink id="7719-af25-ba51-5c70" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
                     <infoLink id="c300-ff3f-db61-e75c" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
                   </infoLinks>
                   <costs>
@@ -3455,7 +3479,7 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5632-b18f-e760-94ae" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="e5df-9411-12d1-4602" name="8&quot; Howitzer" hidden="false" targetId="0af7-bdf8-949f-0bee" type="profile"/>
+            <infoLink id="e5df-9411-12d1-4602" name="8&quot; Naval Guns" hidden="false" targetId="889a-413d-c914-d2b1" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
@@ -4875,6 +4899,13 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="4c02-00cf-fd6a-5b70" name="LVT-2" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <infoLinks>
                 <infoLink id="3b74-bdd0-7772-c19e" name="LVT-2" hidden="false" targetId="f14f-1d7a-c86c-5e81" type="profile"/>
               </infoLinks>
@@ -5901,6 +5932,9 @@
         <infoLink id="b070-0b54-148c-b925" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
         <infoLink id="323e-2f1f-a400-614c" name="Armoured Infantry Patrol" hidden="false" targetId="520b-98d0-f904-b22c" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1ac0-e0ce-a379-88ed" name="New CategoryLink" hidden="false" targetId="3497-52ed-74a1-6836" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="44.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
@@ -5955,6 +5989,62 @@
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e771-400e-8bd2-d874" name="Timed 155mm Barrage" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c2d-5504-9bbe-fc3b" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="857a-9654-2062-5856" name="Timed Barrage" hidden="false" targetId="2b1b-e5b6-033b-e9e2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f6ff-258e-2c03-afb0" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5333-c48b-f1ce-e7e4" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8afc-28ee-ece4-4b8b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f37-2ddf-819c-4f85" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="daa5-cd7f-6f97-e2fa" name="Pre-Registered Target Point" hidden="false" targetId="5218-aeb0-934e-ac35" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="415d-04ed-54ea-c336" name="155mmL45 Howitzers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e2f-f5d8-8098-19e2" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcb7-295d-46b6-16c4" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3e70-6dfc-edb4-0bdb" name="155mm/L45 Gun M1A1 &apos;Long Tom&apos;" hidden="false" targetId="1c9a-4ad7-56bc-1d33" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -6135,47 +6225,118 @@
     <infoGroup id="fd2b-c5c0-c376-102e" name="US Navy/Army Close Air Support Table 1944-45" hidden="false">
       <rules>
         <rule id="ae2d-f255-4dfa-36a6" name="Aircraft Table" hidden="false">
-          <description>1-3 Ki-43 &apos;Oscar&apos; Fighter
-4-5 A6M &apos;Zero&apos; Fighter
+          <description>Choose one of the two tables below
+
+US Navy Close Air Support
+1    F4F Wildcat
+2-4 F6F Hellcat
+5    SB2C Helldiver
+6    Player&apos;s Choice of Aircraft (Still roll for Armaments)
+
+US Marine Corps Aviation Close Air Support
+1-2 P-51 Mustang
+3-5 P-38 Lightning
 6    Player&apos;s Choice of Aircraft (Still roll for Armaments)
 
 You may always choose an aircraft from lower on the table than your roll. You must still roll for armament.</description>
         </rule>
       </rules>
       <infoGroups>
-        <infoGroup id="0749-502c-9785-a54c" name="D6 Roll : 1-2 : Ki-43 &apos;Oscar&apos; Fighter" hidden="false">
+        <infoGroup id="0749-502c-9785-a54c" name="D6 Roll : 1-2 : P-51 Mustang Fighter" hidden="false">
           <rules>
-            <rule id="3e32-d0e6-ee4a-5892" name="Ki-43 &apos;Oscar&apos; Fighter Armaments" hidden="false">
+            <rule id="3e32-d0e6-ee4a-5892" name="P-51 Mustang Fighter Armaments" hidden="false">
               <description>Base
-----  2x MGs
+----  6x MGs
 
 Roll
-1-2 No bombs
-3-6 2x medium bombs</description>
+1    No bombs
+2-6 2x small bombs</description>
             </rule>
           </rules>
           <infoLinks>
             <infoLink id="8679-ada1-2d37-f48a" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
-            <infoLink id="2973-1fe4-bfb1-252a" name="Medium Bomb" hidden="false" targetId="53f4-2874-229c-674a" type="profile"/>
-            <infoLink id="8a9b-49ba-5269-8341" name="Ki-43 &apos;Oscar&apos; Fighter" hidden="false" targetId="52c8-6316-f922-cc38" type="profile"/>
+            <infoLink id="2973-1fe4-bfb1-252a" name="Small Bomb" hidden="false" targetId="b219-ad97-a999-c681" type="profile"/>
+            <infoLink id="8a9b-49ba-5269-8341" name="P-51 Mustang" hidden="false" targetId="c02c-7560-6425-87fa" type="profile"/>
           </infoLinks>
         </infoGroup>
-        <infoGroup id="dac1-b9fa-242d-6b1d" name="D6 Roll : 4-5 : A6M &apos;Zero&apos; Fighter" hidden="false">
+        <infoGroup id="dac1-b9fa-242d-6b1d" name="D6 Roll : 3-5 : P-38 Lightning Fighter Bomber" hidden="false">
           <rules>
-            <rule id="9537-76fc-6113-b365" name="A6M &apos;Zero&apos; Fighter Armaments" hidden="false">
+            <rule id="9537-76fc-6113-b365" name="P-38 Lightning Fighter Bomber Armaments" hidden="false">
               <description>Base
-----   2x MGs
-----   2x 20mm Autocannons
+----   4x MGs
+----   1x 20mm Autocannons
 
 Roll
-2-6 small bombs</description>
+1-2  2x large bombs
+3-4  2x medium and 4x small bombs
+5-6  10x 5&quot; rockets</description>
             </rule>
           </rules>
           <infoLinks>
             <infoLink id="efd0-e8f2-aba8-f136" name="Small Bomb" hidden="false" targetId="b219-ad97-a999-c681" type="profile"/>
             <infoLink id="8484-ff3a-bebf-8e7b" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
             <infoLink id="1ef9-fd54-064b-e84e" name="Light Autocannon (20mm)" hidden="false" targetId="106f-77a4-af91-33bb" type="profile"/>
-            <infoLink id="59a9-4ec4-2283-2fff" name="A6M &apos;Zero&apos; Fighter" hidden="false" targetId="6309-a2a7-c3eb-0418" type="profile"/>
+            <infoLink id="59a9-4ec4-2283-2fff" name="F6F Hellcat" hidden="false" targetId="6309-a2a7-c3eb-0418" type="profile"/>
+            <infoLink id="c61a-7ae6-368f-74b1" name="Medium Bomb" hidden="false" targetId="53f4-2874-229c-674a" type="profile"/>
+            <infoLink id="710f-de44-0d88-5687" name="Large Bomb" hidden="false" targetId="fd48-0cfb-d40f-e289" type="profile"/>
+            <infoLink id="a375-83a0-91b8-59da" name="5-inch Rocket [HVAR]" hidden="false" targetId="925c-8b0c-fa52-6ee5" type="profile"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="22e0-f61a-3101-6375" name="D6 Roll : 1 : F4F Wildcat" hidden="false">
+          <rules>
+            <rule id="762b-68ab-9535-e7de" name="F4F Wildcat Fighter Armaments" hidden="false">
+              <description>Base
+----   6x MGs
+
+Roll
+1-2  no bombs
+3-6  2x small bombs</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="8dae-a466-04e8-b143" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+            <infoLink id="52c7-b5de-dcb5-a465" name="F4F Wildcat" hidden="false" targetId="fbda-eace-933a-5ca2" type="profile"/>
+            <infoLink id="556d-0196-8de2-6496" name="Small Bomb" hidden="false" targetId="b219-ad97-a999-c681" type="profile"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="021f-bb23-7647-8c57" name="D6 Roll : 2-4 : F6F Hellcat" hidden="false">
+          <rules>
+            <rule id="373a-4785-0ef1-7872" name="F6F Hellcat Fighter Armaments" hidden="false">
+              <description>Base
+----   6x MGs
+
+Roll
+1-2  8x small bombs
+3-4  4x medium bombs
+5     2x large bombs
+6     6x 5&quot; rockets</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="2a14-5f8a-e880-28a0" name="Small Bomb" hidden="false" targetId="b219-ad97-a999-c681" type="profile"/>
+            <infoLink id="5388-6fce-e53e-7826" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+            <infoLink id="ab53-56cf-c137-fe80" name="F6F Hellcat" hidden="false" targetId="6309-a2a7-c3eb-0418" type="profile"/>
+            <infoLink id="0bf8-1ee3-3ab0-bd72" name="Medium Bomb" hidden="false" targetId="53f4-2874-229c-674a" type="profile"/>
+            <infoLink id="b9fa-4e3e-8141-3df3" name="Large Bomb" hidden="false" targetId="fd48-0cfb-d40f-e289" type="profile"/>
+            <infoLink id="db58-8a55-1a3b-61f6" name="5-inch Rocket [HVAR]" hidden="false" targetId="925c-8b0c-fa52-6ee5" type="profile"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="23ee-8255-3d67-646b" name="D6 Roll : 5 : SB2C Dive Bomber" hidden="false">
+          <rules>
+            <rule id="222c-ce9d-18cc-cd93" name="SB2C Dive Bomber Armaments" hidden="false">
+              <description>Base
+----   2x 20mm cannons
+
+Roll
+1-4  6x medium bombs
+5-6  8x 5&quot; rockets</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="cadc-e4ac-2c35-75a9" name="Light Autocannon (20mm)" hidden="false" targetId="106f-77a4-af91-33bb" type="profile"/>
+            <infoLink id="1356-a0ef-78ff-9d8c" name="SB2C Helldiver" hidden="false" targetId="417f-4741-a47b-072a" type="profile"/>
+            <infoLink id="5d23-b5cc-ff55-229d" name="Medium Bomb" hidden="false" targetId="53f4-2874-229c-674a" type="profile"/>
+            <infoLink id="05c0-89e9-8b0b-7aa5" name="5-inch Rocket [HVAR]" hidden="false" targetId="925c-8b0c-fa52-6ee5" type="profile"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -6240,7 +6401,7 @@ Roll
             <infoLink id="bef0-b405-6a54-74b9" name="5-inch Rocket [HVAR]" hidden="false" targetId="925c-8b0c-fa52-6ee5" type="profile"/>
           </infoLinks>
         </infoGroup>
-        <infoGroup id="867d-60ec-63e0-a2b9" name="D6 Roll : 5 : SB2C Helldiver" hidden="false">
+        <infoGroup id="867d-60ec-63e0-a2b9" name="D6 Roll : 5 : SB2C Dive Bomber" hidden="false">
           <rules>
             <rule id="7c47-15f0-c385-9ceb" name="SB2C Dive Bomber Armaments" hidden="false">
               <description>Base
@@ -6258,11 +6419,51 @@ Roll
             <infoLink id="3b61-f303-5e98-2232" name="5-inch Rocket [HVAR]" hidden="false" targetId="925c-8b0c-fa52-6ee5" type="profile"/>
           </infoLinks>
         </infoGroup>
+        <infoGroup id="23a0-de23-736c-3c57" name="D6 Roll : 4-5 : F4U Corsair" hidden="false">
+          <rules>
+            <rule id="4562-fd05-a8dd-66ce" name="F4U Corsair Fighter Armaments" hidden="false">
+              <description>Base
+----   6x MGs
+
+Roll
+1-3  1x large and 2x medium bombs
+4-6  8x 5&quot; rockets</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="7f4b-a4ba-d232-a26a" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+            <infoLink id="dd19-a098-c18d-171f" name="F4U Corsair" hidden="false" targetId="52c8-6316-f922-cc38" type="profile"/>
+            <infoLink id="5f2d-bccd-09d2-5cd7" name="Medium Bomb" hidden="false" targetId="53f4-2874-229c-674a" type="profile"/>
+            <infoLink id="2680-c88d-f0c9-6635" name="5-inch Rocket [HVAR]" hidden="false" targetId="925c-8b0c-fa52-6ee5" type="profile"/>
+            <infoLink id="ad8f-41ea-b1b4-9c88" name="Large Bomb" hidden="false" targetId="fd48-0cfb-d40f-e289" type="profile"/>
+          </infoLinks>
+        </infoGroup>
       </infoGroups>
+    </infoGroup>
+    <infoGroup id="cee1-ba4e-8203-e1d4" name="American Fire Mission Requests" hidden="false">
+      <rules>
+        <rule id="1841-2023-76b3-3598" name="2+ Comms Test [Regimental Battery]" hidden="false">
+          <description>1-4 2x 4.2&quot; mortars
+5-6 2x 105mmL22 howitzers</description>
+        </rule>
+        <rule id="245b-cbc4-fdfa-ac4a" name="3+ Comms Test [Divisional Battery]" hidden="false">
+          <description>1-4 3x 105mmL22 howitzers
+5-6 3x 155mmL45 howitzers</description>
+        </rule>
+        <rule id="858b-69df-af18-c3fb" name="4+ Comms Test [Corps Battery]" hidden="false">
+          <description>1     3x  105mmL22 howitzers
+2-5  3x  155mmL45 guns
+6      2x  8&quot; Naval Guns</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e044-3b8e-ed2a-31fc" name="105mm/L22 Howizter M2A1" hidden="false" targetId="e0d7-e88d-8953-c686" type="profile"/>
+        <infoLink id="d869-9ad1-044f-0ca9" name="8&quot; Naval Guns" hidden="false" targetId="889a-413d-c914-d2b1" type="profile"/>
+        <infoLink id="88dc-04a9-7f0a-6ace" name="155mm/L45 Gun M1A1 &apos;Long Tom&apos;" hidden="false" targetId="1c9a-4ad7-56bc-1d33" type="profile"/>
+      </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
   <catalogueLinks>
-    <catalogueLink id="4cc2-2f08-2977-5821" name="Library - Japan" targetId="eb20-af19-e6aa-c24f" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="0809-011f-1d05-f79d" name="Library - America" targetId="975f-5810-bd11-08be" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
