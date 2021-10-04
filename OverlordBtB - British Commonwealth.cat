@@ -2508,7 +2508,7 @@
                 <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="426c-7341-2552-f410" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="1c53-0292-fe6b-e79b" name="Challenger" hidden="false" targetId="61a3-4933-6280-e1a1" type="profile"/>
+                <infoLink id="1c53-0292-fe6b-e79b" name="Challenger" hidden="false" targetId="a7ce-b2b3-c814-6b25" type="profile"/>
                 <infoLink id="d9f4-4ebb-3bdb-666a" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
               </infoLinks>
               <costs>
@@ -8953,6 +8953,17 @@
         <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d">2</characteristic>
         <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce">-</characteristic>
         <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a7ce-b2b3-c814-6b25" name="Challenger" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">H</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">K</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">L</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">10&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">15&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">-</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">4</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -233,7 +233,7 @@
         <characteristic name="Armor - Side" typeId="c728-3064-2d63-0e5f">O</characteristic>
         <characteristic name="Armor - Rear" typeId="0528-db72-97bf-9341">O</characteristic>
         <characteristic name="Movement - Off-Road" typeId="3219-1a43-1af3-f64d">8&quot;</characteristic>
-        <characteristic name="Movement - Road" typeId="fffd-6024-a78e-2d27">24&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="fffd-6024-a78e-2d27">12&quot;</characteristic>
         <characteristic name="Movement - Special" typeId="0090-c614-0c81-4f8c">Open-Topped</characteristic>
         <characteristic name="Ammo Capacity (Primary)" typeId="6bc1-ecc8-9b7e-9c62">-</characteristic>
         <characteristic name="Transport Capacity" typeId="2e6e-7196-6671-e975">6</characteristic>
@@ -359,7 +359,7 @@
         <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">5&quot;</characteristic>
         <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">8&quot;</characteristic>
         <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">-</characteristic>
-        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">5</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">6</characteristic>
       </characteristics>
     </profile>
     <profile id="deef-2c73-f920-2dd9" name="Churchill V" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
@@ -370,7 +370,7 @@
         <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">5&quot;</characteristic>
         <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">8&quot;</characteristic>
         <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">-</characteristic>
-        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">6</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">5</characteristic>
       </characteristics>
     </profile>
     <profile id="1f5f-f23b-fd89-0ea5" name="Churchill VI" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
@@ -392,7 +392,7 @@
         <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">5&quot;</characteristic>
         <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">8&quot;</characteristic>
         <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">-</characteristic>
-        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">75mm/L40 - 6 / Flamethrower - 4</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">75mm/L40 - 8 / Flamethrower - 4</characteristic>
       </characteristics>
     </profile>
     <profile id="de48-5ff5-f053-b02d" name="Churchill VII" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
@@ -658,7 +658,7 @@
         <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
         <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
         <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">8&quot;</characteristic>
-        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">24&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">12&quot;</characteristic>
         <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">Open-Topped</characteristic>
         <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">-</characteristic>
       </characteristics>
