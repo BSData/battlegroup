@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="975f-5810-bd11-08be" name="Library - America" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="975f-5810-bd11-08be" name="Library - America" revision="2" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="448d-fb7a-59c7-9f51" name="Sniper Hideout" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -547,7 +547,7 @@
     </profile>
     <profile id="89ca-918f-62a3-46a6" name="3&quot; Naval Gun" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
       <characteristics>
-        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">HE</characteristic>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">Light HE</characteristic>
         <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">4 / 4+</characteristic>
         <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">-</characteristic>
         <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 3</characteristic>
@@ -1481,6 +1481,418 @@
         <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 1 / AP 2</characteristic>
         <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 1 / AP 1</characteristic>
         <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">HE - / AP -</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1856-edf9-bdbd-377a" name="Landing Craft Support" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">1 Man</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Senior Officer, Artillery Spotter, Air Spotter 2+, Unique</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ce8f-5762-b1fb-bd5e" name="Air Liaison Shore Party" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Officer, Air Spotter 2+, Unique</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e831-6cef-7c23-e973" name="HQ Security Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">4 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Engineers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ec55-c1b1-a677-c90d" name="Marine Rifle Platoon HQ" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">7 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Officer, Mortar Spotter, Engineers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6043-30f2-0a88-1d01" name="Marine Rifle Squad (5)" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">5 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Engineers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5163-812e-8ad4-129f" name="Marine Rifle Squad (4)" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">4 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Engineers</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4019-6cbb-09f5-4b63" name="LVT(A)-1" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">N</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">5&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">10&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">Amphibious, Unreliable, Open-topped</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">12</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d15e-28c5-51f3-62b2" name="LVT(A)-2" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">N</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">5&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">10&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">Amphibious, Unreliable, Open-topped</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0620-89ee-04e8-4d4c" name="LVT(A)-4" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">L</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">N</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">5&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">10&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">Amphibious</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="162b-dc05-4142-9851" name="LVT(A)-4 Flamethrower" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">L</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">N</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">5&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">10&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">Amphibious</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0ef4-b587-308b-4ddd" name="M4 Sherman &apos;Zippo&apos;" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">K</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">L</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">M</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">9&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">14&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">-</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">9 (75mm) / 3 (Flamethrower)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="51a4-72ac-e50f-f795" name="M3 &apos;Satan&apos;" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">M</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">N</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">N</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">12&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">18&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">-</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">10 (37mm) / 3 (Flamethrower)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="44fa-6caf-7257-3c99" name="LVT-4" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">N</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">5&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">10&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">Amphibious, Open-topped</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6d54-934d-674a-9e67" name="Stinson Sentinel" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
+      <characteristics>
+        <characteristic name="Role" typeId="dacc-dd5d-6d45-0bbf">Spotter</characteristic>
+        <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d">2</characteristic>
+        <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce">-</characteristic>
+        <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2e3f-34e4-ec62-875f" name="Flamethrower Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="da2b-cecb-2667-bfbf" name="M3 Stuart" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">M</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">N</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">N</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">12&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">18&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">-</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e6eb-cd1e-b84d-571c" name="Naval Shore Fire Control Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Officer, Artillery Spotter+, Unique</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3c05-b3be-ddd7-7386" name="3.5&quot; Naval Gun" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">Medium HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">4 / 3+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">-</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 3</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 3</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 3</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 3</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 3</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3201-b397-e0c2-add8" name="4.7&quot; Naval Gun" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">Medium HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">5 / 3+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">-</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 4</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 4</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 4</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 4</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 4</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7115-7cf0-27b4-93cf" name="5&quot; Naval Gun" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">Medium HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">6 / 3+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">-</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 4</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 4</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 4</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 4</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 4</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4281-c3a2-0d93-6c48" name="6&quot; Naval Gun" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">Medium HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">7 / 3+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">-</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 6</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 6</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 6</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 6</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 6</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f1cb-e002-c99d-5277" name="12&quot; Naval Gun" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">Heavy HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">11 / 2+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">-</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 11</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 11</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 11</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 11</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 11</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">HE 11</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5383-319f-da88-0bcd" name="14&quot; Naval Gun" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">Heavy HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">13 / 2+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">-</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 12</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 12</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 12</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 12</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 12</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">HE 12</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b14c-2d6e-633c-f503" name="T30 HMC" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">N</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">12&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">24&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">Open-Topped</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ec40-a108-eb8e-5a5a" name="Fire Team Foot Patrol" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">4 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Engineers, Scout, Mortar Spotter</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2072-30c4-afe1-18e0" name="Alamo Scout Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">4 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Scout, Elite, Behind Enemy Lines, Artillery Spotter, Unique</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ede0-7748-6e03-cfbc" name="Shotgun" hidden="false" typeId="119d-02c5-95d4-335f" typeName="Small Arms">
+      <characteristics>
+        <characteristic name="RoF" typeId="2d56-eb64-9470-0f5d">0 (Aimed Fire) / 1 (Area Fire) / 2 (Close Assault)</characteristic>
+        <characteristic name="Mount" typeId="9232-fba5-5060-6bf8">-</characteristic>
+        <characteristic name="Crew" typeId="1dce-ea23-a156-6c8a">-</characteristic>
+        <characteristic name="Special" typeId="3218-b22a-6f97-8774">-</characteristic>
+        <characteristic name="Max Range" typeId="442b-2a41-2e42-ff51">10&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6317-cab8-e848-eff7" name="Heavy MG Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e15e-997e-d28d-b69e" name="Medium MG Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a24b-96af-56a6-1812" name="4x Pintle MGs [.30 cal Browning]" hidden="false" typeId="119d-02c5-95d4-335f" typeName="Small Arms">
+      <characteristics>
+        <characteristic name="RoF" typeId="2d56-eb64-9470-0f5d">5</characteristic>
+        <characteristic name="Mount" typeId="9232-fba5-5060-6bf8">Pintle</characteristic>
+        <characteristic name="Crew" typeId="1dce-ea23-a156-6c8a">-</characteristic>
+        <characteristic name="Special" typeId="3218-b22a-6f97-8774">-</characteristic>
+        <characteristic name="Max Range" typeId="442b-2a41-2e42-ff51">40&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f14f-1d7a-c86c-5e81" name="LVT-2" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">N</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">5&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">10&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">Amphibious, Unreliable, Open-topped</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2842-2d92-fc9d-be52" name="2x Pintle MGs [.30 cal Browning]" hidden="false" typeId="119d-02c5-95d4-335f" typeName="Small Arms">
+      <characteristics>
+        <characteristic name="RoF" typeId="2d56-eb64-9470-0f5d">5</characteristic>
+        <characteristic name="Mount" typeId="9232-fba5-5060-6bf8">Pintle</characteristic>
+        <characteristic name="Crew" typeId="1dce-ea23-a156-6c8a">-</characteristic>
+        <characteristic name="Special" typeId="3218-b22a-6f97-8774">-</characteristic>
+        <characteristic name="Max Range" typeId="442b-2a41-2e42-ff51">40&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="962e-9109-01c9-63ec" name="LCVP" hidden="false" typeId="6e73-f403-d9c9-a941" typeName="Soft Skin Vehicle">
+      <characteristics>
+        <characteristic name="Movement - Off-Road" typeId="217e-e3a8-2912-2a45">9&quot; Water</characteristic>
+        <characteristic name="Movement - Road" typeId="ace7-f938-5dbf-8054">-</characteristic>
+        <characteristic name="Hits" typeId="a689-65f7-5e80-6f7e">5</characteristic>
+        <characteristic name="Transport Capacity" typeId="5e82-8684-8ca0-2ebe">30</characteristic>
+        <characteristic name="Special" typeId="28a2-b3e1-959f-33a8">Landing Craft</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dbf9-b1a4-998b-6749" name="LCM" hidden="false" typeId="6e73-f403-d9c9-a941" typeName="Soft Skin Vehicle">
+      <characteristics>
+        <characteristic name="Movement - Off-Road" typeId="217e-e3a8-2912-2a45">6&quot; Water</characteristic>
+        <characteristic name="Movement - Road" typeId="ace7-f938-5dbf-8054">-</characteristic>
+        <characteristic name="Hits" typeId="a689-65f7-5e80-6f7e">7</characteristic>
+        <characteristic name="Transport Capacity" typeId="5e82-8684-8ca0-2ebe">80 men or 1 vehicle / gun</characteristic>
+        <characteristic name="Special" typeId="28a2-b3e1-959f-33a8">Landing Craft</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="241f-bedc-9d9d-8130" name="LCT" hidden="false" typeId="6e73-f403-d9c9-a941" typeName="Soft Skin Vehicle">
+      <characteristics>
+        <characteristic name="Movement - Off-Road" typeId="217e-e3a8-2912-2a45">6&quot; Water</characteristic>
+        <characteristic name="Movement - Road" typeId="ace7-f938-5dbf-8054">-</characteristic>
+        <characteristic name="Hits" typeId="a689-65f7-5e80-6f7e">12</characteristic>
+        <characteristic name="Transport Capacity" typeId="5e82-8684-8ca0-2ebe">4 vehicles</characteristic>
+        <characteristic name="Special" typeId="28a2-b3e1-959f-33a8">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5a7d-3daf-9a8a-dd19" name="2pdr gun" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">AP</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">-</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">-</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">AP 3</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">AP 3</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">AP 2</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">AP 1</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">AP 1</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e2d5-70d3-edad-5c3b" name="Landing Craft Rocket" hidden="false" typeId="6e73-f403-d9c9-a941" typeName="Soft Skin Vehicle">
+      <characteristics>
+        <characteristic name="Movement - Off-Road" typeId="217e-e3a8-2912-2a45">6&quot; Water</characteristic>
+        <characteristic name="Movement - Road" typeId="ace7-f938-5dbf-8054">-</characteristic>
+        <characteristic name="Hits" typeId="a689-65f7-5e80-6f7e">12</characteristic>
+        <characteristic name="Transport Capacity" typeId="5e82-8684-8ca0-2ebe">-</characteristic>
+        <characteristic name="Special" typeId="28a2-b3e1-959f-33a8">Drenching Barrage
+1000x 5&quot; rockets</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="889a-413d-c914-d2b1" name="8&quot; Naval Guns" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">Heavy HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">7 / 2+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">-</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 8</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 8</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 8</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 8</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 8</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d067-a388-c0a4-5066" name="50mm Mortar" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">2 / 5+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">-</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 1</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 1</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 1</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">-</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">-</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cf03-52cc-0cf1-bea2" name="75mmL53" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">Light HE / AP</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">4 / 4+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">Turret</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 3 / AP 7</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 3 / AP 7</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 3 / AP 6</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 3 / AP 5</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 3 / AP 4</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="520b-98d0-f904-b22c" name="Armoured Infantry Patrol" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">10 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Scout, Mortar Spotter, Unique</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4ab5-19a1-cb6c-4424" name="LCA" hidden="false" typeId="6e73-f403-d9c9-a941" typeName="Soft Skin Vehicle">
+      <characteristics>
+        <characteristic name="Movement - Off-Road" typeId="217e-e3a8-2912-2a45">9&quot; Water</characteristic>
+        <characteristic name="Movement - Road" typeId="ace7-f938-5dbf-8054">-</characteristic>
+        <characteristic name="Hits" typeId="a689-65f7-5e80-6f7e">5</characteristic>
+        <characteristic name="Transport Capacity" typeId="5e82-8684-8ca0-2ebe">26</characteristic>
+        <characteristic name="Special" typeId="28a2-b3e1-959f-33a8"/>
       </characteristics>
     </profile>
   </sharedProfiles>

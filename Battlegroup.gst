@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0a75-76ce-f956-7a9d" name="Battlegroup" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0a75-76ce-f956-7a9d" name="Battlegroup" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="1454-9043-cb31-7c4a" name="Overlord: Beyond the Beaches" shortName="O:BtB" publisher=""/>
     <publication id="a47f-374f-12cc-a194" name="Core Rulebook" shortName="CRB"/>
@@ -675,6 +675,26 @@ In an exception to the normal rules for pinning, amphibious vehicles in the wate
     </rule>
     <rule id="1f61-e4f9-c8e2-e2c7" name="Fight Damn You!" hidden="false">
       <description>The presence of a political officer &apos;bolsters&apos; the morale of the troops (or instils fear). If a battlegroup includes an officer with the &apos;Fight Damn You!&apos; special rule, then before the start of the game, roll a D6 and add the result to the battlegroup&apos;s BR total.</description>
+    </rule>
+    <rule id="069b-88cc-46ba-d193" name="Close Protection Team" hidden="false">
+      <description>A small team of 4 men in a makeshift &apos;howdah&apos; on the engine deck of a tank, all armed with submachine guns to keep enemy infantry away from the tank. The team can only be given the Ambush Fire order, no other orders are allowed. They count as having RoF 4 with a maximum range of 10&quot; and can fire 360 degrees around the tank.
+
+They are not tank riders and will not disembark from the tank, they stay with it for the entire game. The team are pinned if the tank is pinned and they are removed if the tank is destroyed. This does not cost an extra BR counter.</description>
+    </rule>
+    <rule id="54e9-0ca5-ebc7-1806" name="Drenching Barrage" hidden="false">
+      <description>Rapid fire salvos of 5&quot; rockets &apos;drenching&apos; the beach assault area in high explosives. When a drenching barrage is fired, place a marker as the centre of the target area. This does not deviate. Roll for Pinning using Area Fire with Heavy High Explosive for any unit within 30&quot; of the target marker. Any affected unit takes a Cover Save as normal.
+
+Also roll a D6 for each 5&quot; length of barbed wire and each inland minefield. On a 6, the babred or minefield is removed from the table, wrecked (or detonated) by the rockets.</description>
+    </rule>
+    <rule id="7771-8920-1f72-5ab3" name="Napalm Canister" hidden="false">
+      <description>For each napalm canister dropped, roll two dice on the Artillery Barrage Accuracy table (so 2 canisters, roll 4 dice). Each napalm canister has an HE effect of 9 / 2+. It counts as Heavy HE for resolving suppression. All Cover saves count as &apos;in the Open&apos; vs Napalm hits, regardless of what cover a target unit is actually in.
+
+Napalm also counts as a flamethrower attack for taking a BR counter.</description>
+    </rule>
+    <rule id="8992-9912-6abb-9731" name="Counter Battery Fire Mission (3+)" hidden="false">
+      <description>If the enemy is going to open fire with off-table guns, simply interrupt him and declare a counter battery mission.  Roll a D6; if the result is greater than 3+ the off-table battery cannot fire, and no orders are used.
+
+Counter battery fire missions are only used when they are successful.  You may continue to attempt a counter-battery mission until it works. You may include more than one counter- battery mission, and any number may be used each turn.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1413,6 +1433,19 @@ In an exception to the normal rules for pinning, amphibious vehicles in the wate
         <characteristic name="Unit Composition" typeId="0bf6-33a4-13ef-2c6b">3 Men</characteristic>
         <characteristic name="Movement" typeId="db7b-724b-1b51-ff62">Off-Road 3&quot; / On-Road 4&quot;</characteristic>
         <characteristic name="Special Rules" typeId="0fcd-bcb0-3339-19ab">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="da72-1bd1-510e-418f" name="Napalm Canister" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">HE - Heavy</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">9 / 2+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">-</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">-</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">-</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">-</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">-</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">-</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
