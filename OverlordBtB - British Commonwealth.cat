@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="626c-5882-d651-1055" name="Overlord:BtB - British Commonwealth" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="626c-5882-d651-1055" name="Overlord:BtB - British Commonwealth" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="45ea-ef6d-2961-c06e" name="Tank Units - Armoured Division Battlegroup" hidden="false"/>
     <categoryEntry id="d5e6-0d28-76b7-e075" name="Forward Headquarters Units - Armoured Division Battlegroup" hidden="false"/>
@@ -2085,10 +2085,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="039b-141f-194a-e094" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e61-37e5-d3c8-429a" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="fc14-914b-9768-0afc" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
-            <infoLink id="75ee-39be-aeb3-8c22" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
-          </infoLinks>
           <selectionEntries>
             <selectionEntry id="dd85-5c89-0294-3a58" name="M4A4 Sherman V - Troop Commander" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
@@ -2096,6 +2092,8 @@
                 <infoLink id="3d9d-17c4-62ae-8850" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
                 <infoLink id="d615-9e52-0817-9cdd" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
                 <infoLink id="9a53-0313-b486-9bc8" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
+                <infoLink id="56c7-1605-9ee1-1963" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
+                <infoLink id="102e-fc75-c977-1a70" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
@@ -2111,6 +2109,8 @@
                 <infoLink id="35ec-24d9-1fcd-7423" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
                 <infoLink id="b679-2c84-3366-2258" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
                 <infoLink id="4625-7f53-e286-fbe1" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
+                <infoLink id="93ad-129b-b422-27d6" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
+                <infoLink id="376f-4aee-7b78-5f6d" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
@@ -2479,7 +2479,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="6419-32c5-32a4-ad7f" name="Cromwell IV / V" hidden="false" targetId="d694-e440-dd8a-c5e4" type="profile"/>
-            <infoLink id="3f98-5dc0-5fb9-6494" name="75mm/L40, Turret" hidden="false" targetId="0049-e547-dd06-5edb" type="profile"/>
+            <infoLink id="3f98-5dc0-5fb9-6494" name="OQF 75mm/L40" hidden="false" targetId="0049-e547-dd06-5edb" type="profile"/>
             <infoLink id="27f5-2eae-c1e6-3b4a" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
             <infoLink id="bbe5-d084-8b23-4fb4" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
           </infoLinks>
@@ -2498,10 +2498,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f45-349f-e2f2-8f22" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7443-2996-fd9f-9007" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="2a52-b932-b64a-4fa7" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
-            <infoLink id="dba6-b10e-f970-a35d" name="QF 17-pdr (AP), Turret" hidden="false" targetId="dad1-97e8-39c0-b7ee" type="profile"/>
-          </infoLinks>
           <selectionEntries>
             <selectionEntry id="bc84-ce14-d735-4516" name="Challenger" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -2510,6 +2506,8 @@
               <infoLinks>
                 <infoLink id="1c53-0292-fe6b-e79b" name="Challenger" hidden="false" targetId="a7ce-b2b3-c814-6b25" type="profile"/>
                 <infoLink id="d9f4-4ebb-3bdb-666a" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+                <infoLink id="f42d-5ace-770b-e2e5" name="QF 17-pdr (AP), Turret" hidden="false" targetId="dad1-97e8-39c0-b7ee" type="profile"/>
+                <infoLink id="15c6-bb56-b965-618c" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
@@ -2521,7 +2519,9 @@
             </selectionEntry>
             <selectionEntry id="baf1-be73-2637-5235" name="M4A4 Sherman V Firefly" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
-                <infoLink id="bdf1-6a41-49ba-023f" name="M4A4 Sherman Firefly" hidden="false" targetId="59e6-dd6e-157b-5c06" type="profile"/>
+                <infoLink id="bdf1-6a41-49ba-023f" name="M4A4 Sherman VC Firefly" hidden="false" targetId="59e6-dd6e-157b-5c06" type="profile"/>
+                <infoLink id="9b73-6f37-36fc-d5e6" name="QF 17-pdr (AP), Turret" hidden="false" targetId="dad1-97e8-39c0-b7ee" type="profile"/>
+                <infoLink id="4463-4770-8d0d-29a3" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
@@ -5920,10 +5920,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b794-9b50-1fea-c804" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6fe-5c6d-42d8-a04b" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="eb8d-2948-6cc5-06c8" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
-            <infoLink id="0cc9-c21a-822b-7cab" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
-          </infoLinks>
           <selectionEntries>
             <selectionEntry id="eb7d-f567-984a-72fb" name="M4A4 Sherman V - Troop Commander" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
@@ -5931,6 +5927,8 @@
                 <infoLink id="49ea-a6ff-6cca-cc79" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
                 <infoLink id="5201-7b62-1a69-8f0a" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
                 <infoLink id="6992-8c54-63e9-2974" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
+                <infoLink id="30fa-37c0-231b-b260" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
+                <infoLink id="16cf-46ca-e52f-40d9" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
@@ -5946,6 +5944,8 @@
                 <infoLink id="3f50-49a6-f13d-4f7f" name="75mm/L40 Gun M3" hidden="false" targetId="4303-fe5b-ae1d-b6af" type="profile"/>
                 <infoLink id="4812-74c3-be4c-1e29" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
                 <infoLink id="4fff-7be1-a7d6-c81b" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
+                <infoLink id="19db-5c67-6f94-0e5e" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
+                <infoLink id="2821-51eb-ea74-dbf3" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
