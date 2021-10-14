@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b670-8c36-f9a0-4337" name="Library - Russia" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b670-8c36-f9a0-4337" name="Library - Russia" revision="2" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="12c5-c767-5784-ce71" name="Mortar Pit" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -1418,15 +1418,15 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
     </profile>
     <profile id="faad-8491-5a4f-7619" name="76.2mm/L42 танковая пушка обр. 1940 г. [Ф-34]" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
       <characteristics>
-        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741"/>
-        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638"/>
-        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e"/>
-        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788"/>
-        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4"/>
-        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272"/>
-        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50"/>
-        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a"/>
-        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae"/>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">Light HE / AP</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">4 / 4+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">Turret</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 3 / AP 6</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 3 / AP 6</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 3 / AP 5</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 3 / AP 4</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 3 / AP 3</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
       </characteristics>
     </profile>
     <profile id="473b-93ea-4ac0-f07e" name="76.2mm танковая пушка обр. 1941 г. [ЗиС-5]" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
