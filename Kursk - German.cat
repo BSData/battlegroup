@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aedc-dc50-3220-5458" name="Kursk - German" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="aedc-dc50-3220-5458" name="Kursk - German" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a3bc-36fb-8181-1477" name="Forward Headquarters Units - Infantry Division" hidden="false"/>
     <categoryEntry id="543e-8f96-60e4-2c73" name="Forward Headquarters Units - Panzer Division" hidden="false"/>
@@ -7459,6 +7459,8 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6d02-1e18-cb92-9430" name="2x Borgward B-IVs" hidden="false" collective="false" import="true" type="model">
@@ -11068,7 +11070,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                 <infoLink id="a69e-fcc8-9b2f-fa4d" name="Panzer III-M" hidden="false" targetId="159a-9eaf-b0bb-dcf2" type="profile"/>
                 <infoLink id="c1f6-d04b-a8e3-3025" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
                 <infoLink id="903a-5672-d6d9-385b" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
-                <infoLink id="d0a7-c00b-d100-6f7d" name="75mm/L48 [KwK40/48]" hidden="false" targetId="0917-fe41-f14f-c385" type="profile"/>
+                <infoLink id="dcd8-fc2b-2a88-e6f0" name="50mm/L60 [KwK39]" hidden="false" targetId="482f-8c07-1726-7ebd" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="40.0"/>
