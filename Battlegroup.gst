@@ -1448,5 +1448,14 @@ Counter battery fire missions are only used when they are successful.  You may c
         <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
       </characteristics>
     </profile>
+    <profile id="d491-350f-7c5c-1282" name="Horses" hidden="false" typeId="6e73-f403-d9c9-a941" typeName="Soft Skin Vehicle">
+      <characteristics>
+        <characteristic name="Movement - Off-Road" typeId="217e-e3a8-2912-2a45">8</characteristic>
+        <characteristic name="Movement - Road" typeId="ace7-f938-5dbf-8054">10</characteristic>
+        <characteristic name="Hits" typeId="a689-65f7-5e80-6f7e">1</characteristic>
+        <characteristic name="Transport Capacity" typeId="5e82-8684-8ca0-2ebe">1</characteristic>
+        <characteristic name="Special" typeId="28a2-b3e1-959f-33a8">Once per game, horses can charge 12&quot;</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>

@@ -54,7 +54,7 @@ If the Chinese battlegroup is not using combined operations with an American or 
 After receiving a Fire order, roll a D6. On a 4+, this unit is removed from the table. Do not draw a BR counter for this loss.</description>
     </rule>
     <rule id="0ae1-bb1d-cfba-0f66" name="Short Supplies" hidden="false">
-      <description>Ammunition and other supplies were often in extremely short supply. A unit with the Short Supplies special rule must roll a D6 after carrying out a Fire order or 2D6 after an Open Fire order. Reduce the rate of fire for the squad by that amount for the rest of the game.</description>
+      <description>Ammunition and other supplies were often in extremely short supply. A unit with the Short Supplies special rule must roll a D6 after carrying out a Fire order or 2D6 after an Open Fire order. Reduce the small arms rate of fire for this squad by that amount for the rest of the game.</description>
     </rule>
     <rule id="9ede-5760-448b-74ca" name="Martyr" hidden="false">
       <description>Many men and women volunteered to join ‘Dare to Die’ corps which were trained to achieve martyrdom. If a unit with the Martyr special rule is destroyed, do not take a BR counter for their loss.</description>
@@ -373,9 +373,9 @@ After receiving a Fire order, roll a D6. On a 4+, this unit is removed from the 
         <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"></characteristic>
       </characteristics>
     </profile>
-    <profile id="a07d-34dd-9d69-cc29" name="Light Machine Gun Team (6)" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+    <profile id="a07d-34dd-9d69-cc29" name="Light Machine Gun Team (5)" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
       <characteristics>
-        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">6 Men</characteristic>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">5 Men</characteristic>
         <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
         <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"></characteristic>
       </characteristics>
