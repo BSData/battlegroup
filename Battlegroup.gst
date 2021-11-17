@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0a75-76ce-f956-7a9d" name="Battlegroup" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0a75-76ce-f956-7a9d" name="Battlegroup" revision="3" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="1454-9043-cb31-7c4a" name="Overlord: Beyond the Beaches" shortName="O:BtB" publisher=""/>
     <publication id="a47f-374f-12cc-a194" name="Core Rulebook" shortName="CRB"/>
@@ -20,7 +20,7 @@
     <costType id="d842-fd8f-4744-0a94" name="pts" defaultCostLimit="-1.0" hidden="false"/>
     <costType id="25f6-2f9f-8a1e-518d" name="BR" defaultCostLimit="-1.0" hidden="false"/>
     <costType id="2abb-d074-7103-5ec3" name="Men" defaultCostLimit="-1.0" hidden="false"/>
-    <costType id="b2f5-dd55-0081-8b9f" name="Restricted" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="b2f5-dd55-0081-8b9f" name="Restricted" defaultCostLimit="-1.0" hidden="true"/>
     <costType id="2612-abd7-eb77-6a12" name="Officers" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
