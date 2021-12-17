@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fc29-e2c8-681b-0e17" name="ChinaDis - China" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="67dd-1e65-4827-18e3" name="ChinaDis - China" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="f721-aa78-2e0d-59f1" name="Additional Fire Support" hidden="false"/>
     <categoryEntry id="55aa-263f-107e-2dbf" name="Artillery Units" hidden="false"/>
@@ -229,7 +229,7 @@
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="7e19-d98e-1cb5-6202" name="Chinese Expeditionary Force" hidden="false">
+    <forceEntry id="7e19-d98e-1cb5-6202" name="Provincial Army" hidden="false">
       <infoLinks>
         <infoLink id="e61e-3e41-b0ed-db00" name="Rounds on the Way" hidden="false" targetId="b95c-e7fe-15f2-1617" type="rule"/>
         <infoLink id="2ddc-b4c7-0fda-093f" name="Communications Breakdown " hidden="false" targetId="91f6-ce4f-8b66-d69f" type="rule"/>
