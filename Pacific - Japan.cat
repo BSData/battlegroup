@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2253-8187-a53a-2b00" name="Pacific - Japan" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad59-18a3-bd80-b412" name="Pacific - Japan" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="f721-aa78-2e0d-59f1" name="Additional Fire Support" hidden="false"/>
     <categoryEntry id="55aa-263f-107e-2dbf" name="Artillery Units" hidden="false"/>
@@ -445,7 +445,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -465,7 +464,6 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="e469-7a1b-817e-8262" name="Lunge Mine" hidden="false" collective="false" import="true" type="upgrade">
@@ -478,7 +476,6 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -490,7 +487,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -500,7 +496,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="7.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e31c-ee5f-b942-9fc0" name="Cautious Enemy" hidden="false" collective="false" import="true" type="upgrade">
@@ -521,7 +516,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a94-3ff8-ea7d-1388" name="Tatakai!" hidden="false" collective="false" import="true" type="upgrade">
@@ -557,7 +551,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="642e-40e7-1424-fb4c" name="2" hidden="false" collective="false" import="true" type="upgrade">
@@ -567,7 +560,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="78e9-f108-4978-f48f" name="3" hidden="false" collective="false" import="true" type="upgrade">
@@ -577,7 +569,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b2bc-c327-0a7f-f77d" name="4" hidden="false" collective="false" import="true" type="upgrade">
@@ -587,7 +578,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d270-fa0f-5a39-3559" name="5" hidden="false" collective="false" import="true" type="upgrade">
@@ -597,7 +587,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ca50-d780-db93-44f0" name="6" hidden="false" collective="false" import="true" type="upgrade">
@@ -607,7 +596,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -619,7 +607,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6b8a-6e08-106b-218a" name="Wire Team" hidden="false" collective="false" import="true" type="unit">
@@ -646,7 +633,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -656,7 +642,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a792-e864-d961-94b8" name="Motorcycle Dispatch Rider" hidden="false" collective="false" import="true" type="unit">
@@ -683,7 +668,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b4f7-576f-50bd-7458" name="Motorcycle" hidden="false" collective="false" import="true" type="upgrade">
@@ -700,7 +684,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -710,7 +693,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3220-1bb3-a894-7c0f" name="Forward Headquarters" hidden="false" collective="false" import="true" type="upgrade">
@@ -743,7 +725,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e93c-2311-a379-9deb" name="Staff Car" hidden="false" collective="false" import="true" type="upgrade">
@@ -759,7 +740,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -769,7 +749,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2eb9-ec46-7e81-b2c1" name="Rifle Squad" hidden="false" collective="false" import="true" type="unit">
@@ -802,7 +781,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c398-4d67-44e2-3c1c" name="Light MG Section" hidden="false" collective="false" import="true" type="upgrade">
@@ -821,7 +799,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="72c0-015a-c5b9-3212" name="Mount on Bicycles" hidden="false" collective="false" import="true" type="upgrade">
@@ -837,7 +814,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9582-fee1-3a23-a6c2" name="Anti-Tank Section" hidden="false" collective="false" import="true" type="unit">
@@ -867,7 +843,6 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="7a25-9aeb-7618-e271" name="Lunge Mines" hidden="false" collective="false" import="true" type="upgrade">
@@ -880,7 +855,6 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -892,7 +866,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -913,7 +886,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5f0f-22ec-b50d-4d7a" name="Veterans" hidden="false" collective="false" import="true" type="upgrade">
@@ -926,7 +898,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a7b7-6247-3dd3-9141" name="Elite" hidden="false" collective="false" import="true" type="upgrade">
@@ -943,7 +914,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -955,7 +925,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="32ab-a11c-eaa1-5d14" name="Infantry Platoon" hidden="false" collective="false" import="true" type="unit">
@@ -1001,7 +970,6 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="9088-6a33-defd-1470" name="Lunge Mines" hidden="false" collective="false" import="true" type="upgrade">
@@ -1014,7 +982,6 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1026,7 +993,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d227-4105-764c-43fd" name="Light MG Section" hidden="false" collective="false" import="true" type="upgrade">
@@ -1045,7 +1011,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6271-2381-358d-25f8" name="Mount on Bicycles" hidden="false" collective="false" import="true" type="upgrade">
@@ -1061,7 +1026,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="233c-038a-a392-19c1" name="Rifle Section" hidden="false" collective="false" import="true" type="upgrade">
@@ -1079,7 +1043,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6041-8c4b-82f3-59e5" name="Infantry Platoon Command Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -1099,7 +1062,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0bac-54d5-af61-04a7" name="Grenade Launcher Battery" hidden="false" collective="false" import="true" type="unit">
@@ -1127,7 +1089,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1137,7 +1098,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1158,7 +1118,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1ab8-b21b-bedc-72a0" name="Veterans" hidden="false" collective="false" import="true" type="upgrade">
@@ -1171,7 +1130,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d1c9-ee04-f7bb-cebd" name="Elite" hidden="false" collective="false" import="true" type="upgrade">
@@ -1188,7 +1146,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1212,7 +1169,6 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1523-17f7-2b1a-ca5a" name="Heavy MG Team" hidden="false" collective="false" import="true" type="unit">
@@ -1240,7 +1196,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1250,7 +1205,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="305b-13cb-7171-5c97" name="Infantry Gun" hidden="false" collective="false" import="true" type="unit">
@@ -1277,7 +1231,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1298,7 +1251,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="9d15-5bcf-a5c5-a897" name="Type 41 75mmL18 Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -1311,7 +1263,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1323,7 +1274,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8dc2-6e38-befe-b350" name="Anti-Tank Gun" hidden="false" collective="false" import="true" type="unit">
@@ -1351,7 +1301,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1361,7 +1310,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7cb8-0969-db8d-de0b" name="Anti-Tank Rifle Team" hidden="false" collective="false" import="true" type="unit">
@@ -1381,7 +1329,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7125-95b2-180b-fb7b" name="Demolition Team" hidden="false" collective="false" import="true" type="unit">
@@ -1401,7 +1348,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1413,7 +1359,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4121-0342-1f09-235e" name="Light Tank" hidden="false" collective="false" import="true" type="unit">
@@ -1444,7 +1389,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="95d5-81c9-9d8c-d450" name="Type 2 Ka-Mi" hidden="false" collective="false" import="true" type="unit">
@@ -1462,7 +1406,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d10e-5e95-9678-09b7" name="Type 98 Ke-Ni" hidden="false" collective="false" import="true" type="unit">
@@ -1479,7 +1422,7 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="803d-5e1b-9b90-2eae" name="Type 2 Ke-To" hidden="false" collective="false" import="true" type="unit">
@@ -1500,7 +1443,7 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1512,7 +1455,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e6c-51c3-2675-9c01" name="Medium Tank" hidden="false" collective="false" import="true" type="unit">
@@ -1549,7 +1491,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a93c-f3c0-5a34-0631" name="Type 97 Shinhoto Chi-Ha" hidden="false" collective="false" import="true" type="model">
@@ -1565,7 +1506,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9d88-37b6-c74a-b272" name="Type 89 I-Go" hidden="false" collective="false" import="true" type="model">
@@ -1584,7 +1524,7 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1596,7 +1536,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5a7-aa76-6124-39b0" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
@@ -1612,7 +1551,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6087-ffe0-9041-2505" name="Off-Table Artillery Fire" hidden="false" collective="false" import="true" type="unit">
@@ -1636,7 +1574,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5ce0-1429-7832-e12f" name="2x 75mmL38 Cannons" hidden="false" collective="false" import="true" type="model">
@@ -1649,7 +1586,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ed44-cbf4-7bf2-60ef" name="2x 105mmL24 Howitzers" hidden="false" collective="false" import="true" type="model">
@@ -1672,7 +1608,7 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ed50-ea10-ca95-c181" name="2x 150mmL14 Howitzers" hidden="false" collective="false" import="true" type="model">
@@ -1692,7 +1628,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1704,7 +1639,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0307-aa8f-a30b-89c5" name="Mountain Gun" hidden="false" collective="false" import="true" type="unit">
@@ -1731,7 +1665,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="779a-5124-400e-c7bb" name="Add 3-man Loader Team" hidden="false" collective="false" import="true" type="unit">
@@ -1749,7 +1682,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1759,7 +1691,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="15a4-3c0c-bb62-5df0" name="Mortar Battery" hidden="false" collective="false" import="true" type="unit">
@@ -1790,7 +1721,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="11b2-6a62-ff78-e518" name="Add 3-man Loader Team" hidden="false" collective="false" import="true" type="unit">
@@ -1808,7 +1738,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1818,7 +1747,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e405-35c6-c51b-a161" name="Off-Table Mortar Fire" hidden="false" collective="false" import="true" type="unit">
@@ -1842,7 +1770,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ab6f-88dd-432f-d8b2" name="2x 90mm Mortars" hidden="false" collective="false" import="true" type="model">
@@ -1858,7 +1785,7 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1870,7 +1797,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6bbe-9cb1-813c-6ba6" name="Artillery Gun" hidden="false" collective="false" import="true" type="unit">
@@ -1897,7 +1823,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1919,7 +1844,6 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ff66-d323-6cea-88cf" name="Type 90 75mmL38 Artillery Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -1933,7 +1857,6 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b137-96cb-3b88-c8e9" name="Type 91 105mmL24 Artillery Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -1954,7 +1877,6 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1966,7 +1888,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="64a8-9d8c-02d5-776e" name="Sniper" hidden="false" collective="false" import="true" type="unit">
@@ -1997,7 +1918,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2adb-58ab-d61d-bf8d" name="Add a spotter" hidden="false" collective="false" import="true" type="upgrade">
@@ -2014,7 +1934,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2024,7 +1943,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a51c-63ee-b7f7-435b" name="Well Concealed" hidden="false" collective="false" import="true" type="upgrade">
@@ -2043,7 +1961,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="19bc-fc39-9245-7a2f" name="Heavy Machine Gun Dug-out" hidden="false" collective="false" import="true" type="model">
@@ -2062,7 +1979,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7259-2ad2-e45e-1043" name="Light Machine Gun Dug-out" hidden="false" collective="false" import="true" type="model">
@@ -2081,7 +1997,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e9b-4c01-0fdb-2831" name="Mortar Pit" hidden="false" collective="false" import="true" type="unit">
@@ -2101,7 +2016,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="94bf-1a6a-e560-a25b" name="Command Bunker" hidden="false" collective="false" import="true" type="unit">
@@ -2128,7 +2042,7 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="120b-0c45-7e20-c06a" name="Artillery Observation Post" hidden="false" collective="false" import="true" type="unit">
@@ -2154,7 +2068,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e513-4559-e80d-1757" name="Concealed Cave Entrance" hidden="false" collective="false" import="true" type="upgrade">
@@ -2170,7 +2083,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d55-8a8e-1759-ed1f" name="Booby Trap Labyrinth" hidden="false" collective="false" import="true" type="upgrade">
@@ -2190,7 +2102,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e35-fef3-b159-57b6" name="Booby Trap Terrain" hidden="false" collective="false" import="true" type="upgrade">
@@ -2210,7 +2121,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e06-754d-b35f-8e05" name="Dug-in Tank" hidden="false" collective="false" import="true" type="upgrade">
@@ -2226,7 +2136,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3135-5baa-590c-cf47" name="Dug-in Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2242,7 +2151,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fccc-3a2c-aa2e-59e5" name="Dummy Bunker" hidden="false" collective="false" import="true" type="model">
@@ -2262,7 +2170,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bcf8-6f12-9c9d-3090" name="Rifleman Spider Hole" hidden="false" collective="false" import="true" type="unit">
@@ -2294,7 +2201,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="849f-c9e3-df61-bd4c" name="LMG Spider Hole" hidden="false" collective="false" import="true" type="unit">
@@ -2319,7 +2225,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d825-8cc4-ff25-ba90" name="Light Mortar Spider Hole" hidden="false" collective="false" import="true" type="unit">
@@ -2344,7 +2249,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="31e7-e087-2eb5-0324" name="Anti-Tank Spider Hole" hidden="false" collective="false" import="true" type="unit">
@@ -2380,7 +2284,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8e84-4df9-00d1-c67b" name="Lunge Mines" hidden="false" collective="false" import="true" type="upgrade">
@@ -2393,7 +2296,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2405,7 +2307,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="84d2-888d-8019-71ff" name="High Ground Observation Post" hidden="false" collective="false" import="true" type="upgrade">
@@ -2424,7 +2325,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="266c-b494-cceb-54bb" name="Tunnel Access" hidden="false" collective="false" import="true" type="upgrade">
@@ -2441,7 +2341,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fb12-0947-5dd8-645f" name="Tankette" hidden="false" collective="false" import="true" type="unit">
@@ -2472,7 +2371,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bc51-ff39-fd82-a37c" name="Type 97 Te-Ke" hidden="false" collective="false" import="true" type="model">
@@ -2487,7 +2385,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2499,7 +2396,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd66-266f-db92-96b2" name="Infantry Patrol" hidden="false" collective="false" import="true" type="unit">
@@ -2528,7 +2424,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2548,7 +2443,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d775-0ea4-2269-e6db" name="Medium Truck" hidden="false" collective="false" import="true" type="model">
@@ -2561,7 +2455,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2581,7 +2474,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1dbb-2f7b-13b9-2e37" name="Lunge Mines" hidden="false" collective="false" import="true" type="upgrade">
@@ -2594,7 +2486,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2606,7 +2497,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5005-1a3d-e188-8594" name="Armoured Car" hidden="false" collective="false" import="true" type="unit">
@@ -2651,7 +2541,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e22c-7714-71d5-72db" name="Type 93" hidden="false" collective="false" import="true" type="model">
@@ -2675,7 +2564,6 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2685,7 +2573,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2696,7 +2583,7 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dcdb-f4b0-a1a5-35a4" name="Motorcycle HMG Team" hidden="false" collective="false" import="true" type="unit">
@@ -2731,7 +2618,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="df9e-b389-2695-97a7" name="Motorised Patrol" hidden="false" collective="false" import="true" type="unit">
@@ -2762,7 +2648,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3a1-83f8-2ace-d857" name="Pioneer Squad" hidden="false" collective="false" import="true" type="unit">
@@ -2795,7 +2680,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="df96-640a-18d9-9b3f" name="Minesweeper" hidden="false" collective="false" import="true" type="upgrade">
@@ -2811,7 +2695,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2832,7 +2715,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="00c2-9415-bcd8-7257" name="Lunge Mines" hidden="false" collective="false" import="true" type="upgrade">
@@ -2845,7 +2727,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2865,7 +2746,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fc83-69e8-f0d9-6c25" name="Type 1 Ho-Ki Tractor" hidden="false" collective="false" import="true" type="model">
@@ -2879,7 +2759,6 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2891,7 +2770,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="7.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d956-6706-1cef-74a6" name="Light Bridging Unit" hidden="false" collective="false" import="true" type="upgrade">
@@ -2921,7 +2799,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9bfa-d670-82bb-6ec7" name="Flamethrower Team" hidden="false" collective="false" import="true" type="unit">
@@ -2944,7 +2821,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6df0-3786-c112-4f73" name="Penal Labour Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -2976,7 +2852,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2986,7 +2861,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="12.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a48-5498-c074-ed33" name="Type 96 SS-Ki" hidden="false" collective="false" import="true" type="unit">
@@ -3022,7 +2896,7 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aeeb-a996-e640-518d" name="Light Repair Unit" hidden="false" collective="false" import="true" type="unit">
@@ -3051,7 +2925,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8531-c209-3e04-f376" name="Supply Team" hidden="false" collective="false" import="true" type="unit">
@@ -3095,7 +2968,6 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="cea0-2740-f3d0-cbf1" name="Type 94 Truck" hidden="false" collective="false" import="true" type="upgrade">
@@ -3108,7 +2980,6 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="bee0-2521-030c-9299" name="Type 98 So-Da Armoured Carrier" hidden="false" collective="false" import="true" type="model">
@@ -3121,7 +2992,6 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3133,7 +3003,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3143,7 +3012,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="850f-92ce-d61e-20c7" name="Stretcher Party" hidden="false" collective="false" import="true" type="unit">
@@ -3164,7 +3032,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3904-cac7-b7a3-c7b2" name="Forward Aid Post" hidden="false" collective="false" import="true" type="unit">
@@ -3196,7 +3063,7 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="5.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="57a1-ab29-330d-bf6c" name="Transport Column" hidden="false" collective="false" import="true" type="unit">
@@ -3234,7 +3101,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8ff9-e582-a9e9-0cab" name="Transport" hidden="false" collective="false" import="true" type="upgrade">
@@ -3259,7 +3125,6 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="53d4-a809-e0eb-00ec" name="Type 1 Ho-Ki Tractor" hidden="false" collective="false" import="true" type="upgrade">
@@ -3275,7 +3140,7 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="107f-2200-7dd8-2210" name="Type 1 Ho-Ha half-track" hidden="false" collective="false" import="true" type="model">
@@ -3291,7 +3156,7 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3303,7 +3168,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3313,7 +3177,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9f25-72f6-f716-77cb" name="Heavy AA Gun" hidden="false" collective="false" import="true" type="unit">
@@ -3348,7 +3211,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6a69-3de0-62b1-2715" name="Medium Truck tow" hidden="false" collective="false" import="true" type="model">
@@ -3364,7 +3226,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3374,7 +3235,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c42-067a-f9d6-18e0" name="Anti-Tank Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -3409,7 +3269,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3419,7 +3278,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2860-e109-af6f-cd49" name="Towed Anti-Aircraft Gun" hidden="false" collective="false" import="true" type="unit">
@@ -3450,7 +3308,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3460,7 +3317,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="277f-bc1d-0de0-ddfc" name="Anti-Aircraft Truck" hidden="false" collective="false" import="true" type="unit">
@@ -3493,7 +3349,7 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="259c-03c3-0602-a3e4" name="Self-Propelled Gun" hidden="false" collective="false" import="true" type="unit">
@@ -3537,7 +3393,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5339-b1b9-8558-a237" name="Ho-Ni II" hidden="false" collective="false" import="true" type="upgrade">
@@ -3551,7 +3406,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e347-809f-6340-5a37" name="Ho-Ro" hidden="false" collective="false" import="true" type="model">
@@ -3565,7 +3419,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3576,7 +3429,7 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b45-2295-b9ce-0cf9" name="Off-Table Artillery Support Request" hidden="false" collective="false" import="true" type="upgrade">
@@ -3603,7 +3456,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4516-69be-45f5-17ae" name="1st Target Priority (3+)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3613,7 +3465,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3625,7 +3476,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="49e8-19fb-658f-e775" name="Counter-Battery Fire Mission" hidden="false" collective="false" import="true" type="upgrade">
@@ -3641,7 +3491,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f82d-59a4-23fd-e3e8" name="Timed G4M &apos;Betty&apos; Air Strike" hidden="false" collective="false" import="true" type="upgrade">
@@ -3673,7 +3522,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8d11-b25d-1a33-f2ea" name="G4M &apos;Betty&apos; Bomber" hidden="false" collective="false" import="true" type="upgrade">
@@ -3691,7 +3539,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3701,7 +3548,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9719-c099-29c1-0ca9" name="Timed &apos;Oscar&apos; Air Strike" hidden="false" collective="false" import="true" type="upgrade">
@@ -3738,7 +3584,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1d18-854e-7115-6d85" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
@@ -3755,7 +3600,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3765,7 +3609,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6bd5-3f80-c053-0779" name="Timed 75mm Barrage" hidden="false" collective="false" import="true" type="upgrade">
@@ -3793,7 +3636,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8cbc-2cf1-ec96-5c70" name="75mmL31 Cannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -3810,7 +3652,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3820,7 +3661,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="92fe-d034-d44a-b62b" name="Timed 81mm Mortar Barrage" hidden="false" collective="false" import="true" type="upgrade">
@@ -3848,7 +3688,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="08a2-c787-a770-9d1d" name="81mm Mortar" hidden="false" collective="false" import="true" type="upgrade">
@@ -3865,7 +3704,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3875,7 +3713,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3dc9-eab8-2c30-00d9" name="Timed 105mm Barrage" hidden="false" collective="false" import="true" type="upgrade">
@@ -3910,7 +3747,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fad7-e226-3908-2b98" name="105mmL24 Howitzers" hidden="false" collective="false" import="true" type="upgrade">
@@ -3927,7 +3763,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3937,7 +3772,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3747-bd3d-cccb-912d" name="Timed 150mm Barrage" hidden="false" collective="false" import="true" type="upgrade">
@@ -3973,7 +3807,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4ca3-1d96-7793-1e18" name="150mmL14 Howitzers" hidden="false" collective="false" import="true" type="upgrade">
@@ -3990,7 +3823,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4000,7 +3832,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cffa-0100-c132-d6e0" name="&apos;Kofuku Shinai&apos;" hidden="false" collective="false" import="true" type="upgrade">
@@ -4047,7 +3878,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e7a1-a764-0686-56c3" name="3" hidden="false" collective="false" import="true" type="upgrade">
@@ -4057,7 +3887,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1882-5ff3-8d5a-2fc9" name="4" hidden="false" collective="false" import="true" type="upgrade">
@@ -4067,7 +3896,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="115e-27d7-cb4b-cb99" name="5" hidden="false" collective="false" import="true" type="upgrade">
@@ -4077,7 +3905,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a735-ab91-4b79-bcf4" name="6" hidden="false" collective="false" import="true" type="upgrade">
@@ -4087,7 +3914,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3585-85bb-57c2-7370" name="7" hidden="false" collective="false" import="true" type="upgrade">
@@ -4097,7 +3923,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="27ef-6a1c-c52f-a4f4" name="8" hidden="false" collective="false" import="true" type="upgrade">
@@ -4107,7 +3932,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cac2-a1ff-3e2e-1805" name="9" hidden="false" collective="false" import="true" type="upgrade">
@@ -4117,7 +3941,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4127-ea54-fb38-3e95" name="10" hidden="false" collective="false" import="true" type="upgrade">
@@ -4127,7 +3950,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e202-05b8-f85c-2941" name="11" hidden="false" collective="false" import="true" type="upgrade">
@@ -4137,7 +3959,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4a59-69d7-48e3-a9bc" name="12" hidden="false" collective="false" import="true" type="upgrade">
@@ -4147,7 +3968,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4159,7 +3979,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b501-6e9d-2b06-a046" name="Kempeitai Officer" hidden="false" collective="false" import="true" type="unit">
@@ -4196,7 +4015,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1a95-772c-34b1-041b" name="2" hidden="false" collective="false" import="true" type="upgrade">
@@ -4206,7 +4024,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a76d-023b-a031-9443" name="3" hidden="false" collective="false" import="true" type="upgrade">
@@ -4216,7 +4033,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="77f9-72df-a63c-b27f" name="4" hidden="false" collective="false" import="true" type="upgrade">
@@ -4226,7 +4042,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e986-dc92-0418-34dc" name="5" hidden="false" collective="false" import="true" type="upgrade">
@@ -4236,7 +4051,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d700-0cce-31e1-6e73" name="6" hidden="false" collective="false" import="true" type="upgrade">
@@ -4246,7 +4060,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4258,7 +4071,6 @@
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="948f-8c76-84fa-28ed" name="Indian National Army &apos;Guerrilla&apos; Platoon" hidden="false" collective="false" import="true" type="unit">
@@ -4294,7 +4106,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1e8f-ab6f-f63d-99d9" name="Mount on Bicycles" hidden="false" collective="false" import="true" type="upgrade">
@@ -4310,7 +4121,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d534-3013-fd13-1098" name="INA Rifle Section" hidden="false" collective="false" import="true" type="unit">
@@ -4328,7 +4138,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d4ab-4992-e206-7c19" name="INA Light MG Section" hidden="false" collective="false" import="true" type="unit">
@@ -4346,7 +4155,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4381,7 +4189,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4391,7 +4198,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c61d-22ed-5530-e8ad" name="Light Mortar Team" hidden="false" collective="false" import="true" type="unit">
@@ -4409,7 +4215,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4421,7 +4226,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7cea-123b-1563-5515" name="Indian National Army &apos;Guerilla&apos; Squad" hidden="false" collective="false" import="true" type="unit">
@@ -4453,7 +4257,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fa64-a3c7-a331-d1e0" name="INA Rifle Section" hidden="false" collective="false" import="true" type="unit">
@@ -4471,7 +4274,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="da15-c56b-a824-0d48" name="INA Light MG Section" hidden="false" collective="false" import="true" type="unit">
@@ -4489,7 +4291,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4499,7 +4300,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d5b3-0315-3d77-728d" name="Amphibious Infantry Platoon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4537,7 +4337,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ed79-88ea-996c-46d6" name="Rifle Section" hidden="false" collective="false" import="true" type="unit">
@@ -4555,7 +4354,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b01c-9fe4-2a24-5362" name="Grenade Launcher Battery" hidden="false" collective="false" import="true" type="unit">
@@ -4582,7 +4380,7 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4592,7 +4390,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4616,7 +4413,6 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b607-a753-2e29-6f95" name="Heavy MG Team" hidden="false" collective="false" import="true" type="unit">
@@ -4644,7 +4440,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4654,7 +4449,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="07f6-8783-8a47-06e7" name="Infantry Gun" hidden="false" collective="false" import="true" type="unit">
@@ -4681,7 +4475,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4702,7 +4495,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="765f-42fe-92bb-15f9" name="Type 41 75mmL18 Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -4715,7 +4507,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4727,7 +4518,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d57c-7c1d-1ec4-8c46" name="Anti-Tank Gun" hidden="false" collective="false" import="true" type="unit">
@@ -4755,7 +4545,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4765,7 +4554,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0b4d-3a01-02e4-e95c" name="Demolition Team" hidden="false" collective="false" import="true" type="unit">
@@ -4785,7 +4573,6 @@
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1441-1a33-6a76-12c2" name="Anti-Tank Section" hidden="false" collective="false" import="true" type="unit">
@@ -4814,7 +4601,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="06be-5180-ac83-0137" name="Lunge Mines" hidden="false" collective="false" import="true" type="upgrade">
@@ -4827,7 +4613,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4839,7 +4624,6 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4851,7 +4635,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e12e-d7d7-4d2b-06d9" name="Amphibious Rifle Squad" hidden="false" collective="false" import="true" type="unit">
@@ -4878,7 +4661,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="7.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ebfc-ebd4-ae75-ff45" name="Rifleman Spider Hole" hidden="false" collective="false" import="true" type="unit">
@@ -4907,7 +4689,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e9ed-05c0-bd20-d111" name="Last Remnants Platoon" hidden="false" collective="false" import="true" type="unit">
@@ -4945,7 +4726,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c0f2-c143-e385-bd61" name="Rifle Section" hidden="false" collective="false" import="true" type="unit">
@@ -4963,7 +4743,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7887-17f7-e7d2-c70f" name="Unarmed Squad" hidden="false" collective="false" import="true" type="unit">
@@ -4990,7 +4769,6 @@
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="cb56-e618-3d14-c870" name="3" hidden="false" collective="false" import="true" type="upgrade">
@@ -5000,7 +4778,6 @@
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="67d5-4fd5-2cf4-29b5" name="4" hidden="false" collective="false" import="true" type="upgrade">
@@ -5010,7 +4787,6 @@
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="cf0d-e55b-d710-637c" name="5" hidden="false" collective="false" import="true" type="upgrade">
@@ -5020,7 +4796,6 @@
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="361e-1d83-96be-eb9f" name="6" hidden="false" collective="false" import="true" type="upgrade">
@@ -5030,7 +4805,6 @@
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="4126-4df7-b3f4-fb1a" name="7" hidden="false" collective="false" import="true" type="upgrade">
@@ -5040,7 +4814,6 @@
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="ff00-ac6e-042a-feea" name="8" hidden="false" collective="false" import="true" type="upgrade">
@@ -5050,7 +4823,6 @@
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="29c0-bd89-0fad-37ab" name="9" hidden="false" collective="false" import="true" type="upgrade">
@@ -5060,7 +4832,6 @@
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="814d-9241-fa53-970d" name="10" hidden="false" collective="false" import="true" type="upgrade">
@@ -5070,7 +4841,6 @@
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1a05-2597-f62d-a48f" name="11" hidden="false" collective="false" import="true" type="upgrade">
@@ -5080,7 +4850,6 @@
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="6512-acdb-11b1-7fc2" name="12" hidden="false" collective="false" import="true" type="upgrade">
@@ -5090,7 +4859,6 @@
                     <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -5102,7 +4870,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5129,7 +4896,6 @@
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cf30-568d-c6d3-1c8e" name="Anti-Tank Section" hidden="false" collective="false" import="true" type="unit">
@@ -5158,7 +4924,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1c59-1dba-44f7-129f" name="Lunge Mines" hidden="false" collective="false" import="true" type="upgrade">
@@ -5171,7 +4936,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -5183,7 +4947,6 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5195,7 +4958,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1ff-3535-ff18-2302" name="Suicide Assault Squad" hidden="false" collective="false" import="true" type="unit">
@@ -5236,7 +4998,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9ac8-9254-8fea-82a6" name="Lunge Mines" hidden="false" collective="false" import="true" type="upgrade">
@@ -5249,7 +5010,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5261,7 +5021,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c798-3fb4-fd05-215e" name="&apos;Nikaku&apos; Suicide Bomber" hidden="false" collective="false" import="true" type="unit">
@@ -5301,7 +5060,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="159d-9b4f-a6fd-3c27" name="Lunge Mines" hidden="false" collective="false" import="true" type="upgrade">
@@ -5314,7 +5072,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5326,7 +5083,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="34be-e69d-c056-519d" name="Remnants Squad" hidden="false" collective="false" import="true" type="unit">
@@ -5362,7 +5118,6 @@
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="beeb-6972-2a36-dad2" name="3" hidden="false" collective="false" import="true" type="upgrade">
@@ -5372,7 +5127,6 @@
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d60d-1a3c-319c-a6fc" name="4" hidden="false" collective="false" import="true" type="upgrade">
@@ -5382,7 +5136,6 @@
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="eb8a-c77e-db54-c2f0" name="5" hidden="false" collective="false" import="true" type="upgrade">
@@ -5392,7 +5145,6 @@
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6c77-0785-3497-1452" name="6" hidden="false" collective="false" import="true" type="upgrade">
@@ -5402,7 +5154,6 @@
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a2e6-bc97-72f1-3f36" name="7" hidden="false" collective="false" import="true" type="upgrade">
@@ -5412,7 +5163,6 @@
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2634-38a2-48e5-9f5c" name="8" hidden="false" collective="false" import="true" type="upgrade">
@@ -5422,7 +5172,6 @@
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dc60-b245-4d70-4dd5" name="9" hidden="false" collective="false" import="true" type="upgrade">
@@ -5432,7 +5181,6 @@
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a8e0-9a41-a551-001f" name="10" hidden="false" collective="false" import="true" type="upgrade">
@@ -5442,7 +5190,6 @@
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="adf5-2cec-4ffa-e360" name="11" hidden="false" collective="false" import="true" type="upgrade">
@@ -5452,7 +5199,6 @@
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c11d-dd47-e717-a0ac" name="12" hidden="false" collective="false" import="true" type="upgrade">
@@ -5462,7 +5208,6 @@
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5474,7 +5219,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ea3d-19f5-6fa9-db5f" name="Rifleman Spider Hole" hidden="false" collective="false" import="true" type="unit">
@@ -5496,7 +5240,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2de-579e-1687-be63" name="Light Mortar Spider Hole" hidden="false" collective="false" import="true" type="unit">
@@ -5518,7 +5261,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b03-592f-530a-1521" name="LMG Spider Hole" hidden="false" collective="false" import="true" type="unit">
@@ -5540,7 +5282,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7699-39b6-4415-b340" name="Anti-Tank Spider Hole" hidden="false" collective="false" import="true" type="unit">
@@ -5573,7 +5314,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5318-07ff-7397-3986" name="Lunge Mines" hidden="false" collective="false" import="true" type="upgrade">
@@ -5586,7 +5326,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5598,7 +5337,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dfb4-e1e4-6980-dc6e" name="Timed 200mm Rocket Barrage" hidden="false" collective="false" import="true" type="upgrade">
@@ -5638,7 +5376,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bf3d-49e6-1123-44b4" name="200mm Rocket" hidden="false" collective="false" import="true" type="upgrade">
@@ -5655,7 +5392,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5665,7 +5401,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46b1-062d-31d1-a936" name="Timed 320mm Mortar Barrage" hidden="false" collective="false" import="true" type="upgrade">
@@ -5705,7 +5440,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8873-9ca5-288c-e870" name="320mm Mortar" hidden="false" collective="false" import="true" type="upgrade">
@@ -5722,7 +5456,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5732,7 +5465,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b69d-4e15-74f0-b373" name="Timed Naval Gun Barrage" hidden="false" collective="false" import="true" type="upgrade">
@@ -5772,7 +5504,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ddec-0ba2-cd39-074a" name="8&quot; Naval Guns" hidden="false" collective="false" import="true" type="upgrade">
@@ -5789,7 +5520,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5799,7 +5529,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="53f6-95d7-866a-03f1" name="Timed &apos;Zero&apos; Air Strike" hidden="false" collective="false" import="true" type="upgrade">
@@ -5837,7 +5566,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7421-6c06-a94d-b929" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
@@ -5854,7 +5582,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5864,7 +5591,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="56fa-92cd-4f43-69ef" name="Close Air Support Table" hidden="true" collective="false" import="true" type="upgrade">
@@ -5902,7 +5628,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce2a-4cfd-809b-59db" name="Pacific Islands Close Air Support Table" hidden="true" collective="false" import="true" type="upgrade">
@@ -5940,7 +5665,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ebe0-bcd1-677a-6956" name="Coastal &apos;Fortress Artillery&apos; Casemate" hidden="false" collective="false" import="true" type="unit">
@@ -5985,7 +5709,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3950-2ae9-d527-34ab" name="200mmL40 Naval Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -5998,7 +5721,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6010,7 +5732,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="9.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ed31-749a-5321-b6ad" name="Off Shore Mines" hidden="false" collective="false" import="true" type="upgrade">
@@ -6042,7 +5763,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ee52-a28d-6750-1ac7" name="Sea Rocks/Coral Reef" hidden="false" collective="false" import="true" type="upgrade">
@@ -6071,7 +5791,7 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="045b-0e21-a7c7-39f5" name="Type 10 120mm AA gun dug-out" hidden="false" collective="false" import="true" type="unit">
@@ -6107,7 +5827,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="9.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="76a0-3f3e-0e43-5784" name="Type 96 25mm AA gun dug-out" hidden="false" collective="false" import="true" type="unit">
@@ -6151,7 +5870,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6161,7 +5879,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="304c-d4c7-cda1-1d70" name="Mined Barbed Wire" hidden="false" collective="false" import="true" type="model">
@@ -6189,7 +5906,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9260-54e0-92eb-a8cd" name="Soft Sand" hidden="false" collective="false" import="true" type="upgrade">
@@ -6218,7 +5934,7 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f5f-bb21-6614-cbaa" name="Sea Cliffs" hidden="false" collective="false" import="true" type="model">
@@ -6250,7 +5966,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b0b8-bb3f-a1df-1238" name="Reinforced Trenches" hidden="false" collective="false" import="true" type="model">
@@ -6278,7 +5993,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="16c6-f87c-500a-3452" name="Amphibious Assault Scenario" hidden="false" collective="false" import="true" type="upgrade">
@@ -6299,7 +6013,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-        <cost name="Support" typeId="5272-3a21-eca8-ec3d" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
       </costs>
     </selectionEntry>
