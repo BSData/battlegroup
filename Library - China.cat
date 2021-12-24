@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b64e-1a62-87c3-e0a0" name="Library - China" revision="3" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedRules>
+    <rule id="6e7c-e48e-029b-f794" name="Anti-Tank Grenade Bundle" hidden="false">
+      <description>An Anti-Tank Grenade Bundle counts as an anti-tank grenade, with an increased penetration value of 8. If a hit is scored the user is also removed as a casualty. No morale test is taken for this loss.</description>
+    </rule>
+    <rule id="31da-6880-09f7-dfba" name="Well Concealed" hidden="false">
+      <description>The Japanese have disguised all their positions very well. All Defenses, and any Japanese units in them, have an additional -1 to being Spotted for Aimed Fire for the entire game. This modifier is lost if a unit moves out of the defenses.</description>
+    </rule>
+    <rule id="e127-0add-a9ca-c94f" name="Light Machine Gun Dug-Out" hidden="false">
+      <description>2 men and a LMG in reinforced cover. The cover is lost if the LMG team moves.</description>
+    </rule>
+    <rule id="b077-712b-5aa3-f8ca" name="Heavy Machine Gun Dug-Out" hidden="false">
+      <description>3 men and a tripod HMG in reinforced cover. The cover is lost if the HMG team moves.</description>
+    </rule>
+    <rule id="8440-8475-1674-c510" name="Machine Gun Bunker" hidden="false">
+      <description>3 men and a tripod HMG and a loader team, in hardened cover. The cover is lost if the MG team move.</description>
+    </rule>
+    <rule id="250a-d944-f2c5-6895" name="Mortar Pit" hidden="false">
+      <description>3 men and an 81mm mortar in reinforced cover. The cover is lost if the mortar team moves.</description>
+    </rule>
+    <rule id="3e64-4bce-0a45-ab2c" name="Concealed Cave Entrance" hidden="false">
+      <description>Before the game write down, or mark on a map, the location of the concealed cave entrance. It must be positioned in an area of terrain (jungle, rocks, etc), not in the open, but otherwise can be anywhere on the tabletop. Up to 6 infantry units can be hidden in the cave (kept in reserve off-table), and these units can emerge from the cave at the start of any Japanese turn. Place a unit within 4&quot; of the cave entrance and give them an order as normal. All the units do not have to emerge on the same turn.</description>
+    </rule>
+    <rule id="f48b-e1e2-412d-5189" name="Booby Trap Labyrinth" hidden="false">
+      <description>The Japanese have sown this battlefield with small, anti-infantry booby traps; single mines, grenades on trip wires, punji stakes pits, etc. Each time the Japanese player draws a BR counter with the value of 5, he may use it as a small booby trap attack instead. Play on a single enemy infantry unit that moved last turn. They take a 3/5+ HE attack as they set off a booby trap and must take a morale test if any casualties are taken. The Japanese player then discards the 5 BR counter.</description>
+    </rule>
+    <rule id="dd8e-f443-c4c1-bf5c" name="Booby Trapped Terrain" hidden="false">
+      <description>A chosen piece of terrain (note down which), anywhere on the table has been wired with a booby-trap bomb. The first time an enemy unit enters or uses the terrain piece as cover, roll a D6. On a 2+, the bomb detonates and the unit takes a 5/3+ HE hit. On a 1, there is a fault and the booby trap fails to go off.</description>
+    </rule>
+    <rule id="b590-a05f-a37f-0209" name="Dummy Bunker" hidden="false">
+      <description>A single bunker or casemate of any size, with nothing in it. This does not have to be revealed until an enemy infantry unit gets within 5&quot; of the bunker model.</description>
+    </rule>
+    <rule id="0814-72bf-cd34-5bb0" name="High Ground Observation Post" hidden="false">
+      <description>The positions your troops are holding are overlooked by high ground, held by your side. In this battle, all your mortar and artillery observers count as being Mortar/Artillery Spotter+. You also gain an extra Pre-Registered Target Point.</description>
+    </rule>
+    <rule id="02f9-70c6-d8ad-21a6" name="Tunnel Access" hidden="false">
+      <description>A hidden trapdoor and ladder leading into tunnels. A single infantry squad or team (of any type) can be held in reserve (off-table) and emerge from the tunnel, see Hidden special rules.</description>
+    </rule>
+    <rule id="7243-cc80-a713-9560" name="Mined Barbed Wire" hidden="false">
+      <description>Up to 20&quot; of barbed wire. It is an obstacle for vehicles and infantry. Roll a dice for any unit crossing it; on a 5+, they set off a mine with a HE rating of 7/2+ and an AP rating of 10.</description>
+    </rule>
+    <rule id="23e3-020f-1665-3084" name="Reinforced Trenches" hidden="false">
+      <description>Up to 10&quot; of trenches which count as hardened cover.</description>
+    </rule>
+    <rule id="f2eb-edca-14d4-608b" name="Axis Air Superiority" hidden="false">
+      <description>On drawing an Air Attack BR counter, Chinese battlegroups must roll a 6 for an aircraft to arrive rather than the normal 5+.
+
+If the Chinese battlegroup is not using combined operations with an American or British battlegroup, then the skies are mostly unopposed by Allied aircraft. On drawing an Air Attack BR counter, Japanese battlegroups must roll a 5+ for an aircraft to arrive, even if they have the Allied Air Superiority special rule.</description>
+    </rule>
+    <rule id="651c-407c-c173-9b6e" name="Too Valuable" hidden="false">
+      <description>The equipment in this squad is too valuable to be lost. To avoid giving its position away, it must relocate after firing.
+
+After receiving a Fire order, roll a D6. On a 4+, this unit is removed from the table. Do not draw a BR counter for this loss.</description>
+    </rule>
+    <rule id="0ae1-bb1d-cfba-0f66" name="Short Supplies" hidden="false">
+      <description>Ammunition and other supplies were often in extremely short supply. A unit with the Short Supplies special rule must roll a D6 after carrying out a Fire order or 2D6 after an Open Fire order. Reduce the small arms rate of fire for this squad by that amount for the rest of the game.</description>
+    </rule>
+    <rule id="9ede-5760-448b-74ca" name="Martyr" hidden="false">
+      <description>Many men and women volunteered to join ‘Dare to Die’ corps which were trained to achieve martyrdom. If a unit with the Martyr special rule is destroyed, do not take a BR counter for their loss.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="2b88-7610-c5f2-bcf6" name="20mmL70" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">V.Light HE / AP</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">-</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">-</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">AP 2</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">AP 2</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">AP 1</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">AP 1</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">AP 1</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dc99-b525-2b02-9642" name="50mm Light Mortar" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">V.Light HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">3 / 5+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">Min Rng. 5&quot; / Max Rng. 30&quot;</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 1</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 1</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 1</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">-</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">-</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3276-222d-02f1-f159" name="81mm Medium Mortar" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">Light HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">4 / 4+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">Min Rng 10&quot; / Max Rng 90&quot;</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">-</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 2</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 2</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 2</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 2</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">HE 2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="296f-f139-267c-9d9d" name="150mm Heavy Mortar" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">Medium HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">5 / 3+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">Min Rng 15&quot; / Max Rng 240&quot;</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">-</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 4</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 4</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 4</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 4</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">HE 4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f697-5dee-a635-6396" name="240mm Heavy Mortar" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">Heavy HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">10 / 2+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">Min Rng 15&quot; / Max Rng 240&quot;</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">-</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 10</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 10</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 10</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 10</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">HE 10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d5ec-bd1e-caa9-70d7" name="37mmL36" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">V.Light HE / AP</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">2 / 5+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">Turret</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 1 / AP 3</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 1 / AP 3</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 1 / AP 2</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 1 / AP 1</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 1 / AP 1</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4fa9-e0fa-54bb-225a" name="37mmL46" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">V.Light HE / AP</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">2 / 5+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">Turret</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 1 / AP 4</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 1 / AP 4</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 1 / AP 3</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 1 / AP 2</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 1 / AP 1</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="42c2-b8c9-1ba3-425a" name="75mmL31" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">V.Light HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">4 / 4+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">-</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 2</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 2</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 2</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 2</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 2</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cd56-df69-f06b-5fd5" name="75mmL38" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">V.Light HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">4 / 4+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">Hull</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 3</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 3</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 3</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 3</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 3</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b57b-059c-3172-0b28" name="150mmL40" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">Medium HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">7 / 3+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">-</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">HE 4</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">HE 4</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">HE 4</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">HE 4</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">HE 4</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9574-f268-6893-e353" name="Motorcycle" hidden="false" typeId="6e73-f403-d9c9-a941" typeName="Soft Skin Vehicle">
+      <characteristics>
+        <characteristic name="Movement - Off-Road" typeId="217e-e3a8-2912-2a45">6</characteristic>
+        <characteristic name="Movement - Road" typeId="ace7-f938-5dbf-8054">24</characteristic>
+        <characteristic name="Hits" typeId="a689-65f7-5e80-6f7e">1</characteristic>
+        <characteristic name="Transport Capacity" typeId="5e82-8684-8ca0-2ebe">1</characteristic>
+        <characteristic name="Special" typeId="28a2-b3e1-959f-33a8"/>
+      </characteristics>
+    </profile>
+    <profile id="772a-a4ae-4bec-303c" name="Staff Car" hidden="false" typeId="6e73-f403-d9c9-a941" typeName="Soft Skin Vehicle">
+      <characteristics>
+        <characteristic name="Movement - Off-Road" typeId="217e-e3a8-2912-2a45">6</characteristic>
+        <characteristic name="Movement - Road" typeId="ace7-f938-5dbf-8054">24</characteristic>
+        <characteristic name="Hits" typeId="a689-65f7-5e80-6f7e">2</characteristic>
+        <characteristic name="Transport Capacity" typeId="5e82-8684-8ca0-2ebe">3</characteristic>
+        <characteristic name="Special" typeId="28a2-b3e1-959f-33a8">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cd68-249f-3660-ae91" name="Medium Truck" hidden="false" typeId="6e73-f403-d9c9-a941" typeName="Soft Skin Vehicle">
+      <characteristics>
+        <characteristic name="Movement - Off-Road" typeId="217e-e3a8-2912-2a45">6</characteristic>
+        <characteristic name="Movement - Road" typeId="ace7-f938-5dbf-8054">24</characteristic>
+        <characteristic name="Hits" typeId="a689-65f7-5e80-6f7e">3</characteristic>
+        <characteristic name="Transport Capacity" typeId="5e82-8684-8ca0-2ebe">16</characteristic>
+        <characteristic name="Special" typeId="28a2-b3e1-959f-33a8"/>
+      </characteristics>
+    </profile>
+    <profile id="d055-4a9d-72d4-21bb" name="Degtyaryov DP (Light MG)" hidden="false" typeId="119d-02c5-95d4-335f" typeName="Small Arms">
+      <characteristics>
+        <characteristic name="RoF" typeId="2d56-eb64-9470-0f5d">2</characteristic>
+        <characteristic name="Mount" typeId="9232-fba5-5060-6bf8">-</characteristic>
+        <characteristic name="Crew" typeId="1dce-ea23-a156-6c8a">1</characteristic>
+        <characteristic name="Special" typeId="3218-b22a-6f97-8774">-</characteristic>
+        <characteristic name="Max Range" typeId="442b-2a41-2e42-ff51">30&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8030-1ff3-9014-0aea" name="Chiang Kai-Shek Rifle" hidden="false" typeId="119d-02c5-95d4-335f" typeName="Small Arms">
+      <characteristics>
+        <characteristic name="RoF" typeId="2d56-eb64-9470-0f5d">1</characteristic>
+        <characteristic name="Mount" typeId="9232-fba5-5060-6bf8">-</characteristic>
+        <characteristic name="Crew" typeId="1dce-ea23-a156-6c8a">-</characteristic>
+        <characteristic name="Special" typeId="3218-b22a-6f97-8774">-</characteristic>
+        <characteristic name="Max Range" typeId="442b-2a41-2e42-ff51">30&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="788c-fe78-0daf-c897" name="Bergmann (SMG)" hidden="false" typeId="119d-02c5-95d4-335f" typeName="Small Arms">
+      <characteristics>
+        <characteristic name="RoF" typeId="2d56-eb64-9470-0f5d">1</characteristic>
+        <characteristic name="Mount" typeId="9232-fba5-5060-6bf8">-</characteristic>
+        <characteristic name="Crew" typeId="1dce-ea23-a156-6c8a">-</characteristic>
+        <characteristic name="Special" typeId="3218-b22a-6f97-8774">One infantryman per squad can be equipped with an SMG.  In an Infantry Assault order (5&quot;), they count as having RoF 2.</characteristic>
+        <characteristic name="Max Range" typeId="442b-2a41-2e42-ff51">10&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4817-02b0-24ef-18a6" name="ZB vz. 26 (Heavy MG)" hidden="false" typeId="119d-02c5-95d4-335f" typeName="Small Arms">
+      <characteristics>
+        <characteristic name="RoF" typeId="2d56-eb64-9470-0f5d">5</characteristic>
+        <characteristic name="Mount" typeId="9232-fba5-5060-6bf8">-</characteristic>
+        <characteristic name="Crew" typeId="1dce-ea23-a156-6c8a">2</characteristic>
+        <characteristic name="Special" typeId="3218-b22a-6f97-8774">-</characteristic>
+        <characteristic name="Max Range" typeId="442b-2a41-2e42-ff51">30&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1d48-1831-a9cf-43f9" name="Infantry Platoon Command Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">7 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="d1e0-8c3b-c1cf-9a92" name="Rifle Section (14)" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">14 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="75b1-d00b-b5b4-33b5" name="Heavy Machine Gun Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="8efd-e812-35a7-cd34" name="Infantry Gun Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="128f-8cfb-b6f6-a57a" name="Anti-Tank Gun Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="6f08-4845-27ed-527d" name="Rifle Section (9)" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">9 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="0f2f-5298-8abb-83c9" name="Forward Headquarters" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="1afc-ce66-1c75-fee8" name="Infantry Patrol" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">14 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="b99d-b48c-c65b-e2d6" name="Prisoner Labour Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">12 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="a3f4-b0c4-209b-c993" name="Light Bridging Unit" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">6 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="1775-14d6-dbe3-cef8" name="Light Repair Unit" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="b40e-bae7-087f-b803" name="Supply Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">1 Man</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="80a5-2d5d-9b6b-a02d" name="2 Mules or Bullocks" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Mules or Bullocks</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="bc4b-c122-93cd-0e0c" name="Unarmed Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2D6 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="d039-61e1-75ca-32d3" name="Suicide Assault Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="13ce-33e3-63f3-8f2c" name="Suicide Bomber" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">1 Man</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="a09f-6c1b-110e-cc44" name="Local Warlord" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="a07d-34dd-9d69-cc29" name="Light Machine Gun Team (5)" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">5 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="3ca2-3dec-147a-8bf1" name="Light Mortar" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="02dd-2ae6-2dcd-dfde" name="Infantry Company Command Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">4 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="8d29-d3ff-6340-8710" name="Medium Mortar" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="7a76-7a64-32c6-8af6" name="Dare to Die Command" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">5 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="33ae-c364-58a0-da86" name="Demolition Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="34df-904e-b95e-dc32" name="Anti-Tank Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="c0fc-d378-fb0b-6e87" name="Death Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2D6 Men/Women</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="81a6-619e-688a-34bb" name="Martyr" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">1 Man/Woman</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+      </characteristics>
+    </profile>
+    <profile id="9a14-0044-e91d-f25a" name="CV-35" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">N</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">9&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">13&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">-</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2383-bae5-9db8-e0c0" name="FT-17 (MG)" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">N</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">3&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">6&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">1 Man Turret</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de"/>
+      </characteristics>
+    </profile>
+    <profile id="6ada-67ae-2908-efc4" name="Panzer 1" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">O</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">8&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">12&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">-</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b1de-3fed-1000-02ee" name="VCL amphibious" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">N</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">7&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">11&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">amphibious</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f0b3-9ba1-aebd-df4a" name="Vickers E" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">N</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">7&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">11&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">-</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="98c3-f988-e1f4-bed9" name="AMR 35" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">N</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">3&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">6&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">1 Man Turret</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2f70-45a7-a46d-f096" name="T-26" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">N</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">5&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">10&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">Unreliable</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">20</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7109-75af-5bcf-1e24" name="45mmL46" hidden="false" typeId="f961-a26c-5110-32f8" typeName="Primary Weapon">
+      <characteristics>
+        <characteristic name="HE Group / Ammo" typeId="fe8e-c0ef-9e44-a741">AP / V. Light HE</characteristic>
+        <characteristic name="HE Effect" typeId="e58f-cc42-16f4-3638">3 / 5+</characteristic>
+        <characteristic name="Mount" typeId="1230-d9cb-2cf7-7d7e">Turret</characteristic>
+        <characteristic name="Rng 0-10&quot;" typeId="805b-70a6-4f6f-c788">AP 4 / HE 1</characteristic>
+        <characteristic name="Rng 10-20&quot;" typeId="f0a9-c40f-687a-5df4">AP 4 / HE 1</characteristic>
+        <characteristic name="Rng 20-30&quot;" typeId="9f66-1c3f-e3d4-3272">AP 3 / HE 1</characteristic>
+        <characteristic name="Rng 30-40&quot;" typeId="2086-a3d3-0c4d-da50">AP 2 / HE 1</characteristic>
+        <characteristic name="Rng 40-50&quot;" typeId="5d14-a1b4-1118-2f5a">AP 1 / HE 1</characteristic>
+        <characteristic name="Rng 50-70&quot;" typeId="344d-8655-b175-1aae">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b866-ea7e-6bd9-eb2c" name="BA-10" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">N</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">8&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">24&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">-</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a88f-0c85-f873-6557" name="Sdkfz 222" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db">O</characteristic>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078">O</characteristic>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22">O</characteristic>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2">8&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd">24&quot;</characteristic>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d">-</characteristic>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de">-</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedInfoGroups>
+    <infoGroup id="78a8-c880-8650-e4a1" name="Basic Infantry Small Arms" hidden="false">
+      <infoLinks>
+        <infoLink id="6758-7f80-75ee-79c8" name="Chiang Kai-Shek Rifle" hidden="false" targetId="8030-1ff3-9014-0aea" type="profile"/>
+        <infoLink id="e9d6-3d83-2a3d-8dfa" name="Bergmann (SMG)" hidden="false" targetId="788c-fe78-0daf-c897" type="profile"/>
+      </infoLinks>
+    </infoGroup>
+  </sharedInfoGroups>
+</catalogue>

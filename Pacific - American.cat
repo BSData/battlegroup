@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5d42-346c-98d9-0944" name="Pacific - American" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5d42-346c-98d9-0944" name="Pacific - American" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="f721-aa78-2e0d-59f1" name="Additional Fire Support" hidden="false"/>
     <categoryEntry id="55aa-263f-107e-2dbf" name="Artillery Units" hidden="false"/>
@@ -22,6 +22,13 @@
                 <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="55aa-263f-107e-2dbf" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
+            <modifier type="increment" field="6901-d264-e89a-9eed" value="3.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d9b-bff5-78c8-0986" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef5a-cd68-5486-5148" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cb9-37bb-3222-2017" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -30,6 +37,142 @@
       </constraints>
     </categoryEntry>
     <categoryEntry id="a7db-7bf3-e645-7113" name="Tank Units" hidden="false"/>
+    <categoryEntry id="994e-f992-0c17-a80d" name="Restricted" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="b1cf-5349-2e07-b884" value="1.0">
+          <conditions>
+            <condition field="d842-fd8f-4744-0a94" scope="roster" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="b1cf-5349-2e07-b884" value="1.0">
+          <conditions>
+            <condition field="d842-fd8f-4744-0a94" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="b1cf-5349-2e07-b884" value="1.0">
+          <conditions>
+            <condition field="d842-fd8f-4744-0a94" scope="roster" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1cf-5349-2e07-b884" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="939f-5d94-0886-9039" name="Infantry Squad" hidden="false"/>
+    <categoryEntry id="7cb9-37bb-3222-2017" name="Infantry Platoon" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="3445-00f9-bea6-1409" value="1.0">
+          <conditions>
+            <condition field="d842-fd8f-4744-0a94" scope="roster" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="4a4a-5968-6a36-ddb4" value="1.0">
+          <conditions>
+            <condition field="d842-fd8f-4744-0a94" scope="roster" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="3445-00f9-bea6-1409" value="3.0">
+          <conditions>
+            <condition field="d842-fd8f-4744-0a94" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="4a4a-5968-6a36-ddb4" value="1.0">
+          <conditions>
+            <condition field="d842-fd8f-4744-0a94" scope="roster" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="4a4a-5968-6a36-ddb4" value="1.0">
+          <conditions>
+            <condition field="d842-fd8f-4744-0a94" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="3445-00f9-bea6-1409" value="1.0">
+          <conditions>
+            <condition field="d842-fd8f-4744-0a94" scope="roster" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3445-00f9-bea6-1409" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4a4a-5968-6a36-ddb4" type="min"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="1ba5-fc41-b8c0-cf5b" name="Tank Support" hidden="true">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="increment" field="aaa7-60dd-9fd0-4243" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a7db-7bf3-e645-7113" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" field="aaa7-60dd-9fd0-4243" value="3.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d9b-bff5-78c8-0986" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef5a-cd68-5486-5148" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaa7-60dd-9fd0-4243" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="81ba-29bd-aecd-a81b" name="Infantry Support" hidden="true">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="increment" field="3f47-fc5c-89a2-b348" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f6d8-fae3-4986-b1b0" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" field="3f47-fc5c-89a2-b348" value="3.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cb9-37bb-3222-2017" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f47-fc5c-89a2-b348" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="6dcd-61a4-6043-636c" name="FHQ Support" hidden="true">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="increment" field="eb20-b847-a9dd-8513" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="20be-0d38-2721-6373" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb20-b847-a9dd-8513" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="7185-ac77-bdf9-7511" name="Artillery Support" hidden="true">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="increment" field="9ae3-7fa9-d537-3bc5" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="55aa-263f-107e-2dbf" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ae3-7fa9-d537-3bc5" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7e19-d98e-1cb5-6202" name="Infantry Division" hidden="false">
@@ -71,14 +214,9 @@
                 </modifier>
                 <modifier type="increment" field="103f-62b7-0b74-26a9" value="3.0">
                   <repeats>
+                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d9b-bff5-78c8-0986" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef5a-cd68-5486-5148" repeats="1" roundUp="false"/>
                     <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="32ab-a11c-eaa1-5d14" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-                <modifier type="decrement" field="103f-62b7-0b74-26a9" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7778-917b-fee6-848e" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c16b-43f9-d364-92de" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f02d-90d7-aa62-3dba" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -101,14 +239,9 @@
                 </modifier>
                 <modifier type="increment" field="00db-e6a9-2107-2cc8" value="3.0">
                   <repeats>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="32ab-a11c-eaa1-5d14" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-                <modifier type="decrement" field="00db-e6a9-2107-2cc8" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7778-917b-fee6-848e" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c16b-43f9-d364-92de" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3497-52ed-74a1-6836" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cb9-37bb-3222-2017" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d9b-bff5-78c8-0986" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef5a-cd68-5486-5148" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -124,20 +257,14 @@
               <modifiers>
                 <modifier type="increment" field="5a96-8e95-ae16-839d" value="1.0">
                   <repeats>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f6d8-fae3-4986-b1b0" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="20be-0d38-2721-6373" repeats="1" roundUp="false"/>
                     <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a7db-7bf3-e645-7113" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
                 <modifier type="increment" field="5a96-8e95-ae16-839d" value="3.0">
                   <repeats>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="32ab-a11c-eaa1-5d14" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-                <modifier type="decrement" field="5a96-8e95-ae16-839d" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7778-917b-fee6-848e" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f02d-90d7-aa62-3dba" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3497-52ed-74a1-6836" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef5a-cd68-5486-5148" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d9b-bff5-78c8-0986" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -159,14 +286,9 @@
                 </modifier>
                 <modifier type="increment" field="62e4-3461-36fa-adf8" value="3.0">
                   <repeats>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="32ab-a11c-eaa1-5d14" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-                <modifier type="decrement" field="62e4-3461-36fa-adf8" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3497-52ed-74a1-6836" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c16b-43f9-d364-92de" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f02d-90d7-aa62-3dba" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d9b-bff5-78c8-0986" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cb9-37bb-3222-2017" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef5a-cd68-5486-5148" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -224,13 +346,6 @@
                     <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef5a-cd68-5486-5148" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
-                <modifier type="decrement" field="87fd-9d2a-a6e6-8902" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7778-917b-fee6-848e" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c16b-43f9-d364-92de" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3497-52ed-74a1-6836" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
               </modifiers>
             </modifierGroup>
           </modifierGroups>
@@ -246,13 +361,6 @@
                   <repeats>
                     <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f6d8-fae3-4986-b1b0" repeats="1" roundUp="false"/>
                     <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a7db-7bf3-e645-7113" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-                <modifier type="decrement" field="c1c4-e50f-4e33-86b9" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7778-917b-fee6-848e" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c16b-43f9-d364-92de" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f02d-90d7-aa62-3dba" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
                 <modifier type="increment" field="c1c4-e50f-4e33-86b9" value="3.0">
@@ -276,21 +384,13 @@
               <modifiers>
                 <modifier type="increment" field="b69a-ac2f-cf84-36d6" value="1.0">
                   <repeats>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f6d8-fae3-4986-b1b0" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="20be-0d38-2721-6373" repeats="1" roundUp="false"/>
                     <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a7db-7bf3-e645-7113" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-                <modifier type="decrement" field="b69a-ac2f-cf84-36d6" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7778-917b-fee6-848e" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3497-52ed-74a1-6836" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f02d-90d7-aa62-3dba" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
                 <modifier type="increment" field="b69a-ac2f-cf84-36d6" value="3.0">
                   <repeats>
                     <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d9b-bff5-78c8-0986" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5b3-0315-3d77-728d" repeats="1" roundUp="false"/>
                     <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ac3b-d44b-a3da-152e" repeats="1" roundUp="false"/>
                     <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef5a-cd68-5486-5148" repeats="1" roundUp="false"/>
                   </repeats>
@@ -310,13 +410,6 @@
                   <repeats>
                     <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f6d8-fae3-4986-b1b0" repeats="1" roundUp="false"/>
                     <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a7db-7bf3-e645-7113" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-                <modifier type="decrement" field="8ac2-d08f-50db-9631" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3497-52ed-74a1-6836" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c16b-43f9-d364-92de" repeats="1" roundUp="false"/>
-                    <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f02d-90d7-aa62-3dba" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
                 <modifier type="increment" field="8ac2-d08f-50db-9631" value="3.0">
@@ -447,6 +540,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d58d-c83a-a9a1-318c" name="New CategoryLink" hidden="false" targetId="f6d8-fae3-4986-b1b0" primary="true"/>
+        <categoryLink id="b052-2dd0-785d-e39d" name="Infantry Squad" hidden="false" targetId="939f-5d94-0886-9039" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b1c0-2396-4dbe-779c" name="Rifle Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -535,6 +629,7 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="bc45-c090-8ef5-f074" name="New CategoryLink" hidden="false" targetId="f6d8-fae3-4986-b1b0" primary="true"/>
+        <categoryLink id="d4a5-931d-4c5a-b487" name="Infantry Platoon" hidden="false" targetId="7cb9-37bb-3222-2017" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d227-4105-764c-43fd" name="BAR Team" hidden="false" collective="false" import="true" type="unit">
@@ -1104,6 +1199,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6f64-9fe7-19dc-ce30" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
+        <categoryLink id="5426-5ef4-ea70-7ee6" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="6e29-a85a-792d-65ce" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="2fa2-2817-127b-26c1" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
@@ -1189,6 +1287,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8372-9cb2-3fd3-2624" name="New CategoryLink" hidden="false" targetId="55aa-263f-107e-2dbf" primary="true"/>
+        <categoryLink id="9e37-eff4-6b0d-3f78" name="Restricted" hidden="false" targetId="994e-f992-0c17-a80d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c9c2-43ef-e9fe-6967" name="M8 Multiple Rocket Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -1213,8 +1312,8 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="100.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e405-35c6-c51b-a161" name="Off-Table Mortar Fire" hidden="false" collective="false" import="true" type="unit">
@@ -1373,6 +1472,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a113-001c-d839-6df1" name="New CategoryLink" hidden="false" targetId="3497-52ed-74a1-6836" primary="true"/>
+        <categoryLink id="d483-a47e-a022-6ba2" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="8de5-a702-f4a1-7f7f" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+        <categoryLink id="c8fc-c7d5-bc17-df11" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2adb-58ab-d61d-bf8d" name="Add a spotter" hidden="false" collective="false" import="true" type="upgrade">
@@ -1433,13 +1535,14 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7a0c-ec1b-dcdd-2daa" name="New CategoryLink" hidden="false" targetId="8142-add6-9b3e-9a82" primary="true"/>
+        <categoryLink id="dddc-71eb-32de-b84f" name="Restricted" hidden="false" targetId="994e-f992-0c17-a80d" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="34.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="120b-0c45-7e20-c06a" name="Artillery Observation Post" hidden="false" collective="false" import="true" type="unit">
@@ -1540,6 +1643,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5dae-3440-2f9e-f98c" name="New CategoryLink" hidden="false" targetId="3497-52ed-74a1-6836" primary="true"/>
+        <categoryLink id="1f20-5e23-baee-2a9f" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="165f-36e0-5af0-2b60" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
+        <categoryLink id="41eb-fb8a-b715-1668" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3598-0061-56b9-ea39" name="Equipment" hidden="false" collective="false" import="true">
@@ -1666,6 +1772,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1a7f-0a80-fb4e-3918" name="New CategoryLink" hidden="false" targetId="3497-52ed-74a1-6836" primary="true"/>
+        <categoryLink id="91d1-d5c9-9ac2-f222" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="4b2f-7d2f-bd3a-475f" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+        <categoryLink id="3dee-14ee-3cbb-3ed0" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8eaf-8938-885b-7037" name="Armoured Car" hidden="false" collective="false" import="true" defaultSelectionEntryId="f5dd-099c-8086-7c32">
@@ -1736,6 +1845,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d2de-a2ff-f118-9cbd" name="New CategoryLink" hidden="false" targetId="f02d-90d7-aa62-3dba" primary="true"/>
+        <categoryLink id="e9e3-4652-f58b-00aa" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="e973-a3d0-220c-6288" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+        <categoryLink id="d974-e244-359a-f5b8" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="76e6-7c71-69e5-7230" name="Demolition Charges" hidden="false" collective="false" import="true" type="upgrade">
@@ -1864,6 +1976,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6c33-b0f5-ff0e-667f" name="New CategoryLink" hidden="false" targetId="f02d-90d7-aa62-3dba" primary="true"/>
+        <categoryLink id="ac43-c65c-0800-5124" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="58bb-f628-685b-f991" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+        <categoryLink id="845f-b1c7-e3d5-e659" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
@@ -1884,6 +1999,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="156a-f8db-281b-2bbb" name="New CategoryLink" hidden="false" targetId="c16b-43f9-d364-92de" primary="true"/>
+        <categoryLink id="7e27-2a3e-5e39-cca5" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="bac8-bace-df82-bd16" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
+        <categoryLink id="ae9b-96be-b5cd-9617" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c822-64fb-c9e0-0ab1" name="Supply Team" hidden="false" collective="false" import="true" type="unit">
@@ -1919,6 +2037,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f1ce-770e-42d9-7be3" name="New CategoryLink" hidden="false" targetId="c16b-43f9-d364-92de" primary="true"/>
+        <categoryLink id="9fdc-acab-647d-46bd" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="208c-919c-c151-f54a" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
+        <categoryLink id="d920-d6b1-0671-a2ca" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
@@ -1947,13 +2068,17 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="eb19-b05e-ed8d-0b54" name="New CategoryLink" hidden="false" targetId="c16b-43f9-d364-92de" primary="true"/>
+        <categoryLink id="f774-bd0d-984d-38a6" name="Restricted" hidden="false" targetId="994e-f992-0c17-a80d" primary="false"/>
+        <categoryLink id="d0b2-c294-bdc1-deb7" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="8696-44da-0a96-9a7a" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
+        <categoryLink id="f675-0b62-1222-5bfa" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="5.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="57a1-ab29-330d-bf6c" name="Motor Pool" hidden="false" collective="false" import="true" type="unit">
@@ -1966,6 +2091,10 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a913-2d50-ad29-1ecc" name="New CategoryLink" hidden="false" targetId="c16b-43f9-d364-92de" primary="true"/>
+        <categoryLink id="8508-5569-7f7f-b984" name="Restricted" hidden="false" targetId="994e-f992-0c17-a80d" primary="false"/>
+        <categoryLink id="e317-34dc-cb1d-b259" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="376a-5aaa-ba3b-6552" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
+        <categoryLink id="30aa-e0e9-a3ca-a8f3" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="93a9-b9ba-57d2-2fdc" name="Transport" hidden="false" collective="false" import="true" type="upgrade">
@@ -1989,8 +2118,8 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2860-e109-af6f-cd49" name="Towed Anti-Aircraft Gun" hidden="false" collective="false" import="true" type="unit">
@@ -2002,6 +2131,10 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ca21-9f6d-80dc-3251" name="New CategoryLink" hidden="false" targetId="7778-917b-fee6-848e" primary="true"/>
+        <categoryLink id="b68c-1a29-e88c-6632" name="Restricted" hidden="false" targetId="994e-f992-0c17-a80d" primary="false"/>
+        <categoryLink id="e624-7915-ca26-125c" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="4d38-7e62-9b1d-d614" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
+        <categoryLink id="8086-7eca-00b7-2424" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6e1f-d84d-ab8e-5a16" name="Add 3-man Loader Team" hidden="false" collective="false" import="true" type="unit">
@@ -2042,8 +2175,8 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="34.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="277f-bc1d-0de0-ddfc" name="Anti-Aircraft Halftrack" hidden="false" collective="false" import="true" type="unit">
@@ -2060,6 +2193,10 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0667-98ad-a940-022f" name="New CategoryLink" hidden="false" targetId="7778-917b-fee6-848e" primary="true"/>
+        <categoryLink id="6cea-6a12-2b0e-4098" name="Restricted" hidden="false" targetId="994e-f992-0c17-a80d" primary="false"/>
+        <categoryLink id="911b-3f24-55c1-e1d9" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+        <categoryLink id="949b-a699-ba19-0dbf" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
+        <categoryLink id="364f-6dac-318d-08ee" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6059-ce90-f558-4025" name="Anti-Aircraft Halftrack" hidden="false" collective="false" import="true" defaultSelectionEntryId="bb42-a8d0-3c1c-8acd">
@@ -2099,11 +2236,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b45-2295-b9ce-0cf9" name="Off-Table Artillery Support Request" hidden="false" collective="false" import="true" type="upgrade">
@@ -2129,6 +2266,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dd0d-c8b8-58e0-bd15" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
+        <categoryLink id="537a-a622-773c-c001" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="dd21-cee3-f724-b831" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="ea92-580e-f269-82e4" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3a7f-e25b-1c36-64c6" name="Off-Table Artillery Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="df62-1124-dea1-79e5">
@@ -2181,6 +2321,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5c91-36e5-2657-ef53" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
+        <categoryLink id="ebfa-f5b9-6cbb-b52a" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="7e87-61c4-fafe-9f55" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="7e7a-5ca4-8fee-6515" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
@@ -2196,6 +2339,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3249-50bb-7c1a-1b8b" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
+        <categoryLink id="ff22-c7e4-5cf6-563b" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="efff-ed89-1525-885a" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="5659-18a2-3c98-d95a" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b5e0-2568-74a9-d51b" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
@@ -2253,6 +2399,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b076-1a9c-6734-d697" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
+        <categoryLink id="4a83-27aa-8db4-b094" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="f4bb-b9fc-bf43-27be" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="fa53-a0f8-4623-3fb7" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3c33-78e1-26c0-8096" name="F4U Corsair Fighter" hidden="false" collective="false" import="true" type="upgrade">
@@ -2311,6 +2460,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c4a8-f50e-ed75-6a1c" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
+        <categoryLink id="2f03-a535-9775-b987" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="dd0c-8b93-834a-c3ff" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="645f-1a9f-9f82-89f2" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f5b8-79eb-0b92-af13" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
@@ -2360,6 +2512,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ffb0-da20-fd51-9de0" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
+        <categoryLink id="cec7-3579-73c6-52e2" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="f7a2-50cb-78f8-995c" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="3e81-42bb-a171-1877" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="dd06-b36c-bbc1-0b43" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
@@ -2409,6 +2564,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a568-95f3-72c5-71ae" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
+        <categoryLink id="748f-d99d-dfa3-228f" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="3f85-462d-e5e9-14f2" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="4fb1-59f3-97d9-3cac" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d244-1dfc-e34d-1c90" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
@@ -2466,6 +2624,9 @@
       <categoryLinks>
         <categoryLink id="7308-2e1f-0033-2adf" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
         <categoryLink id="3474-0573-511a-e1bb" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="false"/>
+        <categoryLink id="07c8-c249-2601-9b73" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="1e52-bf68-874b-78e4" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="6fe0-6310-bd9d-74ef" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f383-6689-3226-08f0" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
@@ -2546,6 +2707,7 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="c1eb-eacd-3304-b3bf" name="New CategoryLink" hidden="false" targetId="f6d8-fae3-4986-b1b0" primary="true"/>
+        <categoryLink id="0a0b-c921-b75a-0008" name="Infantry Platoon" hidden="false" targetId="7cb9-37bb-3222-2017" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6260-8b8c-5f13-02a5" name="Marine Rifle Platoon HQ" hidden="false" collective="false" import="true" type="upgrade">
@@ -3103,6 +3265,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8a88-67e5-802d-50ee" name="New CategoryLink" hidden="false" targetId="f6d8-fae3-4986-b1b0" primary="true"/>
+        <categoryLink id="43bb-2da6-2765-4110" name="Infantry Squad" hidden="false" targetId="939f-5d94-0886-9039" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a506-0ad7-fc57-6aea" name="Fire Team 1" hidden="false" collective="false" import="true" type="unit">
@@ -3344,6 +3507,9 @@
       <categoryLinks>
         <categoryLink id="1343-e076-9be8-e3fe" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
         <categoryLink id="d5f0-7903-0a93-eb4a" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="false"/>
+        <categoryLink id="7c27-9757-1e3a-9fa6" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="4186-dc37-0fdc-d88e" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="dd0c-e2cb-216b-b949" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="59c1-c830-2be8-5fbf" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
@@ -3394,6 +3560,9 @@
       <categoryLinks>
         <categoryLink id="0b93-94c4-c400-2a07" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
         <categoryLink id="fe54-0009-71d3-b187" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="false"/>
+        <categoryLink id="dece-1282-fc2e-b3d4" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="73d6-77d8-ed36-f10e" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="2076-5fe0-f557-6688" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="945c-676b-b428-7855" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
@@ -3455,6 +3624,9 @@
       <categoryLinks>
         <categoryLink id="e22c-d6ad-a116-58f5" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
         <categoryLink id="e1f1-30a0-d8e2-7219" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="false"/>
+        <categoryLink id="6a1b-0292-8197-8e4e" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="5cee-9fa1-b8fe-1745" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="56d9-ad0e-5306-8b32" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="29a2-9599-fa8c-1c0a" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
@@ -3511,6 +3683,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="455f-c94c-8505-4a97" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
+        <categoryLink id="603e-8350-13b3-8c4b" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="24ba-3f51-9ca9-ffe7" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="5b5c-7153-3180-d235" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d710-138b-191d-abc6" name="P-38 Lightning Fighter-Bomber" hidden="false" collective="false" import="true" type="upgrade">
@@ -3560,16 +3735,6 @@
       <modifierGroups>
         <modifierGroup>
           <modifiers>
-            <modifier type="increment" field="c7a6-4eeb-02b8-94a5" value="1.0">
-              <conditions>
-                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="406f-65d7-f746-67af" value="1.0">
-              <conditions>
-                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="set" field="hidden" value="false">
               <conditions>
                 <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
@@ -3579,11 +3744,11 @@
         </modifierGroup>
       </modifierGroups>
       <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="406f-65d7-f746-67af" type="min"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7a6-4eeb-02b8-94a5" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="406f-65d7-f746-67af" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7a6-4eeb-02b8-94a5" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="f118-317d-8d08-c7db" name="Japanese Close Air Support Table 1944-45" hidden="false" targetId="fd2b-c5c0-c376-102e" type="infoGroup"/>
+        <infoLink id="f118-317d-8d08-c7db" name="US Navy/Army Close Air Support Table 1944-45" hidden="false" targetId="fd2b-c5c0-c376-102e" type="infoGroup"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
@@ -3597,17 +3762,7 @@
       <modifierGroups>
         <modifierGroup>
           <modifiers>
-            <modifier type="increment" field="a928-fb02-c9c8-a379" value="1.0">
-              <conditions>
-                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c2d-5504-9bbe-fc3b" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c2d-5504-9bbe-fc3b" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="cad3-0300-041f-0b48" value="1.0">
               <conditions>
                 <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c2d-5504-9bbe-fc3b" type="atLeast"/>
               </conditions>
@@ -3616,8 +3771,8 @@
         </modifierGroup>
       </modifierGroups>
       <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a928-fb02-c9c8-a379" type="min"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cad3-0300-041f-0b48" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a928-fb02-c9c8-a379" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cad3-0300-041f-0b48" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="b18d-8340-048e-e2f0" name="US Navy/Marine Corps Close Air Support Table 1944-45" hidden="false" targetId="fddb-0b5a-2e08-3a18" type="infoGroup"/>
@@ -4631,6 +4786,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="79f5-7d7a-8a71-0ef5" name="New CategoryLink" hidden="false" targetId="3497-52ed-74a1-6836" primary="true"/>
+        <categoryLink id="f36e-4914-14f2-23c4" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="9b95-f104-3955-cdb2" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
+        <categoryLink id="c1d6-7eb3-4769-4b1a" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="56e1-cb90-f363-77b5" name="Fire Team 1" hidden="false" collective="false" import="true" type="unit">
@@ -4775,6 +4933,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0be3-1a69-be11-4faa" name="New CategoryLink" hidden="false" targetId="3497-52ed-74a1-6836" primary="true"/>
+        <categoryLink id="6094-c5f2-9954-4c8b" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="1694-a1a8-1e4f-77c0" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+        <categoryLink id="e6a6-ec60-978d-499c" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
@@ -4798,6 +4959,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2c86-4f20-3cf3-6c9f" name="New CategoryLink" hidden="false" targetId="3497-52ed-74a1-6836" primary="true"/>
+        <categoryLink id="9374-59de-250c-a690" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="7f7e-a35f-1e06-8ec0" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+        <categoryLink id="30b0-1e59-7029-b9e4" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2232-a0c1-4184-8ac6" name="Transport" hidden="false" collective="false" import="true" defaultSelectionEntryId="b24e-7a2b-7313-f1b1">
@@ -4877,6 +5041,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4a9d-3cb1-5db2-4827" name="New CategoryLink" hidden="false" targetId="c16b-43f9-d364-92de" primary="true"/>
+        <categoryLink id="d190-4af7-35b6-910a" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="be63-872c-fc33-c1cd" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
+        <categoryLink id="f4cd-6d44-b88c-97cb" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="09c2-e821-8ad2-aca5" name="Chassis" hidden="false" collective="false" import="true" defaultSelectionEntryId="e677-f673-845b-48e9">
@@ -4946,6 +5113,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="72a4-fdd1-f714-7452" name="New CategoryLink" hidden="false" targetId="f02d-90d7-aa62-3dba" primary="true"/>
+        <categoryLink id="f2c5-d034-87c9-f590" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="271e-f0d8-2d71-c1ed" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+        <categoryLink id="82f1-a633-ddbd-6800" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cee1-8e7b-0146-4f9d" name="Armoured Engineering Vehicle" hidden="false" collective="false" import="true" defaultSelectionEntryId="2fac-843a-79c2-2a8f">
@@ -4999,6 +5169,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9abf-3638-b1d9-c408" name="New CategoryLink" hidden="false" targetId="f02d-90d7-aa62-3dba" primary="true"/>
+        <categoryLink id="65b9-98e8-d9b0-989b" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="02f7-4130-abaf-572c" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
+        <categoryLink id="2510-e256-9074-14e1" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="69f0-850e-8c96-d292" name="Recovery Vehicle" hidden="false" collective="false" import="true" defaultSelectionEntryId="a4b5-0f55-284b-fa45">
@@ -5049,6 +5222,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="632d-bfaa-9bb6-eed4" name="New CategoryLink" hidden="false" targetId="7778-917b-fee6-848e" primary="true"/>
+        <categoryLink id="57ef-f5bc-04d6-e99e" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
+        <categoryLink id="e603-731d-dbdc-a232" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+        <categoryLink id="a00a-21f5-d8f8-0114" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a8a6-5fef-7773-f364" name="Flamethrower Tank" hidden="false" collective="false" import="true" defaultSelectionEntryId="ce93-1935-d5ce-eba7">
@@ -5138,13 +5314,17 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5d1c-cf86-6c5a-4380" name="New CategoryLink" hidden="false" targetId="7778-917b-fee6-848e" primary="true"/>
+        <categoryLink id="0fcc-c5ad-63d2-492b" name="Restricted" hidden="false" targetId="994e-f992-0c17-a80d" primary="false"/>
+        <categoryLink id="25e3-6843-b7d9-7c59" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="f1be-0d0e-b2d5-20ba" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
+        <categoryLink id="12e1-0650-b266-0a1b" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="34.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8908-6479-b2a3-9976" name="Additional Amtrac" hidden="false" collective="false" import="true" type="unit">
@@ -5154,6 +5334,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cb11-9fa8-d285-9505" name="New CategoryLink" hidden="false" targetId="7778-917b-fee6-848e" primary="true"/>
+        <categoryLink id="c3be-18e3-1704-b9c1" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+        <categoryLink id="165f-ccae-bba8-77a9" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="d4d3-713f-fab3-2752" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5999-8117-3a97-7d7e" name="Amtrac" hidden="false" collective="false" import="true" defaultSelectionEntryId="2c7e-275a-e693-e57a">
@@ -5237,6 +5420,9 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="28d2-7a0b-95cf-3494" name="New CategoryLink" hidden="false" targetId="7778-917b-fee6-848e" primary="true"/>
+        <categoryLink id="fe01-3203-db21-37bd" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="6645-9ba8-f530-4170" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
+        <categoryLink id="c1a0-1987-93a3-00af" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c643-19e3-1920-286c" name="Landing Craft" hidden="false" collective="false" import="true" defaultSelectionEntryId="0a20-b49d-54a3-8ed6">
@@ -5332,13 +5518,17 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b6f5-de31-4f6b-d198" name="New CategoryLink" hidden="false" targetId="7778-917b-fee6-848e" primary="true"/>
+        <categoryLink id="a34e-4661-6ce9-37b1" name="Restricted" hidden="false" targetId="994e-f992-0c17-a80d" primary="false"/>
+        <categoryLink id="c172-2c6d-69b5-8c57" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="3905-5903-3ebd-ab68" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+        <categoryLink id="716e-3939-4300-b93e" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="108.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6511-d11b-578c-f279" name="Timed Napalm Air Strike" hidden="false" collective="false" import="true" type="upgrade">
@@ -5347,6 +5537,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f135-a7d4-0123-cb54" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
+        <categoryLink id="b387-5d82-37f4-f11a" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="b4be-b68a-2ca0-e1a7" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="27ff-d26f-1e54-c82b" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="485a-9dd4-7ce5-03b2" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
@@ -5570,7 +5763,8 @@
         <infoLink id="3195-a5e4-2b68-00ec" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a1dd-59e5-ca80-3f1d" name="New CategoryLink" hidden="false" targetId="a7db-7bf3-e645-7113" primary="true"/>
+        <categoryLink id="b500-c68e-15a5-d5ee" name="Restricted" hidden="false" targetId="994e-f992-0c17-a80d" primary="false"/>
+        <categoryLink id="0ab2-3444-f14f-f5dd" name="New CategoryLink" hidden="false" targetId="a7db-7bf3-e645-7113" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cd1e-a337-195c-525a" name="Self-Propelled Tank Destroyer" hidden="false" collective="false" import="true" defaultSelectionEntryId="12ae-e446-73db-6fe8">
@@ -5611,11 +5805,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3c5f-4af8-7350-5eb2" name="Naval Shore Fire Control Team" hidden="false" collective="false" import="true" type="unit">
@@ -5644,6 +5838,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="af03-af81-e812-eba5" name="New CategoryLink" hidden="false" targetId="55aa-263f-107e-2dbf" primary="true"/>
+        <categoryLink id="5d73-9ef0-3a09-7914" name="Restricted" hidden="false" targetId="994e-f992-0c17-a80d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c8c3-6060-84ee-fb90" name="Jeep" hidden="false" collective="false" import="true" type="model">
@@ -5668,7 +5863,7 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ce7-4a47-4a54-d8af" name="Heavy Mortar Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -5744,6 +5939,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="98aa-6fdb-885c-99f1" name="New CategoryLink" hidden="false" targetId="55aa-263f-107e-2dbf" primary="true"/>
+        <categoryLink id="7e7f-9755-29c9-2f3e" name="Restricted" hidden="false" targetId="994e-f992-0c17-a80d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bd01-5a28-be17-7ccc" name="M7 Priest" hidden="false" collective="false" import="true" type="model">
@@ -5768,9 +5964,9 @@
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="88.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8123-06e4-1b21-4397" name="Alamo Scout Team" hidden="false" collective="false" import="true" type="unit">
@@ -5796,6 +5992,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="73f2-1149-c4fb-26be" name="New CategoryLink" hidden="false" targetId="3497-52ed-74a1-6836" primary="true"/>
+        <categoryLink id="5462-0ca6-3b94-0fb4" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="a1fa-5e62-a542-6038" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+        <categoryLink id="9022-f2b7-5d98-5a33" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d675-2e23-0a7f-e65a" name="Extra Man" hidden="false" collective="false" import="true" type="model">
@@ -5846,6 +6045,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7854-87e7-c45a-0353" name="New CategoryLink" hidden="false" targetId="3497-52ed-74a1-6836" primary="true"/>
+        <categoryLink id="d762-9682-0cbf-8ddd" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="1f1e-70f4-9131-ca0e" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+        <categoryLink id="1b9e-27e9-39d0-1423" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6f4c-3a3c-44ee-f64e" name="Rifle Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -5933,6 +6135,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1ac0-e0ce-a379-88ed" name="New CategoryLink" hidden="false" targetId="3497-52ed-74a1-6836" primary="true"/>
+        <categoryLink id="4c8e-215a-38f9-fd16" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="de67-ead4-6393-9fa2" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
+        <categoryLink id="bc8b-efe0-da17-750b" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="44.0"/>
@@ -5962,6 +6167,10 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ebf8-45de-80d6-c342" name="New CategoryLink" hidden="false" targetId="f02d-90d7-aa62-3dba" primary="true"/>
+        <categoryLink id="27a7-4c39-e461-753e" name="Restricted" hidden="false" targetId="994e-f992-0c17-a80d" primary="false"/>
+        <categoryLink id="0bb0-806e-19ab-6742" name="Infantry Support" hidden="false" targetId="81ba-29bd-aecd-a81b" primary="false"/>
+        <categoryLink id="880a-8dc8-554e-3d08" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+        <categoryLink id="98eb-e6fd-9c4a-b5cb" name="Tank Support" hidden="false" targetId="1ba5-fc41-b8c0-cf5b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4a2b-00cc-2b1e-f32e" name="Heavy Truck" hidden="false" collective="false" import="true" type="model">
@@ -5985,9 +6194,9 @@
       <costs>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="-12.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e771-400e-8bd2-d874" name="Timed 155mm Barrage" hidden="false" collective="false" import="true" type="upgrade">
@@ -6003,6 +6212,9 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f6ff-258e-2c03-afb0" name="New CategoryLink" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="true"/>
+        <categoryLink id="7660-c053-0830-0a8b" name="Artillery Support" hidden="false" targetId="7185-ac77-bdf9-7511" primary="false"/>
+        <categoryLink id="77b5-a397-441c-f8f8" name="FHQ Support" hidden="false" targetId="6dcd-61a4-6043-636c" primary="false"/>
+        <categoryLink id="07d8-7551-750b-baf1" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5333-c48b-f1ce-e7e4" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
@@ -6106,6 +6318,7 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="c6ba-46b2-ff3a-2e4b" name="New CategoryLink" hidden="false" targetId="8142-add6-9b3e-9a82" primary="true"/>
+        <categoryLink id="e14d-69ef-4666-f841" name="Restricted" hidden="false" targetId="994e-f992-0c17-a80d" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="31a4-616c-c58f-a091" name="Fortified Building" hidden="false" collective="false" import="true" targetId="f53d-a484-55b7-3ef1" type="selectionEntry">
@@ -6275,7 +6488,7 @@ Roll
             <infoLink id="efd0-e8f2-aba8-f136" name="Small Bomb" hidden="false" targetId="b219-ad97-a999-c681" type="profile"/>
             <infoLink id="8484-ff3a-bebf-8e7b" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
             <infoLink id="1ef9-fd54-064b-e84e" name="Light Autocannon (20mm)" hidden="false" targetId="106f-77a4-af91-33bb" type="profile"/>
-            <infoLink id="59a9-4ec4-2283-2fff" name="F6F Hellcat" hidden="false" targetId="6309-a2a7-c3eb-0418" type="profile"/>
+            <infoLink id="59a9-4ec4-2283-2fff" name="P-38 Lightning" hidden="false" targetId="45be-1ee5-bd0e-777e" type="profile"/>
             <infoLink id="c61a-7ae6-368f-74b1" name="Medium Bomb" hidden="false" targetId="53f4-2874-229c-674a" type="profile"/>
             <infoLink id="710f-de44-0d88-5687" name="Large Bomb" hidden="false" targetId="fd48-0cfb-d40f-e289" type="profile"/>
             <infoLink id="a375-83a0-91b8-59da" name="5-inch Rocket [HVAR]" hidden="false" targetId="925c-8b0c-fa52-6ee5" type="profile"/>
