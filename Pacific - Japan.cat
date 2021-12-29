@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad59-18a3-bd80-b412" name="Pacific - Japan" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad59-18a3-bd80-b412" name="Pacific - Japan" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="f721-aa78-2e0d-59f1" name="Additional Fire Support" hidden="false"/>
     <categoryEntry id="55aa-263f-107e-2dbf" name="Artillery Units" hidden="false"/>
@@ -5597,16 +5597,6 @@
       <modifierGroups>
         <modifierGroup>
           <modifiers>
-            <modifier type="increment" field="c7a6-4eeb-02b8-94a5" value="1.0">
-              <conditions>
-                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="406f-65d7-f746-67af" value="1.0">
-              <conditions>
-                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="set" field="hidden" value="false">
               <conditions>
                 <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
@@ -5616,8 +5606,8 @@
         </modifierGroup>
       </modifierGroups>
       <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="406f-65d7-f746-67af" type="min"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7a6-4eeb-02b8-94a5" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="406f-65d7-f746-67af" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7a6-4eeb-02b8-94a5" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="f118-317d-8d08-c7db" name="Japanese Close Air Support Table 1944-45" hidden="false" targetId="fd2b-c5c0-c376-102e" type="infoGroup"/>
@@ -5634,16 +5624,6 @@
       <modifierGroups>
         <modifierGroup>
           <modifiers>
-            <modifier type="increment" field="a928-fb02-c9c8-a379" value="1.0">
-              <conditions>
-                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c2d-5504-9bbe-fc3b" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="cad3-0300-041f-0b48" value="1.0">
-              <conditions>
-                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c2d-5504-9bbe-fc3b" type="atLeast"/>
-              </conditions>
-            </modifier>
             <modifier type="set" field="hidden" value="false">
               <conditions>
                 <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c2d-5504-9bbe-fc3b" type="atLeast"/>
@@ -5653,8 +5633,8 @@
         </modifierGroup>
       </modifierGroups>
       <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a928-fb02-c9c8-a379" type="min"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cad3-0300-041f-0b48" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a928-fb02-c9c8-a379" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cad3-0300-041f-0b48" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="b18d-8340-048e-e2f0" name="Japanese Pacific Islands Close Air Support Table 1944-45" hidden="false" targetId="fddb-0b5a-2e08-3a18" type="infoGroup"/>

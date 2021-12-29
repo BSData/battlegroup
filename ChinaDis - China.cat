@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="67dd-1e65-4827-18e3" name="ChinaDis - China" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="67dd-1e65-4827-18e3" name="ChinaDis - China" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="f721-aa78-2e0d-59f1" name="Additional Fire Support" hidden="false"/>
     <categoryEntry id="55aa-263f-107e-2dbf" name="Artillery Units" hidden="false"/>
@@ -249,6 +249,7 @@
         <infoLink id="e61e-3e41-b0ed-db00" name="Rounds on the Way" hidden="false" targetId="b95c-e7fe-15f2-1617" type="rule"/>
         <infoLink id="2ddc-b4c7-0fda-093f" name="Communications Breakdown " hidden="false" targetId="91f6-ce4f-8b66-d69f" type="rule"/>
         <infoLink id="9e5d-4a94-ace7-d09e" name="Axis Air Superiority" hidden="false" targetId="f2eb-edca-14d4-608b" type="rule"/>
+        <infoLink id="eda8-f4df-dbb5-86f7" name="War of Japanese Aggression" hidden="false" targetId="4949-b856-6fde-7242" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a879-cc06-2cd1-c2c3" name="Additional Fire Support" hidden="false" targetId="f721-aa78-2e0d-59f1" primary="false">
@@ -378,17 +379,11 @@
       </categoryLinks>
     </forceEntry>
     <forceEntry id="3c2d-5504-9bbe-fc3b" name="Infantry Division 1937" hidden="false">
-      <rules>
-        <rule id="2461-bac5-f76f-5425" name="War of Japanese Aggression" hidden="false">
-          <description>China was a divided country without strong political ties to western allies. During the initial invasion, China was always on the defensive.
-
-Before any game, a Chinese battlegroup can always choose to be the Defender in an Attack/Defense scenario rather than be the Attacker or play a Meeting Engagement scenario. The choice is up to the Chinese player. This rule overrides the Horu rule for the Japanese.</description>
-        </rule>
-      </rules>
       <infoLinks>
         <infoLink id="5546-5291-323e-0492" name="Axis Air Superiority" hidden="false" targetId="f2eb-edca-14d4-608b" type="rule"/>
         <infoLink id="9d13-42c5-943a-99ee" name="Communications Breakdown " hidden="false" targetId="91f6-ce4f-8b66-d69f" type="rule"/>
         <infoLink id="f287-6662-d9c3-2af4" name="Rounds on the Way" hidden="false" targetId="b95c-e7fe-15f2-1617" type="rule"/>
+        <infoLink id="f56f-6cc4-afb1-8860" name="War of Japanese Aggression" hidden="false" targetId="4949-b856-6fde-7242" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9b90-2c79-a433-6632" name="Infantry Units" hidden="false" targetId="f6d8-fae3-4986-b1b0" primary="false">
@@ -553,7 +548,7 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="af1b-5130-ac7a-8074" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1785,6 +1780,7 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="5.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="57a1-ab29-330d-bf6c" name="Transport Column" hidden="false" collective="false" import="true" type="unit">
@@ -1906,6 +1902,7 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b45-2295-b9ce-0cf9" name="Off-Table Artillery Support Request" hidden="false" collective="false" import="true" type="upgrade">
@@ -2064,7 +2061,7 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cffa-0100-c132-d6e0" name="Dare to Die" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cffa-0100-c132-d6e0" name="International Spectacle" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2073,8 +2070,8 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
         </modifier>
       </modifiers>
       <rules>
-        <rule id="fdcd-c2ad-ed2f-67d7" name="Dare to Die" hidden="false">
-          <description>This Battlegroup has volunteer units trained specifically for suicide missions. These units expect to become martyrs and have committed to this fight. At the start of the game, roll a D6 and add the result to the Battlegroup’s total BR.</description>
+        <rule id="fdcd-c2ad-ed2f-67d7" name="International Spectacle" hidden="false">
+          <description>Intense fighting at large international cities has drawn the attention of the world. Newsreels from bystanders are recording this battle. Any sign of weakness might dissuade desperately needed potential allies. At the start of the game, roll a D6 and add the result to the Battlegroup’s total BR.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -2250,6 +2247,21 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
             <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e9ed-05c0-bd20-d111" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7801-ebc9-28d9-8f1e" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e51-3f0d-d480-5f96" type="atLeast"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink id="c1eb-eacd-3304-b3bf" name="New CategoryLink" hidden="false" targetId="f6d8-fae3-4986-b1b0" primary="true"/>
@@ -2403,19 +2415,27 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cffa-0100-c132-d6e0" type="atMost"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e9d3-75d1-048a-3dfa" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74cc-1509-9483-935e" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5b3-0315-3d77-728d" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36e5-4ab4-23d8-e722" type="max"/>
-      </constraints>
       <infoLinks>
-        <infoLink id="d8cd-3560-ddce-96d6" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+        <infoLink id="d8cd-3560-ddce-96d6" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b358-33ae-16a1-476f" name="New CategoryLink" hidden="false" targetId="f6d8-fae3-4986-b1b0" primary="true"/>
         <categoryLink id="0469-0414-3756-bed2" name="Infantry Platoon" hidden="false" targetId="2d61-2372-6c77-dd76" primary="false"/>
+        <categoryLink id="7845-93d6-7a6c-7b5b" name="Restricted" hidden="false" targetId="663f-01aa-6258-7144" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7887-17f7-e7d2-c70f" name="Death Squad" hidden="false" collective="false" import="true" type="unit">
@@ -2428,7 +2448,8 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
             <infoLink id="3b41-48bc-8a81-93f5" name="Unarmed" hidden="false" targetId="c28e-5901-8c13-c057" type="rule"/>
             <infoLink id="c248-3b9b-a15c-700b" name="Martyr" hidden="false" targetId="9ede-5760-448b-74ca" type="rule"/>
             <infoLink id="3a81-5a3f-e518-a5f7" name="Assault Troops" hidden="false" targetId="4b1b-6db2-75f2-9f1a" type="rule"/>
-            <infoLink id="dee6-9414-6389-15be" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+            <infoLink id="7664-2ddc-bf89-00e1" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
+            <infoLink id="5af4-8a3b-77b5-ef6c" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="df01-b01f-da3d-7e2f" name="Roll 2D6 Men" hidden="false" collective="false" import="true">
@@ -2557,7 +2578,8 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
             <infoLink id="b00e-90da-316f-565d" name="Rifle Section (14)" hidden="false" targetId="d1e0-8c3b-c1cf-9a92" type="profile"/>
             <infoLink id="291f-c4e7-a763-be66" name="Short Supplies" hidden="false" targetId="0ae1-bb1d-cfba-0f66" type="rule"/>
             <infoLink id="faed-0fdf-0647-284b" name="Auxiliary" hidden="false" targetId="8f98-b1c1-eb4e-1ad9" type="rule"/>
-            <infoLink id="526b-f7ef-8770-d957" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+            <infoLink id="e9fc-461e-d749-a6a6" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
+            <infoLink id="5e64-4f83-51c0-7ff2" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="14.0"/>
@@ -2586,7 +2608,8 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
             <infoLink id="ec9a-9f64-34eb-1244" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
             <infoLink id="975e-5999-4885-1ff4" name="Dispatch" hidden="false" targetId="6be2-f7b2-6bc0-8fc1" type="rule"/>
             <infoLink id="fa5d-bb03-52a8-462a" name="Short Supplies" hidden="false" targetId="0ae1-bb1d-cfba-0f66" type="rule"/>
-            <infoLink id="9ada-a646-5124-8af1" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+            <infoLink id="9ada-a646-5124-8af1" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
+            <infoLink id="8938-7041-e51e-144a" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
@@ -2612,13 +2635,15 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
                 <infoLink id="67e6-e5e8-8be2-be73" name="Chiang Kai-Shek Rifle" hidden="false" targetId="8030-1ff3-9014-0aea" type="profile"/>
                 <infoLink id="27f3-5e67-c022-38c8" name="Demolitions Charges" hidden="false" targetId="fcbd-62df-6253-71ac" type="rule"/>
                 <infoLink id="7fea-c348-64d6-d88f" name="Martyr" hidden="false" targetId="9ede-5760-448b-74ca" type="rule"/>
+                <infoLink id="3993-346a-f3da-cb38" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
+                <infoLink id="ae6b-49a1-6221-3cb0" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cf30-568d-c6d3-1c8e" name="Anti-Tank Section" hidden="false" collective="false" import="true" type="unit">
@@ -2630,10 +2655,12 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
                 <infoLink id="27fd-2ee3-9628-291f" name="Anti-Tank Team" hidden="false" targetId="34df-904e-b95e-dc32" type="profile"/>
                 <infoLink id="d919-d15a-ce65-64ae" name="Martyr" hidden="false" targetId="9ede-5760-448b-74ca" type="rule"/>
                 <infoLink id="874b-ec28-63ad-11dd" name="Anti-Tank Grenade Bundle" hidden="false" targetId="6e7c-e48e-029b-f794" type="rule"/>
+                <infoLink id="15b1-dba4-3c14-3f99" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
+                <infoLink id="1998-dd07-6b27-4746" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="14.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="16.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
@@ -2643,8 +2670,8 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="44.0"/>
-        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="58.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="8.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
@@ -2654,17 +2681,19 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cffa-0100-c132-d6e0" type="atMost"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a94-3ff8-ea7d-1388" type="atMost"/>
           </conditions>
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="b993-c4e7-910d-9604" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+        <infoLink id="b993-c4e7-910d-9604" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
         <infoLink id="69a0-bde4-401a-02db" name="Hidden" hidden="false" targetId="2cf8-2a7f-a7d9-e1e5" type="rule"/>
         <infoLink id="c10b-dd5d-360e-42ad" name="Martyr" hidden="false" targetId="9ede-5760-448b-74ca" type="rule"/>
         <infoLink id="6e31-9cad-0555-4d87" name="Martyr" hidden="false" targetId="81a6-619e-688a-34bb" type="profile"/>
         <infoLink id="d0b2-91c1-9042-47e8" name="Unarmed" hidden="false" targetId="c28e-5901-8c13-c057" type="rule"/>
         <infoLink id="b491-70a9-bc07-0155" name="Anti-Tank Grenade Bundle" hidden="false" targetId="6e7c-e48e-029b-f794" type="rule"/>
+        <infoLink id="146b-6a34-906a-2a86" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
+        <infoLink id="259c-3161-3e7a-fc89" name="Assault Troops" hidden="false" targetId="4b1b-6db2-75f2-9f1a" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1ed1-55a3-5b0f-3bed" name="New CategoryLink" hidden="false" targetId="f6d8-fae3-4986-b1b0" primary="true"/>
@@ -2749,6 +2778,21 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e9ed-05c0-bd20-d111" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7801-ebc9-28d9-8f1e" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e51-3f0d-d480-5f96" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2902,6 +2946,8 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3144,12 +3190,17 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5b3-0315-3d77-728d" type="atLeast"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cffa-0100-c132-d6e0" type="atMost"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74cc-1509-9483-935e" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e9d3-75d1-048a-3dfa" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3157,12 +3208,15 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
         <infoLink id="325a-0d40-2912-448b" name="Death Squad" hidden="false" targetId="c0fc-d378-fb0b-6e87" type="profile"/>
         <infoLink id="d19b-1666-0d22-9789" name="Unarmed" hidden="false" targetId="c28e-5901-8c13-c057" type="rule"/>
         <infoLink id="33c6-113e-e6ac-443b" name="Martyr" hidden="false" targetId="9ede-5760-448b-74ca" type="rule"/>
+        <infoLink id="8680-914c-bc68-0479" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
+        <infoLink id="009c-5dd7-d61e-bb2f" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="270e-d84f-f34c-8de8" name="New CategoryLink" hidden="false" targetId="3497-52ed-74a1-6836" primary="true"/>
         <categoryLink id="dc57-4eda-5764-c4f0" name="Support Units" hidden="false" targetId="bc3c-6147-0aa4-68ea" primary="false"/>
         <categoryLink id="e5a9-950c-4888-1b92" name="Tank Support" hidden="false" targetId="aa2f-e365-dc32-7e1f" primary="false"/>
         <categoryLink id="6cd0-f199-fc68-afdd" name="Infantry Support" hidden="false" targetId="fb02-5d8d-3431-5dd4" primary="false"/>
+        <categoryLink id="9c07-8653-5d08-0d9e" name="Restricted" hidden="false" targetId="663f-01aa-6258-7144" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9f46-56e8-d394-67b4" name="Roll 2D6 Men" hidden="false" collective="false" import="true">
@@ -3285,12 +3339,17 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5b3-0315-3d77-728d" type="atLeast"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cffa-0100-c132-d6e0" type="atMost"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e9d3-75d1-048a-3dfa" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74cc-1509-9483-935e" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3302,6 +3361,7 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
       <categoryLinks>
         <categoryLink id="ffef-6588-36a6-ca6f" name="New CategoryLink" hidden="false" targetId="f6d8-fae3-4986-b1b0" primary="true"/>
         <categoryLink id="0be8-f8d6-52d2-604f" name="Infantry Squad" hidden="false" targetId="864b-2886-41e7-2d36" primary="false"/>
+        <categoryLink id="456e-63b7-d301-af88" name="Restricted" hidden="false" targetId="663f-01aa-6258-7144" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cfb8-c7e0-0a86-d10c" name="Roll 2D6 Men" hidden="false" collective="false" import="true">
@@ -3656,6 +3716,8 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3907,6 +3969,8 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7dab-8139-488b-3ffb" name="Provincial Platoon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3946,6 +4010,9 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
           <costs>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="7.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8651-52da-ed73-8115" name="Provincial Squad" hidden="false" collective="false" import="true" type="unit">
@@ -4080,6 +4147,8 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4100,6 +4169,9 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2468-7b00-407b-8c95" name="Light Mortar" hidden="false" collective="false" import="true" type="unit">
@@ -4116,6 +4188,8 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3a5f-8df4-1da1-1594" name="LMG Team" hidden="false" collective="false" import="true" type="unit">
@@ -4140,6 +4214,8 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="16.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4148,6 +4224,9 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="65.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="5.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b59f-b6f3-1c3d-5727" name="Provincial Company" hidden="false" collective="false" import="true" type="unit">
@@ -4193,6 +4272,9 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
               <costs>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="7.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4911-3c3d-3b9e-2ebe" name="Provincial Squad" hidden="false" collective="false" import="true" type="unit">
@@ -4327,6 +4409,8 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4347,6 +4431,9 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
                   <costs>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="bf43-d69a-7f2e-f17d" name="Light Mortar" hidden="false" collective="false" import="true" type="unit">
@@ -4363,6 +4450,8 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="4f8b-c025-1664-c401" name="LMG Team" hidden="false" collective="false" import="true" type="unit">
@@ -4387,11 +4476,20 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="16.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1c07-0e91-33b0-f1e2" name="Provincial Company Command Squad" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4416,6 +4514,9 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
           <costs>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4511,6 +4612,9 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="215.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="16.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1997-0275-f747-fc4e" name="Engineers" hidden="false" collective="false" import="true" type="unit">
@@ -4574,7 +4678,7 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e7a6-7f5a-8ffa-fbc4" name="Experience" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e7a6-7f5a-8ffa-fbc4" name="Experience" hidden="false" collective="false" import="true" defaultSelectionEntryId="087c-2a7f-40fa-c055">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d993-eb2d-7f00-da40" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="100c-1324-c44e-4f22" type="min"/>
@@ -4585,6 +4689,13 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
                 <infoLink id="5b7e-d42d-4dd5-fd6b" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
                 <infoLink id="74cf-59b5-0eca-6753" name="Short Supplies" hidden="true" targetId="0ae1-bb1d-cfba-0f66" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8575-d6b7-6a31-8787" name="Veterans" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -4593,6 +4704,9 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4643,6 +4757,9 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="19.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="26ad-ca10-9051-eb1a" name="Type 89 I-Go" hidden="false" collective="false" import="true" type="unit">
@@ -4657,6 +4774,9 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d0ab-ae0f-8d12-4728" name="Type 97 Chi-Ha" hidden="false" collective="false" import="true" type="upgrade">
@@ -4670,11 +4790,21 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="42.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4117-e195-c3a8-e21e" name="Timed Peashooter Air Strike" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -4740,6 +4870,21 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
             <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e9ed-05c0-bd20-d111" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7801-ebc9-28d9-8f1e" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e51-3f0d-d480-5f96" type="atLeast"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <profiles>
         <profile id="fe89-6c10-4e5a-1937" name="Infantry Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
@@ -4764,6 +4909,96 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="10.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af1b-5130-ac7a-8074" name="Scent of Blood" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c2d-5504-9bbe-fc3b" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a94-3ff8-ea7d-1388" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="d1b5-31d4-3327-d14c" name="Scent of Blood" hidden="false">
+          <description>Chinese forces are at a turning point in the war. A long string of defeats has been broken, and the mortality of the enemy is on display. Morale is very high following a recent victory. At the start of the game, roll a D6 and add the result to the Battlegroup’s total BR.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4ca5-70fe-88ea-8775" name="New CategoryLink" hidden="false" targetId="20be-0d38-2721-6373" primary="true"/>
+        <categoryLink id="bb01-ee7c-aa1f-7773" name="New CategoryLink" hidden="false" targetId="20be-0d38-2721-6373" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3aa3-1715-720b-74d7" name="Roll D6" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7113-e96f-33a3-05cb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f77-b38f-3600-7213" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e723-173c-939d-15d2" name="1" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dc19-712f-ea45-b1fb" name="2" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b865-a386-70fa-8b11" name="3" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f68e-bd00-ae0f-6cd0" name="4" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ed24-bfa2-8a72-dc7a" name="5" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="5.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1e0a-31ff-1e92-e56f" name="6" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="6.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -4825,6 +5060,13 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
       </costs>
     </entryLink>
   </entryLinks>
+  <sharedRules>
+    <rule id="4949-b856-6fde-7242" name="War of Japanese Aggression" hidden="false">
+      <description>China was a divided country without strong political ties to western allies. Ammunition and weapon shortages combined with untrained conscripts and brutal conditions made victory extremely difficult. China was almost always on the defensive.
+
+Before any game, a Chinese battlegroup can always choose to be the Defender in an Attack/Defense scenario rather than be the Attacker or play a Meeting Engagement scenario. The choice is up to the Chinese player. This rule overrides the Horu rule for the Japanese.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="52c8-6316-f922-cc38" name="Polikarpov I-16 Fighter" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
       <characteristics>
