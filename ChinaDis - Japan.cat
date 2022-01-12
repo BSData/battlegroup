@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6d06-5653-bb7e-e9ce" name="ChinaDis - Japan" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6d06-5653-bb7e-e9ce" name="ChinaDis - Japan" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="f721-aa78-2e0d-59f1" name="Additional Fire Support" hidden="false"/>
     <categoryEntry id="55aa-263f-107e-2dbf" name="Artillery Units" hidden="false"/>
@@ -1673,6 +1673,9 @@
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="29.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2442,33 +2445,12 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="56fa-92cd-4f43-69ef" name="Close Air Support Table" hidden="true" collective="false" import="true" type="upgrade">
-      <modifierGroups>
-        <modifierGroup>
-          <modifiers>
-            <modifier type="increment" field="c7a6-4eeb-02b8-94a5" value="1.0">
-              <conditions>
-                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="406f-65d7-f746-67af" value="1.0">
-              <conditions>
-                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e19-d98e-1cb5-6202" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
       <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="406f-65d7-f746-67af" type="min"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7a6-4eeb-02b8-94a5" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="406f-65d7-f746-67af" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7a6-4eeb-02b8-94a5" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="f118-317d-8d08-c7db" name="Japanese Close Air Support Table 1944-45" hidden="false" targetId="fd2b-c5c0-c376-102e" type="infoGroup"/>
+        <infoLink id="f118-317d-8d08-c7db" name="Japanese Close Air Support Table 1937-43" hidden="false" targetId="fd2b-c5c0-c376-102e" type="infoGroup"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
@@ -2553,6 +2535,7 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="25ec-217e-3715-90df" name="Fractured Loyalty" hidden="false" collective="false" import="true" type="upgrade">
@@ -2569,6 +2552,10 @@
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
