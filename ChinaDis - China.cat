@@ -863,14 +863,14 @@
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="61bc-678e-0e0d-b878" name="Vickers E" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="61bc-678e-0e0d-b878" name="Vickers E Type B" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="43f0-9fb2-9b39-37d7" name="Vickers E" hidden="false" targetId="f0b3-9ba1-aebd-df4a" type="profile"/>
-                <infoLink id="be08-f798-d03e-51de" name="Vehicle MG - Turret" hidden="false" targetId="1570-0946-e829-c020" type="profile"/>
-                <infoLink id="9fb6-0a88-5a22-b66c" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
+                <infoLink id="43f0-9fb2-9b39-37d7" name="Vickers E Type B" hidden="false" targetId="f0b3-9ba1-aebd-df4a" type="profile"/>
+                <infoLink id="be08-f798-d03e-51de" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
+                <infoLink id="1652-4c9f-96fe-aebf" name="47mmL32" hidden="false" targetId="263f-13c2-03e9-363a" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="28.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
@@ -3145,14 +3145,14 @@
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6ff0-96de-6f57-6240" name="Vickers E" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6ff0-96de-6f57-6240" name="Vickers E Type B" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="7605-fe7b-fd53-2420" name="Vickers E" hidden="false" targetId="f0b3-9ba1-aebd-df4a" type="profile"/>
-                <infoLink id="78d7-6642-bbf3-0427" name="Vehicle MG - Turret" hidden="false" targetId="1570-0946-e829-c020" type="profile"/>
                 <infoLink id="aa1a-644f-baa8-fcb8" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
+                <infoLink id="12df-af91-8ca4-1496" name="47mmL32" hidden="false" targetId="263f-13c2-03e9-363a" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="28.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
