@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="67dd-1e65-4827-18e3" name="ChinaDis - China" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="67dd-1e65-4827-18e3" name="ChinaDis - China" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="f721-aa78-2e0d-59f1" name="Additional Fire Support" hidden="false"/>
     <categoryEntry id="55aa-263f-107e-2dbf" name="Artillery Units" hidden="false"/>
@@ -938,59 +938,30 @@
             <selectionEntry id="219f-e565-9bd7-f116" name="2x 75mmL21 Mountain Gun" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="430a-4a7d-fd58-edcf" name="75mmL21" hidden="false" targetId="3daa-2a40-dd18-16f1" type="profile"/>
+                <infoLink id="446a-cdeb-03ec-915b" name="Too Valuable" hidden="false" targetId="651c-407c-c173-9b6e" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="60.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5ce0-1429-7832-e12f" name="2x 75mmL31 or L38 Cannons" hidden="false" collective="false" import="true" type="model">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="365d-74f8-40c6-8430" name="75mm Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1d7e-80b9-ec1a-7736">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3441-640b-f928-c136" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba76-6fae-800f-c936" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="1d7e-80b9-ec1a-7736" name="75mmL31 Cannon" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="de62-cb95-9289-f951" name="75mmL31" hidden="false" targetId="88e8-5ad0-aedc-f8ce" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="242c-090a-a48d-3827" name="75mmL38 Cannon" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="61bb-878d-2e78-0e40" name="75mmL38" hidden="false" targetId="e1b5-8da7-da9b-3a98" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+            <selectionEntry id="5ce0-1429-7832-e12f" name="2x 75mmL38 Cannons" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="b212-f4d5-976e-48b2" name="Too Valuable" hidden="false" targetId="651c-407c-c173-9b6e" type="rule"/>
+                <infoLink id="a0d9-5c6c-ebd3-104b" name="75mmL38" hidden="false" targetId="e1b5-8da7-da9b-3a98" type="profile"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="70.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ed44-cbf4-7bf2-60ef" name="2x 105mmL24 Howitzers" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="ed44-cbf4-7bf2-60ef" name="2x 105mmL24 Howitzer" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -998,12 +969,16 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0da1-9ba8-37dc-da50" type="max"/>
+              </constraints>
               <infoLinks>
-                <infoLink id="32bd-5f66-c43d-c637" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
+                <infoLink id="32bd-5f66-c43d-c637" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
                 <infoLink id="7548-2867-b036-b586" name="105mmL24" hidden="false" targetId="8fbc-94d6-3825-03b3" type="profile"/>
+                <infoLink id="2782-0fc1-d8f0-e6fd" name="Too Valuable" hidden="false" targetId="651c-407c-c173-9b6e" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="90.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="26.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
@@ -1018,11 +993,16 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e66-9614-d2c9-a562" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="e2ec-565f-a93b-48fd" name="150mmL14" hidden="false" targetId="8748-4415-de0c-6d87" type="profile"/>
+                <infoLink id="f216-7bf7-d089-a110" name="Too Valuable" hidden="false" targetId="651c-407c-c173-9b6e" type="rule"/>
+                <infoLink id="571b-7129-f7f1-f510" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="135.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
@@ -1052,6 +1032,30 @@
         <categoryLink id="d3b3-e0d9-2dcf-9bf8" name="New CategoryLink" hidden="false" targetId="55aa-263f-107e-2dbf" primary="true"/>
         <categoryLink id="2b5b-810e-9e9e-e2c5" name="Restricted" hidden="false" targetId="663f-01aa-6258-7144" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8ad6-5abc-d18b-03d2" name="Mountain Gun" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="369a-ab0b-51e1-c338" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b24d-8a9a-ac79-aeb6" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+            <infoLink id="417d-e3ec-1646-fb93" name="Artillery Gun Crew [Light]" hidden="false" targetId="bdb8-c944-759c-a6ba" type="profile"/>
+            <infoLink id="95a5-d146-fa33-ab3a" name="75mmL31" hidden="false" targetId="42c2-b8c9-1ba3-425a" type="profile"/>
+            <infoLink id="98bb-f158-51ab-4d59" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
+            <infoLink id="5a26-94a5-c1ea-e80f" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="e0c0-f8dc-d087-75cb" name="New CategoryLink" hidden="false" targetId="55aa-263f-107e-2dbf" primary="true"/>
+            <categoryLink id="2761-926c-8ce3-c101" name="Restricted" hidden="false" targetId="663f-01aa-6258-7144" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="29.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="29.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
@@ -1074,9 +1078,10 @@
             <selectionEntry id="7ef6-0dd2-9bcc-230d" name="2x 81mm Mortars" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="c93b-265e-85ef-580f" name="Type 97 81mm Medium Mortar" hidden="false" targetId="1fd0-d28e-a334-950b" type="profile"/>
+                <infoLink id="9931-08ba-8ab4-c9d4" name="Too Valuable" hidden="false" targetId="651c-407c-c173-9b6e" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="54.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="14.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
@@ -1091,90 +1096,23 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="332b-a293-db72-ebac" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="b8b9-89ac-95e0-420d" name="Type 94 90mm Medium Mortar" hidden="false" targetId="acfd-e4e1-2149-d667" type="profile"/>
-                <infoLink id="c2f2-9bdc-36a4-6afd" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
+                <infoLink id="c2f2-9bdc-36a4-6afd" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+                <infoLink id="11e7-c9cf-0635-996e" name="Too Valuable" hidden="false" targetId="651c-407c-c173-9b6e" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="62.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6bbe-9cb1-813c-6ba6" name="Artillery Gun" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="fbb7-eee5-a39b-382b" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
-        <infoLink id="35eb-ca36-a9fc-d9ad" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="8600-895d-f859-ce31" name="New CategoryLink" hidden="false" targetId="55aa-263f-107e-2dbf" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="1be3-7f14-b370-df54" name="Add 3-man Loader Team" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64d7-5def-816e-dfaa" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="446a-2553-3ef9-5127" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
-            <infoLink id="d268-7491-ccea-7240" name="Type 99 Arisaka (Rifle)" hidden="false" targetId="833f-4d76-9465-5596" type="profile"/>
-            <infoLink id="ba72-dde7-0f9f-066f" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
-            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="0c7e-3367-857f-adcb" name="Artillery Gun" hidden="false" collective="false" import="true" defaultSelectionEntryId="6912-9075-5d9d-27c4">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bda0-4947-a8de-97a5" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2069-4f65-8b03-babc" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="6912-9075-5d9d-27c4" name="Type 38 75mmL31 Artillery Gun" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="a13e-ccc4-c72d-79b6" name="75mmL31" hidden="false" targetId="88e8-5ad0-aedc-f8ce" type="profile"/>
-                <infoLink id="fe99-7cb2-554d-ef32" name="Artillery Gun Crew [Light]" hidden="false" targetId="bdb8-c944-759c-a6ba" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="35.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ff66-d323-6cea-88cf" name="Type 90 75mmL38 Artillery Gun" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="9360-2cec-43c1-7137" name="Artillery Gun Crew [Light]" hidden="false" targetId="bdb8-c944-759c-a6ba" type="profile"/>
-                <infoLink id="20e4-fe4f-448a-8989" name="75mmL38" hidden="false" targetId="e1b5-8da7-da9b-3a98" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="39.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b137-96cb-3b88-c8e9" name="Type 91 105mmL24 Artillery Gun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d170-af8c-1d67-2030" name="2x 240mm Mortars" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1182,16 +1120,16 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="444a-58ac-6b49-1dfb" type="max"/>
+              </constraints>
               <infoLinks>
-                <infoLink id="eb10-d7ba-9483-a8fd" name="105mmL24" hidden="false" targetId="8fbc-94d6-3825-03b3" type="profile"/>
-                <infoLink id="9c2c-39d7-811f-f889" name="Artillery Gun Crew [Medium]" hidden="false" targetId="0650-7f4c-eadf-3db1" type="profile"/>
+                <infoLink id="7d95-154d-52e3-3320" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+                <infoLink id="b705-709f-56fc-7530" name="240mm Heavy Mortar" hidden="false" targetId="f697-5dee-a635-6396" type="profile"/>
+                <infoLink id="a3cc-15f2-904c-efdd" name="Too Valuable" hidden="false" targetId="651c-407c-c173-9b6e" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="46.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="28.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

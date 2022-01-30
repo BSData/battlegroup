@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b64e-1a62-87c3-e0a0" name="Library - China" revision="6" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b64e-1a62-87c3-e0a0" name="Library - China" revision="7" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule id="6e7c-e48e-029b-f794" name="Anti-Tank Grenade Bundle" hidden="false">
       <description>An Anti-Tank Grenade Bundle counts as an anti-tank grenade, with an increased penetration value of 8. If a hit is scored the user is also removed as a casualty. No morale test is taken for this loss.</description>
@@ -56,7 +56,7 @@ After receiving a Fire order, roll a D6. On a 4+, this unit is removed from the 
 Instead of rolling morale tests, this unit routes immediately. Draw a BR counter for this loss.</description>
     </rule>
     <rule id="0ae1-bb1d-cfba-0f66" name="Short Supplies" hidden="false">
-      <description>Ammunition and other supplies were often in extremely short supply. A unit with the Short Supplies special rule must roll a D6 each time the unit fires. Reduce the rate of fire for the squad by that amount for the rest of the game. If the rate of fire reduction exceeds the squad’s rate of fire, roll a D6.
+      <description>Ammunition and other supplies were often in extremely short supply. A unit with the Short Supplies special rule must roll a D6 each time the unit fires. Reduce the rate of fire for the squad by that amount for the rest of the game. This rate of fire reduction is removed if the squad is resupplied. If the rate of fire reduction exceeds the squad’s rate of fire, roll a D6.
 
 1   The squad retreats. Remove it from the table and draw a BR counter for this loss.
 2   The squad has broken. Remove D6 infantry as they retreat. If no infantry remain in the squad, then draw a BR counter for this loss. Otherwise, the squad is pinned, and must roll a morale test.
