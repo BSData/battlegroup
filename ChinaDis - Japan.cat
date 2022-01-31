@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6d06-5653-bb7e-e9ce" name="ChinaDis - Japan" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6d06-5653-bb7e-e9ce" name="ChinaDis - Japan" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="f721-aa78-2e0d-59f1" name="Additional Fire Support" hidden="false"/>
     <categoryEntry id="55aa-263f-107e-2dbf" name="Artillery Units" hidden="false"/>
@@ -2556,6 +2556,29 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="410b-fbad-4db7-a394" name="Flamethrower Team" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8edb-4135-e373-4859" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8764-cd0c-a83d-7757" name="Flamethrower Team" hidden="false" targetId="4433-b354-6904-f6b4" type="profile"/>
+        <infoLink id="7c58-ac10-f939-ed1f" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+        <infoLink id="6544-b17a-0ecb-8b80" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
+        <infoLink id="5b02-d83a-bda5-8021" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
+        <infoLink id="7b00-9006-de3c-6ac8" name="Type 100 Flamethrower" hidden="false" targetId="5295-a0b4-f67f-9b79" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="acf7-bb8d-f31c-ede1" name="New CategoryLink" hidden="false" targetId="f02d-90d7-aa62-3dba" primary="true"/>
+        <categoryLink id="32c2-2f8e-1e73-802d" name="Infantry Support" hidden="false" targetId="a676-e562-78a6-d3f7" primary="false"/>
+        <categoryLink id="8668-98f0-244e-01b3" name="Tank Support" hidden="false" targetId="6a2c-4164-9e34-6086" primary="false"/>
+        <categoryLink id="e1aa-4d3d-1ffc-378e" name="Support Units" hidden="false" targetId="990b-5b36-213e-bcfe" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
