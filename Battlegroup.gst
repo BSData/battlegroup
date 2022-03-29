@@ -138,7 +138,15 @@
         <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="36d8-1e11-f56b-8a37" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="5e37-ddcf-0b7b-0d71" name="Scenario" hidden="false"/>
+    <categoryEntry id="5e37-ddcf-0b7b-0d71" name="Scenario Modifier" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
     <categoryEntry id="19bc-5687-3b84-3d6c" name="Air Support" hidden="false">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -149,6 +157,12 @@
       </modifiers>
     </categoryEntry>
     <categoryEntry id="8d31-1ade-d61e-89b6" name="Attack Defense Scenario" hidden="false"/>
+    <categoryEntry id="ebca-908c-0f01-08c6" name="Scenario" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a0f1-c30d-23c8-d0e9" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8d83-2d45-faff-d849" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="9853-94ea-4f1e-0cab" name="Battlegroup" hidden="false">
@@ -160,457 +174,19 @@
         <categoryLink id="031e-206f-db3c-e703" name="Defenses" hidden="false" targetId="b6a3-9f91-0350-5714" primary="false"/>
         <categoryLink id="3f4c-9f7c-aa5c-7272" name="Scenario" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="false"/>
         <categoryLink id="1329-0743-e6ff-ed6f" name="Air Support" hidden="false" targetId="19bc-5687-3b84-3d6c" primary="false"/>
+        <categoryLink id="2cd4-d61b-3672-ace1" name="Main Scenario" hidden="false" targetId="ebca-908c-0f01-08c6" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="dff8-6c24-444b-2d38" name="Main Scenario" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cca2-6e08-1dd6-a27d" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbfb-937f-610b-2d9e" type="min"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="cbd3-26d7-afc5-1c22" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="773e-1b8f-289f-9363" name="Main Scenario" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07a4-e446-3ace-d728" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7d8-0d27-5ad7-aff8" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="a150-1509-4d04-1d2c" name="Attack/Counter-Attack" publicationId="a47f-374f-12cc-a194" page="73" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="aa94-2420-22ad-ce0f" name="Attack/Counter-Attack" hidden="false">
-                  <description>1. Both players roll D6 and add the number of scouts from their battlegroup. The player with the highest total chooses which corner will be his deployment zone, and his opponent automatically gets the opposite table corner.
-
-2. Place four objectives on the table. The player who has more scouts places first. Objectives can&apos;t be within 10&quot; of each other or a table edge.
-
-3. Roll D6. On a 1, add the Rainy Weather Scenario
-
-4. Players take turns deploying all recon units. These can be placed anywhere on their table corner, but not within 10&quot; of the line dividing the two sides. If one side has no scouts, then his opponent may place their recon anywhere on the table with Ambush Fire orders.
-
-5. Both players roll D6 and add the number of scouts from their battlegroup. The side with the highest total takes the first turn. On a tie, the side with the most scout units wins. If it is still a tie, then re-roll
-
-6. From turn 2 onwards D6* units are placed on the player&apos;s table edge, within 20&quot; of his table corner, as the rest of his forces arrive from reserve. Continue this each turn until all forces are on the tabletop. * In Comany-sized games, roll 2D6. * In Battalion-sized games roll 3D6</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="96de-0e6c-5309-44c8" name="Meeting Engagement Scenario" hidden="false" targetId="bc91-cf64-e823-11c2" type="rule"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry id="718d-8d53-32d6-86ac" name="Delaying Action" publicationId="a47f-374f-12cc-a194" page="79" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="047c-58e8-abc1-f4c0" name="Delaying Action" hidden="false">
-                  <description>**Victory: The defender can&apos;t claim an all objectives held victory. The defender wins if the attacker has not won by the end of turn 9. The attacker may move his units off the table via the defender&apos;s table edge. For each 3 units that leave, the defender draws a BR counter.
-
-1. The defender may move up to D6 terrain pieces up to 20&quot;.
-
-2. Place D3+1 objectives on the table. Starting with the defender, players take turns placing objectives. Objectives can&apos;t be placed within 10&quot; of each other or a table edge.
-
-3. For each non-defense unit in the defender&apos;s force, roll a D6. Do not roll for deployed guns and their tows separately. The same applies for infantry and their transports. On a 1-3, the unit is held in reserve. All the rest of the force is deployed on the defender&apos;s half of the table. Defenses may be deployed within three-quarters of the table. Reserves start arriving on turn 2. D6* units arrive each turn.
-
-4. Attacker deploys all Reconnaissance units within 10&quot; of his table edge. All other units start in reserve. Reserves start arriving on turn 1. D6* units arrive each turn.
-
-5. 2D6 of the defender&apos;s units get Ambush Fire
-
-6. Attacker gets first turn.
-
-* In Company-sized games roll 2D6. In Battalion-sized games roll 3D6.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="a5bc-aa2d-3038-42f2" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="a5c5-3986-e9a0-5abe" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2897-29ad-a912-9cc5" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="8187-375b-96fc-fa19" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
-                  </infoLinks>
-                  <categoryLinks>
-                    <categoryLink id="2ce2-3c50-6335-2646" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
-                  </categoryLinks>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-            <selectionEntry id="cce2-33a7-c53d-0f89" name="High Ground" publicationId="a47f-374f-12cc-a194" page="77" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="8434-3f1a-976b-9760" name="High Ground" hidden="false">
-                  <description>1. Place a hill somewhere in the defender&apos;s half of the table. Put an objective on the hill. Starting with the attacker, each player places 1 objective. Objectives must not be within 10&quot; of each other or a table edge.
-
-2. Roll D6. On a 1 add the Rainy Weather Scenario
-
-3. Attacker must split his forces into 2 halves. The second half of his forces start in reserve and all arrive on turn 4.
-
-4. Defender must split his forces into 2 halves. The first half must include all defenses. The defender also gets an MMG Bunker, 10&quot; Trench, and a Minefield for free. Deploy the first half of the defenders forces anywhere on his half of the table. D6 of these units get an Ambush Fire order. The second half of the defender&apos;s forces start arriving from reserve on turn 4. D6 units arrive each turn until no units are left in reserve.
-
-5. Deploy the attacker&apos;s first half of his forces within 10&quot; of his table edge. Attacker gets first turn.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="af3b-6f4f-c826-125e" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="5f45-b693-de84-26c7" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b693-efdf-cb23-2f54" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="0594-1c13-504e-cf73" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
-                  </infoLinks>
-                  <categoryLinks>
-                    <categoryLink id="ca38-c32f-3689-e2f0" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
-                  </categoryLinks>
-                  <entryLinks>
-                    <entryLink id="2508-6a7b-1437-5344" name="Trenches" hidden="false" collective="false" import="true" targetId="c5c4-b617-f19c-4d89" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4546-a61a-40cd-a283" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b834-2593-b770-5b46" type="max"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink id="3e57-d8c6-21d4-2b03" name="Bunker" hidden="false" collective="false" import="true" targetId="9444-7913-643c-c45b" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b68-b5b0-5938-3da1" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbc0-c27e-ca47-e799" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="84f0-d9c0-879f-090c" name="M1919 .30 Cal Browning (Medium MG)" hidden="false" targetId="b13f-8e67-19a6-a0a6" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="a77b-49be-e10e-3b24" name="Minefield" hidden="false" collective="false" import="true" targetId="d8e0-514c-5b53-b63f" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3b1-5395-2048-9f5b" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c65-2e13-98bc-641c" type="min"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="-50.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-            <selectionEntry id="a349-7a73-9d75-5f47" name="Flanking Attack" publicationId="a47f-374f-12cc-a194" page="74" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="a748-8fca-2bdd-6ec6" name="Flanking Attack" hidden="false">
-                  <description>1. Place D3+2 objectives on the table. The first objective must be in the exact center of the table. After that, players take turns placing objectives starting with the player who has the most scouts in their battlegroup. Objectives can&apos;t be within 10&quot; of each other or a table edge.
-
-2. Roll a D6. On a 1, add the Rainy Weather scenario
-
-3. Randomly assign opposite table corners to each player. Both players roll a D6 and add the number of scouts in their battlegroup. The one with the highest total may choose which remaining corner to use for their flanking deployment zone. The opponent gets the opposite corner for their flank.
-
-4. Each player chooses D6 non-scout units from their force. Each player deploys these units within 20&quot; of their table corner. Each player then deploys all of their scout units within 20&quot; of their flanking corner. The remaining units are in reserve and will begin arriving on turn 2. D6* units arrive per turn until no units remain in reserve. * For Company-sized games roll 2D6. * For Battalian-sized games roll 3D6
-
-5. Both players roll D6 and add the number of scouts from their battlegroup. The side with the highest total takes first turn. On a tie, the side with the most scouts wins. If it is still a tie, then re-roll.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="0c19-cd55-ee58-1b91" name="Meeting Engagement Scenario" hidden="false" targetId="bc91-cf64-e823-11c2" type="rule"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry id="7309-f532-a2ea-76b7" name="Bridgehead Breakout" publicationId="a47f-374f-12cc-a194" page="75" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="fe6a-b7d9-ddec-d652" name="Bridgehead Breakout" hidden="false">
-                  <description>1. Set up a river, stream, or marshy ditch 5 to 10&quot; from one table edge. Put a bridge in the middle of it. The river is treated as difficult terrain (not impassible). Roll a D6 and add the number of scouts from your battlegroup. The player with the highest total starts on the side with the bridge.
-
-2. Place D3+2 objectives on the table. The first objective must be the bridge. After that, players take turns placing objectives starting with the player who will be attacking the bridge. These objectives can&apos;t be within 10&quot; of each other or a table edge.
-
-3. Roll a D6. On a 1 add the Rainy Weather Scenario
-
-4. Both players choose D6 units from their battlegroup. Scouts must be included in these units before any other units can be chosen. Players take turns deploying these units. The player holding the bridge may deploy anywhere within 20&quot; of the bridge. The other player deploys anywhere within 15&quot; of their table edge. All other units are in reserve, and will arrive starting on turn 2 onwards. D6* units arrive each turn. * In Company-sized games roll 2D6. * In Battalion-sized games roll 3D6
-
-5. Each player rolls a D6 and add the number of scouts from their battlegroup. The side with the highest total takes first turn. On a tie, the player with the most scouts wins. If it is still a tie, then re-roll.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="1ab4-e10b-2d5e-5dc1" name="Meeting Engagement Scenario" hidden="false" targetId="bc91-cf64-e823-11c2" type="rule"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry id="3169-1c23-18a2-6946" name="Strongpoint Assault" publicationId="a47f-374f-12cc-a194" page="78" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="e4d6-cce5-d1c4-68ad" name="Strongpoint Assault" hidden="false">
-                  <description>1. Defender deploys all defenses plus one free bunker in the middle of their half of the table. No units may be deployed within 10&quot; of a table edge.
-
-2. Place 4 objectives. Players take turns placing objectives, starting with the defender. Objectives can&apos;t be within 10&quot; of each other or a table edge. The attacker&apos;s first objective must be placed on the defender&apos;s bunker.
-
-3. Roll a D6. On a 1, add the Rainy Weather Scenario
-
-4. Split the remainder of the defender&apos;s forces in half. Deploy the first half anywhere on their half of the table. D3 units get Ambush Fire. The other half of the defender&apos;s forces are in reserve. They will arrive starting on turn 4. D6* units arrive per turn until no units remain in reserve. * In Company-sized games roll 2D6. * In Battalion-sized games roll 3D6.
-
-5. The attacker chooses up to 6 units to be a flanking force. Secretly note if these units will arrive within 10&quot; of the table center from the left or right table edges. All other units are deployed within 20&quot; of the attacker&apos;s table edge. Starting on turn 3, roll a D6 and add the current turn number. If the result is 8 or more, then deploy the flanking force as noted earlier.
-
-6. Attacker randomly pins D3 of the defender&apos;s units due to a prepartory bombardment. Attacker takes first turn.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="a674-cf66-28dd-f68e" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="8828-4056-6055-bf18" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="484b-44db-36c2-12ca" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="6d2f-a13d-926a-6de6" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
-                  </infoLinks>
-                  <categoryLinks>
-                    <categoryLink id="aef6-8a6a-97bd-28e0" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
-                  </categoryLinks>
-                  <entryLinks>
-                    <entryLink id="eb41-764d-ec20-9c35" name="Bunker" hidden="false" collective="false" import="true" targetId="9444-7913-643c-c45b" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e520-04ee-d5ac-2543" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e54c-5ee6-cf6a-fd5f" type="min"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                      </costs>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-            <selectionEntry id="8709-9b16-8607-7d50" name="Recce Screen" publicationId="a47f-374f-12cc-a194" page="72" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="6d5f-5cf3-8d51-2ca6" name="Recce Screen" hidden="false">
-                  <description>1. Randomly assign opposing table corners to each player.
-
-2. Place 3 objectives on the table. The first objective is in the center of the table. Each player places an objective anywhere on their half of the table starting with the player with the most scout units in their battlegroup. Objectives can&apos;t be within 10&quot; of each other or a table edge.
-
-3. Each player deploys all of their Reconnaissance units anywhere on their half of the table, but not within 10&quot; of the dividing line between the 2 table halves. All other units are held in reserve. Roll a D6. Both player&apos;s reserves begin arriving after that many turns. Before reserves begin arriving, no player can claim victory for holding all objectives or for pinning or destroying all of the opponent&apos;s units. Each turn D6* units arrive from reserve. * In Company-sized games, roll 2D6. * In Battalion-sized games roll 3D6.
-
-4. Both players roll a D6 and add the number of scouts from their battlegroup. The player than wins takes first turn.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="ff9a-83a6-7529-b865" name="Meeting Engagement Scenario" hidden="false" targetId="bc91-cf64-e823-11c2" type="rule"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry id="76ea-3309-58c1-063d" name="Defense Line" publicationId="a47f-374f-12cc-a194" page="76" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="a119-8e06-0e20-461e" name="Defense Line" hidden="false">
-                  <description>1. Defender chooses which of the short table edges to use. Attacker gets the opposite table edge.
-
-2. Attacker splits his forces into a Probing force and the Main force. The Probing force must include all recon units and up to 3 other units. All other units start in reserve, which begin to arrive on turn 3. Reserves arrive D6* per turn from the attackers table edge.
-
-3. Defender deploys all defenses and up to 2D6 units in the middle third of the table. D3 units get Ambush Fire orders. All other units start in reserve and will arrive from turn 5 onwards. Reserves arrive D6* per turn from the defenders table edge. 
-
-4. Defender places 2 objectives in the middle third of the table and 1 objective anywhere else. Objectives can&apos;t be within 10&quot; of each other or a table edge. The defender can&apos;t claim an all objectives secured victory.
-
-5. Roll D6. On a 1 add the Rainy Weather Scenario
-
-6. Attacker deploys their probing force within 10&quot; of their table edge.
-
-7. Attacker randomly pins D3 of the defender&apos;s units due to a preliminary bombardment.
-
-8. Attacker gets first turn.
-
-* In Company-sized games roll 2D6. In Battalion-sized games roll 3D6</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="e1a8-a50a-7431-a0e3" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="d86a-7aa6-2b2f-0153" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41e6-1501-3056-09a3" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="87de-2669-0c2e-2e52" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
-                  </infoLinks>
-                  <categoryLinks>
-                    <categoryLink id="4cb0-e91b-79a1-a740" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
-                  </categoryLinks>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-            <selectionEntry id="b3ec-142d-c2ad-22ad" name="Das Hexenkessel" publicationId="a47f-374f-12cc-a194" page="81" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="66d9-654c-a428-0127" name="Das Hexenkessel" hidden="false">
-                  <description>**Terrain: Place a large farm, small hamlet, or village approximately in the center of the table (D3+3 buildings).
-
-**Setup: The defender gets an additional D3 BR
-
-1. Defender chooses a table edge. The attacker gets the other 3 table edges.
-
-2. Place D3 objectives on the table. Starting with the attacker, players take turns placing objectives. Objectives can&apos;t be placed within 10&quot; of each other or a table edge.
-
-3. Defender deploys his entire force within 30&quot; of the center of the table, but not within 10&quot; of any table edge.
-
-4. Attacker deploys all Reconnaissance units and 2D6 other units within 5&quot; of any of his table edges. The rest of his forces start in reserve, which begin arriving on turn 2. D6* units arrive each turn. Each reserve unit arrives randomly from one of the attacker&apos;s 3 table edges.
-
-5. 2D6 of the defender&apos;s units get Ambush Fire or Reserve Move orders.
-
-6. Attacker gets first turn.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="b599-93dd-5cd9-bca6" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="2f10-c43e-f8d7-bf16" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f123-f5cb-d1cb-50f0" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="425b-f9b5-42c2-de35" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
-                  </infoLinks>
-                  <categoryLinks>
-                    <categoryLink id="9c04-64b0-5b81-ba96" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
-                  </categoryLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="aa55-972c-dfc4-e3f6" name="D3 BR" hidden="false" collective="false" import="true">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22f1-ac0d-a2f2-509e" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c026-f87f-58c2-1654" type="min"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="2ee6-e898-4bd6-d647" name="1" hidden="false" collective="false" import="true" type="upgrade">
-                          <costs>
-                            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="8540-8753-9a24-33ba" name="2" hidden="false" collective="false" import="true" type="upgrade">
-                          <costs>
-                            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="9737-6499-dad8-67cf" name="3" hidden="false" collective="false" import="true" type="upgrade">
-                          <costs>
-                            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-            <selectionEntry id="d571-c99f-a48c-5926" name="Urban Assault" publicationId="a47f-374f-12cc-a194" page="82" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="5080-8dfa-945f-f08b" name="Urban Assault" hidden="false">
-                  <description>**Terrain: The entire table is a city, so place as many buildings as you can to create avenues and side roads. Some open areas can represent plazas, markets squares, or parks. You may include a single canal or river can be included with at least 2 intact bridges. Scatter rubble, craters, and vehicle wrecks all over the table.
-
-**Setup: Both players roll a D6. On a 1, that player draws a BR counter due to confusion from low visibility in an urban setting.
-
-1. Defender chooses a table edge. The attacker automatically gets the opposing edge.
-
-2. Place D3+2 objectives on the table. Starting with the defender, players take turns placing these objectives in non-hospital buildings.
-
-3. Defender deploys his defenses plus D3 other units on his half of the table. All other units start in reserve, which begin arriving on turn 3. D6* units arrive each turn.
-
-4. Attacker deploys his Reconnaissance units within 15&quot; of his table edge. Attacker then deploys D3 other units within 10&quot; of his table edge. All other units start in reserve, which begin arriving on turn 2. D6* units arrive each turn.
-
-5. D6 of the defender&apos;s units get Ambush Fire Orders.
-
-6. Each player rolls D6 and adds the number of scouts from their battlegroup. The player with the highest result takes the first turn. If tied, the attacker gets first turn.
-
-* In Battalion-sized games, roll 2D6.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="0dd5-d976-4808-46b0" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="bdb6-654d-6d18-57dc" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1df0-f2ed-27bf-2db7" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="45de-845b-d86f-59e5" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
-                  </infoLinks>
-                  <categoryLinks>
-                    <categoryLink id="19be-0bee-9ff7-b4d6" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
-                  </categoryLinks>
-                  <selectionEntries>
-                    <selectionEntry id="25d7-ac4d-a12e-af0c" name="Hospital" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83e5-2def-909a-16bc" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b63c-f7d8-a54d-f919" type="min"/>
-                      </constraints>
-                      <rules>
-                        <rule id="3be3-63c3-7889-bac1" name="Hospital" hidden="false">
-                          <description>The defender nominates one building as a hospital. Mark it with a red cross on the roof. No units from either side may enter this building.</description>
-                        </rule>
-                      </rules>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-            <selectionEntry id="a9a5-629f-a17d-82a8" name="Break Out" publicationId="a47f-374f-12cc-a194" page="84" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="1a51-c102-5392-7b4d" name="Break Out" page="" hidden="false">
-                  <description>**Escape: The attacker&apos;s units can exit the table via the defender&apos;s table edge. For every 3 units that do this, the defender draws a BR counter.
-
-**Ammo Low: The defender rolls a D6 for each vehicle with an ammo rating. On a 1, the vehicle has 2 shots left. On a 2, the vehicle has 4 shots left. If this amount exceeds the vehicle&apos;s ammo rating, then use the lower of the two numbers. The defender&apos;s vehicles can&apos;t be resupplied during the game.
-
-1. Both players roll a D6. The player with the highest roll picks a table edge, and the opponent gets the opposite edge. On a tie, the attacker chooses his edge.
-
-2. The attacker places a single objective on the table between 20-30&quot; from his table edge.
-
-3. Defender placed all defenses and 2D6 other units within 20&quot; of his table edge. All other units are in reserve, which arrive starting on turn 3. D3+1** units arrive each turn from his table edge, or from a side table edge up to 30&quot; away from the defender&apos;s table edge. Defender reserves arriving from a side table edge must be at least 10&quot; away from any enemy unit. ** In Company-sized games, roll D6+1 instead. In Battalion-sized games roll 2D6+1 instead.
-
-4. Attacker places all Reconnaissance units up to 20&quot; from his table edge. Attacker then places 2D6 other units up to 10&quot; from his table edge. All other units are in reserve, which start arriving on turn 2. D6* units arrive each turn from his table edge. * In Company-sized games roll 2D6 instead. In Battalion-sized games roll 3D6 instead.
-
-5. Defender gets D6 Ambush Fire orders
-
-6. Attacker takes first turn.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="cc4e-8556-fdb1-864e" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="ede0-b4dc-56a9-fb38" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01ad-23a8-92b3-eabb" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="a13c-98f2-d833-728b" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
-                  </infoLinks>
-                  <categoryLinks>
-                    <categoryLink id="aa6f-e212-cf85-eaf8" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
-                  </categoryLinks>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-            <selectionEntry id="1735-d2c3-f27b-66e5" name="The Hard Road" publicationId="a47f-374f-12cc-a194" page="86" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="f7fb-0f47-ec66-f605" name="The Hard Road" hidden="false">
-                  <description>**Terrain: A road or track runs down the middle of the table. It does not have to be a straight line, and it doesn&apos;t have to be the only road. In the middle of the table, create another road that goes off a side table edge.
-
-1. Roll a D6. On a 1, recent rains cause all non-road movement to be dangerous terrain for vehicles.
-
-2. One player randomly picks which of the 2 table edges from the main road are his. The opponent gets the opposing table edge.
-
-3. Place D3+2 objectives on the table. The first objective must be the road junction. Starting with the player who has the most scout units in their battlegroup, each player takes turns placing objectives anywhere on the table. Objectives can&apos;t be placed within 10&quot; of each other or a table edge.
-
-4. Both players take turns deploying all Reconnaissance units within 20&quot; of their table edges.
-
-5. Each player rolls a D6. They take turns deploying that many other units within 10&quot; of their table edges. The rest of their forces are in reserve, which start arriving on turn 2. D6* units arrive each turn.
-
-6. Each player rolls a D6 and adds the number of scouts in their battlegroup. The player with the highest score takes first turn.
-
-* In Battalion-sized games, roll 2D6 instead</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="e70d-4209-d09d-57fe" name="Meeting Engagement Scenario" hidden="false" targetId="bc91-cf64-e823-11c2" type="rule"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntry>
     <selectionEntry id="f0df-851f-3464-fe01" name="Rainy Weather" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b36-c103-ad2e-f08f" type="max"/>
       </constraints>
@@ -635,7 +211,12 @@
       <modifiers>
         <modifier type="set" field="b85c-7dd4-1930-dba1" value="1.0">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d571-c99f-a48c-5926" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0967-62f1-7809-c0fb" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -675,6 +256,13 @@ Structural Hits
       </categoryLinks>
     </selectionEntry>
     <selectionEntry id="ccb4-bb16-a413-4f3a" name="Night Fighting" publicationId="a47f-374f-12cc-a194" page="68" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d88b-d9ae-3630-e3f0" type="max"/>
       </constraints>
@@ -690,7 +278,14 @@ Structural Hits
         <categoryLink id="d6eb-ec26-2503-9264" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry id="d7bc-0bfd-6cae-b48d" name="Refugees Scenario" publicationId="a47f-374f-12cc-a194" page="69" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d7bc-0bfd-6cae-b48d" name="Refugees" publicationId="a47f-374f-12cc-a194" page="69" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4c3-5302-f355-2e77" type="max"/>
       </constraints>
@@ -714,7 +309,14 @@ Structural Hits
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="15d5-30de-54bd-4a4a" name="Winter Scenario" publicationId="a47f-374f-12cc-a194" page="70" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="15d5-30de-54bd-4a4a" name="Winter" publicationId="a47f-374f-12cc-a194" page="70" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b432-e498-23f5-a8de" type="max"/>
       </constraints>
@@ -730,6 +332,469 @@ Structural Hits
         <categoryLink id="3c33-cc78-e47a-36f4" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
         <categoryLink id="b8ec-45c7-f3f9-29b3" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="false"/>
       </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="bf9c-4ba6-f301-d6c3" name="Attack/Counter-Attack" publicationId="a47f-374f-12cc-a194" page="73" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="c4f1-dd61-fff3-502c" name="Attack/Counter-Attack" hidden="false">
+          <description>1. Both players roll D6 and add the number of scouts from their battlegroup. The player with the highest total chooses which corner will be his deployment zone, and his opponent automatically gets the opposite table corner.
+
+2. Place four objectives on the table. The player who has more scouts places first. Objectives can&apos;t be within 10&quot; of each other or a table edge.
+
+3. Roll D6. On a 1, add the Rainy Weather Scenario
+
+4. Players take turns deploying all recon units. These can be placed anywhere on their table corner, but not within 10&quot; of the line dividing the two sides. If one side has no scouts, then his opponent may place their recon anywhere on the table with Ambush Fire orders.
+
+5. Both players roll D6 and add the number of scouts from their battlegroup. The side with the highest total takes the first turn. On a tie, the side with the most scout units wins. If it is still a tie, then re-roll
+
+6. From turn 2 onwards D6* units are placed on the player&apos;s table edge, within 20&quot; of his table corner, as the rest of his forces arrive from reserve. Continue this each turn until all forces are on the tabletop. * In Comany-sized games, roll 2D6. * In Battalion-sized games roll 3D6</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8982-76c3-cf1e-b543" name="Meeting Engagement Scenario" hidden="false" targetId="bc91-cf64-e823-11c2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a474-3fde-37a0-2ab1" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="c4fe-7942-c091-60b1" name="Break Out" publicationId="a47f-374f-12cc-a194" page="84" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="3f03-3a34-c4dd-a4e3" name="Break Out" page="" hidden="false">
+          <description>**Escape: The attacker&apos;s units can exit the table via the defender&apos;s table edge. For every 3 units that do this, the defender draws a BR counter.
+
+**Ammo Low: The defender rolls a D6 for each vehicle with an ammo rating. On a 1, the vehicle has 2 shots left. On a 2, the vehicle has 4 shots left. If this amount exceeds the vehicle&apos;s ammo rating, then use the lower of the two numbers. The defender&apos;s vehicles can&apos;t be resupplied during the game.
+
+1. Both players roll a D6. The player with the highest roll picks a table edge, and the opponent gets the opposite edge. On a tie, the attacker chooses his edge.
+
+2. The attacker places a single objective on the table between 20-30&quot; from his table edge.
+
+3. Defender placed all defenses and 2D6 other units within 20&quot; of his table edge. All other units are in reserve, which arrive starting on turn 3. D3+1** units arrive each turn from his table edge, or from a side table edge up to 30&quot; away from the defender&apos;s table edge. Defender reserves arriving from a side table edge must be at least 10&quot; away from any enemy unit. ** In Company-sized games, roll D6+1 instead. In Battalion-sized games roll 2D6+1 instead.
+
+4. Attacker places all Reconnaissance units up to 20&quot; from his table edge. Attacker then places 2D6 other units up to 10&quot; from his table edge. All other units are in reserve, which start arriving on turn 2. D6* units arrive each turn from his table edge. * In Company-sized games roll 2D6 instead. In Battalion-sized games roll 3D6 instead.
+
+5. Defender gets D6 Ambush Fire orders
+
+6. Attacker takes first turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3778-4b58-96ef-4715" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4777-ad0f-b332-30e5" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="04fd-4fcc-eaf1-ea41" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc05-a8a3-90fa-48e8" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f6fc-1697-1709-5cd7" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="1e3a-f9e9-c7c4-8512" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="f74f-aea9-b071-a22b" name="Bridgehead Breakout" publicationId="a47f-374f-12cc-a194" page="75" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="9e44-7a45-4dfa-7ca0" name="Bridgehead Breakout" hidden="false">
+          <description>1. Set up a river, stream, or marshy ditch 5 to 10&quot; from one table edge. Put a bridge in the middle of it. The river is treated as difficult terrain (not impassible). Roll a D6 and add the number of scouts from your battlegroup. The player with the highest total starts on the side with the bridge.
+
+2. Place D3+2 objectives on the table. The first objective must be the bridge. After that, players take turns placing objectives starting with the player who will be attacking the bridge. These objectives can&apos;t be within 10&quot; of each other or a table edge.
+
+3. Roll a D6. On a 1 add the Rainy Weather Scenario
+
+4. Both players choose D6 units from their battlegroup. Scouts must be included in these units before any other units can be chosen. Players take turns deploying these units. The player holding the bridge may deploy anywhere within 20&quot; of the bridge. The other player deploys anywhere within 15&quot; of their table edge. All other units are in reserve, and will arrive starting on turn 2 onwards. D6* units arrive each turn. * In Company-sized games roll 2D6. * In Battalion-sized games roll 3D6
+
+5. Each player rolls a D6 and add the number of scouts from their battlegroup. The side with the highest total takes first turn. On a tie, the player with the most scouts wins. If it is still a tie, then re-roll.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0abf-cc81-c30e-c59d" name="Meeting Engagement Scenario" hidden="false" targetId="bc91-cf64-e823-11c2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ed3a-19b3-cc5e-5e52" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="b2dc-5c1b-8242-e157" name="Das Hexenkessel" publicationId="a47f-374f-12cc-a194" page="81" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="f388-06eb-7abc-e149" name="Das Hexenkessel" hidden="false">
+          <description>**Terrain: Place a large farm, small hamlet, or village approximately in the center of the table (D3+3 buildings).
+
+**Setup: The defender gets an additional D3 BR
+
+1. Defender chooses a table edge. The attacker gets the other 3 table edges.
+
+2. Place D3 objectives on the table. Starting with the attacker, players take turns placing objectives. Objectives can&apos;t be placed within 10&quot; of each other or a table edge.
+
+3. Defender deploys his entire force within 30&quot; of the center of the table, but not within 10&quot; of any table edge.
+
+4. Attacker deploys all Reconnaissance units and 2D6 other units within 5&quot; of any of his table edges. The rest of his forces start in reserve, which begin arriving on turn 2. D6* units arrive each turn. Each reserve unit arrives randomly from one of the attacker&apos;s 3 table edges.
+
+5. 2D6 of the defender&apos;s units get Ambush Fire or Reserve Move orders.
+
+6. Attacker gets first turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="78ff-b8ce-4bff-50db" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5a9b-9840-5719-7b9b" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1a67-aaaa-5842-7875" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9d1-30d4-bdbb-aaea" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e9b7-c6f4-a86a-9413" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="bbea-5741-a6b7-6eaf" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="6c93-0ed4-ec4c-401f" name="D3 BR" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2500-5ff3-ca36-35cb" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b94c-2a80-9e10-89f8" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="cc2b-d806-800c-83a7" name="1" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="12e7-1536-f909-025b" name="2" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f3ee-935e-bb50-d1fb" name="3" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="9df9-cc5a-a6c2-a3e2" name="Defense Line" publicationId="a47f-374f-12cc-a194" page="76" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="b47e-30d5-0b5c-4345" name="Defense Line" hidden="false">
+          <description>1. Defender chooses which of the short table edges to use. Attacker gets the opposite table edge.
+
+2. Attacker splits his forces into a Probing force and the Main force. The Probing force must include all recon units and up to 3 other units. All other units start in reserve, which begin to arrive on turn 3. Reserves arrive D6* per turn from the attackers table edge.
+
+3. Defender deploys all defenses and up to 2D6 units in the middle third of the table. D3 units get Ambush Fire orders. All other units start in reserve and will arrive from turn 5 onwards. Reserves arrive D6* per turn from the defenders table edge. 
+
+4. Defender places 2 objectives in the middle third of the table and 1 objective anywhere else. Objectives can&apos;t be within 10&quot; of each other or a table edge. The defender can&apos;t claim an all objectives secured victory.
+
+5. Roll D6. On a 1 add the Rainy Weather Scenario
+
+6. Attacker deploys their probing force within 10&quot; of their table edge.
+
+7. Attacker randomly pins D3 of the defender&apos;s units due to a preliminary bombardment.
+
+8. Attacker gets first turn.
+
+* In Company-sized games roll 2D6. In Battalion-sized games roll 3D6</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6a09-aa88-1b3a-d50d" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="75e3-c580-0596-e431" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0051-123c-bfeb-1cc9" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9728-e168-5cb8-b1df" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7b0c-60f9-f843-1b3e" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="d91e-81ee-4db0-83e1" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="12e5-30ef-2975-c1ef" name="Delaying Action" publicationId="a47f-374f-12cc-a194" page="79" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="a54c-5670-a6ea-4d67" name="Delaying Action" hidden="false">
+          <description>**Victory: The defender can&apos;t claim an all objectives held victory. The defender wins if the attacker has not won by the end of turn 9. The attacker may move his units off the table via the defender&apos;s table edge. For each 3 units that leave, the defender draws a BR counter.
+
+1. The defender may move up to D6 terrain pieces up to 20&quot;.
+
+2. Place D3+1 objectives on the table. Starting with the defender, players take turns placing objectives. Objectives can&apos;t be placed within 10&quot; of each other or a table edge.
+
+3. For each non-defense unit in the defender&apos;s force, roll a D6. Do not roll for deployed guns and their tows separately. The same applies for infantry and their transports. On a 1-3, the unit is held in reserve. All the rest of the force is deployed on the defender&apos;s half of the table. Defenses may be deployed within three-quarters of the table. Reserves start arriving on turn 2. D6* units arrive each turn.
+
+4. Attacker deploys all Reconnaissance units within 10&quot; of his table edge. All other units start in reserve. Reserves start arriving on turn 1. D6* units arrive each turn.
+
+5. 2D6 of the defender&apos;s units get Ambush Fire
+
+6. Attacker gets first turn.
+
+* In Company-sized games roll 2D6. In Battalion-sized games roll 3D6.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="93ec-a7ce-9a61-d6d6" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f10e-ad88-ccee-990d" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fb34-f6ce-82f1-1bc2" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="682e-9b94-e7d5-4230" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6a0b-6a66-0c93-d633" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="76f9-d58f-271b-b205" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="a952-8550-50db-570f" name="Flanking Attack" publicationId="a47f-374f-12cc-a194" page="74" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="1716-f76b-9513-83d4" name="Flanking Attack" hidden="false">
+          <description>1. Place D3+2 objectives on the table. The first objective must be in the exact center of the table. After that, players take turns placing objectives starting with the player who has the most scouts in their battlegroup. Objectives can&apos;t be within 10&quot; of each other or a table edge.
+
+2. Roll a D6. On a 1, add the Rainy Weather scenario
+
+3. Randomly assign opposite table corners to each player. Both players roll a D6 and add the number of scouts in their battlegroup. The one with the highest total may choose which remaining corner to use for their flanking deployment zone. The opponent gets the opposite corner for their flank.
+
+4. Each player chooses D6 non-scout units from their force. Each player deploys these units within 20&quot; of their table corner. Each player then deploys all of their scout units within 20&quot; of their flanking corner. The remaining units are in reserve and will begin arriving on turn 2. D6* units arrive per turn until no units remain in reserve. * For Company-sized games roll 2D6. * For Battalian-sized games roll 3D6
+
+5. Both players roll D6 and add the number of scouts from their battlegroup. The side with the highest total takes first turn. On a tie, the side with the most scouts wins. If it is still a tie, then re-roll.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2c8e-af00-7799-7fb1" name="Meeting Engagement Scenario" hidden="false" targetId="bc91-cf64-e823-11c2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2af3-f0dd-bc8d-d62a" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="875b-4816-8535-93e0" name="High Ground" publicationId="a47f-374f-12cc-a194" page="77" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="f612-3af8-c313-597b" name="High Ground" hidden="false">
+          <description>1. Place a hill somewhere in the defender&apos;s half of the table. Put an objective on the hill. Starting with the attacker, each player places 1 objective. Objectives must not be within 10&quot; of each other or a table edge.
+
+2. Roll D6. On a 1 add the Rainy Weather Scenario
+
+3. Attacker must split his forces into 2 halves. The second half of his forces start in reserve and all arrive on turn 4.
+
+4. Defender must split his forces into 2 halves. The first half must include all defenses. The defender also gets an MMG Bunker, 10&quot; Trench, and a Minefield for free. Deploy the first half of the defenders forces anywhere on his half of the table. D6 of these units get an Ambush Fire order. The second half of the defender&apos;s forces start arriving from reserve on turn 4. D6 units arrive each turn until no units are left in reserve.
+
+5. Deploy the attacker&apos;s first half of his forces within 10&quot; of his table edge. Attacker gets first turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="58e4-5f6f-d3d4-32eb" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8432-defa-1c38-3ae9" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c986-5746-331b-811c" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="482c-3b0d-3efc-53c2" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b6ee-2838-da68-ad6a" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="4994-c23c-c788-e315" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="e997-48c4-773d-c4a2" name="Trenches" hidden="false" collective="false" import="true" targetId="c5c4-b617-f19c-4d89" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97b9-44c6-d4cd-43ff" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e31-89df-8b8e-e5f5" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="a9fc-8e57-2b86-77e1" name="Bunker" hidden="false" collective="false" import="true" targetId="9444-7913-643c-c45b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e04-abd0-3265-14a3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="296c-49f2-63de-2821" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5208-ecf1-977e-c6ed" name="M1919 .30 Cal Browning (Medium MG)" hidden="false" targetId="b13f-8e67-19a6-a0a6" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2695-a088-86f4-b665" name="Minefield" hidden="false" collective="false" import="true" targetId="d8e0-514c-5b53-b63f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3891-ce7c-8ecc-fbe5" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c52f-a2d0-58a1-bf0a" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="-50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="3c1c-4d24-4f6f-60a0" name="Recce Screen" publicationId="a47f-374f-12cc-a194" page="72" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="8f9d-df98-e0b2-747e" name="Recce Screen" hidden="false">
+          <description>1. Randomly assign opposing table corners to each player.
+
+2. Place 3 objectives on the table. The first objective is in the center of the table. Each player places an objective anywhere on their half of the table starting with the player with the most scout units in their battlegroup. Objectives can&apos;t be within 10&quot; of each other or a table edge.
+
+3. Each player deploys all of their Reconnaissance units anywhere on their half of the table, but not within 10&quot; of the dividing line between the 2 table halves. All other units are held in reserve. Roll a D6. Both player&apos;s reserves begin arriving after that many turns. Before reserves begin arriving, no player can claim victory for holding all objectives or for pinning or destroying all of the opponent&apos;s units. Each turn D6* units arrive from reserve. * In Company-sized games, roll 2D6. * In Battalion-sized games roll 3D6.
+
+4. Both players roll a D6 and add the number of scouts from their battlegroup. The player than wins takes first turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="784a-707c-50f3-5f9f" name="Meeting Engagement Scenario" hidden="false" targetId="bc91-cf64-e823-11c2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f139-1442-5c80-2696" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="fc13-bafc-f343-c0da" name="Strongpoint Assault" publicationId="a47f-374f-12cc-a194" page="78" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="518f-d90b-7433-6f73" name="Strongpoint Assault" hidden="false">
+          <description>1. Defender deploys all defenses plus one free bunker in the middle of their half of the table. No units may be deployed within 10&quot; of a table edge.
+
+2. Place 4 objectives. Players take turns placing objectives, starting with the defender. Objectives can&apos;t be within 10&quot; of each other or a table edge. The attacker&apos;s first objective must be placed on the defender&apos;s bunker.
+
+3. Roll a D6. On a 1, add the Rainy Weather Scenario
+
+4. Split the remainder of the defender&apos;s forces in half. Deploy the first half anywhere on their half of the table. D3 units get Ambush Fire. The other half of the defender&apos;s forces are in reserve. They will arrive starting on turn 4. D6* units arrive per turn until no units remain in reserve. * In Company-sized games roll 2D6. * In Battalion-sized games roll 3D6.
+
+5. The attacker chooses up to 6 units to be a flanking force. Secretly note if these units will arrive within 10&quot; of the table center from the left or right table edges. All other units are deployed within 20&quot; of the attacker&apos;s table edge. Starting on turn 3, roll a D6 and add the current turn number. If the result is 8 or more, then deploy the flanking force as noted earlier.
+
+6. Attacker randomly pins D3 of the defender&apos;s units due to a prepartory bombardment. Attacker takes first turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8871-31e3-1a4e-611e" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="756d-7046-0be5-4fee" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="87d4-d08e-093e-42db" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9aa-e7b5-991b-2c01" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="86a3-e09c-f96a-7879" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="eb58-769d-17c5-7b9e" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="d182-a6d4-18c2-ac30" name="Bunker" hidden="false" collective="false" import="true" targetId="9444-7913-643c-c45b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac12-a62c-5d06-2882" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded9-a47e-9a87-bab2" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="014c-4f32-0dda-3bed" name="The Hard Road" publicationId="a47f-374f-12cc-a194" page="86" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="e53f-cc22-1fa2-d931" name="The Hard Road" hidden="false">
+          <description>**Terrain: A road or track runs down the middle of the table. It does not have to be a straight line, and it doesn&apos;t have to be the only road. In the middle of the table, create another road that goes off a side table edge.
+
+1. Roll a D6. On a 1, recent rains cause all non-road movement to be dangerous terrain for vehicles.
+
+2. One player randomly picks which of the 2 table edges from the main road are his. The opponent gets the opposing table edge.
+
+3. Place D3+2 objectives on the table. The first objective must be the road junction. Starting with the player who has the most scout units in their battlegroup, each player takes turns placing objectives anywhere on the table. Objectives can&apos;t be placed within 10&quot; of each other or a table edge.
+
+4. Both players take turns deploying all Reconnaissance units within 20&quot; of their table edges.
+
+5. Each player rolls a D6. They take turns deploying that many other units within 10&quot; of their table edges. The rest of their forces are in reserve, which start arriving on turn 2. D6* units arrive each turn.
+
+6. Each player rolls a D6 and adds the number of scouts in their battlegroup. The player with the highest score takes first turn.
+
+* In Battalion-sized games, roll 2D6 instead</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="cc02-e0f2-0678-728f" name="Meeting Engagement Scenario" hidden="false" targetId="bc91-cf64-e823-11c2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3554-40cf-3af2-295d" name="Main Scenario" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="0967-62f1-7809-c0fb" name="Urban Assault" publicationId="a47f-374f-12cc-a194" page="82" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="8858-a1e2-96ca-94d0" name="Urban Assault" hidden="false">
+          <description>**Terrain: The entire table is a city, so place as many buildings as you can to create avenues and side roads. Some open areas can represent plazas, markets squares, or parks. You may include a single canal or river can be included with at least 2 intact bridges. Scatter rubble, craters, and vehicle wrecks all over the table.
+
+**Setup: Both players roll a D6. On a 1, that player draws a BR counter due to confusion from low visibility in an urban setting.
+
+1. Defender chooses a table edge. The attacker automatically gets the opposing edge.
+
+2. Place D3+2 objectives on the table. Starting with the defender, players take turns placing these objectives in non-hospital buildings.
+
+3. Defender deploys his defenses plus D3 other units on his half of the table. All other units start in reserve, which begin arriving on turn 3. D6* units arrive each turn.
+
+4. Attacker deploys his Reconnaissance units within 15&quot; of his table edge. Attacker then deploys D3 other units within 10&quot; of his table edge. All other units start in reserve, which begin arriving on turn 2. D6* units arrive each turn.
+
+5. D6 of the defender&apos;s units get Ambush Fire Orders.
+
+6. Each player rolls D6 and adds the number of scouts from their battlegroup. The player with the highest result takes the first turn. If tied, the attacker gets first turn.
+
+* In Battalion-sized games, roll 2D6.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b9d0-ff4b-8bad-ebc0" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9fbf-f075-c94d-14b2" name="Main Scenario" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="74a3-da25-143c-1336" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b94d-1e83-6b09-4660" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="856d-631b-fab7-4986" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="da07-48f6-ff4d-17ba" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="8e9e-7361-96b8-c916" name="Hospital" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0562-ce17-5986-fdbb" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2300-e2a5-97df-cd37" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="ad3c-95bf-2cbe-5e48" name="Hospital" hidden="false">
+                  <description>The defender nominates one building as a hospital. Mark it with a red cross on the roof. No units from either side may enter this building.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
