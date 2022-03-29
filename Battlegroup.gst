@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0a75-76ce-f956-7a9d" name="Battlegroup" revision="3" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0a75-76ce-f956-7a9d" name="Battlegroup" revision="5" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="1454-9043-cb31-7c4a" name="Overlord: Beyond the Beaches" shortName="O:BtB" publisher=""/>
     <publication id="a47f-374f-12cc-a194" name="Core Rulebook" shortName="CRB"/>
@@ -22,6 +22,7 @@
     <costType id="2abb-d074-7103-5ec3" name="Men" defaultCostLimit="-1.0" hidden="false"/>
     <costType id="b2f5-dd55-0081-8b9f" name="Restricted" defaultCostLimit="-1.0" hidden="true"/>
     <costType id="2612-abd7-eb77-6a12" name="Officers" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="30b9-666e-c128-9771" name="Scouts" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="2b3e-d39e-72f5-a9a2" name="Armored Vehicle">
@@ -101,9 +102,75 @@
       </characteristicTypes>
     </profileType>
   </profileTypes>
+  <categoryEntries>
+    <categoryEntry id="0891-5f08-126a-7f90" name="Forward Headquarters" hidden="false"/>
+    <categoryEntry id="a529-162f-ec0b-e961" name="Infantry" hidden="false"/>
+    <categoryEntry id="4226-01bf-f07d-976e" name="Tanks" hidden="false"/>
+    <categoryEntry id="3513-6f08-58bc-2d59" name="Artillery" hidden="false"/>
+    <categoryEntry id="b6a3-9f91-0350-5714" name="Defenses" hidden="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8d31-1ade-d61e-89b6" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry id="e62d-1ae8-3187-2f1c" name="Reconnaissance Support" hidden="false"/>
+    <categoryEntry id="e799-b477-f0ce-1f00" name="Engineer Support" hidden="false"/>
+    <categoryEntry id="c686-03b7-0d40-86e3" name="Logistics Support" hidden="false"/>
+    <categoryEntry id="77df-9257-c732-7d2a" name="Additional Fire Support" hidden="false"/>
+    <categoryEntry id="6ef2-c8e6-7b4a-f82a" name="Restricted" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="36d8-1e11-f56b-8a37" value="1.0">
+          <conditions>
+            <condition field="d842-fd8f-4744-0a94" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="36d8-1e11-f56b-8a37" value="1.0">
+          <conditions>
+            <condition field="d842-fd8f-4744-0a94" scope="roster" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="36d8-1e11-f56b-8a37" value="1.0">
+          <conditions>
+            <condition field="d842-fd8f-4744-0a94" scope="roster" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36d8-1e11-f56b-8a37" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="5e37-ddcf-0b7b-0d71" name="Scenario" hidden="false"/>
+    <categoryEntry id="19bc-5687-3b84-3d6c" name="Air Support" hidden="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="87c0-68aa-efac-2fdc" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry id="a3c9-a370-0607-a600" name="Specialist Support" hidden="false"/>
+    <categoryEntry id="8d31-1ade-d61e-89b6" name="Attack Defense Scenario" hidden="false"/>
+  </categoryEntries>
   <forceEntries>
-    <forceEntry id="b38c-a9a5-0d07-acaf" name="Standard" hidden="true"/>
+    <forceEntry id="9853-94ea-4f1e-0cab" name="Battlegroup" hidden="false">
+      <categoryLinks>
+        <categoryLink id="c17c-ea53-be22-ddfc" name="Artillery" hidden="false" targetId="3513-6f08-58bc-2d59" primary="false"/>
+        <categoryLink id="e3cb-199b-7eea-983a" name="Forward Headquarters" hidden="false" targetId="0891-5f08-126a-7f90" primary="false"/>
+        <categoryLink id="be2e-00a7-8813-eeb6" name="Infantry" hidden="false" targetId="a529-162f-ec0b-e961" primary="false"/>
+        <categoryLink id="b2a0-9897-3579-cb6e" name="Tanks" hidden="false" targetId="4226-01bf-f07d-976e" primary="false"/>
+        <categoryLink id="031e-206f-db3c-e703" name="Defenses" hidden="false" targetId="b6a3-9f91-0350-5714" primary="false"/>
+        <categoryLink id="3f4c-9f7c-aa5c-7272" name="Scenario" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="false"/>
+        <categoryLink id="1329-0743-e6ff-ed6f" name="Air Support" hidden="false" targetId="19bc-5687-3b84-3d6c" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
+  <entryLinks>
+    <entryLink id="bd21-42f7-a0e3-9f66" name="Rainy Weather" hidden="false" collective="false" import="true" targetId="87c0-68aa-efac-2fdc" type="selectionEntry"/>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="ffc4-eff4-8b72-0f78" name="Foxholes" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -111,12 +178,16 @@
           <description>Deploy up to 10 infantry in foxholes; they count as in reinforced cover until they move.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="cb3e-30c4-4e58-df7e" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a09e-bf6c-e1e7-0597" name="Barbed Wire" hidden="false" collective="false" import="true" type="upgrade">
@@ -125,12 +196,16 @@
           <description>Up to 10&quot; of barbed wire. It is an obstacle for vehicles and infantry.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="ff24-6bc7-9b3d-fbf2" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35f2-c5d8-ea6c-29c4" name="Anti-Tank Ditch/Embankment" hidden="false" collective="false" import="true" type="upgrade">
@@ -142,12 +217,17 @@
       <infoLinks>
         <infoLink id="62f5-bc2f-3a46-5668" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fc37-6ddb-f548-3228" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+        <categoryLink id="38f7-331a-d024-4de4" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f4c9-0884-0ed3-c45a" name="Improvised Barricades" hidden="false" collective="false" import="true" type="upgrade">
@@ -157,12 +237,16 @@
 </description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="d95c-260e-fc2d-1695" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ef14-f593-34a1-c31c" name="Improvised Road Block" hidden="false" collective="false" import="true" type="upgrade">
@@ -171,12 +255,16 @@
           <description>Something large and heavy across a road. Place on any road or track, anywhere on the table. It counts as an obstacle.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="1d04-c803-e104-8a8f" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f53d-a484-55b7-3ef1" name="Fortified Building" hidden="false" collective="false" import="true" type="upgrade">
@@ -185,12 +273,16 @@
           <description>A chosen building, anywhere on the table, counts as reinforced cover rather than hard cover.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="50da-edab-fb4f-0013" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d8e0-514c-5b53-b63f" name="Minefield" hidden="false" collective="false" import="true" type="upgrade">
@@ -199,12 +291,16 @@
           <description>A single mixed anti-tank and anti-personnel minefield.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="5ce4-233f-a423-c10a" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="01cb-cc50-f120-acfc" name="Booby-Trapped Building" hidden="false" collective="false" import="true" type="upgrade">
@@ -213,12 +309,16 @@
           <description>Any chosen building on the table has been wired with booby-traps. The first time an enemy unit enters the building roll a D6. On a 2+, it detonates and the unit take a 3/3+ HE hit. On a 1, there is a fault and the booby-trap fails to go off!</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="ef05-6b9a-83cf-0c28" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="25.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c5c4-b617-f19c-4d89" name="Trenches" hidden="false" collective="false" import="true" type="upgrade">
@@ -227,12 +327,16 @@
           <description>Up to 10&quot; of trenches which count as reinforced cover for infantry in them.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="b0ba-bfd1-06f5-815f" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bcc7-bd55-2474-4f9d" name="Anti-Tank Gun Dug-out" hidden="false" collective="false" import="true" type="upgrade">
@@ -241,12 +345,16 @@
           <description>Reinforced cover for a single anti-tank gun and crew until the gun moves. The gun must be seperately purchased from the army list as normal.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="eb8d-cc84-cf9a-3a96" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d425-acfe-d475-2abb" name="Anti-Tank Gun Bunker" hidden="false" collective="false" import="true" type="upgrade">
@@ -258,12 +366,16 @@
       <infoLinks>
         <infoLink id="2ae8-a171-e56e-13a4" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="74a0-d9a5-7826-3247" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="01e4-e4b2-73f5-5bf6" name="Gun Dug-out" hidden="false" collective="false" import="true" type="model">
@@ -272,12 +384,16 @@
           <description>Reinforced cover for a single gun and crew until the gun moves. The gun must be purchased from the army list.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="7b8d-b587-23d3-73dc" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d5d1-a2e4-ac06-ffdc" name="Sniper Hideout" hidden="false" collective="false" import="true" type="unit">
@@ -292,12 +408,34 @@
         <infoLink id="40ad-894d-a94a-105f" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
         <infoLink id="5b3a-1aca-7422-89d1" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f1fb-16ba-952c-198b" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="87c0-68aa-efac-2fdc" name="Rainy Weather" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="769b-f000-98a4-d909" name="Rainy Weather" hidden="false">
+          <description>Inclement weather has grounded all air cover. Any aircraft counters drawn from the pot automatically fail to arrive. The counters are treated as 1s instead.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f1b7-2a90-a8f9-4f66" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -327,6 +465,7 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cd47-6afd-05dd-92fe" name="2" hidden="false" collective="false" import="true" type="upgrade">
@@ -343,6 +482,7 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="faab-2c1e-56a6-9768" name="5" hidden="false" collective="false" import="true" type="upgrade">
@@ -359,6 +499,7 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5c8f-7df3-6a6f-92e1" name="3" hidden="false" collective="false" import="true" type="upgrade">
@@ -375,6 +516,7 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="26cb-299e-e009-ca0f" name="4" hidden="false" collective="false" import="true" type="upgrade">
@@ -391,6 +533,7 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="aebb-44f5-54e6-98a3" name="6" hidden="false" collective="false" import="true" type="upgrade">
@@ -407,6 +550,7 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

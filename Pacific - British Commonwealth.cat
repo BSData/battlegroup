@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1fb8-6b20-42d5-45cc" name="Pacific - British Commonwealth" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1fb8-6b20-42d5-45cc" name="Pacific - British Commonwealth" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a01d-3f8a-669a-66ce" name="Forward Headquarters" hidden="false"/>
     <categoryEntry id="fa4e-0934-28b3-1865" name="Infantry" hidden="false">
@@ -110,7 +110,7 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbed-e014-6ece-f4e3" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="49a3-064a-2b0b-29d8" name="Support Unit" hidden="true">
+    <categoryEntry id="49a3-064a-2b0b-29d8" name="Support Unit" hidden="false">
       <modifierGroups>
         <modifierGroup>
           <modifiers>
@@ -4040,6 +4040,12 @@
       <infoLinks>
         <infoLink id="698a-8d37-f9e9-3ed2" name="Timed Airstrike" hidden="false" targetId="3f26-26f3-280b-e6f5" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0972-255c-3ff3-4061" name="Additional Fire Support" hidden="false" targetId="a644-7bf1-cf88-7dd2" primary="true"/>
+        <categoryLink id="11b8-3842-2360-55d5" name="Artillery Support" hidden="false" targetId="cdff-62d4-6596-48a8" primary="false"/>
+        <categoryLink id="ab9c-51b5-1e07-d76e" name="FHQ Support" hidden="false" targetId="a525-76c0-7370-80db" primary="false"/>
+        <categoryLink id="850f-d999-a615-fb88" name="Support Unit" hidden="false" targetId="49a3-064a-2b0b-29d8" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cc2b-2535-5bd3-34bb" name="P-47 Lightning Fighter-Bomber" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4477,6 +4483,12 @@
       <infoLinks>
         <infoLink id="812a-33d9-98c6-76b7" name="British Fire Mission Requests" hidden="false" targetId="b1a3-c6db-1d6b-e186" type="infoGroup"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4e94-31af-3d2d-e124" name="Additional Fire Support" hidden="false" targetId="a644-7bf1-cf88-7dd2" primary="true"/>
+        <categoryLink id="df60-fdc4-b3bc-f30a" name="Artillery Support" hidden="false" targetId="cdff-62d4-6596-48a8" primary="false"/>
+        <categoryLink id="89ec-ffcd-3136-b7c9" name="FHQ Support" hidden="false" targetId="a525-76c0-7370-80db" primary="false"/>
+        <categoryLink id="7933-4d9c-df31-8b2f" name="Support Unit" hidden="false" targetId="49a3-064a-2b0b-29d8" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7aa5-79e6-aa02-7288" name="Off-Table Artillery Battery" hidden="false" collective="false" import="true">
           <constraints>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b64e-1a62-87c3-e0a0" name="Library - China" revision="7" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b64e-1a62-87c3-e0a0" name="Library - China" revision="8" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule id="6e7c-e48e-029b-f794" name="Anti-Tank Grenade Bundle" hidden="false">
-      <description>An Anti-Tank Grenade Bundle counts as an anti-tank grenade, with an increased penetration value of 8. If a hit is scored the user is also removed as a casualty. No morale test is taken for this loss.</description>
+      <description>An Anti-Tank Grenade Bundle counts as an anti-tank grenade, with an increased penetration value of 8. In close assault against infantry, this model causes 7 / 3+ casualties from the HE blast. If a hit is scored the user is also removed as a casualty. No morale test is taken for this loss.</description>
     </rule>
     <rule id="31da-6880-09f7-dfba" name="Well Concealed" hidden="false">
       <description>The Japanese have disguised all their positions very well. All Defenses, and any Japanese units in them, have an additional -1 to being Spotted for Aimed Fire for the entire game. This modifier is lost if a unit moves out of the defenses.</description>
