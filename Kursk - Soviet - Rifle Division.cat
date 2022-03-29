@@ -1716,6 +1716,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="69d9-74a2-459a-f104" name="Wire Team" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="82e0-fa06-cd0d-e5ef" name="New CategoryLink" hidden="false" targetId="0891-5f08-126a-7f90" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="59cf-d139-83f4-b716" name="Wire Team" hidden="false" collective="false" import="true" type="model">
           <constraints>
