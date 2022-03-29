@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b670-8c36-f9a0-4337" name="Library - Russia" revision="2" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b670-8c36-f9a0-4337" name="Library - Russia" revision="2" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="12c5-c767-5784-ce71" name="Mortar Pit" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -24,6 +24,7 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -33,6 +34,7 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1aa8-ccf0-2c0c-4456" name="Sniper Hideout" hidden="false" collective="false" import="true" type="upgrade">
@@ -61,6 +63,7 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -70,6 +73,7 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="863a-391f-2d76-465a" name="Maxim Machine Gun Dug-out" hidden="false" collective="false" import="true" type="upgrade">
@@ -94,6 +98,7 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -103,6 +108,7 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="32e6-d8cb-f2ee-097d" name="Dug-in T-34" hidden="false" collective="false" import="true" type="upgrade">
@@ -131,6 +137,7 @@
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -140,6 +147,7 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="56b9-3ac6-0f1f-a976" name="Dug-in T-34 Platoon" hidden="false" collective="false" import="true" type="upgrade">
@@ -168,6 +176,7 @@
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -177,6 +186,7 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3c36-829c-1d8a-2a60" name="&apos;For the Motherland!&apos;" hidden="false" collective="false" import="true" type="upgrade">
@@ -212,6 +222,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5e1a-bb1e-2936-8841" name="2" hidden="false" collective="false" import="true" type="upgrade">
@@ -228,6 +239,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="97e3-8c88-162a-d1cf" name="3" hidden="false" collective="false" import="true" type="upgrade">
@@ -244,6 +256,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="49ef-d9da-adf4-63f3" name="4" hidden="false" collective="false" import="true" type="upgrade">
@@ -260,6 +273,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4478-2f63-853c-de32" name="5" hidden="false" collective="false" import="true" type="upgrade">
@@ -276,6 +290,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c6f3-d99e-ad9b-38f2" name="6" hidden="false" collective="false" import="true" type="upgrade">
@@ -292,6 +307,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -303,6 +319,7 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="52da-1ed9-9a2a-0b84" name="Counter Bombardment" hidden="false" collective="false" import="true" type="upgrade">
@@ -331,6 +348,7 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8886-e423-e671-0ae0" name="Anti-Tank Rifle Team Hideout" hidden="false" collective="false" import="true" type="upgrade">
@@ -355,6 +373,7 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -364,6 +383,7 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f3e5-8d5c-e56e-8d8f" name="Command Bunker" hidden="false" collective="false" import="true" type="upgrade">
@@ -398,6 +418,7 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -407,6 +428,7 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f475-3ef4-0636-86ae" name="Artillery Observation Post" hidden="false" collective="false" import="true" type="upgrade">
@@ -440,6 +462,7 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -449,6 +472,7 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b040-62ca-2a3a-c2b8" name="Maxim Machine Gun Pillbox" hidden="false" collective="false" import="true" type="upgrade">
@@ -477,6 +501,7 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -486,6 +511,7 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a802-1de1-12e2-75b4" name="Dug-in KV-1E" hidden="false" collective="false" import="true" type="upgrade">
@@ -515,6 +541,7 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -524,6 +551,7 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4711-87ed-952e-d206" name="Off-table 76.2mm ZiS-3 Anti-Tank Shot" hidden="false" collective="false" import="true" type="upgrade">
@@ -538,9 +566,33 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="525e-fec4-d755-fb72" name="Mine Dog" hidden="false">
+      <description>At close range (5&quot;), an anti-tank Mine Dog may attack a German vehicle by using the Infantry Assault order, then rolling a D6.  Each dog can only be used once.
+
+Roll Result
+1	&apos;Damn You Shepski!&apos;	The dog scores an AP hit against the rear armor of the closest friendly Russian armored vehicle within 10&quot; of the dog.
+
+2-4	Casualty: The dog is killed by defensive fire and removed from play.
+
+5	Hit!:  The dog scores an AP4 hit against the target&apos;s side armor.
+
+6	Critical Hit!:  The dog scores an AP4 hit against the target&apos;s rear armor.</description>
+    </rule>
+    <rule id="031e-c338-e3e4-c2eb" name="Stal! Stal! Stal!" hidden="false">
+      <description>Instead of ordering each vehicle individually, the Russian player may use this special order to activate a D6 worth of light, medium, or lend-lease tanks, instead.
+
+For each order used in the way, roll a D6.  This many units with the keyword &apos;Stal! Stal! Stal!&apos; may then be activated.  The player may choose to issue this special order multiple times per turn, but each time it must affect different tanks- each vehicle may still only be activated once per turn.
+
+Each tank activated by this order makes two normal moves (which must be directly toward an enemy unit or the opponent&apos;s table edge), and then can take a single Area Fire shot (HE or small arms).
+
+Cannot be applied to Heavy Tanks, Assault Guns, or Tank Destroyers.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="4667-3353-1989-c4c0" name="Bren Carrier" hidden="false" typeId="716e-fc18-48ff-e719" typeName="Armored Transports">
       <characteristics>
@@ -1820,6 +1872,132 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
         <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">4 Men</characteristic>
         <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
         <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Senior Officer, Mortar Spotter, Unique</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7d25-dd94-bf1f-bda6" name="Bell P-39Q Airacobra" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
+      <characteristics>
+        <characteristic name="Role" typeId="dacc-dd5d-6d45-0bbf">Fighter</characteristic>
+        <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d">3</characteristic>
+        <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce">1x 37mm Automatic Gun M4
+2x MGs [.50 cal AN/M2 Browning]</characteristic>
+        <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="aba0-f6da-ab03-32f8" name="Bell P-39Q Airacobra - 2x Small Bombs" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
+      <characteristics>
+        <characteristic name="Role" typeId="dacc-dd5d-6d45-0bbf">Fighter</characteristic>
+        <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d">3</characteristic>
+        <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce">1x 37mm Automatic Gun M4
+2x MGs [.50 cal AN/M2 Browning]</characteristic>
+        <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4">2x Small Bombs  [ФАБ-100]</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3bbf-13b2-37e6-c801" name="IL-2 Sturmovik - 2x PTAB Bombs" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
+      <characteristics>
+        <characteristic name="Role" typeId="dacc-dd5d-6d45-0bbf">Fighter Bomber</characteristic>
+        <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d">4</characteristic>
+        <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce">4x MGs [7.62mm ShKAS]</characteristic>
+        <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4">2x PTAB Bombs [ПТАБ-2.5]</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f632-110d-77a2-65a2" name="IL-2 Sturmovik - 4x Small Bombs" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
+      <characteristics>
+        <characteristic name="Role" typeId="dacc-dd5d-6d45-0bbf">Fighter Bomber</characteristic>
+        <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d">4</characteristic>
+        <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce">4x MGs [7.62mm ShKAS]</characteristic>
+        <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4">4x Small Bombs [ФАБ-100]</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="aa8f-d7f8-0457-457e" name="IL-2 Sturmovik - 8x 82mm Rockets" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
+      <characteristics>
+        <characteristic name="Role" typeId="dacc-dd5d-6d45-0bbf">Fighter Bomber</characteristic>
+        <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d">4</characteristic>
+        <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce">4x MGs [7.62mm ShKAS]</characteristic>
+        <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4">8x 82mm Rockets [RS-82]</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ad8a-744b-229a-7e54" name="IL-2M-37 Sturmovik - 2x 37mm Cannons" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
+      <characteristics>
+        <characteristic name="Role" typeId="dacc-dd5d-6d45-0bbf">Fighter Bomber</characteristic>
+        <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d">4</characteristic>
+        <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce">4x MGs [7.62mm ShKAS]
+2x 37mm Cannons [Нудельман - Суранов НС-37]</characteristic>
+        <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="441e-e20e-45cd-d8bd" name="IL-4 Long Range Bomber - 5x Large Bombs" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
+      <characteristics>
+        <characteristic name="Role" typeId="dacc-dd5d-6d45-0bbf">Fighter Bomber</characteristic>
+        <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d">4</characteristic>
+        <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce">-</characteristic>
+        <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4">5x Large Bombs [ФАБ-500]</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="16e6-b8e6-cb88-d391" name="PE-2 Dive Bomber - 4x Large Bombs" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
+      <characteristics>
+        <characteristic name="Role" typeId="dacc-dd5d-6d45-0bbf">Dive Bomber</characteristic>
+        <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d">4</characteristic>
+        <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce">2x MGs [7.62mm ShKAS]</characteristic>
+        <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4">4x Large Bombs [ФАБ-500]</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c649-38b1-4231-738b" name="PE-2 Dive Bomber - 8x Small Bombs" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
+      <characteristics>
+        <characteristic name="Role" typeId="dacc-dd5d-6d45-0bbf">Dive Bomber</characteristic>
+        <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d">4</characteristic>
+        <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce">2x MGs [7.62mm ShKAS]</characteristic>
+        <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4">8x Small Bombs [ФАБ-100]</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b0ae-0f51-2aa7-b798" name="Polikarpov PO-2" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
+      <characteristics>
+        <characteristic name="Role" typeId="dacc-dd5d-6d45-0bbf">Scout Plane</characteristic>
+        <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d">2</characteristic>
+        <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce">1x MG</characteristic>
+        <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1b83-d42b-83ba-9c81" name="Yakovlev Yak-1/-9" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
+      <characteristics>
+        <characteristic name="Role" typeId="dacc-dd5d-6d45-0bbf">Fighter</characteristic>
+        <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d">3</characteristic>
+        <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce">20mm Cannon</characteristic>
+        <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e745-35d2-59cf-1c01" name="Yakovlev Yak-1/-9 - 2x Small Bombs" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
+      <characteristics>
+        <characteristic name="Role" typeId="dacc-dd5d-6d45-0bbf">Fighter</characteristic>
+        <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d">3</characteristic>
+        <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce">20mm Cannon</characteristic>
+        <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4">2x Small Bombs  [ФАБ-100]</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="39ad-30a4-3c8f-b647" name="IL-2 Sturmovik" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
+      <characteristics>
+        <characteristic name="Armor - Front" typeId="f03f-8784-ea22-a0db"/>
+        <characteristic name="Armor - Side" typeId="5c7c-d368-1584-0078"/>
+        <characteristic name="Armor - Rear" typeId="192d-9b21-0a20-6e22"/>
+        <characteristic name="Movement - Off-Road" typeId="e089-d550-6ddf-d6b2"/>
+        <characteristic name="Movement - Road" typeId="968e-f708-5851-99dd"/>
+        <characteristic name="Movement - Special" typeId="13df-7dca-cc44-169d"/>
+        <characteristic name="Ammo Capacity (Primary)" typeId="427a-8333-e329-d8de"/>
+      </characteristics>
+    </profile>
+    <profile id="902a-0d09-b11d-ded1" name="Dog Handler Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+      <characteristics>
+        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">1 Man</characteristic>
+        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2">Mine Dog</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3428-0123-3056-2f6e" name="Horses" hidden="false" typeId="6e73-f403-d9c9-a941" typeName="Soft Skin Vehicle">
+      <characteristics>
+        <characteristic name="Movement - Off-Road" typeId="217e-e3a8-2912-2a45">8&quot;</characteristic>
+        <characteristic name="Movement - Road" typeId="ace7-f938-5dbf-8054">10&quot;</characteristic>
+        <characteristic name="Hits" typeId="a689-65f7-5e80-6f7e">1</characteristic>
+        <characteristic name="Transport Capacity" typeId="5e82-8684-8ca0-2ebe">Mounted Infantry</characteristic>
+        <characteristic name="Special" typeId="28a2-b3e1-959f-33a8">Cavalry Charge</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
