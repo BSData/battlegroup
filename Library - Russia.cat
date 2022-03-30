@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b670-8c36-f9a0-4337" name="Library - Russia" revision="2" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b670-8c36-f9a0-4337" name="Library - Russia" revision="3" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="12c5-c767-5784-ce71" name="Mortar Pit" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -402,6 +402,10 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
         <infoLink id="7741-8062-b834-cbf7" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
         <infoLink id="6f4f-733a-4d7e-ed76" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5760-3e5c-97ad-4fb7" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+        <categoryLink id="05e8-4dc2-1c90-8102" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4319-4d1d-4692-1411" name="Command Bunker Team" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -426,7 +430,6 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -446,6 +449,10 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
         <infoLink id="f397-a75c-d504-fda4" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
         <infoLink id="d73a-a85a-741e-79ec" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3a95-adf1-4861-faa5" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
+        <categoryLink id="38bf-90f9-b1b2-2265" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="30a6-b4a6-6359-d1b8" name="Forward Observer Team" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -470,7 +477,6 @@ Also, roll a D6 for each enemy unit already deployed. On a 6 the unit is marked 
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="26.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>

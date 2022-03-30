@@ -1786,6 +1786,240 @@
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="caa7-daee-49e0-3488" name="Heavy Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="b867-f33d-e696-c298" name="New CategoryLink" hidden="false" targetId="3513-6f08-58bc-2d59" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8e8b-1b4c-912b-e185" name="Unit Composition: 1x Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="faa2-4742-4972-24cc">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce4d-5f08-877f-3b31" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf0d-530a-eada-1a31" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2bf7-d188-4323-eccb" name="152mm/L24 Battery" hidden="false" collective="false" import="true" type="unit">
+              <selectionEntries>
+                <selectionEntry id="29b7-c3d5-b15d-8175" name="152mm/L24 Howitzer [M-10]" hidden="false" collective="false" import="true" type="model">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="714f-79a3-b005-b261" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ef1-7ecb-4732-3b20" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="eae9-b45b-b642-3eb5" name="152mm/L24 гаубица обр. 1938 г. [М-10]" hidden="false" targetId="4beb-48e9-3bc6-13c2" type="profile"/>
+                    <infoLink id="2ef8-fa3c-6cb7-6771" name="Artillery Crew [152mm]" hidden="false" targetId="ff1e-4806-2b43-3f8b" type="profile"/>
+                    <infoLink id="37b9-ccf9-decf-60c9" name="Tрёхлинейная Bинтовка обр. 1891 г. (Rifle)" hidden="false" targetId="6187-e1d7-ce96-4d03" type="profile"/>
+                    <infoLink id="964d-7c6b-9401-d824" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="156f-688c-40f6-817a" name="Add Horse-drawn Limber" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04dc-22bd-3367-10e9" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="7d30-36ea-9d95-98dc" name="Horse-drawn Limber" hidden="false" targetId="68dc-832c-592f-3684" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0643-6f20-6397-13e6" name="3-Man Loader Team" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e84a-4c96-becd-9c63" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="2679-3911-1ac8-1691" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
+                        <infoLink id="4679-24e2-b076-6e1b" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
+                        <infoLink id="49d6-d6ec-3f7a-9ac6" name="Tрёхлинейная Bинтовка обр. 1891 г. (Rifle)" hidden="false" targetId="6187-e1d7-ce96-4d03" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="faa2-4742-4972-24cc" name="122mm/L23 Battery" hidden="false" collective="false" import="true" type="unit">
+              <selectionEntries>
+                <selectionEntry id="6bc3-1e23-e826-2e86" name="122mm/L23 Howitzer [M-30]" hidden="false" collective="false" import="true" type="model">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddfb-f1fe-9714-b207" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4efa-04e0-2e7e-2cf5" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="e603-0578-7a4b-1f35" name="122mm/L23 гаубица обр. 1938 г. [M-30]" hidden="false" targetId="cc17-14ec-846f-c2da" type="profile"/>
+                    <infoLink id="73d7-0700-adf0-b83d" name="Artillery Crew [122mm]" hidden="false" targetId="090e-8c00-f439-3dd9" type="profile"/>
+                    <infoLink id="f06c-5ef9-e0b1-b746" name="Tрёхлинейная Bинтовка обр. 1891 г. (Rifle)" hidden="false" targetId="6187-e1d7-ce96-4d03" type="profile"/>
+                    <infoLink id="b940-4aa4-e122-3932" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="8a25-153e-66a5-b2a5" name="Add Horse-drawn Limber" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e92-db8a-73bb-bdef" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="1e0a-3270-f277-3c67" name="Horse-drawn Limber" hidden="false" targetId="68dc-832c-592f-3684" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1832-2c4f-d0b4-c8a8" name="3-Man Loader Team" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1eb-a820-757a-a308" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="0364-7f5a-5c40-68c6" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
+                        <infoLink id="1173-e8f8-7822-be46" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
+                        <infoLink id="fe29-c0f6-8c86-996a" name="Tрёхлинейная Bинтовка обр. 1891 г. (Rifle)" hidden="false" targetId="6187-e1d7-ce96-4d03" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cc19-ccae-e528-6dde" name="122mm/L46 Battery" hidden="false" collective="false" import="true" type="unit">
+              <selectionEntries>
+                <selectionEntry id="6bf4-e2dd-1550-4f26" name="122mm/L46 Cannon [A-19]" hidden="false" collective="false" import="true" type="model">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fce-ce7d-b9a4-4ab7" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="780d-27e1-b9af-9a7b" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="0eac-5c5e-9215-a53a" name="122mm/L46 корпусная пушка обр. 1931/37 г. [А-19]" hidden="false" targetId="5f9b-640c-6f56-3e1b" type="profile"/>
+                    <infoLink id="c3bd-ebeb-a6fb-09b3" name="Artillery Crew [122mm]" hidden="false" targetId="090e-8c00-f439-3dd9" type="profile"/>
+                    <infoLink id="54ce-126e-2339-99ea" name="Tрёхлинейная Bинтовка обр. 1891 г. (Rifle)" hidden="false" targetId="6187-e1d7-ce96-4d03" type="profile"/>
+                    <infoLink id="3d2f-3a9e-cdb7-b47c" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="5589-c163-253d-59a4" name="Add Horse-drawn Limber" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5b4-f354-d9fd-5c74" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="0501-0668-1954-1055" name="Horse-drawn Limber" hidden="false" targetId="68dc-832c-592f-3684" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="02cd-4b89-51e3-d8d6" name="3-Man Loader Team" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cce7-455c-4d6d-4fb4" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="6f16-f2cc-0d97-7157" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
+                        <infoLink id="23a6-cdbc-b499-09b5" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
+                        <infoLink id="dddf-0c35-e1b0-ef5e" name="Tрёхлинейная Bинтовка обр. 1891 г. (Rifle)" hidden="false" targetId="6187-e1d7-ce96-4d03" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="36.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="153a-0ce4-b45b-a068" name="Additional Fire Support" hidden="false" collective="false" import="true" targetId="0623-abf3-a4dc-0722" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7166-86d2-3cf9-25e1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="86.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="7140-3f7c-783c-f152" name="Rifle Platoon" hidden="false" collective="false" import="true" targetId="b377-3730-99cf-7240" type="selectionEntry">
@@ -1807,7 +2041,7 @@
     </entryLink>
     <entryLink id="220e-8b2a-de44-35b5" name="&apos;For the Motherland!&apos;" hidden="false" collective="false" import="true" targetId="3c36-829c-1d8a-2a60" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="67a7-c22b-6edb-f6f2" name="New CategoryLink" hidden="false" targetId="0891-5f08-126a-7f90" primary="true"/>
+        <categoryLink id="033f-8257-2015-9047" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3836-db86-45a7-5a48" name="Anti-Tank Ditch/Embankment" hidden="false" collective="false" import="true" targetId="35f2-c5d8-ea6c-29c4" type="selectionEntry">
@@ -2315,44 +2549,6 @@
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4bd9-8c25-8c9f-d782" name="Reconnaissance Support" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="1e33-5e3e-552e-f23e" name="Aerial Reconnaissance" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2eb0-01bc-db32-9918" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="e476-f88b-e1db-71f2" name="Scout (2)" hidden="false" targetId="3708-42cd-a708-ec1a" type="rule"/>
-            <infoLink id="31f5-9b3a-1b31-135d" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
-            <infoLink id="46c5-27ff-8a1f-2005" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="ff56-1eed-0b4d-a225" name="Polikarpov PO-2" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b5d-4de5-043f-d921" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0dd-e78f-46a6-2d83" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="2c12-52d5-1c1e-49e2" name="Polikarpov PO-2" hidden="false" targetId="b0ae-0f51-2aa7-b798" type="profile"/>
-                <infoLink id="f4ea-263a-600f-8085" name="1x MGs [7.62mm ShKAS]" hidden="false" targetId="b870-bddf-f8bd-c9ed" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="50.0"/>
-            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
-            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="8965-84d2-9f4a-fc49" name="Armored Car" hidden="false" collective="false" import="true" type="unit">
           <categoryLinks>
             <categoryLink id="9457-1b6d-5c95-6e16" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
@@ -2538,6 +2734,64 @@
           <costs>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="44c9-bf14-193c-ab0b" name="Cavalry Squadron" hidden="false" collective="false" import="true" type="unit">
+          <infoLinks>
+            <infoLink id="b58c-e2e7-4fda-f721" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+            <infoLink id="365b-ce71-7c70-ef64" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
+            <infoLink id="1193-b3c9-e6c6-5687" name="Scout" hidden="false" targetId="d3dc-e766-4136-b3ad" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="4758-9b11-4ffe-ff04" name="Cavalry Rifle Team" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8635-794f-59a5-ed53" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87db-4a86-bb4e-abfb" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0eb1-3fcf-092b-2d0b" name="Rifle Team" hidden="false" targetId="d499-a230-d12c-084a" type="profile"/>
+                <infoLink id="ebda-6c24-3e93-66b6" name="Basic Infantry Small Arms" hidden="false" targetId="ef66-4733-28de-aff7" type="infoGroup"/>
+                <infoLink id="5d75-1d32-9a74-04d7" name="ДП-27 (Light MG)" hidden="false" targetId="7985-4ee2-51c5-9a5b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="8.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8a53-44ba-5e0d-1264" name="Horses" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca5c-2124-36a6-1afa" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e93-a5df-bf31-ed7a" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="9c96-f6c0-46cd-bc09" name="Cavalry Charge" hidden="false">
+                  <description>Once per game, a cavalry unit can make a special ‘Charge!’ move. This allows the unit to increase its speed to 12&quot; for that turn, but once a cavalry unit has charged, it cannot charge again.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="bd91-cd71-5d21-86c7" name="Horses" hidden="false" targetId="3428-0123-3056-2f6e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
