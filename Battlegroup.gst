@@ -419,7 +419,7 @@ Structural Hits
 
 1. Both players roll a D6. The player with the highest roll picks a table edge, and the opponent gets the opposite edge. On a tie, the attacker chooses his edge.
 
-2. The attacker places a single objective on the table between 20-30&quot; from his table edge.
+2. The attacker places a single objective on the table within 10&quot; of the opposing table edge. Neither side can claim an all objectives held victory.
 
 3. Defender placed all defenses and 2D6 other units within 20&quot; of his table edge. All other units are in reserve, which arrive starting on turn 3. D3+1** units arrive each turn from his table edge, or from a side table edge up to 30&quot; away from the defender&apos;s table edge. Defender reserves arriving from a side table edge must be at least 10&quot; away from any enemy unit. ** In Company-sized games, roll D6+1 instead. In Battalion-sized games roll 2D6+1 instead.
 
@@ -600,7 +600,7 @@ Structural Hits
 
 3. Defender deploys all defenses and up to 2D6 units in the middle third of the table. D3 units get Ambush Fire orders. All other units start in reserve and will arrive from turn 5 onwards. Reserves arrive D6* per turn from the defenders table edge. 
 
-4. Defender places 2 objectives in the middle third of the table and 1 objective anywhere else. Objectives can&apos;t be within 10&quot; of each other or a table edge. The defender can&apos;t claim an all objectives secured victory.
+4. Defender places 2 objectives in the middle third of the table and 1 objective anywhere else. Objectives can&apos;t be within 10&quot; of each other or a table edge.
 
 5. Roll D6. On a 1 add the Rainy Weather Scenario
 
@@ -1692,7 +1692,7 @@ Counter battery fire missions are only used when they are successful.  You may c
       <description>Both armies are on the move. Neither player may use defenses.</description>
     </rule>
     <rule id="4eea-aee8-23e8-a3d7" name="Defender" hidden="false">
-      <description>As the defender in an Attack/Defense scenario, you may use units from the Defenses category</description>
+      <description>As the defender in an Attack/Defense scenario, you may use units from the Defenses category. Defenders can&apos;t claim an all objectives held victory.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
