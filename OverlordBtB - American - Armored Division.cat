@@ -1450,6 +1450,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3686-baca-c8b3-5541" name="Mechanized Rifle Squad" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -1572,6 +1580,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cc39-0e08-330e-b39d" name="Medium Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -2613,6 +2629,30 @@
         <categoryLink id="f414-86f2-289c-62a2" name="New CategoryLink" hidden="false" targetId="19bc-5687-3b84-3d6c" primary="true"/>
         <categoryLink id="99e7-2158-303e-e528" name="New CategoryLink" hidden="false" targetId="19bc-5687-3b84-3d6c" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c59-4379-d03d-19d0" name="Time on Target Barrage" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ac57-8c94-0f9d-f7dc" name="Timed Barrage" hidden="false" targetId="2b1b-e5b6-033b-e9e2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="25a6-346c-4c07-defd" name="New CategoryLink" hidden="false" targetId="3513-6f08-58bc-2d59" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -3418,6 +3458,7 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cce1-e339-34b4-e766" name="Light Bridging Team" hidden="false" collective="false" import="true" type="unit">
@@ -4034,6 +4075,7 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="619a-34d1-6a88-4a66" name="M16 Halftrack" hidden="false" collective="false" import="true" type="model">
@@ -4048,6 +4090,7 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4090,6 +4133,7 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2809-2b0b-6b0a-12a1" name="M8 HMC" hidden="false" collective="false" import="true" type="model">
@@ -4108,6 +4152,7 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4206,19 +4251,6 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
-            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2e7b-e992-3530-c996" name="Time on Target Barrage" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="e431-be67-9a56-e6d7" name="Timed Barrage" hidden="false" targetId="2b1b-e5b6-033b-e9e2" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
