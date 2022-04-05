@@ -5,32 +5,32 @@
       <modifiers>
         <modifier type="increment" field="7518-55e6-7e83-b2ea" value="1.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="7518-55e6-7e83-b2ea" value="2.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="7518-55e6-7e83-b2ea" value="5.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="5cdf-fcbf-f97f-4993" value="1.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="5cdf-fcbf-f97f-4993" value="1.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="5cdf-fcbf-f97f-4993" value="1.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -147,6 +147,9 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="44.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d57-ee16-884d-6875" name="Mortar Pit" hidden="false" collective="false" import="true" type="unit">
@@ -1686,6 +1689,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d881-667f-09db-f468" name="Infantry Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -2155,6 +2166,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a92b-1c67-6305-6cac" name="Conscript Rifle Squad" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -2336,6 +2355,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3ebe-36b3-057a-4e2f" name="Indian National Army &apos;Guerilla&apos; Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -2507,6 +2534,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>

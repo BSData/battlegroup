@@ -5,32 +5,32 @@
       <modifiers>
         <modifier type="increment" field="6eef-7230-e4aa-e62e" value="2.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="5af4-3a21-bd0d-5d89" value="1.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="6eef-7230-e4aa-e62e" value="5.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="6eef-7230-e4aa-e62e" value="1.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="5af4-3a21-bd0d-5d89" value="1.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="5af4-3a21-bd0d-5d89" value="1.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>

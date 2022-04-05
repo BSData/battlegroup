@@ -5,32 +5,32 @@
       <modifiers>
         <modifier type="increment" field="7de8-963c-80d2-1deb" value="1.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="c229-1348-3c8a-257b" value="1.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="7de8-963c-80d2-1deb" value="3.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="c229-1348-3c8a-257b" value="1.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="c229-1348-3c8a-257b" value="1.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="750.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="7de8-963c-80d2-1deb" value="1.0">
           <conditions>
-            <condition field="d842-fd8f-4744-0a94" scope="roster" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+            <condition field="d842-fd8f-4744-0a94" scope="force" value="350.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -934,6 +934,7 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -944,6 +945,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ff82-c818-f8e3-8459" name="Armored Assault Pioneer Squad" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -1149,6 +1158,7 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1159,6 +1169,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b60d-2da8-7ff4-0d44" name="Armored Forward Observer" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1967,6 +1985,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="555e-ddbe-a417-b6e2" name="Armored Panzergrenadier Squad" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -2142,6 +2168,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="47cc-8fd8-40c7-6d36" name="Comms Relay Team" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -2688,6 +2722,7 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f5f3-490d-200b-7780" name="Motorycle Dispatch Rider" hidden="false" collective="false" import="true" type="unit">
@@ -2791,6 +2826,7 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f2a7-8f82-82cc-e18e" name="Off-Table Artillery Fire" hidden="false" collective="false" import="true" type="upgrade">
@@ -3039,6 +3075,7 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4ba5-8a8a-4446-c331" name="Panther Platoon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3110,6 +3147,7 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3120,6 +3158,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0fe0-6dfc-d3cc-dafe" name="Panzer Ace" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -3158,6 +3204,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="629d-01ff-eb74-d440" name="Panzer II" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -3719,6 +3773,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4356,6 +4411,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0c13-0d63-dfdb-cd88" name="Panzergrenadier Squad" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -4496,6 +4559,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d972-7b8c-cb32-7074" name="Self-Propelled Artillery" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -4540,6 +4611,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="401b-954a-6906-8c8d" name="Hummel" hidden="false" collective="false" import="true" type="model">
@@ -4558,6 +4630,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6019,6 +6092,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9095-0712-07c1-1c72" name="Heavy Bridging Unit" hidden="false" collective="false" import="true" type="unit">
@@ -6243,6 +6317,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="fddd-d3cc-c225-a99b" name="Sd.Kfz. 250/8" hidden="false" collective="false" import="true" type="model">
@@ -6261,6 +6336,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="e59c-038f-9b2f-2f58" name="Sd.Kfz. 250/9" hidden="false" collective="false" import="true" type="model">
@@ -6279,6 +6355,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="51ce-b318-d122-be61" name="Sd.Kfz. 232" hidden="false" collective="false" import="true" type="model">
@@ -7000,6 +7077,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="647a-96cc-5495-ef67" name="PzKpfw VI Tiger Platoon" hidden="false" collective="false" import="true" type="unit">
@@ -7090,6 +7168,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="e654-e086-f4b5-a5be" name="Marder III H" hidden="false" collective="false" import="true" type="model">
@@ -7105,6 +7184,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="ac35-58f7-b88c-29bc" name="Marder III M" hidden="false" collective="false" import="true" type="model">
@@ -7120,6 +7200,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="18c9-16e1-7f77-e7a4" name="Marder 38(t) PaK36(r)" hidden="false" collective="false" import="true" type="model">
@@ -7135,6 +7216,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
