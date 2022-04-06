@@ -2654,6 +2654,22 @@
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6fd6-beb4-ba03-d7ee" name="Bocage Terrain" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc22-efb4-5e49-20b0" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="5d28-aacc-0ef9-c883" name="Bocage Terrain" hidden="false">
+          <description>Bocage is hard cover, an obstacle for infantry, and impassible to non-tracked vehicles. Tracked vehicles must take a full Top Speed order to move to the other side of the bocage.
+
+Vehicles with a dozer blade or other hedge cutter device treat bocage as dangerous terrain and cut it down so that it acts as a normal hedge. Demolition charges can destroy up to 5&quot; of bocage per charge used.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1f09-4579-9e28-4403" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
+        <categoryLink id="a8f9-ea56-826a-54ee" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="2a23-ca43-40b2-2777" name=".30 cal MG Dug-out" hidden="false" collective="false" import="true" targetId="849c-8ecc-5350-cb13" type="selectionEntry">

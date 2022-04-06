@@ -1446,6 +1446,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1fe1-dc5c-0caa-0da4" name="Light Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -2325,6 +2333,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3bc7-f105-e485-9c34" name="Self-Propelled Tank Destroyer" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -2802,6 +2818,22 @@
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="ab02-64f7-17d6-4951" name="Bocage Terrain" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e777-2a52-10c6-9fe8" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="cec8-4451-0439-678e" name="Bocage Terrain" hidden="false">
+          <description>Bocage is hard cover, an obstacle for infantry, and impassible to non-tracked vehicles. Tracked vehicles must take a full Top Speed order to move to the other side of the bocage.
+
+Vehicles with a dozer blade or other hedge cutter device treat bocage as dangerous terrain and cut it down so that it acts as a normal hedge. Demolition charges can destroy up to 5&quot; of bocage per charge used.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4dd8-ce45-d406-72ba" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
+        <categoryLink id="2860-43f8-7df0-011e" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
