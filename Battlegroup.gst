@@ -340,31 +340,61 @@ Structural Hits
             <selectionEntry id="53c4-14f4-dc19-164b" name="-6 BR" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="-6.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="79e7-2f3f-c1a7-fa93" name="-1 BR" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="-1.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0865-b2e6-f952-7873" name="-2 BR" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="-2.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ff41-2242-849b-0c65" name="-3 BR" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="-3.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7ed6-f696-8ee3-1600" name="-4 BR" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="-4.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="041b-5962-daa3-3636" name="-5 BR" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="-5.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -995,6 +1025,154 @@ Structural Hits
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9614-38e4-f7ba-230b" name="End of the Rat Race" publicationId="0399-aa9d-2f19-2778" page="118" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="603a-b663-65b2-2af7" name="End of the Rat Race" hidden="false">
+          <description>**Terrain: A main road must run from one table edge to the opposite table edge. The defender places a road block somewhere along the road in their half of the table. Place a recon vehicle wreck about 20&quot; down the road.
+
+1. Place one objective on the roadblock, and one objective on the road at the defender&apos;s table edge.
+
+2. The attacker organizes their forces in a line with Reconnaissance units up front. This will be the order in which their forces arrive on the table.
+
+3. Defender deploys all defenses and 2D6 other units on their half of the table. Any unit may start with an Ambush Fire order. The rest of the defender&apos;s forces are reserves which begin arriving on turn 3. D6* units arrive each turn from the defender&apos;s table edge.
+
+4. Attacker deploys D6 units starting within 10&quot; of the table edge with the front of their line of forces. The rest of their forces begin arriving on turn 1. D6* units arrive each turn from with 10&quot; of the road on the attacker&apos;s table edge.
+
+5. The attacker gets first turn.
+
+* In company-sized games, roll 2D6 instead. In battalion-sized games, roll 3D6 instead.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1034-611d-4840-0822" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="855a-2851-271c-7fb4" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6d4f-2ce6-8088-7e7f" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fd1-2dc0-e9f0-b504" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="50b4-4cc7-5289-9e8d" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="7dc0-000a-1030-f114" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9775-aece-57c3-175c" name="Blind Fighting" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f25-aa26-a35a-fdea" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="4573-0fd0-2980-d577" name="Blind Fighting" hidden="false">
+          <description>All non-aircraft units are assigned a token to represent them on the table. Each player gets extra tokens as follows:
++1 token per officer
++D3 tokens for Squad-sized games
++2D3 tokens for Platoon-sized games
++3D3 tokens for Company-sized games
++4D3 tokens for Battalion-sized games
+
+A token is revealed when:
+* (Optional) Deploying a unit
+* (Optional) Giving an order to a unit
+* Firing while in the open
+* Observed during enemy Aimed Fire
+* Moving within 10&quot; of an enemy unit
+
+When a token is revealed, immediately deploy the unit it represents at the token&apos;s location. Tokens can only move up to 5&quot; (or less if their off-road speed is slower), and must be given either a Top Speed, Ambush Fire, or Reserve Move order. Extra tokens are revealed if they suffer casualties or are pinned.
+
+**Observing: When giving any order to a Mortar Spotter, Artillery Spotter, or Reconnaissance unit, you may attempt to roll an Observation test against any one enemy token in line of sight of that unit.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0f28-152c-82d8-5e06" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="35a3-5d0e-d0fa-fdae" name="D3 Extra Tokens" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="0828-adc9-4783-6ab0" name="Last Stand" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="379c-22a2-8410-13f3" name="Last Stand" hidden="false">
+          <description>**Terrain: Place 2 very large, fortified, industrial buildings in the center of the table. These buildings count as reinforced cover.  Each structure should be 4 to 8 floors tall including the roof. Note the staircases, ladders, and other entry points between each level. You may wish to lay these floors out separately to avoid moving models around inside hard to reach spaces.
+
+**Total Annihilation: The defender can&apos;t retreat, and thus can&apos;t lose by exceeding their BR total. Once their BR total is exceeded, they can no longer rally their units or use the Tactical Coordination order.
+
+**Very Large Structure: These buildings are very large and in high value areas. They can’t be destroyed like normal buildings since high command has given orders to limit damage to infrastructure. Demolition charges are not effective either and therefore can’t remove the building. Units in a building can’t fire at units on different floors of the same building. Furthermore, turret and hull mounted weapons don’t have the elevation to fire at units on the 3rd floor or higher.
+
+1. Defender chooses one table edge. The attacker automatically gets the other 3 table edges. The defender deploys all their forces inside the 2 buildings.
+
+2. Place one objective in the center of each floor of the two buildings. Do not measure vertical distance when capturing these objectives. The attacker does not draw a BR counter when the defender first captures these objectives.
+
+3. Attacker deploys all Reconnaissance and 2D6 other units up to 5&quot; from any of their 3 table edges. The rest of their forces start in reserve which begin arriving on turn 2. D6* units arrive each turn from one of the attacker&apos;s table edges. * In company-sized games, roll 2D6 instead. In battalion-sized games, roll 3D6 instead.
+
+4. 2D6 of the defender&apos;s units get Ambush Fire.
+
+5. Attacker randomly pins D6 enemy units. Attacker takes first turn.
+
+</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a8a4-38de-9667-8848" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f2e8-662a-08a1-eb16" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="75c5-51f4-48b7-30cf" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73c2-bcb8-3a00-812e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e653-c78e-a0cb-6397" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="1d21-1889-d378-2188" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
