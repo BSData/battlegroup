@@ -8,13 +8,17 @@
     <publication id="81cb-4a3a-e3ad-31f6" name="Overlord"/>
     <publication id="8c32-b046-2a64-3bc2" name="Blitzkrieg"/>
     <publication id="59ae-c7b7-82bc-6370" name="Tobruk"/>
-    <publication id="453b-316f-4cd1-83bd" name="Operation Torch"/>
+    <publication id="453b-316f-4cd1-83bd" name="Torch"/>
     <publication id="94e5-2245-aee1-a37d" name="Market Garden"/>
     <publication id="a36d-a5ba-0459-7e92" name="Spring Awakening"/>
     <publication id="3484-73ee-e32a-508f" name="Dispatches Issue 1" shortName="D-1"/>
     <publication id="9834-69c1-08f3-0e7a" name="Dispatches Issue 2"/>
     <publication id="8894-bc8f-b32a-f223" name="Dispatches Issue 3"/>
     <publication id="891e-dbba-3bad-3d88" name="Pacific War" shortName="Pacific"/>
+    <publication id="7b85-cc35-1342-d4c2" name="Stalingrad"/>
+    <publication id="81c0-54e3-199d-15db" name="Barbarossa"/>
+    <publication id="3f18-887c-dfc6-e291" name="Hidden Movement Homebrew"/>
+    <publication id="d625-5989-8601-3210" name="Chinese Homebrew"/>
   </publications>
   <costTypes>
     <costType id="d842-fd8f-4744-0a94" name="pts" defaultCostLimit="-1.0" hidden="false"/>
@@ -103,10 +107,42 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="0891-5f08-126a-7f90" name="Forward Headquarters" hidden="false"/>
-    <categoryEntry id="a529-162f-ec0b-e961" name="Infantry" hidden="false"/>
-    <categoryEntry id="4226-01bf-f07d-976e" name="Tanks" hidden="false"/>
-    <categoryEntry id="3513-6f08-58bc-2d59" name="Artillery" hidden="false"/>
+    <categoryEntry id="0891-5f08-126a-7f90" name="Forward Headquarters" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry id="a529-162f-ec0b-e961" name="Infantry" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry id="4226-01bf-f07d-976e" name="Tanks" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry id="3513-6f08-58bc-2d59" name="Artillery" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
     <categoryEntry id="b6a3-9f91-0350-5714" name="Defenses" hidden="false">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -163,6 +199,21 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8d83-2d45-faff-d849" type="max"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="7588-a541-97da-c713" name="Paratroopers" hidden="false"/>
+    <categoryEntry id="a076-3266-83b1-1bfa" name="Off-Table" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0828-adc9-4783-6ab0" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="75c5-51f4-48b7-30cf" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="9853-94ea-4f1e-0cab" name="Battlegroup" hidden="false">
@@ -204,6 +255,8 @@
       <modifiers>
         <modifier type="set" field="b85c-7dd4-1930-dba1" value="1.0">
           <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="09a4-393f-93dd-65e7" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0828-adc9-4783-6ab0" type="atLeast"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0967-62f1-7809-c0fb" type="atLeast"/>
           </conditions>
         </modifier>
@@ -621,26 +674,24 @@ Structural Hits
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9df9-cc5a-a6c2-a3e2" name="Defense Line" publicationId="a47f-374f-12cc-a194" page="76" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9df9-cc5a-a6c2-a3e2" name="The Bridge" publicationId="81c0-54e3-199d-15db" page="148" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="b47e-30d5-0b5c-4345" name="Defense Line" hidden="false">
-          <description>1. Defender chooses which of the short table edges to use. Attacker gets the opposite table edge.
+        <rule id="b47e-30d5-0b5c-4345" name="The Bridge" hidden="false">
+          <description>**Terrain: Put a river running across the middle of the table. Put a bridge in the center of the river. Roll a D6, on a 3+ the river is impassable. Otherwise the river is only dangerous terrain, and vehicles become immobilized if they roll a 1 on their dangerous terrain move. Immobilized vehicles that have no guns must be abandoned, which causes a BR counter to be drawn.
 
-2. Attacker splits his forces into a Probing force and the Main force. The Probing force must include all recon units and up to 3 other units. All other units start in reserve, which begin to arrive on turn 3. Reserves arrive D6* per turn from the attackers table edge.
+**Take the Bridge Intact: The attacker&apos;s orders are to secure the bridge intact. No Pre-Registered Target Points or spotter rounds can be positioned within 10&quot; of the bridge. For every 3 units the attacker moves across the river, the defender must draw a BR counter.
 
-3. Defender deploys all defenses and up to 2D6 units in the middle third of the table. D3 units get Ambush Fire orders. All other units start in reserve and will arrive from turn 5 onwards. Reserves arrive D6* per turn from the defenders table edge. 
+1. The player with the most scouts picks their starting table edge, and the opponent gets the opposite edge. You can&apos;t start on a table edge touching the river.
 
-4. Defender places 2 objectives in the middle third of the table and 1 objective anywhere else. Objectives can&apos;t be within 10&quot; of each other or a table edge.
+2. Place 3 objectives on the table. The first must be the bridge. The other 2 are placed by each player on their half of the table. Objectives can&apos;t be within 10&quot; of each other or a table edge.
 
-5. Roll D6. On a 1 add the Rainy Weather Scenario
+3. Defender deploys all Defenses and D6+4 other units within 20&quot; of the bridge or on their half of the table. All other units are in reserve, which will arrive starting on turn 3. D6 units arrive from reserve each turn via the defender&apos;s table edge.
 
-6. Attacker deploys their probing force within 10&quot; of their table edge.
+4. Attacker deploys all Reconnaissance units and D6 other units within 5&quot; of their table edge. All other units are in reserve, which arrive starting on turn 2. D6* units arrive each turn via the attacker&apos;s table edge. *In company-sized games, roll 2D6 instead. In battalion-sized games, roll 3D6 instead.
 
-7. Attacker randomly pins D3 of the defender&apos;s units due to a preliminary bombardment.
+5. D6 of the defender&apos;s units get Ambush Fire
 
-8. Attacker gets first turn.
-
-* In Company-sized games roll 2D6. In Battalion-sized games roll 3D6</description>
+6. Attacker takes first turn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -912,7 +963,7 @@ Structural Hits
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="-20.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
@@ -1098,7 +1149,7 @@ Structural Hits
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9775-aece-57c3-175c" name="Blind Fighting" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9775-aece-57c3-175c" name="Blind Fighting" publicationId="3f18-887c-dfc6-e291" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f25-aa26-a35a-fdea" type="max"/>
       </constraints>
@@ -1130,11 +1181,24 @@ When a token is revealed, immediately deploy the unit it represents at the token
         <selectionEntry id="35a3-5d0e-d0fa-fdae" name="D3 Extra Tokens" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="0828-adc9-4783-6ab0" name="Last Stand" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0828-adc9-4783-6ab0" name="Last Stand" publicationId="d625-5989-8601-3210" page="" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="379c-22a2-8410-13f3" name="Last Stand" hidden="false">
           <description>**Terrain: Place 2 very large, fortified, industrial buildings in the center of the table. These buildings count as reinforced cover.  Each structure should be 4 to 8 floors tall including the roof. Note the staircases, ladders, and other entry points between each level. You may wish to lay these floors out separately to avoid moving models around inside hard to reach spaces.
@@ -1191,6 +1255,345 @@ When a token is revealed, immediately deploy the unit it represents at the token
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="a384-2a32-c9ef-dd66" name="Ridgeline Assault" publicationId="453b-316f-4cd1-83bd" page="192" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="19ec-c655-4dca-a7db" name="Ridgeline Assault" hidden="false">
+          <description>**Terrain: The entire table is on a slope up and down a ridge. The actual table doesn&apos;t have to slope. Place a hill in the center of the table 2/3rds of the way along so that it is closer to the defender&apos;s table edge. The top of the hill is the ridgeline running across the table. A single dirt road should run up the hill with 2 or 3 switchbacks. Add 2D6 patches of rocky ground that are hard cover and impassable for vehicles and deployed guns.
+
+**Ridgeline: Due to the hilly terrain, artillery and mortar fire is impossible beyond the ridgeline. The slope up to the ridge is difficult terrain for vehicles, except the road up the slope. The road going up the slope counts as off-road movement. No line of sight can be drawn over the ridgeline.
+
+1. Place D3 objectives on the table. The first objective must be the center of the ridgeline. After that, starting with the defender, players take turns placing objectives anywhere on the table. Objectives must not be within 10&quot; of each other or a table edge.
+
+2. Defender deploys all defense units and D6+6 other units anywhere on the reverse slope or up to 10&quot; from the ridgeline on the forward slope. All other forces are in reserve, which will arrive starting on turn 5. D3 units arrive each turn from the defender&apos;s table edge. D6 of the defender&apos;s units get Ambush Fire
+
+3. The attacker deploys all Reconnaissance units and 2D6+6 other units within 15&quot; of their table edge. All other forces are in reserve, which begin arriving on turn 3. D3 units arrive each turn via the dirt road.
+
+4. For each of the defender&apos;s deployed units, roll a D6. On a 5+, the unit is pinned due to the preliminary bombardment.
+
+5. Attacker takes first turn.
+</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4bf1-1f49-5f82-ab60" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a385-4dff-4b9f-115e" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="00a0-cee3-5a6e-e6d3" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caa5-b740-4859-5df5" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="1f44-f29e-f56f-8f7c" name="Excellent Cover" hidden="false">
+              <description>All of the defender&apos;s units get +1 to their cover saves due to their elevated positions.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="a9c3-80f0-5138-476a" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="38b4-c93a-0f61-db9a" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="f570-888d-0155-6f3d" name="Defense Line" publicationId="a47f-374f-12cc-a194" page="76" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="8b23-2060-a3fc-639f" name="Defense Line" hidden="false">
+          <description>1. Defender chooses which of the short table edges to use. Attacker gets the opposite table edge.
+
+2. Attacker splits his forces into a Probing force and the Main force. The Probing force must include all recon units and up to 3 other units. All other units start in reserve, which begin to arrive on turn 3. Reserves arrive D6* per turn from the attackers table edge.
+
+3. Defender deploys all defenses and up to 2D6 units in the middle third of the table. D3 units get Ambush Fire orders. All other units start in reserve and will arrive from turn 5 onwards. Reserves arrive D6* per turn from the defenders table edge. 
+
+4. Defender places 2 objectives in the middle third of the table and 1 objective anywhere else. Objectives can&apos;t be within 10&quot; of each other or a table edge.
+
+5. Roll D6. On a 1 add the Rainy Weather Scenario
+
+6. Attacker deploys their probing force within 10&quot; of their table edge.
+
+7. Attacker randomly pins D3 of the defender&apos;s units due to a preliminary bombardment.
+
+8. Attacker gets first turn.
+
+* In Company-sized games roll 2D6. In Battalion-sized games roll 3D6</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="baac-2f72-8a21-c6f3" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0113-26bb-3e71-31fc" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e735-d487-ca3a-c54f" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3e3-2c44-a649-2482" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="67a9-4b5e-19c4-c518" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="d4ee-493d-91b1-16a2" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1387-3125-489f-3d9b" name="Airborne Assault" publicationId="59ae-c7b7-82bc-6370" page="174" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="64b7-fc46-b27c-911a" name="Airborne Assault" hidden="false">
+          <description>**Airborne: The attacker can only select units with parachutes or mounted in gliders. No Additional Fire Support can be taken except for timed strikes or counter-battery fire missions.
+
+**Alarm!: The defender has been taken by surprise. For the first 3 turns, the defender only gets D6 orders with no modifiers or re-rolls.
+
+**Red Shines the Sun!: When the attacker draws a BR counter of 5, they may put it back and draw another one. The second counter must be taken even if it is a 5. The attacker can&apos;t lose the game by having all of their units pinned. Simply take a turn in which no orders are given, and then rally units as normal.
+
+1. The attacker secretly picks 3 open ground landing zones on table.
+
+2. Defender deploys all defenses and *D6 other units anywhere on the table. D3 units get Ambush Fire. The rest of their forces are in reserve, which begin arriving on turn 2 from any table edge. Each turn roll a D6. On a 1-3, no reserves arrive. On a 4, one unit arrives. On a 5, two units arrive. On a 6, three units arrive. *In a company-sized game, roll 2D6 starting units and twice for reserves each turn. In a battalion-sized game, roll 3D6 starting units and 3 times for reserves each turn.
+
+3. Attacker places one objective anywhere not within 10&quot; of a table edge. Scatter 3 other objectives 5D6&quot; in a random direction from the center of the table. If the objective scatters into water or off the table, then remove it. Once a scattered objective is captured, remove it from the table. All units are deployed using the Parachute landing rule.
+
+4. Divide the attacker&apos;s forces in half. Before rolling for orders, the first half of the forces are deployed on turn 1. The second half are deployed on turn 2. </description>
+        </rule>
+        <rule id="55d1-175d-45ef-7f19" name="Parachute Landing" hidden="false">
+          <description>Each unit with the Paratroopers special rule deploys as follows:
+
+Place a marker for the unit anywhere within 10&quot; of one of the secret landing zones as noted at the start of setup. Scatter this marker the same way you would scatter a spotter round for indirect fire. Deploy the unit within 4&quot; of the marker.
+
+**Off-Table: If a marker scatters off table, then place the marker at the edge of the table instead. At the start of each turn after this one, roll a D6. On a 1, the unit is destroyed. On a 2-3, the unit hasn&apos;t arrived yet. On a 4+, place the unit on that table edge.
+
+**Terrain: If a marker scatters into an area of terrain such as woods or a building, then the unit suffers D3-1 casualties. If the unit lands in water, then the unit is destroyed.
+
+**Landing: Once deployed, roll a D6 to see how the unit fared in the air and while landing. On a 1, the unit was destroyed. On a 2-3, Remove D3-1 men from the unit and mark it as pinned. On a 4-5, mark the unit as pinned. On a 6, they had a perfect and uneventful landing.</description>
+        </rule>
+        <rule id="6ea7-2bbf-bce1-849e" name="Glider Landing" hidden="false">
+          <description>Gliders deploy onto the table using the following method:
+
+Place the glider anywhere on the table and roll a D6:
+
+1     The glider is destroyed as are all of the units inside.
+2-4  Scatter the glider&apos;s position 2D6&quot; in a random direction, and all units are pinned as they disembark. If the glider landed on terrain, then each unit inside suffers D3-1 casualties.
+5-6  The glider lands perfectly and all units disembark.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="65bb-319e-1890-8f5a" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6879-6c60-a3e3-bc4e" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a4d6-e877-7437-aa69" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="84b6-181f-2c21-072b" value="1.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7588-a541-97da-c713" type="atMost"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4721-1434-f6f5-fe7d" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84b6-181f-2c21-072b" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="21d4-45dc-564e-6e7a" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="3843-1889-ddb1-c62c" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8589-468e-1659-ec47" name="Desert Warfare" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2258-03a9-e87b-f33c" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="739c-343f-84fa-fdfb" name="Desert Dust Cloud" hidden="false">
+          <description>Before the start of the battle, roll 2D6. After that many turns have passed, all observation tests get a -1 modifier and all weapons have a max range of at most 40&quot;. Indirect Fire spotters can&apos;t position spotter rounds more than 40&quot; away. On the first turn that this modifier takes effect, add an extra -1 modifer to observation rolls.</description>
+        </rule>
+        <rule id="a8b7-e487-0ba0-7f5d" name="Mobile Warfare" hidden="false">
+          <description>In a Meeting Engagement Scenario, all infantry must have accompanying transports.
+
+All portee&apos;d guns have an ammunition capacity of 5. Autocannons have a ammunition capacity of 10.</description>
+        </rule>
+        <rule id="3f2e-ec7d-8fed-c9ad" name="Sand in the Gears" hidden="false">
+          <description>Any special BR counter can be used as a Breakdown counter instead of its normal use.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7e7c-5341-5f6a-27df" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="4232-42da-4a42-852f" name="Roadblock" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="b1b6-3819-420c-2451" name="Roadblock" hidden="false">
+          <description>**Terrain: There must be at least one road running from one side of the table to the other. Half way down the road, add a junction with another road leading off a 3rd table edge.
+
+**Time is Pressing: Beginning on turn 5, the attacker takes a BR at the start of each turn. Beginning on turn 10, the attacker takes an extra BR counter at the start of each turn.
+
+1. Roll a D6. On a 1, add the Rainy Weather scenario modifier.
+
+2. Both players roll a D6 and add the number of scouts to the result. The winning player chooses a table edge that touches the main road, and their opponent gets the opposite edge.
+
+3. Place D3+1 objectives on the table. The first objective must be the road junction. Starting with the attacker, players take turns placing the other objectives. Objectives can&apos;t be within 10&quot; of each other or a table edge.
+
+4. Defender deploys all defenses and D6+6 other units within their 3rd of the table. All other units are in reserve, which arrive starting on turn 2. Each turn, roll a D6. On a 4+, the defender gets D3* units from reserve that arrive on their table edge. *In company-sized games, roll a D6 instead. In battalion-sized games, roll 2D6 instead.
+
+5. D6 of the defender&apos;s units get Ambush Fire
+
+6. The attacker places all Reconnaissance units and 2D6+6 other units within 10&quot; of their table edge. All other forces are in reserve, which arrive starting on turn 4. Secretly choose the left or right side of the table. Each turn, roll a D6. On a 4+, D6 of the attacker&apos;s forces arrive on the chosen side within 10&quot; from the center of the edge.
+
+7. The attacker gets the first turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5387-933b-be0a-49cc" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a9c0-0876-b2f4-9f28" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fb4a-2123-2bbf-ccdd" name="Defender" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7701-717c-869b-1431" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c675-4f3d-fa37-8f63" name="Defender" hidden="false" targetId="4eea-aee8-23e8-a3d7" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="49fd-ea67-fcb9-3d66" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="09a4-393f-93dd-65e7" name="Stadtkampf" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="6740-5a23-f955-2b45" name="Stadtkampf" hidden="false">
+          <description>**Close Quarters: Both sides may use defenses in their battlegroups.
+
+**On Fire: Roll a D6 for each building. on a 1, it is already on fire. Mark it with smoke.
+
+1. Each player rolls a D6 and adds the number of scouts from their battlegroup to the result. The winner picks their table edge, and their opponent gets the opposite edge.
+
+2. Place D3+2 objectives on the table. Starting with the player that lost the table edge roll, each player takes turns placing an objective anywhere on the table. Objectives can only be inside buildings and can be in close proximity to each other. Both sides may win an all objectives secured victory.
+
+3. Each player rolls a D6 and adds the number of scouts from their battlegroup to the result for deployment. The loser deploys all Reconnaissance and Defense units in their half of the table but not within 5&quot; of the opponent&apos;s half. The winner then deploys does the same on their half of the table. The winner then deploys D6 other units in the same way. The loser then does the same. All other units are in reserve, which start arriving on turn 2. Each turn *D3 units arrive on their table edge. *In company or battalion-sized games, roll D6 instead.
+
+4. All defenses and D6 other units get Ambush Fire.
+
+5. Both players roll a D6 to decide who gets first turn. On a tie, re-roll.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0a66-b5c5-a0b6-694d" name="Attack/Defense Scenario" hidden="false" targetId="c064-74c6-58e8-1ed6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0252-d486-1a5b-b882" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+        <categoryLink id="842e-2f07-2890-c31f" name="Attack Defense Scenario" hidden="false" targetId="8d31-1ade-d61e-89b6" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="7e2d-e052-fdad-41f9" name="Stadtkampf Urban Combat" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="013e-f49f-107b-45db" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="5ea9-85b2-0655-c867" name="Building Occupancy Limits" hidden="false">
+          <description>Before the game, both players agree on the maximum occupancy for each small building. For example, a small cottage might hold only 10 men.</description>
+        </rule>
+        <rule id="3352-1191-8771-f7d0" name="Deployed Guns in Buildings" hidden="false">
+          <description>Deployed guns can only use the ground floor of a building. Place the gun at a specific window/hole in the wall with specific facing. Medium mortars can only fire from rooftops, while heavy mortars can&apos;t fire from buildings at all.</description>
+        </rule>
+        <rule id="785c-a867-0689-db2a" name="Building Floors" hidden="false">
+          <description>During setup, specify the number of floors in each building. When a unit enters a building, it is automatically on the ground floor. For one 5&quot; move, an infantry unit can move up or down 1 or 2 floors.
+
+When using Area Fire at a building, the attacker rolls for Suppressing Fire against each unit on that floor.
+
+Indirect fire on a building must distribute hits from the top of the building down.</description>
+        </rule>
+        <rule id="2bb3-3593-656f-bf65" name="Close Assaulting Buildings" hidden="false">
+          <description>When conducting a close assault on an enemy-occupied building, the assault must be resolved against a single unit on the ground floor. If the defending unit is wiped out or routes, then the attackers get a free move into the building. Otherwise, the attacker unit may immediately Fall Back! 5&quot;, which can be into a building not occupied by the enemy.
+
+A unit can close assault any other enemy unit in the same building, but they must assault the next occupied floor. If the assault wipes our/routes the defending unit, then the attacking unit is now on that floor. Otherwise the attackers are on the unoccupied floor below.</description>
+        </rule>
+        <rule id="051c-b0f1-513d-5802" name="Firing Within Buildings" hidden="false">
+          <description>For Aimed Fire with small arms at a unit in the same building, resolve the fire with 4+ to hit regarless of range.</description>
+        </rule>
+        <rule id="cb0b-c279-0e75-7539" name="Gun Elevation and Buildings" hidden="false">
+          <description>Anti-tank guns can never target units above the 3rd floor of a building.
+Anti-Aircraft and pintle mounted weapons can always target units of any floor of a building.
+Armoured vehicles can&apos;t target units above the 5th floor of a building unless it is more than 20&quot; away. Armoured vehicles can&apos;t target units above the 2nd floor of a building unless it is more than 10&quot; away.</description>
+        </rule>
+        <rule id="fc10-b8d0-ee8a-28eb" name="Building Fire" hidden="false">
+          <description>Buildings, or single sections of large buildings can be set on fire. If a unit inside a building comes under fire, then after resolving that fire, roll a D6 to see if the building is set ablaze:
+
+HE vs brick/concrete building . . . . . . . . 6+
+Flamethrower vs brick/concrete . . . . . . 3+
+Small Arms vs wood building . . . . . . . .  6+
+AP vs wood building . . . . . . . . . . . . . . . . 5+
+HE vs wood building . . . . . . . . . . . . . . . . 4+
+Flamethrower vs wood building . . . automatic
+
+At the start of a player&apos;s turn, any unit inside a burning building must make a unit experience test. If failed, the unit takes 1 casualty and must immediately Fall Back!. Do not take a morale test for the casualty. The Fall Back! move does not count as the unit&apos;s order for this turn.
+
+Once a building is on fire, no units may enter it for the rest of the game.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="5eef-e4be-f7c8-56b8" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
+      </categoryLinks>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -1578,6 +1981,35 @@ When a token is revealed, immediately deploy the unit it represents at the token
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="4a7b-9a3f-a26d-249d" name="Additional Fire Support" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="7162-cc27-aee3-8e3e" name="Smokescreen" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d31-1ade-d61e-89b6" type="atLeast"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a384-2a32-c9ef-dd66" type="atMost"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a429-171b-bb97-2af9" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="d46d-ccaf-e813-3ac0" name="Smokescreen" hidden="false">
+              <description>From turn 1 a smokescreen will cover the entire table and last for D3+1 turns. Whilst in place, all firing must be Area Fire. On the last turn of the smoke screen, firing returns to normal, but with a -1 to all spotting tests. After that turn, the smokescreen is gone and firing continues as per the normal rules.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="43ea-0366-8af6-e179" name="Logistics Support" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="aab6-1351-8d90-13ab" name="Reconnaissance Support" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="ff54-c6af-ba02-c6f1" name="Specialist Support" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="2494-90d6-5c75-42d9" name="Engineer Support" hidden="false" collective="false" import="true"/>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="6fce-6bdd-4a46-f6da" name="Officer" hidden="false">
@@ -1871,6 +2303,17 @@ Counter battery fire missions are only used when they are successful.  You may c
     </rule>
     <rule id="4eea-aee8-23e8-a3d7" name="Defender" hidden="false">
       <description>As the defender in an Attack/Defense scenario, you may use units from the Defenses category. Defenders can&apos;t claim an all objectives held victory.</description>
+    </rule>
+    <rule id="ce07-d5c4-4729-b08a" name="Paratrooper" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a4d6-e877-7437-aa69" type="atLeast"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1387-3125-489f-3d9b" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>This unit uses the Parachute Landing rules for deployment.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
