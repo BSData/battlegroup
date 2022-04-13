@@ -1595,6 +1595,35 @@ Once a building is on fire, no units may enter it for the rest of the game.</des
         <categoryLink id="5eef-e4be-f7c8-56b8" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
       </categoryLinks>
     </selectionEntry>
+    <selectionEntry id="ca8b-c491-b4ea-2f90" name="Clash of Reconnaissance" publicationId="c702-38be-7d9e-586c" page="126" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="15ef-e5c7-72b2-6bd8" name="Clash of Reconnaissance" hidden="false">
+          <description>1. Both players roll D6. The player with the highest result chooses a table edge, and his opponent automatically gets the opposite table edge.
+
+2. Each player places an objective anywhere on their half of the table. Objectives can&apos;t be within 10&quot; of each other or a table edge.
+
+3. Players take turns deploying all Reconnaissance units starting with the player who has the most Reconnaissance units. These can be placed anywhere on their half of the table, but not within 10&quot; of the line dividing the two sides. If one side has no scouts, then his opponent may place their recon anywhere on the table with Ambush Fire orders.
+
+4. Both players roll D6 and add the number of scouts from their battlegroup. The side with the highest total takes the first turn. On a tie, the side with the most scout units wins. If it is still a tie, then re-roll
+
+5. From turn 2 onwards D6* units are placed on the player&apos;s table edge, within 20&quot; of his table corner, as the rest of his forces arrive from reserve. Continue this each turn until all forces are on the tabletop. * In Comany-sized games, roll 2D6. * In Battalion-sized games roll 3D6</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="85a3-5d27-82bc-913a" name="Meeting Engagement Scenario" hidden="false" targetId="bc91-cf64-e823-11c2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="21d0-b274-8838-d3f6" name="New CategoryLink" hidden="false" targetId="ebca-908c-0f01-08c6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ffc4-eff4-8b72-0f78" name="Foxholes" hidden="false" collective="false" import="true" type="upgrade">
