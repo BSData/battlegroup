@@ -890,6 +890,7 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="32.0"/>
       </costs>
     </entryLink>
+    <entryLink id="ca19-e576-be3e-6888" name="British Close Air Support 1944" hidden="false" collective="false" import="true" targetId="dcdc-12dd-5894-05dd" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d47d-ae46-c956-3ade" name="Anti-Aircraft Vehicle" hidden="false" collective="false" import="true" type="unit">

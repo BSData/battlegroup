@@ -718,6 +718,7 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="819f-30e0-f779-61ef" name="Infantry Foot Patrol" hidden="false" collective="false" import="true" type="unit">
@@ -931,6 +932,7 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4100-f30f-1db2-6b6e" name="Heavy Anti-Tank Gun" hidden="false" collective="false" import="true" type="unit">
@@ -1035,6 +1037,7 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2cbc-4ef0-956c-0f74" name="Forward Signals Unit" hidden="false" collective="false" import="true" type="unit">
@@ -2253,6 +2256,14 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0cea-67d4-f7be-f286" name="Rifle Section" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -2313,6 +2324,14 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2df8-39f0-4191-55d1" name="Infantry Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -2683,6 +2702,14 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9c0e-d703-33f1-d08d" name="Recon Platoon Command" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -2788,6 +2815,25 @@
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="dcdc-12dd-5894-05dd" name="British Close Air Support 1944" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="decrement" field="2976-c2b7-9fd0-0749" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-851f-3464-fe01" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca42-b3ea-8786-d77a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2976-c2b7-9fd0-0749" type="min"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="fee0-1657-f91e-256a" name="British Close Air Support Table - 1944" hidden="false" targetId="857c-9be7-8414-06fb" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="64e8-279e-2b9a-91b3" name="New CategoryLink" hidden="false" targetId="19bc-5687-3b84-3d6c" primary="true"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>

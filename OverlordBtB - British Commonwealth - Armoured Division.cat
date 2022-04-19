@@ -297,6 +297,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f9fc-5cde-fa3b-45de" name="Forward Air Control Officer" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -875,6 +883,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bcbf-25ea-4430-39d6" name="Motor Infantry Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -1257,6 +1273,14 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2c56-2912-0694-7bdc" name="Motor Rifle Section" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1637,6 +1661,7 @@
         </entryLink>
       </entryLinks>
     </entryLink>
+    <entryLink id="261f-3b97-0a77-d495" name="British Close Air Support 1944" hidden="false" collective="false" import="true" targetId="dcdc-12dd-5894-05dd" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="a777-f558-0d2b-25af" name="Anti-Aircraft Vehicle" hidden="false" collective="false" import="true" type="unit">
@@ -1666,6 +1691,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9fd2-8f41-e876-d255" name="Crusader AA Mk.I" hidden="false" collective="false" import="true" type="model">
@@ -1682,6 +1708,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="887d-b9d9-9f4f-2b6a" name="Crusader AA Mk.II" hidden="false" collective="false" import="true" type="model">
@@ -1698,6 +1725,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c5a5-0e10-50ee-18d8" name="Centaur AA Mk.II" hidden="false" collective="false" import="true" type="model">
@@ -1714,6 +1742,7 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

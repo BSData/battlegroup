@@ -3218,6 +3218,7 @@
     <selectionEntry id="629d-01ff-eb74-d440" name="Panzer II" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="0d24-08f3-1269-6e94" name="New CategoryLink" hidden="false" targetId="4226-01bf-f07d-976e" primary="true"/>
+        <categoryLink id="e5d5-89fa-7b3f-674e" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="60e3-8cf1-931f-81b4" name="Panzer II-F" hidden="false" collective="false" import="true" type="model">
@@ -3255,7 +3256,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="1.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>

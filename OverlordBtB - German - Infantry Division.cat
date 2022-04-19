@@ -1153,25 +1153,9 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <infoLink id="31b7-f6ee-75c1-027d" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
               </infoLinks>
               <selectionEntries>
-                <selectionEntry id="c1da-5c7e-5a69-dc37" name="Add Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dad-5058-1c75-a162" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="1c50-cd83-c79e-03e5" name="Panzerfaust" hidden="false" targetId="ea4f-fe7a-d1c8-f263" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
-                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="dd8a-e95c-1a00-3137" name="Add Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7199-3af0-843f-b571" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7199-3af0-843f-b571" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="9dc9-271a-87ea-401c" name="Panzerfaust" hidden="false" targetId="ea4f-fe7a-d1c8-f263" type="profile"/>
