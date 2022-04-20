@@ -901,6 +901,8 @@
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="afb0-e874-26a3-c38e" name="Dismounted Panzer Crew" hidden="false" collective="false" import="true" type="unit">
@@ -926,6 +928,8 @@
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
         <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8415-a871-3f91-56fd" name="&quot;To the Last Bullet&quot;" hidden="false" collective="false" import="true" type="upgrade">
@@ -1698,6 +1702,7 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="b65c-838c-4da1-026e" name="StuH 42 F" hidden="false" collective="false" import="true" type="model">
@@ -6491,7 +6496,7 @@
       <modifiers>
         <modifier type="decrement" field="b9d5-fe7d-d3d2-620f" value="1.0">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-851f-3464-fe01" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-851f-3464-fe01" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -6558,6 +6563,13 @@
       <categoryLinks>
         <categoryLink id="3758-8123-6dbf-7eec" name="New CategoryLink" hidden="false" targetId="a529-162f-ec0b-e961" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="4e4d-d161-a6b6-0643" name="Infantry Support" hidden="false" collective="false" import="true" targetId="a021-5c4f-e3f6-8dff" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aed8-58ca-5223-903f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="ec45-eab5-8314-a603" name="Hitler Youth Tank Hunter Squad" hidden="false" collective="false" import="true" targetId="f6b5-5bab-5ab1-c65d" type="selectionEntry">
       <categoryLinks>
@@ -8065,6 +8077,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db46-0804-b3eb-a6d4" name="Luftwaffe FlaK Battery" hidden="false" collective="false" import="true" type="upgrade">
