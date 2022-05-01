@@ -1,0 +1,2534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c238-d182-d145-c416" name="Pacific - American - Infantry Division" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="3b8a-f218-194b-b751" name="Forward Headquarters" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="535d-a6f4-665d-8652" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="04ff-d554-15af-3eea" name="New CategoryLink" hidden="false" targetId="0891-5f08-126a-7f90" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0466-2b78-7eee-7ac4" name="Forward Headquarters" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7383-71a9-a0f0-b50d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ab6-304f-a13e-6ccd" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="28d0-acda-0f9f-d557" name="Forward HQ Team" hidden="false" targetId="5852-cbfa-323c-ba22" type="profile"/>
+            <infoLink id="e5bf-6fae-3889-42ed" name="Artillery Spotter" hidden="false" targetId="71b0-1be2-e377-c5c9" type="rule"/>
+            <infoLink id="487c-d26b-aeff-2fdf" name="Senior Officer" hidden="false" targetId="aca9-bca6-75d1-68de" type="rule"/>
+            <infoLink id="e012-8d56-9ffc-3170" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+            <infoLink id="71f8-1026-0517-0893" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
+            <infoLink id="3853-e411-d0fe-13b5" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="3a54-f962-4bff-c576" name="Radio Communications Network" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9ac-03cd-7183-4ccf" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="c74d-e893-d5d5-24e7" name="Radio Communications Network" hidden="false" targetId="7cc6-6928-7ca3-56e0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="72b9-5529-3db2-a8c8" name="Transport" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57e5-93da-69f8-1078" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="da4e-4a07-c600-be9c" name="Jeep" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="370f-7417-f692-6e15" name="Jeep [Willys MB, Ford GPW]" hidden="false" targetId="e54e-3cb7-23b8-44df" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="44c9-da57-a844-a218" name="White Scout Car" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="ea9a-3e7e-a12b-02c7" name="M3 White Scout Car" hidden="false" targetId="eaa1-38f7-b452-8d88" type="profile"/>
+                    <infoLink id="2b9a-6558-e49c-91ce" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="db66-5da8-a2e3-eb68" name="M20 Utility Car" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="dde3-ecc3-1811-b9a1" name="M20 Utility Car" hidden="false" targetId="4784-0dfb-419b-7135" type="profile"/>
+                    <infoLink id="6125-7d42-6754-8ef5" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5200-973c-63c2-ac64" name="FHQ Support" hidden="false" collective="false" import="true" targetId="4bb6-8707-bd9a-80a8" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ea3-2497-6e77-ab45" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="21.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3961-cb02-dcd2-d96f" name="Heavy Mortar Team" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="34ab-bf7f-70e4-b344" name="New CategoryLink" hidden="false" targetId="3513-6f08-58bc-2d59" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="db2d-d1f1-0a95-f063" name="Heavy Mortar Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f33-13f7-939b-3954" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57b0-a4e0-db25-34f7" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0ab2-5d7d-b523-1f81" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+            <infoLink id="eef5-90e4-3c30-172b" name="Mortar Team [Heavy]" hidden="false" targetId="5ae6-988e-bc58-235a" type="profile"/>
+            <infoLink id="e9ad-a70c-b5dc-8176" name="4.2-inch M2 Heavy Mortar" hidden="false" targetId="c0b0-2b86-fa7c-881b" type="profile"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="4c90-c0c0-cd37-d31e" name="Truck" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a72-8d96-7775-8147" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c10b-dabc-b682-8888" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5642-6c85-d9e7-ebc9" name="2 1/2t Medium Truck [CCKW, US6]" hidden="false" targetId="ae4a-f260-63fa-99f3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b5cf-de3d-a6c1-a233" name="Add 3-man Loader Team" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be5c-4011-3b72-6c85" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="602a-a6d1-3d79-a840" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
+                <infoLink id="56c2-2cf9-2648-73ed" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                <infoLink id="cbcf-02dd-38db-2879" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="29.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="14bf-9c73-fe65-2373" name="Artillery Support" hidden="false" collective="false" import="true" targetId="f409-dd7c-b0a4-cb32" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4234-c183-2a4e-59fd" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d7b1-e3e6-aa41-4240" name="Infantry Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="c728-7f74-063a-0d0e" name="New CategoryLink" hidden="false" targetId="a529-162f-ec0b-e961" primary="true"/>
+        <categoryLink id="a0f3-0575-c120-3cb0" name="Infantry Platoon" hidden="false" targetId="0380-3c97-b250-7acd" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="97aa-114d-7025-815c" name="Infantry Platoon" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0e9-aa97-2d82-5b5a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3014-9cfb-7447-1fb9" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="51b2-da3e-77d6-eb6f" name="BAR Team" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bcb-f836-efa7-e9f4" type="min"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ca-3581-a45a-dbd2" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6ef1-37a0-7b83-b3c3" name="BAR Team" hidden="false" targetId="03b2-3775-b8ee-371b" type="profile"/>
+                <infoLink id="0cbd-2c77-1005-7caa" name=".30 BAR M1918 (Light MG)" hidden="false" targetId="0c13-15f5-330c-3c44" type="profile"/>
+                <infoLink id="60f9-bdba-2bd5-728b" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f7b4-286d-9094-7997" name="Rifle Team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb66-07d6-e009-da28" type="min"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e23f-804f-8871-ac36" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="285c-0d1f-353e-d38b" name="Rifle Team" hidden="false" targetId="cac0-de60-3500-27f0" type="profile"/>
+                <infoLink id="d0d0-ac4e-e164-b07e" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="f8d0-172d-df0a-e515" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5acb-35e6-f764-84f0" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="5a74-ca30-cf58-4cd1" name="Shotgun" hidden="false" targetId="ede0-7748-6e03-cfbc" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="1.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="a376-2191-8800-bdf9" name="Medium Truck" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a9e-64a5-c7ee-2f82" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="b126-2ea7-0925-a517" name="2 1/2t Medium Truck [CCKW, US6]" hidden="false" targetId="ae4a-f260-63fa-99f3" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6bcb-91c5-e290-e4be" name="Infantry Platoon Command Squad" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf67-914a-a045-55a9" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="838d-a4ff-96db-7592" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4d11-b94e-5118-8a77" name="Platoon Command Team" hidden="false" targetId="dcd0-da73-34ee-81a0" type="profile"/>
+                <infoLink id="0eea-b84a-c734-d867" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
+                <infoLink id="1375-507c-e189-5854" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
+                <infoLink id="bb99-f21a-6879-5225" name="Artillery Spotter" hidden="false" targetId="71b0-1be2-e377-c5c9" type="rule"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="c819-d9af-5e7e-836d" name="Jeep" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c8e-2b33-6a4a-a9cd" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="86b8-4194-238f-762d" name="Jeep [Willys MB, Ford GPW]" hidden="false" targetId="e54e-3cb7-23b8-44df" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f0be-47c3-a015-88ff" name="Experience" hidden="false" collective="false" import="true" defaultSelectionEntryId="25a9-8cc0-900e-4c25">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="056b-4125-c5df-21b8" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b28-da64-8d45-7931" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="4142-a914-48a1-3975" name="Regular" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="bb6f-12f9-212c-6a84" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="21.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="6.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="25a9-8cc0-900e-4c25" name="Inexperienced" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="8e9d-8e8e-a1a0-967b" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="cd5a-ca78-1dc6-3671" name="Platoon Support Options" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfde-58a1-3d54-de09" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="5fc9-9e1a-bfde-4c09" name="Combat Medic" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f94a-5182-0160-77b2" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="3a3a-c24d-022a-5da8" name="Combat Medic" hidden="false" targetId="9483-fb35-75d5-78b3" type="profile"/>
+                    <infoLink id="b502-38b4-3792-dfb8" name="Medic" hidden="false" targetId="eb76-f1f1-bfc5-0a95" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="07f5-23ef-df6f-7395" name="Medium MG Team" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="974c-cd76-8572-818c" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="a94e-5278-669b-ad87" name="Medium MG Team" hidden="false" targetId="e15e-997e-d28d-b69e" type="profile"/>
+                    <infoLink id="9a5f-d2df-7e0d-7f06" name="M1919 .30 Cal Browning (Medium MG)" hidden="false" targetId="b13f-8e67-19a6-a0a6" type="profile"/>
+                    <infoLink id="4d6a-a75b-c626-39f8" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="1d0f-483d-baf8-4f0e" name="Add 3-man Loader Team" hidden="false" collective="false" import="true" type="unit">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eefb-95b7-7638-c04a" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="b596-d194-fb24-aac0" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
+                        <infoLink id="7863-b2d6-0847-ea59" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
+                        <infoLink id="c21a-1f75-386d-653f" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="2fea-cf53-7936-f343" name="Jeep" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70b8-2091-1ef2-57ab" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="b104-e7e0-c132-42a3" name="Jeep [Willys MB, Ford GPW]" hidden="false" targetId="e54e-3cb7-23b8-44df" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="16.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="a129-eaaa-d3bb-7ffb" name="Infantry Gun" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3d2-cc07-c2d4-246d" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="725c-93df-8228-ceb7" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                    <infoLink id="984b-1860-a946-9f2a" name="Artillery Gun Crew [Light]" hidden="false" targetId="bdb8-c944-759c-a6ba" type="profile"/>
+                    <infoLink id="8683-a869-ba2a-e4c6" name="105mm/L16 Howitzer M3" hidden="false" targetId="581b-a6a9-2efd-de4d" type="profile"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="e6cd-8917-3b70-4358" name="Add 3-man Loader Team" hidden="false" collective="false" import="true" type="unit">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="087a-843e-4356-2fc8" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="3bfe-b8b8-a869-9017" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
+                        <infoLink id="4593-9b48-ab38-68c4" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
+                        <infoLink id="822d-16a1-d7bb-326a" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3f0a-a609-7f93-7610" name="Medium Truck" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2eac-3f8f-562d-f5bb" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="eed0-bbe9-d756-16bf" name="2 1/2t Medium Truck [CCKW, US6]" hidden="false" targetId="ae4a-f260-63fa-99f3" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
+                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="27.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="95d3-ea21-8e1b-b56e" name="Anti-Tank Gun" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b64-9f8e-878a-8b01" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="cc9d-484d-18a4-00a3" name="Anti-Tank Gun Crew [V.Light]" hidden="false" targetId="f184-73c7-f1e0-6019" type="profile"/>
+                    <infoLink id="7edc-e4e6-2381-a23d" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="cb10-1622-9b24-6a7e" name="Add 3-man Loader Team" hidden="false" collective="false" import="true" type="unit">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b569-23d8-b1ed-34cf" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="f6de-8d4a-d2cc-b290" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
+                        <infoLink id="dfed-1db7-d2ce-14b2" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                        <infoLink id="fa03-1c2f-2642-0a3e" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="276e-96f0-ec46-ed88" name="Anti-Tank Gun" hidden="false" collective="false" import="true" defaultSelectionEntryId="3044-fb26-f705-dbdd">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd39-0eb4-53ab-bd38" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="567e-a98e-d6c9-61bf" type="min"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="2a83-4dea-977e-6c66" name="37mmL56" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="8dea-8090-6b34-efc3" name="37mm/L53 Gun M5, Turret" hidden="false" targetId="4f80-c948-871d-113f" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="3044-fb26-f705-dbdd" name="57mmL46" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="b23a-bf23-47c5-cf89" name="57mm/L46 Gun M1" hidden="false" targetId="d412-ed20-fae6-58e7" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
+                            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="d985-f266-2f6b-0dad" name="Transport" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fe5-5248-1b05-05d9" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="146c-2ef4-28bb-04be" name="Jeep" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="dc32-0e73-c60a-6022" name="Jeep [Willys MB, Ford GPW]" hidden="false" targetId="e54e-3cb7-23b8-44df" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="ac0a-a4a6-b235-13f7" name="Beep" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="2934-461e-b1b9-e8c1" name="2 1/2t Medium Truck [CCKW, US6]" hidden="false" targetId="ae4a-f260-63fa-99f3" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
+                            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="eeff-5f2d-bbcf-0f58" name="Bazooka Team" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b59-7979-c4e5-a908" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="f892-a05c-36d7-0de5" name="Bazooka" hidden="false" targetId="be6b-ce7a-f597-c120" type="profile"/>
+                    <infoLink id="af72-5a98-8368-3b70" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                    <infoLink id="c647-454f-4606-ac74" name="Bazooka Team" hidden="false" targetId="d11b-9051-9adf-068b" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="a83c-a4d4-00a5-c5b6" name="Heavy MG Team" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d010-f1d8-6b72-eab5" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="4abc-b142-7a08-6fdc" name="Heavy MG Team" hidden="false" targetId="6317-cab8-e848-eff7" type="profile"/>
+                    <infoLink id="ad9c-60ae-f137-cd1a" name="M2 .50 Cal Browning (Heavy MG)" hidden="false" targetId="dc6f-3f42-45b6-d713" type="profile"/>
+                    <infoLink id="6905-4568-a070-524a" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="6f66-be26-dfc9-e770" name="Add 3-man Loader Team" hidden="false" collective="false" import="true" type="unit">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b35-d4a6-d19c-2287" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="b683-2290-7335-d544" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
+                        <infoLink id="eec0-4fec-c506-9b40" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
+                        <infoLink id="425e-1867-26df-6e74" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8450-aab6-79c5-b9a3" name="Jeep" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fcb-9a00-1d64-3777" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="0ce1-6f70-8562-6f3b" name="Jeep [Willys MB, Ford GPW]" hidden="false" targetId="e54e-3cb7-23b8-44df" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="e131-195c-e0c1-264e" name="Flamethrower Team" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56d4-18ac-3db7-54cd" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="cbb2-f44f-34ec-5621" name="Flamethrower Team" hidden="false" targetId="2e3f-34e4-ec62-875f" type="profile"/>
+                    <infoLink id="a415-67d9-9a43-3fef" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                    <infoLink id="b189-2e22-fd67-aceb" name="Man-pack Flamethrower" hidden="false" targetId="7d75-1579-dc31-182c" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="13.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d2af-9d5d-1391-5a56" name="Medium Mortar Team" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="460d-6751-0495-c7d7" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="794d-4949-3994-7f0f" name="Mortar Team [Medium]" hidden="false" targetId="b154-d174-97ab-f75f" type="profile"/>
+                    <infoLink id="140c-d327-c9c5-bc16" name="81mm Mortar M1" hidden="false" targetId="2061-06b9-16fe-6970" type="profile"/>
+                    <infoLink id="3989-66ff-341c-2f23" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                  </infoLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="e373-5a42-5947-5b5e" name="Support" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3217-9986-e2c0-645b" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="476a-304d-97fa-b454" name="Add 3-man Loader Team" hidden="false" collective="false" import="true" type="unit">
+                          <infoLinks>
+                            <infoLink id="eb18-a968-dbeb-e623" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
+                            <infoLink id="c26a-e26f-5a27-7890" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
+                            <infoLink id="4f34-d84c-1ce0-89be" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="69ea-4b49-13a0-cb0a" name="Jeep" hidden="false" collective="false" import="true" type="model">
+                          <infoLinks>
+                            <infoLink id="443c-39b8-d6df-f453" name="Jeep [Willys MB, Ford GPW]" hidden="false" targetId="e54e-3cb7-23b8-44df" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b7a0-e882-ed62-bb0b" name="Light Mortar Team" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e76-0397-67d2-0a7c" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="4288-c52c-934b-5900" name="Mortar Team [Light]" hidden="false" targetId="2c64-83f3-2084-71b0" type="profile"/>
+                    <infoLink id="b9dc-b482-3713-365e" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                    <infoLink id="6e1f-8b90-1a95-e3c1" name="60mm Mortar M2" hidden="false" targetId="cf7b-c611-ce84-4b9f" type="profile"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="dce0-00e1-e13c-127e" name="Add 3-man Loader Team" hidden="false" collective="false" import="true" type="unit">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba87-5829-f821-0632" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="a88c-b35f-d824-d4cc" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
+                        <infoLink id="4487-96d5-1bd9-7e4d" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
+                        <infoLink id="020b-1051-5e5f-0aa5" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="12.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3092-8a8b-ec99-cff6" name="Self Propelled Howitzer" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91f0-d6fc-8fe9-d3c0" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="3052-1f20-0e79-d72b" name="M8 HMC" hidden="false" targetId="3be2-3a4b-f9ea-9122" type="profile"/>
+                    <infoLink id="edcd-aee5-fbe4-cf3d" name="75mm/L16 Howitzer M3" hidden="false" targetId="2f65-f260-fb50-3376" type="profile"/>
+                    <infoLink id="0e5e-4bdd-9363-2679" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="26.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="80.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="7.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b129-8c85-647f-9d7d" name="Infantry Support" hidden="false" collective="false" import="true" targetId="985f-da8e-6269-b3b3" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49cc-714a-f76b-9e8b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d81-a5f4-a7d3-059a" name="Naval Shore Fire Control Team" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b683-865d-e633-4552" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d646-d5db-595c-db61" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="15c4-1885-f693-dd0e" name="New CategoryLink" hidden="false" targetId="3513-6f08-58bc-2d59" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="eb7a-7b17-4f79-a51c" name="Naval Shore Fire Control Team" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e9d-b11f-2612-dfc0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6509-7cdc-daa9-ea8c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b9a0-d2c4-1c65-bee4" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+            <infoLink id="b209-3bf8-1bcc-fead" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
+            <infoLink id="74ee-7b79-f821-6afc" name="Artillery Spotter+" hidden="false" targetId="3a41-a9a9-f880-76bc" type="rule"/>
+            <infoLink id="6d80-a5e5-5c52-5efb" name="Naval Shore Fire Control Team" hidden="false" targetId="e6eb-cd1e-b84d-571c" type="profile"/>
+            <infoLink id="9f83-da81-7f9e-0613" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
+            <infoLink id="a984-61ef-e0c3-39fe" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="2af3-81ba-1f70-9920" name="Jeep" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7599-27d4-e6ad-9e5f" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3f76-8600-a0b1-da06" name="Jeep [Willys MB, Ford GPW]" hidden="false" targetId="e54e-3cb7-23b8-44df" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="19.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="3ef1-d9bd-bf5b-5e82" name="Artillery Support" hidden="false" collective="false" import="true" targetId="f409-dd7c-b0a4-cb32" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2423-9261-24e1-8254" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="297c-a983-5a37-91b2" name="Off-Table Artillery Fire" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="75d5-f185-35a1-7f2b" name="New CategoryLink" hidden="false" targetId="3513-6f08-58bc-2d59" primary="true"/>
+        <categoryLink id="bbeb-9e6f-6bb4-30cd" name="Off-Table" hidden="false" targetId="a076-3266-83b1-1bfa" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e65f-22ef-b776-f586" name="Off-Table Artillery Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="5f5a-eb0a-13ae-b6a0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f06-8287-534c-5605" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dace-1130-91b1-d525" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5f5a-eb0a-13ae-b6a0" name="2x 75mmL16 Howitzer" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="8a54-cf81-8058-5c91" name="75mm/L16 Howitzer M3" hidden="false" targetId="2f65-f260-fb50-3376" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="70.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7f12-58b0-043b-0f1c" name="2x 105mmL22 Howitzers" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="eb4d-d141-1ae5-f80c" name="105mm/L16 Howitzer M3" hidden="false" targetId="581b-a6a9-2efd-de4d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="90.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5a7c-1281-1bb8-b402" name="Artillery Support" hidden="false" collective="false" import="true" targetId="f409-dd7c-b0a4-cb32" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b235-1965-30fc-92e0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f2d-a898-b24d-1f7d" name="Off-Table Mortar Fire" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="4a2c-72d7-5e6b-e0dc" name="New CategoryLink" hidden="false" targetId="3513-6f08-58bc-2d59" primary="true"/>
+        <categoryLink id="aa2d-1063-7d83-a025" name="Off-Table" hidden="false" targetId="a076-3266-83b1-1bfa" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c4cd-31ea-992e-b714" name="Mortar Battery" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c6e-763b-61c0-f914" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e279-fe21-4286-5717" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f867-1149-d5d6-a968" name="81mm Mortars" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dea4-d3b8-80f0-5cd7" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1475-7b92-7f92-5fe5" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="99e4-52db-2622-26e4" name="81mm Mortar M1" hidden="false" targetId="2061-06b9-16fe-6970" type="profile"/>
+                <infoLink id="3564-7f4e-50fa-a56e" name="Mortar Team [Medium]" hidden="false" targetId="b154-d174-97ab-f75f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="54.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a57c-16f9-4bc6-b3aa" name="Artillery Support" hidden="false" collective="false" import="true" targetId="f409-dd7c-b0a4-cb32" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="554e-b21c-5a1c-4e4a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a60d-644a-4d4b-60c4" name="Off-Table Naval Close Bombardment Group" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d81-a5f4-a7d3-059a" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a788-ac86-ab3d-f59d" name="New CategoryLink" hidden="false" targetId="3513-6f08-58bc-2d59" primary="true"/>
+        <categoryLink id="16fe-3a25-f50a-78b3" name="Off-Table" hidden="false" targetId="a076-3266-83b1-1bfa" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b705-4b28-6691-76f6" name="Off-Table Artillery Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="4e9b-a3e7-e9a9-32e5">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3fb-7c04-fa5f-902b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6d8-59ab-39c3-be71" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4e9b-a3e7-e9a9-32e5" name="2x 5&quot; Naval Guns" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="2e51-affe-cfb9-2743" name="5&quot; Naval Gun" hidden="false" targetId="7115-7cf0-27b4-93cf" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="126.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="375f-b89b-ea6a-a4b2" name="2x 4.7&quot; Naval Guns" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="5cdd-58c7-4c98-973b" name="4.7&quot; Naval Gun" hidden="false" targetId="3201-b397-e0c2-add8" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="108.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4d1b-bfef-6452-7127" name="2x 3.5&quot; Naval Guns" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="0edf-9b7f-3b12-92a4" name="3.5&quot; Naval Gun" hidden="false" targetId="3c05-b3be-ddd7-7386" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="80.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="580e-32c6-45b1-e64e" name="2x 6&quot; Naval Guns" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="0019-ab3f-9a6d-033f" name="6&quot; Naval Gun" hidden="false" targetId="4281-c3a2-0d93-6c48" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="135.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="717e-f884-f583-56d5" name="Artillery Support" hidden="false" collective="false" import="true" targetId="f409-dd7c-b0a4-cb32" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="979e-2c56-577e-9c79" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="049f-5ba6-6c38-8ced" name="Rifle Squad" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="ae12-fac0-4533-48b3" name="New CategoryLink" hidden="false" targetId="a529-162f-ec0b-e961" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="416c-531f-90e9-ced9" name="Rifle Squad" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f8e-b50f-bb02-ab92" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfe9-5b7c-e3d1-8774" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f6df-5a49-e4d3-552a" name="Rifle Team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c74-02bd-54d8-fa54" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0b7-8013-bd2d-f92f" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="bec8-65f7-2f40-9c92" name="Rifle Team" hidden="false" targetId="cac0-de60-3500-27f0" type="profile"/>
+                <infoLink id="de1e-4227-de81-9f3b" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
+                <infoLink id="5dc8-b1b8-5cdd-63f4" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="9099-6466-1b09-ca17" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3223-822c-d24d-9e87" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="31ea-6ac8-5d82-688f" name="Shotgun" hidden="false" targetId="ede0-7748-6e03-cfbc" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="1.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5fca-f68b-a8c8-a61c" name="BAR Team" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dca6-882a-0472-b936" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd53-1209-40d4-8521" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3e6f-04d9-373c-5ea3" name="BAR Team" hidden="false" targetId="03b2-3775-b8ee-371b" type="profile"/>
+                <infoLink id="57e2-b932-265e-af8a" name=".30 BAR M1918 (Light MG)" hidden="false" targetId="0c13-15f5-330c-3c44" type="profile"/>
+                <infoLink id="e92b-5d9b-7fac-ba42" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
+                <infoLink id="bd6a-7454-3f53-ad4c" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9843-bd63-044c-051b" name="Medium Truck" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="341d-0daa-95a5-6af5" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3db4-847a-851c-81b8" name="2 1/2t Medium Truck [CCKW, US6]" hidden="false" targetId="ae4a-f260-63fa-99f3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="19.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="9961-c9ad-555f-cf1e" name="Infantry Support" hidden="false" collective="false" import="true" targetId="985f-da8e-6269-b3b3" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a7c-e130-251b-8bf3" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b4c-d6ff-fe7b-c0d8" name="Self-Propelled Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="4649-b90d-f40c-e52d" name="New CategoryLink" hidden="false" targetId="3513-6f08-58bc-2d59" primary="true"/>
+        <categoryLink id="5474-e59d-9cc3-f6bc" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="aed9-3853-8b05-c91a" name="Self-Propelled Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ac0-1f0c-d1e3-a8f8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a02f-b91f-5ed7-476b" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0704-bb7f-722a-356e" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+            <infoLink id="1150-b04e-6cbf-3f67" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="7683-de6b-b100-08a4" name="M7 Priest" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b2f-9710-5c87-5f3a" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bc5-eaf6-9e99-b808" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d499-d4ef-d166-8ce4" name="M7 Priest" hidden="false" targetId="2867-7274-9b72-c6f6" type="profile"/>
+                <infoLink id="c3bb-0323-ca50-e496" name="105mm/L22 Howizter M2A1" hidden="false" targetId="e0d7-e88d-8953-c686" type="profile"/>
+                <infoLink id="3034-f4da-c0f1-6758" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="88.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="4052-35c5-dd3b-8622" name="Artillery Support" hidden="false" collective="false" import="true" targetId="f409-dd7c-b0a4-cb32" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52a4-c012-9455-439a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="012e-a61a-85d2-d96a" name="Tank" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="705f-748c-db66-ba3e" name="New CategoryLink" hidden="false" targetId="4226-01bf-f07d-976e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7138-8ae2-ad1a-7665" name="Tank" hidden="false" collective="false" import="true" defaultSelectionEntryId="b109-ae35-1e5f-c23d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7142-73ee-60dc-f3d8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e69-08b9-c0a4-dbd0" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b109-ae35-1e5f-c23d" name="M4 Sherman" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="ec83-7ae7-18c0-3f0e" name="M4 Sherman (M4, M4A1, M4A3)" hidden="false" targetId="aebf-f7c7-747f-285b" type="profile"/>
+                <infoLink id="36ed-05a8-073b-136f" name="75mm/L40 Gun M3" hidden="false" targetId="d15f-de4c-5913-55ba" type="profile"/>
+                <infoLink id="72d3-c8ed-7d91-6b0f" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
+                <infoLink id="a456-c920-1985-83da" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+                <infoLink id="fe4b-a42b-0139-31d4" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="50.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7f8c-eb0d-9d7d-131c" name="M3 Stuart" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="a5b8-e7f9-5271-edb0" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
+                <infoLink id="54a1-f308-48e5-c7db" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+                <infoLink id="c953-a02e-ee3e-5138" name="37mm/L53 Gun M5, Turret" hidden="false" targetId="4f80-c948-871d-113f" type="profile"/>
+                <infoLink id="18f8-4275-3521-3747" name="M3 Stuart" hidden="false" targetId="da2b-cecb-2667-bfbf" type="profile"/>
+                <infoLink id="2f52-0d36-098d-ea2e" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="28.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9a29-0c0c-ed08-1e1b" name="M5 Stuart" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="4f3b-f826-85f6-48c3" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
+                <infoLink id="6530-cd3c-b5c3-5a3f" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+                <infoLink id="d617-cc73-c6ed-b208" name="37mm/L53 Gun M5, Turret" hidden="false" targetId="4f80-c948-871d-113f" type="profile"/>
+                <infoLink id="7f16-2fd5-9c24-9d60" name="M5 Stuart" hidden="false" targetId="3031-d50e-8b7d-ec9c" type="profile"/>
+                <infoLink id="ddd3-383a-c716-a179" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="75b4-5edd-fd64-1e8b" name="Tank Support" hidden="false" collective="false" import="true" targetId="1be0-fde3-f9b4-ff8d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5c4-7532-1bd5-d0ea" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="53ec-ddbe-06b8-f106" name="Towed Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="38d5-d49c-4166-0f88" name="New CategoryLink" hidden="false" targetId="3513-6f08-58bc-2d59" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="edf6-b21b-4a0d-ba07" name="Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7d1-e344-4bda-ca18" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7a9-1b3a-1d1f-01b0" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c028-9798-7924-c781" name="2x M2 105mmL22 Howitzer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e02a-dd7c-606b-fe60" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e13a-67aa-3a59-6392" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b930-c9d4-a5b4-6e2c" name="105mm/L22 Howizter M2A1" hidden="false" targetId="e0d7-e88d-8953-c686" type="profile"/>
+                <infoLink id="a905-6bb1-1b7f-b128" name="Artillery Gun Crew [Medium]" hidden="false" targetId="0650-7f4c-eadf-3db1" type="profile"/>
+                <infoLink id="bbb8-ae91-abc2-f1e4" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="d8c1-b70f-353c-64b1" name="Add 3-man Loader Team" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8a9-a2e1-0fe5-a81b" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="476b-ee46-6369-e403" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
+                    <infoLink id="59b3-eae9-bd99-7a3c" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                    <infoLink id="678e-c07d-7b2b-eb2a" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="151b-7fb1-86ce-067d" name="Truck" hidden="false" collective="false" import="true" type="model">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6117-5579-83ab-1051" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="ce51-86a9-f6bb-fe7b" name="2 1/2t Medium Truck [CCKW, US6]" hidden="false" targetId="ae4a-f260-63fa-99f3" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="8.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="72.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="1b05-96bf-2ca1-2ad0" name="Artillery Support" hidden="false" collective="false" import="true" targetId="f409-dd7c-b0a4-cb32" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e73-810d-ebca-ce37" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f89-73b8-0e75-d391" name="Towed Artillery Gun" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="48d7-00cc-3e7c-2b56" name="New CategoryLink" hidden="false" targetId="3513-6f08-58bc-2d59" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c984-6113-82fb-5d36" name="M2 105mmL22 Howitzer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c606-d8cb-8466-4276" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="087e-934d-b557-84c4" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="dda4-e7b6-2560-5643" name="105mm/L22 Howizter M2A1" hidden="false" targetId="e0d7-e88d-8953-c686" type="profile"/>
+            <infoLink id="33ff-53ef-419b-e93b" name="Artillery Gun Crew [Medium]" hidden="false" targetId="0650-7f4c-eadf-3db1" type="profile"/>
+            <infoLink id="3a99-ec02-e96d-53f7" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="da28-efdd-7fc5-c3e6" name="Add 3-man Loader Team" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b88-c750-7f0a-6061" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="22ba-295f-e0f8-3cec" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
+                <infoLink id="2f56-75fa-7466-61c4" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+                <infoLink id="acb0-22d8-4445-77a5" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7f37-922b-c4ea-d20b" name="Truck" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f544-a606-4f44-3aba" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="bfa9-d069-2f53-ff26" name="2 1/2t Medium Truck [CCKW, US6]" hidden="false" targetId="ae4a-f260-63fa-99f3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="36.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b616-3acd-f794-6141" name="Artillery Support" hidden="false" collective="false" import="true" targetId="f409-dd7c-b0a4-cb32" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60cc-739b-8fc5-dda4" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1f69-24c3-0b47-65e9" name="US Navy/Army Close Air Support 1945" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="decrement" field="f691-a0ec-6b4d-d970" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-851f-3464-fe01" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f691-a0ec-6b4d-d970" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7159-77ee-7247-5e33" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="684c-866b-fb9e-d8ec" name="US Navy/Army Close Air Support Table 1944-45" hidden="false" targetId="355a-ef85-45af-26f2" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="aaf2-00fc-9ead-a79e" name="New CategoryLink" hidden="false" targetId="19bc-5687-3b84-3d6c" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="1c5a-3733-97e3-7660" name="Amphibious Assault" hidden="false" collective="false" import="true" targetId="b683-865d-e633-4552" type="selectionEntry"/>
+    <entryLink id="5b70-7747-5a2b-4edb" name="Command Bunker" hidden="false" collective="false" import="true" targetId="e471-e839-a7ff-23b5" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae0b-eb10-a5be-e987" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="839d-3acb-52ed-ec9b" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+        <categoryLink id="74bd-0a0e-fd2e-e2d1" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6503-705e-6a06-bec8" name="Out of Supply" hidden="false" collective="false" import="true" targetId="096a-b41f-5b87-a897" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b33b-85a9-3a59-389f" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3a3f-c380-ac8d-c9cb" name="Anti-Tank Ditch/Embankment" hidden="false" collective="false" import="true" targetId="35f2-c5d8-ea6c-29c4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5faa-82ab-7370-6b3d" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+        <categoryLink id="0a48-f773-997f-4451" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="010c-c92f-7637-7bc4" name="Anti-Tank Gun Dug-out" hidden="false" collective="false" import="true" targetId="bcc7-bd55-2474-4f9d" type="selectionEntry"/>
+    <entryLink id="6049-1d14-b5ba-63c1" name="Barbed Wire" hidden="false" collective="false" import="true" targetId="a09e-bf6c-e1e7-0597" type="selectionEntry"/>
+    <entryLink id="a3ce-dc48-5efa-1f59" name="Fortified Building" hidden="false" collective="false" import="true" targetId="f53d-a484-55b7-3ef1" type="selectionEntry"/>
+    <entryLink id="423b-7edf-af2f-7db4" name="Foxholes" hidden="false" collective="false" import="true" targetId="ffc4-eff4-8b72-0f78" type="selectionEntry"/>
+    <entryLink id="5275-234d-5084-892f" name="Improvised Barricades" hidden="false" collective="false" import="true" targetId="f4c9-0884-0ed3-c45a" type="selectionEntry"/>
+    <entryLink id="2080-7b91-7f12-c104" name="Improvised Road Block" hidden="false" collective="false" import="true" targetId="ef14-f593-34a1-c31c" type="selectionEntry"/>
+    <entryLink id="774b-ccb8-ee93-bfb9" name="Minefield" hidden="false" collective="false" import="true" targetId="d8e0-514c-5b53-b63f" type="selectionEntry"/>
+    <entryLink id="23de-d130-378f-3b02" name="Sniper Hideout" hidden="false" collective="false" import="true" targetId="d5d1-a2e4-ac06-ffdc" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="9a2f-a9d6-6e2f-5e3a" name="M1 Garand (Rifle)" hidden="false" targetId="6160-fd70-2395-35fc" type="profile"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink id="1e07-9963-9802-8b0b" name="Trenches" hidden="false" collective="false" import="true" targetId="c5c4-b617-f19c-4d89" type="selectionEntry"/>
+    <entryLink id="5668-4295-4aab-f0a9" name="Comms Relay Team" hidden="false" collective="false" import="true" targetId="e106-4c2b-935d-6e53" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="a0dc-1352-31dd-b511" name="FHQ Support" hidden="false" collective="false" import="true" targetId="4bb6-8707-bd9a-80a8" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1df-1e7a-320c-4a85" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="6fcd-6c07-02e0-6c1b" name="Mortar Pit" hidden="false" collective="false" import="true" targetId="2ca8-954b-26a5-a432" type="selectionEntry"/>
+    <entryLink id="fe6d-d88c-ccf6-785b" name="Forward Observer Team" hidden="false" collective="false" import="true" targetId="fe6d-4098-3892-03ec" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="4ce4-2855-dec1-06cb" name="Artillery Support" hidden="false" collective="false" import="true" targetId="f409-dd7c-b0a4-cb32" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8250-1a38-66f1-1714" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="0056-3593-06ee-e44b" name="Forward Air Control Officer" hidden="false" collective="false" import="true" targetId="21d9-03c9-d54e-3d5b" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="5441-ad33-bf9b-03f4" name="FHQ Support" hidden="false" collective="false" import="true" targetId="4bb6-8707-bd9a-80a8" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="306d-9eff-7fe0-1819" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="e884-f949-a1cc-efcf" name="Rocket Launcher Battery" hidden="false" collective="false" import="true" targetId="d35c-67c5-72a4-dc0d" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="5193-21b5-d647-e16c" name="Artillery Support" hidden="false" collective="false" import="true" targetId="f409-dd7c-b0a4-cb32" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0c8-f75a-08d2-4a17" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="ba95-47f2-e8c6-4b59" name="Forward Signals Unit" hidden="false" collective="false" import="true" targetId="137d-0325-3a8d-c591" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="41e9-c68f-7062-6a47" name="FHQ Support" hidden="false" collective="false" import="true" targetId="4bb6-8707-bd9a-80a8" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d39-a980-7a36-149e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="32b0-7760-ea75-7352" name="Artillery Observation Post" hidden="false" collective="false" import="true" targetId="da48-dc59-f0d6-6182" type="selectionEntry"/>
+    <entryLink id="82c5-4291-a5af-e21e" name=".30 cal MG Dug-out" hidden="false" collective="false" import="true" targetId="849c-8ecc-5350-cb13" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6465-f9b7-fdac-4c6d" name="New CategoryLink" hidden="false" targetId="b6a3-9f91-0350-5714" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="40b2-de26-5d3d-9bf6" name="Aerial Artillery Observer" hidden="false" collective="false" import="true" targetId="4c5f-8956-d7b2-5bbc" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="6e4f-2acd-cd59-c842" name="Artillery Support" hidden="false" collective="false" import="true" targetId="f409-dd7c-b0a4-cb32" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2192-7011-7f6b-ecb3" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="538d-6de3-d4ce-b26b" name="Self-Propelled Howitzer Battery" hidden="false" collective="false" import="true" targetId="b8ed-358b-4b92-78b9" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="dab1-e47c-227a-ab15" name="Artillery Support" hidden="false" collective="false" import="true" targetId="f409-dd7c-b0a4-cb32" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5de-c015-c4c0-4a71" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="7367-df1c-691b-d926" name="Wire Team" hidden="false" collective="false" import="true" targetId="5f7d-befe-713b-94c8" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="63cd-7473-2e03-c04c" name="FHQ Support" hidden="false" collective="false" import="true" targetId="4bb6-8707-bd9a-80a8" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da98-e394-fc5a-16ff" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="f92d-3b0b-85b0-59b3" name="Additional Landing Craft" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b683-865d-e633-4552" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b82f-6a46-cbe3-ce07" name="Landing Craft" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67e4-a222-0f88-d48a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4215-cddf-ab50-5774" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5910-889d-3124-4626" name="LCVP" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="2aec-4e05-4524-98ec" name="LCVP" hidden="false" targetId="962e-9109-01c9-63ec" type="profile"/>
+                <infoLink id="dd47-c32d-496b-b0e1" name="2x Pintle MGs [.30 cal Browning]" hidden="false" targetId="2842-2d92-fc9d-be52" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6575-6e38-ffbc-ea48" name="LCM" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="535a-d4b5-c97c-80c3" name="LCM" hidden="false" targetId="dbf9-b1a4-998b-6749" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="14.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2ecf-c86b-5c60-352e" name="LCT" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="3c60-1721-30a3-50ba" name="LCT" hidden="false" targetId="241f-bedc-9d9d-8130" type="profile"/>
+                <infoLink id="0d61-0a38-cdbe-2119" name="2pdr gun" hidden="false" targetId="5a7d-3daf-9a8a-dd19" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2c7a-f8b6-7134-99b6" name="LCA" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="29b2-5842-7229-a6db" name="LCA" hidden="false" targetId="4ab5-19a1-cb6c-4424" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f191-9aa1-2238-8956" name="Alamo Scout Team" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea35-6635-69bb-0ba4" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a16a-fdd6-1a6f-094d" name="Alamo Scout Team" hidden="false" targetId="2072-30c4-afe1-18e0" type="profile"/>
+        <infoLink id="5fc4-2fc8-9fdd-d1b2" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
+        <infoLink id="a06e-614c-9b68-d040" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+        <infoLink id="52e6-b64f-312c-ff57" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
+        <infoLink id="6209-53b0-1bb9-0221" name="Behind Enemy Lines" hidden="false" targetId="7ff2-ac55-c2b8-8bc3" type="rule"/>
+        <infoLink id="fe95-bb4f-f1d0-e9c8" name="Artillery Spotter" hidden="false" targetId="71b0-1be2-e377-c5c9" type="rule"/>
+        <infoLink id="4a20-fa26-3b49-495b" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
+        <infoLink id="528f-7099-fbee-6630" name="Scout" hidden="false" targetId="d3dc-e766-4136-b3ad" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="05fe-cc75-0de5-e415" name="Extra Man" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1995-e20c-40a2-9771" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d794-1daf-036d-afa8" name="M3 Thompson SMG" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5b6-d58e-2b96-1649" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="1.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="31.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93af-ade8-71a2-e263" name="Ambulance" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="f42b-a04e-62a8-e12a" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+        <infoLink id="6bf1-69d9-a59d-733d" name="Medic" hidden="false" targetId="eb76-f1f1-bfc5-0a95" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="36a7-3a53-5de4-291e" name="Chassis" hidden="false" collective="false" import="true" defaultSelectionEntryId="7863-159b-5197-aecb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6565-57cd-01f2-47d6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="356a-fa91-a77c-0793" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4a48-81bb-1e2e-6bb7" name="Medium Truck" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="68e6-290a-ddf2-05ba" name="2 1/2t Medium Truck [CCKW, US6]" hidden="false" targetId="ae4a-f260-63fa-99f3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7863-159b-5197-aecb" name="Jeep" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1edb-fa32-c085-57a7" name="Jeep [Willys MB, Ford GPW]" hidden="false" targetId="e54e-3cb7-23b8-44df" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="14.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="73ef-4c46-85f9-bbec" name="Anti-Aircraft Halftrack" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="131e-19be-9a35-4603" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+        <infoLink id="b5bf-cc98-c189-dbf2" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="51d4-8584-fd62-6911" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b1ab-291c-7039-070f" name="Anti-Aircraft Halftrack" hidden="false" collective="false" import="true" defaultSelectionEntryId="c9a5-135d-1968-f948">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e31-3027-3423-d367" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5c2-73e6-6402-419f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c9a5-135d-1968-f948" name="M15" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="d030-4a6f-5b5d-a0c9" name="M15A1 CGMC" hidden="false" targetId="575b-1174-ebb3-e16e" type="profile"/>
+                <infoLink id="93dc-c405-3182-ab25" name="37mm/L54 Automatic Gun M1" hidden="false" targetId="6689-f964-3c50-0f5f" type="profile"/>
+                <infoLink id="55c3-3b9c-d25f-2ab0" name="2x Pintle MGs [.30 cal Browning]" hidden="false" targetId="2842-2d92-fc9d-be52" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4e06-5601-0ac5-c937" name="M16" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="842d-51e5-2c4a-6444" name="M16 MGMC" hidden="false" targetId="0955-57e6-7548-9715" type="profile"/>
+                <infoLink id="e3b9-8b87-c723-78c9" name="4x Pintle MGs [.30 cal Browning]" hidden="false" targetId="a24b-96af-56a6-1812" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="32.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ddeb-e549-cb7c-e7a9" name="Armoured Car" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="c8d9-4b93-ce84-46a8" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+        <infoLink id="f5af-79a0-5d4a-d41d" name="Scout" hidden="false" targetId="d3dc-e766-4136-b3ad" type="rule"/>
+        <infoLink id="b0f4-18ff-f148-e601" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bd87-6ce9-f27e-f071" name="Armoured Car" hidden="false" collective="false" import="true" defaultSelectionEntryId="5599-4abf-f652-bcfa">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eef0-e712-d9fc-f8bb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e76d-96a0-148c-63e1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1812-d291-c5b2-9b7c" name="M8 Greyhound" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="ab62-3823-e3aa-0ce3" name="M8 Greyhound" hidden="false" targetId="e6f7-0996-9c42-1513" type="profile"/>
+                <infoLink id="e891-516d-9847-cea9" name="37mm/L53 Gun M5, Turret" hidden="false" targetId="4f80-c948-871d-113f" type="profile"/>
+                <infoLink id="4a53-e124-ae77-6c95" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="26.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5599-4abf-f652-bcfa" name="M20 Utility Car" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="f0a6-b862-d8b4-9a53" name="M20 Utility Car" hidden="false" targetId="4784-0dfb-419b-7135" type="profile"/>
+                <infoLink id="32bf-30bf-49ed-6f8f" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2be5-d15c-c5a0-68a8" name="M3 White Scout Car" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="3977-4321-6e28-8482" name="M3 White Scout Car" hidden="false" targetId="eaa1-38f7-b452-8d88" type="profile"/>
+                <infoLink id="1412-5228-1518-b48d" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2615-8ba1-47f5-32ed" name="Armoured Infantry Patrol" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ed1-bfb1-503c-c3e4" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4fdc-8844-3569-dca0" name="M3 Halftrack" hidden="false" targetId="2fea-4f45-c1fc-cd69" type="profile"/>
+        <infoLink id="e6df-55e7-f5cd-de98" name="Scout" hidden="false" targetId="d3dc-e766-4136-b3ad" type="rule"/>
+        <infoLink id="5a31-0063-7847-2d42" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
+        <infoLink id="d21c-3107-1b75-50fa" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+        <infoLink id="af58-1484-2086-c5ae" name=".30 BAR M1918 (Light MG)" hidden="false" targetId="0c13-15f5-330c-3c44" type="profile"/>
+        <infoLink id="4d31-c297-6071-1ef0" name="Bazooka" hidden="false" targetId="be6b-ce7a-f597-c120" type="profile"/>
+        <infoLink id="78ea-a928-8261-a6fb" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
+        <infoLink id="104b-aa14-0ee2-7d3f" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
+        <infoLink id="329d-c13d-f1e1-2738" name="Armoured Infantry Patrol" hidden="false" targetId="520b-98d0-f904-b22c" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="44.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e3f-0af2-9adc-c6e0" name="Combat Engineer Squad" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="1d85-cfd0-dc0d-6dbc" name="Combat Engineer Team" hidden="false" targetId="641a-6770-a800-e6f7" type="profile"/>
+        <infoLink id="d423-9fb7-b151-e3fd" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
+        <infoLink id="a096-60c7-ef1b-7fb2" name="Engineer" hidden="false" targetId="b840-357d-26ae-b902" type="rule"/>
+        <infoLink id="7fc8-b2ce-bb00-7b08" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
+        <infoLink id="c34e-7ad0-dd0d-90fc" name=".30 BAR M1918 (Light MG)" hidden="false" targetId="0c13-15f5-330c-3c44" type="profile"/>
+        <infoLink id="f263-bf57-fce5-6a01" name="Bazooka" hidden="false" targetId="be6b-ce7a-f597-c120" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="2b1f-c647-b92f-8a01" name="Demolition Charges" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b66-ef06-d1cd-a6eb" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a9bc-10d2-0c92-08bd" name="Demolitions Charges" hidden="false" targetId="fcbd-62df-6253-71ac" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2d57-89f0-5487-0cfa" name="Minesweeper" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7442-d5f0-5c4c-1ea6" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="cd33-430d-b4ae-b084" name="Mine Sweeper" hidden="false" targetId="f0ad-e9ea-8fe2-2001" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bbcb-fa71-ba76-2d54" name="Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69f2-b954-52b1-9d24" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="aa8e-58ce-bd9d-b1d2" name="Man-pack Flamethrower" hidden="false" targetId="7d75-1579-dc31-182c" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="526a-103d-b901-a5bb" name="Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10a4-47f2-37ad-ceea" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cd82-14fa-fa13-cab8" name="Medium Truck" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="3da4-a3f5-2f6a-7e55" name="2 1/2t Medium Truck [CCKW, US6]" hidden="false" targetId="ae4a-f260-63fa-99f3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d398-5e49-fb82-2122" name="M3 Halftrack" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="a4a6-2d7d-c871-c1d7" name="M3 Halftrack" hidden="false" targetId="2fea-4f45-c1fc-cd69" type="profile"/>
+                <infoLink id="f1f2-40d0-7236-8c43" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="43.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="10.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e692-fa6a-ca77-9816" name="Flamethrower Tank" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="779d-7875-fd10-04a9" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a353-9a29-e62f-f712" name="Flamethrower Tank" hidden="false" collective="false" import="true" defaultSelectionEntryId="f6c1-796b-ae66-da84">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66da-9c6e-19e2-7fec" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56d7-c57b-73da-1307" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ac43-f133-6187-2dde" name="M4 Sherman &apos;Zippo&apos;" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="d004-36cf-d290-ea16" name="M4 Sherman &apos;Zippo&apos;" hidden="false" targetId="0ef4-b587-308b-4ddd" type="profile"/>
+                <infoLink id="3ef0-1b81-461d-dbde" name="Vehicle Flamethrower, Turret" hidden="false" targetId="7005-efdc-7470-13cf" type="profile"/>
+                <infoLink id="57fe-5ca6-2c37-358a" name="75mm/L40 Gun M5" hidden="false" targetId="c66e-b0f0-6c12-ad06" type="profile"/>
+                <infoLink id="ddb1-8daa-2dca-6169" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="62.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f6c1-796b-ae66-da84" name="M3 Stuart &apos;Satan&apos;" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="5002-5ae4-506a-e6a1" name="M3 &apos;Satan&apos;" hidden="false" targetId="51a4-72ac-e50f-f795" type="profile"/>
+                <infoLink id="56b8-6d42-942b-b842" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
+                <infoLink id="875c-12c5-204f-8c80" name="Vehicle Flamethrower, Hull" hidden="false" targetId="6154-31e2-115a-d59f" type="profile"/>
+                <infoLink id="7545-6397-8a1d-3ef9" name="37mm/L53 Gun M5, Turret" hidden="false" targetId="4f80-c948-871d-113f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="42.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c38c-6f55-b86b-43a1" name="Heavy Bridging Unit" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61bf-1419-6ac7-4e6a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a0af-861e-eda7-e6d3" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+        <infoLink id="a029-460f-3843-eebc" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
+        <infoLink id="18bf-fd8f-6af2-1055" name="Bridging" hidden="false" targetId="c9ba-4fbd-cdfe-22b7" type="rule"/>
+        <infoLink id="5027-8b5b-f927-7186" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
+        <infoLink id="91ad-7e5c-e9b5-cac2" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="2de5-a906-8f74-665f" name="Heavy Truck" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e409-26a2-c9ec-2394" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55d3-3c2f-6b86-1660" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3ca1-b40f-ebf6-7b01" name="Heavy Bridging Team" hidden="false" targetId="b3df-b969-3206-1439" type="profile"/>
+            <infoLink id="bdb9-328e-e0ad-8537" name="4t Heavy Truck [Diamond T 968]" hidden="false" targetId="9ed7-f6fc-31de-707c" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="-12.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="166a-bf7e-87c3-84a6" name="Infantry Foot Patrol" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="6bf3-4659-9b9a-694e" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+        <infoLink id="2cdd-4f39-2db7-0084" name="Scout" hidden="false" targetId="d3dc-e766-4136-b3ad" type="rule"/>
+        <infoLink id="9b96-f8fc-eeec-2007" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="2570-a3c1-1a63-95d6" name="Rifle Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a5-c66f-bfcf-c243" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3761-9d66-fc19-b0d1" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8ebd-3c74-f127-44e7" name="Rifle Team" hidden="false" targetId="cac0-de60-3500-27f0" type="profile"/>
+            <infoLink id="5070-b835-0640-f990" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="940f-a851-58ce-3678" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c130-7a4a-add9-e064" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="eb6e-3397-149c-94c0" name="Shotgun" hidden="false" targetId="ede0-7748-6e03-cfbc" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="1.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1b70-51ec-5ada-04dd" name="BAR Team" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc2b-b5f7-f63f-1737" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb65-d325-5d7b-88bb" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f3ec-9505-1deb-865b" name="BAR Team" hidden="false" targetId="03b2-3775-b8ee-371b" type="profile"/>
+            <infoLink id="8e78-9471-9213-3e7e" name=".30 BAR M1918 (Light MG)" hidden="false" targetId="0c13-15f5-330c-3c44" type="profile"/>
+            <infoLink id="60fb-d235-a7cc-6a1d" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="34.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f380-4410-48e0-f511" name="Off-Table Artillery Support Request" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="97a8-f8db-172f-c4c9" name="American Fire Mission Requests" hidden="false" targetId="15d7-3721-50d2-150a" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4844-3fb7-09df-63bf" name="Off-Table" hidden="false" targetId="a076-3266-83b1-1bfa" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f998-5862-ab52-6453" name="Off-Table Artillery Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="a5cd-3353-fafb-cdb6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="353a-b163-352e-3754" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1537-2bee-31f5-46db" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a5cd-3353-fafb-cdb6" name="2nd Target Priority (3+)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b501-8d81-36c3-bd7c" name="1st Target Priority (2+)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="42fd-bcaf-aef0-9899" name="3rd Target Priority (4+)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b65-a1e1-204e-1d53" name="Recon Platoon Command" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8846-93c4-8897-88c7" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="fa29-fe8e-0e8e-fa66" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+        <infoLink id="1cfc-220b-8e7a-a9fc" name="Recon Command Team" hidden="false" targetId="9118-0434-c22e-47bb" type="profile"/>
+        <infoLink id="619d-f1cd-5bd3-ad8e" name="Scout" hidden="false" targetId="d3dc-e766-4136-b3ad" type="rule"/>
+        <infoLink id="d1d1-24be-ec60-a0e0" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+        <infoLink id="301f-4445-54ee-424a" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
+        <infoLink id="2765-c279-babd-f691" name="Artillery Spotter" hidden="false" targetId="71b0-1be2-e377-c5c9" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="6ba7-30d8-27e2-4ad7" name="Jeep" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c49-f6da-dcd6-b6b1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69a1-62ce-7736-5bee" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d115-7161-cb52-1576" name="Jeep [Willys MB, Ford GPW]" hidden="false" targetId="e54e-3cb7-23b8-44df" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="28.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f58d-f81a-603e-72a0" name="Self-Propelled Tank Destroyer" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="4408-94e3-463d-d20d" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5caf-3571-774d-1b58" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e6ab-dc20-2f0d-ab6f" name="Self-Propelled Tank Destroyer" hidden="false" collective="false" import="true" defaultSelectionEntryId="ff85-e14f-fac2-f130">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab4e-4c56-e6a0-124b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f2c-03b1-3d9b-34f8" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8cd2-96ec-9bc0-4bdd" name="M10 Wolverine" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="23f5-b32a-d58c-9b0b" name="M10 Wolverine" hidden="false" targetId="6eea-02c1-d194-673f" type="profile"/>
+                <infoLink id="caf5-afd6-cc67-864a" name="76mm/L52 Gun M1A2" hidden="false" targetId="53f2-9fd4-eb6c-8a00" type="profile"/>
+                <infoLink id="b835-07c9-3064-05b7" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
+                <infoLink id="24f3-978c-043b-8182" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="34.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ff85-e14f-fac2-f130" name="M18 Hellcat" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="1824-a68a-2a28-a7b2" name="M18 Hellcat" hidden="false" targetId="6e6d-9ea5-3eda-98e9" type="profile"/>
+                <infoLink id="c8b6-e9f0-e970-23eb" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
+                <infoLink id="741b-bc3d-d636-9a4e" name="75mmL53" hidden="false" targetId="cf03-52cc-0cf1-bea2" type="profile"/>
+                <infoLink id="3750-38db-e303-50ab" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="38.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="05cd-96cf-6f4a-da61" name="Timed 155mm Barrage" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b942-d2fc-304b-9ed5" name="Timed Barrage" hidden="false" targetId="2b1b-e5b6-033b-e9e2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dd95-b2d8-77ed-f30a" name="Off-Table" hidden="false" targetId="a076-3266-83b1-1bfa" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="289d-7ed0-9747-44e4" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e57e-e92a-6384-d4cd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c0a-d654-c3f6-91e5" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6502-04e6-e31d-7fe3" name="Pre-Registered Target Point" hidden="false" targetId="5218-aeb0-934e-ac35" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="698b-db47-5743-fe22" name="155mmL45 Howitzers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7f5-a15e-db21-ec04" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27fd-5ec9-8ef2-7c56" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="71d0-86e8-91ab-b657" name="155mm/L45 Gun M1A1 &apos;Long Tom&apos;" hidden="false" targetId="1c9a-4ad7-56bc-1d33" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1a0-abe7-9f60-a8b0" name="Timed P-38 Air Strike" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0df-851f-3464-fe01" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="67dd-41db-4616-8ce9" name="Timed Airstrike" hidden="false" targetId="3f26-26f3-280b-e6f5" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="49b8-f42f-f9d0-d0f6" name="P-38 Lightning Fighter-Bomber" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0472-98e0-2d40-52c9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed4f-f3aa-aec2-8e81" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c3d9-f26a-5b2a-1f5e" name="Small Bomb" hidden="false" targetId="b219-ad97-a999-c681" type="profile"/>
+            <infoLink id="d352-177c-38f8-f121" name="P-38 Lightning" hidden="false" targetId="97ce-29ee-b5f5-0f69" type="profile"/>
+            <infoLink id="ecf5-849e-e46b-91ee" name="Medium Bomb" hidden="false" targetId="53f4-2874-229c-674a" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ea85-04c0-2c0f-8e7f" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47d7-6fb6-c16c-f4ff" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36d3-de9e-53c6-1225" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1135-47d2-c396-9a80" name="Pre-Registered Target Point" hidden="false" targetId="5218-aeb0-934e-ac35" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="f409-dd7c-b0a4-cb32" name="Artillery Support" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="15a1-aa39-623d-4867" name="Additional Fire Support" hidden="false" collective="false" import="true" targetId="4a7b-9a3f-a26d-249d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="a05b-8993-87b3-8c02" name="Off-Table Artillery Support Request" hidden="false" collective="false" import="true" targetId="f380-4410-48e0-f511" type="selectionEntry"/>
+            <entryLink id="dafe-b004-3ee9-e88d" name="Timed 155mm Barrage" hidden="false" collective="false" import="true" targetId="05cd-96cf-6f4a-da61" type="selectionEntry"/>
+            <entryLink id="2704-0846-67be-94a5" name="Timed P-38 Air Strike" hidden="false" collective="false" import="true" targetId="e1a0-abe7-9f60-a8b0" type="selectionEntry"/>
+            <entryLink id="8850-b871-e45d-513b" name="Counter-Battery Fire Mission" hidden="false" collective="false" import="true" targetId="249a-9bee-4115-d040" type="selectionEntry"/>
+            <entryLink id="dcb4-d0c3-cdad-dc94" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" targetId="bc13-9403-e8ea-1c68" type="selectionEntry"/>
+            <entryLink id="d25e-20e2-28fa-00cb" name="Timed 105mm Barrage" hidden="false" collective="false" import="true" targetId="426f-2ca6-0b1e-2d7e" type="selectionEntry"/>
+            <entryLink id="7d43-3bb1-c7e5-729e" name="Timed 12&quot; Barrage" hidden="false" collective="false" import="true" targetId="f920-2594-05ae-cff7" type="selectionEntry"/>
+            <entryLink id="ef3c-8401-5266-cde4" name="Timed 8&quot; Barrage" hidden="false" collective="false" import="true" targetId="a19f-2c87-a41b-f78a" type="selectionEntry"/>
+            <entryLink id="bcaf-37a3-66e3-0d20" name="Timed 81mm Mortar Barrage" hidden="false" collective="false" import="true" targetId="b596-baeb-af55-db76" type="selectionEntry"/>
+            <entryLink id="a900-b58a-ac93-a834" name="Timed F6F Air Strike" hidden="false" collective="false" import="true" targetId="2672-6d02-ecaa-8d16" type="selectionEntry"/>
+            <entryLink id="f964-da35-dc69-e9e0" name="Timed Napalm Air Strike" hidden="false" collective="false" import="true" targetId="66bc-aa9d-0ded-ba94" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4bb6-8707-bd9a-80a8" name="FHQ Support" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="adfd-1aac-de15-b7a6" name="Logistics Support" hidden="false" collective="false" import="true" targetId="43ea-0366-8af6-e179" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="0323-5893-6bf9-0b92" name="Ambulance" hidden="false" collective="false" import="true" targetId="93af-ade8-71a2-e263" type="selectionEntry"/>
+            <entryLink id="1b96-9e97-e5b2-ae15" name="Forward Aid Post" hidden="false" collective="false" import="true" targetId="16b3-35f5-5e8a-9151" type="selectionEntry"/>
+            <entryLink id="4ea3-7442-5133-dade" name="Supply Column" hidden="false" collective="false" import="true" targetId="e22f-77e7-195c-fdae" type="selectionEntry"/>
+            <entryLink id="8102-a601-4c42-b19a" name="Stretcher Party" hidden="false" collective="false" import="true" targetId="94e6-0cf8-db28-f896" type="selectionEntry"/>
+            <entryLink id="0ffb-23a6-76cd-fb4c" name="Motor Pool" hidden="false" collective="false" import="true" targetId="c7b9-ed9b-1571-ba27" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="1872-0e52-b9c7-480d" name="Additional Fire Support" hidden="false" collective="false" import="true" targetId="4a7b-9a3f-a26d-249d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="6854-02ca-4130-a5ea" name="Off-Table Artillery Support Request" hidden="false" collective="false" import="true" targetId="f380-4410-48e0-f511" type="selectionEntry"/>
+            <entryLink id="df57-0640-efc1-2e2a" name="Timed 155mm Barrage" hidden="false" collective="false" import="true" targetId="05cd-96cf-6f4a-da61" type="selectionEntry"/>
+            <entryLink id="f8c1-7e13-af51-ec01" name="Timed P-38 Air Strike" hidden="false" collective="false" import="true" targetId="e1a0-abe7-9f60-a8b0" type="selectionEntry"/>
+            <entryLink id="cf25-edcb-0f6e-f70f" name="Counter-Battery Fire Mission" hidden="false" collective="false" import="true" targetId="249a-9bee-4115-d040" type="selectionEntry"/>
+            <entryLink id="c1a0-1e3f-2e62-a3ad" name="Pre-Registered Target Point" hidden="false" collective="false" import="true" targetId="bc13-9403-e8ea-1c68" type="selectionEntry"/>
+            <entryLink id="3587-9af3-fc83-7374" name="Timed 105mm Barrage" hidden="false" collective="false" import="true" targetId="426f-2ca6-0b1e-2d7e" type="selectionEntry"/>
+            <entryLink id="19a1-93cc-fc71-d54c" name="Timed 12&quot; Barrage" hidden="false" collective="false" import="true" targetId="f920-2594-05ae-cff7" type="selectionEntry"/>
+            <entryLink id="7249-9adf-7c09-fc01" name="Timed 8&quot; Barrage" hidden="false" collective="false" import="true" targetId="a19f-2c87-a41b-f78a" type="selectionEntry"/>
+            <entryLink id="2ad5-d9e8-1aa4-b10b" name="Timed 81mm Mortar Barrage" hidden="false" collective="false" import="true" targetId="b596-baeb-af55-db76" type="selectionEntry"/>
+            <entryLink id="d45a-283c-a8cd-b0da" name="Timed F6F Air Strike" hidden="false" collective="false" import="true" targetId="2672-6d02-ecaa-8d16" type="selectionEntry"/>
+            <entryLink id="048c-83fd-059f-42fd" name="Timed Napalm Air Strike" hidden="false" collective="false" import="true" targetId="66bc-aa9d-0ded-ba94" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1be0-fde3-f9b4-ff8d" name="Tank Support" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="1d7e-6f29-7cf5-ed21" name="Logistics Support" hidden="false" collective="false" import="true" targetId="43ea-0366-8af6-e179" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="5892-5e55-59a7-3041" name="Ambulance" hidden="false" collective="false" import="true" targetId="93af-ade8-71a2-e263" type="selectionEntry"/>
+            <entryLink id="b016-0264-4e98-a5ef" name="Forward Aid Post" hidden="false" collective="false" import="true" targetId="16b3-35f5-5e8a-9151" type="selectionEntry"/>
+            <entryLink id="6c5d-b3d1-1a7e-d46c" name="Supply Column" hidden="false" collective="false" import="true" targetId="e22f-77e7-195c-fdae" type="selectionEntry"/>
+            <entryLink id="a6c3-8c5b-5340-05ad" name="Stretcher Party" hidden="false" collective="false" import="true" targetId="94e6-0cf8-db28-f896" type="selectionEntry"/>
+            <entryLink id="86f3-e645-b10a-03b4" name="Motor Pool" hidden="false" collective="false" import="true" targetId="c7b9-ed9b-1571-ba27" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="99c1-9650-fcae-15e1" name="Engineer Support" hidden="false" collective="false" import="true" targetId="2494-90d6-5c75-42d9" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="acad-8a0a-132e-0b9a" name="Combat Engineer Squad" hidden="false" collective="false" import="true" targetId="6e3f-0af2-9adc-c6e0" type="selectionEntry"/>
+            <entryLink id="a23e-b6b9-4752-b2cd" name="Heavy Bridging Unit" hidden="false" collective="false" import="true" targetId="c38c-6f55-b86b-43a1" type="selectionEntry"/>
+            <entryLink id="ca1a-e0b9-f475-48fe" name="Armoured Engineering Vehicle" hidden="false" collective="false" import="true" targetId="86e2-fe7d-35da-7c6a" type="selectionEntry"/>
+            <entryLink id="400d-977e-e143-5573" name="Light Bridging Unit" hidden="false" collective="false" import="true" targetId="7e83-4c1f-33c5-929f" type="selectionEntry"/>
+            <entryLink id="879c-6235-5077-cfeb" name="Recovery Vehicle" hidden="false" collective="false" import="true" targetId="5c06-729d-ca39-4cc9" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="2281-0bd1-66b7-79dd" name="Reconnaissance Support" hidden="false" collective="false" import="true" targetId="aab6-1351-8d90-13ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="df88-fe79-1a11-2e8a" name="Infantry Foot Patrol" hidden="false" collective="false" import="true" targetId="166a-bf7e-87c3-84a6" type="selectionEntry"/>
+            <entryLink id="793f-dcb0-cf35-88c7" name="Armoured Car" hidden="false" collective="false" import="true" targetId="ddeb-e549-cb7c-e7a9" type="selectionEntry"/>
+            <entryLink id="38e9-e5c4-5cda-49ef" name="Armoured Infantry Patrol" hidden="false" collective="false" import="true" targetId="2615-8ba1-47f5-32ed" type="selectionEntry"/>
+            <entryLink id="5e5c-0a5b-8d12-34fc" name="Alamo Scout Team" hidden="false" collective="false" import="true" targetId="f191-9aa1-2238-8956" type="selectionEntry"/>
+            <entryLink id="392c-f016-a870-b0cd" name="Recon Platoon Command" hidden="false" collective="false" import="true" targetId="9b65-a1e1-204e-1d53" type="selectionEntry"/>
+            <entryLink id="1f20-0048-ceeb-2e02" name="Jeep Reconnaissance Team" hidden="false" collective="false" import="true" targetId="7d38-a5ba-dc9e-5216" type="selectionEntry"/>
+            <entryLink id="b74b-3029-2f84-853c" name="Light Tank" hidden="false" collective="false" import="true" targetId="ca6d-d129-3094-02a2" type="selectionEntry"/>
+            <entryLink id="a52b-a058-c92e-e2fb" name="Sniper" hidden="false" collective="false" import="true" targetId="f380-37c3-ff7c-5f87" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="3b46-d950-9eca-4c0b" name="Specialist Support" hidden="false" collective="false" import="true" targetId="ff54-c6af-ba02-c6f1" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="05f1-1964-ebdf-d1be" name="Additional Amtrac" hidden="false" collective="false" import="true" targetId="518f-b359-8f69-063a" type="selectionEntry"/>
+            <entryLink id="3d0a-62dc-5222-8565" name="Additional Landing Craft" hidden="false" collective="false" import="true" targetId="f92d-3b0b-85b0-59b3" type="selectionEntry"/>
+            <entryLink id="4ab0-345f-6f38-879d" name="Anti-Aircraft Halftrack" hidden="false" collective="false" import="true" targetId="73ef-4c46-85f9-bbec" type="selectionEntry"/>
+            <entryLink id="e5ff-bf01-38ac-efb2" name="Flamethrower Tank" hidden="false" collective="false" import="true" targetId="e692-fa6a-ca77-9816" type="selectionEntry"/>
+            <entryLink id="d765-22a0-afc5-0a56" name="Self-Propelled Tank Destroyer" hidden="false" collective="false" import="true" targetId="f58d-f81a-603e-72a0" type="selectionEntry"/>
+            <entryLink id="70e5-8e5a-6a9e-bafd" name="Landing Craft Rocket" hidden="false" collective="false" import="true" targetId="5f27-36a0-cf61-6e63" type="selectionEntry"/>
+            <entryLink id="ea68-4a0c-9600-b846" name="Towed Anti-Aircraft Gun" hidden="false" collective="false" import="true" targetId="75aa-c5d4-f49c-77b1" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="985f-da8e-6269-b3b3" name="Infantry Support" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="7d1e-5ed3-28c1-043a" name="Specialist Support" hidden="false" collective="false" import="true" targetId="ff54-c6af-ba02-c6f1" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="a328-9d7c-c620-1ba8" name="Additional Amtrac" hidden="false" collective="false" import="true" targetId="518f-b359-8f69-063a" type="selectionEntry"/>
+            <entryLink id="1b20-116c-a895-f530" name="Additional Landing Craft" hidden="false" collective="false" import="true" targetId="f92d-3b0b-85b0-59b3" type="selectionEntry"/>
+            <entryLink id="1ef1-5a01-bba8-a221" name="Anti-Aircraft Halftrack" hidden="false" collective="false" import="true" targetId="73ef-4c46-85f9-bbec" type="selectionEntry"/>
+            <entryLink id="edc9-84ee-2b82-955a" name="Flamethrower Tank" hidden="false" collective="false" import="true" targetId="e692-fa6a-ca77-9816" type="selectionEntry"/>
+            <entryLink id="74ab-4498-298b-6cc7" name="Self-Propelled Tank Destroyer" hidden="false" collective="false" import="true" targetId="f58d-f81a-603e-72a0" type="selectionEntry"/>
+            <entryLink id="d10f-6d2d-55f6-5e93" name="Landing Craft Rocket" hidden="false" collective="false" import="true" targetId="5f27-36a0-cf61-6e63" type="selectionEntry"/>
+            <entryLink id="c833-1514-e9c1-05b0" name="Towed Anti-Aircraft Gun" hidden="false" collective="false" import="true" targetId="75aa-c5d4-f49c-77b1" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="f124-c7c9-24a0-7b69" name="Engineer Support" hidden="false" collective="false" import="true" targetId="2494-90d6-5c75-42d9" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="8e03-49b8-6656-1ee5" name="Combat Engineer Squad" hidden="false" collective="false" import="true" targetId="6e3f-0af2-9adc-c6e0" type="selectionEntry"/>
+            <entryLink id="70c9-b777-e2d7-a9ed" name="Heavy Bridging Unit" hidden="false" collective="false" import="true" targetId="c38c-6f55-b86b-43a1" type="selectionEntry"/>
+            <entryLink id="6229-ac41-e96a-6050" name="Armoured Engineering Vehicle" hidden="false" collective="false" import="true" targetId="86e2-fe7d-35da-7c6a" type="selectionEntry"/>
+            <entryLink id="205d-75ea-e961-a518" name="Light Bridging Unit" hidden="false" collective="false" import="true" targetId="7e83-4c1f-33c5-929f" type="selectionEntry"/>
+            <entryLink id="3497-de06-afea-1991" name="Recovery Vehicle" hidden="false" collective="false" import="true" targetId="5c06-729d-ca39-4cc9" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="8933-41a8-82ac-6541" name="Reconnaissance Support" hidden="false" collective="false" import="true" targetId="aab6-1351-8d90-13ab" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="1282-35bb-a2bb-24ab" name="Infantry Foot Patrol" hidden="false" collective="false" import="true" targetId="166a-bf7e-87c3-84a6" type="selectionEntry"/>
+            <entryLink id="c2ff-4cdc-3152-2ab1" name="Armoured Car" hidden="false" collective="false" import="true" targetId="ddeb-e549-cb7c-e7a9" type="selectionEntry"/>
+            <entryLink id="074b-b782-5afc-6d7a" name="Armoured Infantry Patrol" hidden="false" collective="false" import="true" targetId="2615-8ba1-47f5-32ed" type="selectionEntry"/>
+            <entryLink id="4a5b-6ea5-f585-ccc7" name="Alamo Scout Team" hidden="false" collective="false" import="true" targetId="f191-9aa1-2238-8956" type="selectionEntry"/>
+            <entryLink id="3ca5-965c-fcb0-37b9" name="Recon Platoon Command" hidden="false" collective="false" import="true" targetId="9b65-a1e1-204e-1d53" type="selectionEntry"/>
+            <entryLink id="4745-3e43-a622-f0c9" name="Jeep Reconnaissance Team" hidden="false" collective="false" import="true" targetId="7d38-a5ba-dc9e-5216" type="selectionEntry"/>
+            <entryLink id="3fd4-3944-ff50-0062" name="Light Tank" hidden="false" collective="false" import="true" targetId="ca6d-d129-3094-02a2" type="selectionEntry"/>
+            <entryLink id="aeb7-b8a5-a960-4789" name="Sniper" hidden="false" collective="false" import="true" targetId="f380-37c3-ff7c-5f87" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink id="93f7-77e1-4dd1-6766" name="Library - America" targetId="975f-5810-bd11-08be" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="ec28-6b24-06b0-4707" name="Library - Pacific - US" targetId="0b1f-5cdd-b049-6ef6" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>
