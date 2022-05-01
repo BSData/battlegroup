@@ -63,7 +63,6 @@
         <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="484f-f9a8-5034-9e68" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="913c-058c-6168-adb3" name="Bedspring Armor" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="b884-3410-2265-5c9a" name="Forward Headquarters" hidden="false" collective="false" import="true" type="unit">
@@ -202,23 +201,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4953-85dc-9f31-aa79" name="Tank Support" hidden="true" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="3736-a370-cc25-80de" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="b884-3410-2265-5c9a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="b884-3410-2265-5c9a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3736-a370-cc25-80de" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="b669-a2ae-0613-bc55" name="FHQ Support" hidden="false" collective="false" import="true" targetId="2321-c88b-f5d7-7a32" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ea3-5bf1-0ba5-8217" type="max"/>
@@ -626,23 +608,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70c6-e35a-669f-b294" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="355e-b8ba-5875-76f8" name="Tank Support" hidden="true" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="6804-c071-b3a1-c497" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="4deb-8879-3a90-57fd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="4deb-8879-3a90-57fd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6804-c071-b3a1-c497" type="max"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
@@ -716,23 +681,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca95-d12a-9180-8980" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="fac5-4142-fb7f-f0e0" name="Tank Support" hidden="true" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="f886-a5ae-b331-f110" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="b2fd-42c7-7f6f-84eb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="b2fd-42c7-7f6f-84eb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f886-a5ae-b331-f110" type="max"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="16.0"/>
@@ -789,23 +737,6 @@
         <entryLink id="6604-e28e-4718-ec18" name="Infantry Support" hidden="false" collective="false" import="true" targetId="d042-b637-ba16-cdd0" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b32-10fc-3a5f-1c3f" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="a2c4-11c1-6b94-7c6a" name="Tank Support" hidden="true" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="c23a-fdb2-2bfb-8318" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="8265-0274-493b-444f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="8265-0274-493b-444f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c23a-fdb2-2bfb-8318" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -887,13 +818,6 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="77a7-772e-f387-8b79" name="Tank Support" hidden="false" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="3a6d-ecb4-f56d-104e" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="ce2d-ffb8-b943-8b84" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a6d-ecb4-f56d-104e" type="max"/>
           </constraints>
@@ -1044,13 +968,6 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="e8ca-3792-bd1c-76d9" name="Tank Support" hidden="false" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="b7ea-a149-79ef-7ac2" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="d3fb-f664-5eee-f9c3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7ea-a149-79ef-7ac2" type="max"/>
           </constraints>
@@ -1201,13 +1118,6 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="ab10-b616-60ac-18d2" name="Tank Support" hidden="false" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="17ef-0c5c-752a-bfb2" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="f646-dd08-a8a0-663c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17ef-0c5c-752a-bfb2" type="max"/>
           </constraints>
@@ -1318,13 +1228,6 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="fd36-dbe5-953a-fbfe" name="Tank Support" hidden="false" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="fe8d-3237-dcd4-2d8e" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="d609-adfe-2eb0-fcd0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe8d-3237-dcd4-2d8e" type="max"/>
           </constraints>
@@ -1398,13 +1301,6 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="bec1-e8e6-d203-b009" name="Tank Support" hidden="false" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="6bd4-5036-9386-5e09" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="cda9-59af-d0ff-cff0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bd4-5036-9386-5e09" type="max"/>
           </constraints>
@@ -1534,13 +1430,6 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="bf10-2ff3-4184-4a87" name="Tank Support" hidden="false" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="2a71-0a66-8175-d611" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="dca0-f816-df82-6c51" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a71-0a66-8175-d611" type="max"/>
           </constraints>
@@ -1671,13 +1560,6 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="57a4-08a7-1906-d70c" name="Tank Support" hidden="false" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="0ac6-348f-882b-4c2b" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="30bd-9427-6c6c-22cc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ac6-348f-882b-4c2b" type="max"/>
           </constraints>
@@ -2812,23 +2694,6 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="264c-8600-0387-d685" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="6281-e7f3-54ca-d4e0" name="Tank Support" hidden="true" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="4556-42d3-ae64-fcca" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="f204-9e44-0dcd-32d4" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="f204-9e44-0dcd-32d4" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4556-42d3-ae64-fcca" type="max"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
@@ -2947,13 +2812,6 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="b11f-6489-d3f8-2932" name="Tank Support" hidden="false" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="121b-1359-15e8-2d4a" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="dd99-a239-ec4a-299a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="121b-1359-15e8-2d4a" type="max"/>
           </constraints>
@@ -3510,23 +3368,6 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39ae-5944-714c-17b9" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c3f2-fe49-98df-3669" name="Tank Support" hidden="true" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="629a-d9a2-0571-a272" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="a38b-740a-b90c-1928" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="a38b-740a-b90c-1928" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="629a-d9a2-0571-a272" type="max"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
@@ -3551,23 +3392,6 @@
         <entryLink id="2728-9935-7f5c-b129" name="Infantry Support" hidden="false" collective="false" import="true" targetId="d042-b637-ba16-cdd0" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60b7-960d-0717-49d8" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="1eb1-e59a-a826-1b74" name="Tank Support" hidden="true" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="cee6-e7c1-3f18-c746" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="650c-48a3-2117-0dd0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="650c-48a3-2117-0dd0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cee6-e7c1-3f18-c746" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -3640,23 +3464,6 @@
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a48-2074-f352-ae0e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="cb7a-cb45-ec23-e5a4" name="Tank Support" hidden="true" collective="false" import="true" targetId="5713-797e-ee30-3608" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="increment" field="f20a-67dc-a9cd-42fe" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="fd01-9572-938d-42d6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="fd01-9572-938d-42d6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-058c-6168-adb3" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f20a-67dc-a9cd-42fe" type="max"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
@@ -3684,6 +3491,13 @@
       <categoryLinks>
         <categoryLink id="0f6f-29f0-8171-73bc" name="New CategoryLink" hidden="false" targetId="19bc-5687-3b84-3d6c" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -4624,9 +4438,6 @@
           <description>Any Russian Tank (T-34, Sherman &apos;Emcha&apos; or IS-2) can be upgraded with bed-spring armor.  A tank equipped with bed-spring armor reduces the penetration value of a Panzerfaust or Panzerschreck hit, from the side or top, by -1.</description>
         </rule>
       </rules>
-      <categoryLinks>
-        <categoryLink id="5892-41be-a292-4da7" name="Bedspring Armor" hidden="false" targetId="913c-058c-6168-adb3" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="3.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>

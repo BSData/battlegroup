@@ -64,7 +64,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -91,7 +90,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="48.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -107,7 +105,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="48.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -123,7 +120,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="70.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -145,7 +141,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b342-f1e4-02eb-8aec" name="Cromwell IV / V" hidden="false" collective="false" import="true" type="model">
@@ -159,7 +154,6 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="52.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -175,7 +169,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="50.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -191,7 +184,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="48.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -210,7 +202,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -238,7 +229,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -255,7 +245,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="66.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -305,7 +294,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -315,7 +303,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -351,7 +338,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -364,7 +350,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -380,7 +365,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -397,7 +381,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -407,7 +390,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="10.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -426,7 +408,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -447,7 +428,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -461,7 +441,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="40.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -486,7 +465,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="9.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -514,7 +492,6 @@
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -529,7 +506,6 @@
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -541,7 +517,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -559,7 +534,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="14.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -587,7 +561,6 @@
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -602,7 +575,6 @@
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -614,7 +586,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -641,7 +612,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -659,7 +629,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -669,7 +638,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="37.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -681,7 +649,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="147.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="15.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -698,7 +665,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -746,7 +712,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -770,7 +735,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -780,7 +744,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -799,7 +762,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -825,7 +787,6 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="10.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -852,7 +813,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -866,7 +826,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -878,7 +837,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -917,7 +875,6 @@
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -932,7 +889,6 @@
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -944,7 +900,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -954,7 +909,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="36.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -979,7 +933,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1012,7 +965,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1030,7 +982,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1040,7 +991,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1067,7 +1017,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1077,7 +1026,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="14.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1105,7 +1053,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1122,7 +1069,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1132,7 +1078,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1161,7 +1106,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1181,7 +1125,6 @@
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -1197,7 +1140,6 @@
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -1209,7 +1151,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="34.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1230,7 +1171,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1244,7 +1184,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="37.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1256,7 +1195,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="94.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="11.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -1273,7 +1211,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -1324,7 +1261,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1334,7 +1270,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1353,7 +1288,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1379,7 +1313,6 @@
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="8.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1397,7 +1330,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1407,7 +1339,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1432,7 +1363,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1465,7 +1395,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1483,7 +1412,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1493,7 +1421,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1520,7 +1447,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1530,7 +1456,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="14.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1558,7 +1483,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1575,7 +1499,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1585,7 +1508,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1612,7 +1534,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1630,7 +1551,6 @@
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1640,7 +1560,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="34.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1661,7 +1580,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1675,7 +1593,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1687,7 +1604,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="122.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="15.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -1704,7 +1620,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -1747,7 +1662,6 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1768,7 +1682,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1782,7 +1695,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1794,7 +1706,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="8.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -1811,7 +1722,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="25.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -1859,7 +1769,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1875,7 +1784,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1892,7 +1800,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1908,7 +1815,6 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1918,7 +1824,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="10.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -1935,7 +1840,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -1978,7 +1882,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1992,7 +1895,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2013,7 +1915,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2027,7 +1928,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2039,7 +1939,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="10.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -2056,7 +1955,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="21.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -2084,7 +1982,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2101,7 +1998,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2120,7 +2016,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="50.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -2173,7 +2068,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2183,7 +2077,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2212,7 +2105,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2222,7 +2114,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2251,7 +2142,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2261,7 +2151,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2282,7 +2171,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2296,7 +2184,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2310,7 +2197,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2325,7 +2211,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -2373,7 +2258,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2389,7 +2273,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2405,7 +2288,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2429,7 +2311,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="48.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2445,7 +2326,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="48.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2461,7 +2341,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="70.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2473,7 +2352,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="34.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -2490,7 +2368,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -2541,7 +2418,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2561,7 +2437,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2580,7 +2455,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2599,7 +2473,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2609,7 +2482,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="212.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="12.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2636,7 +2508,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2656,7 +2527,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2675,7 +2545,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2695,7 +2564,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2705,7 +2573,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="230.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="12.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2724,7 +2591,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -2765,7 +2631,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2793,7 +2658,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -2806,7 +2670,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -2819,7 +2682,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -2842,7 +2704,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2858,7 +2719,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2870,7 +2730,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="208.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="12.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -2887,7 +2746,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -2931,7 +2789,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2951,7 +2808,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="94.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2963,7 +2819,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2978,7 +2833,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3003,7 +2857,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3020,7 +2873,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="13.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3029,42 +2881,18 @@
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a73f-dac0-3394-0f0b" type="max"/>
       </constraints>
+      <rules>
+        <rule id="1474-9a96-f79e-44d5" name="Dispirited Enemy" hidden="false">
+          <description>The morale of the enemy facing you today is already shaky.  At the start of the German player&apos;s first turn he must automatically take a battle counter.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="44bf-6de2-8ee9-775e" name="New CategoryLink" hidden="false" targetId="0891-5f08-126a-7f90" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="c84c-26f9-6091-1055" name="Dispirited Enemy" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca77-e65b-3c4d-bbc1" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97a4-fef3-eda1-2421" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="778c-ee8f-5f33-c0e8" name="Dispirited Enemy" hidden="false">
-              <description>The morale of the enemy facing you today is already shaky.  At the start of the German player&apos;s first turn he must automatically take a battle counter.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="859e-721d-d9e6-e354" name="FHQ Support" hidden="false" collective="false" import="true" targetId="04fa-6802-2715-87e0" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8867-2848-52cc-00de" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3107,7 +2935,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -3120,7 +2947,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -3134,7 +2960,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -3148,7 +2973,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -3160,7 +2984,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3178,7 +3001,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3198,7 +3020,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="44.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3217,7 +3038,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="26.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3259,7 +3079,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -3273,7 +3092,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -3287,7 +3105,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -3299,7 +3116,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3317,7 +3133,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3335,7 +3150,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3354,7 +3168,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="42.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3373,7 +3186,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="32.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3393,7 +3205,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="46.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3412,7 +3223,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="36.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3431,7 +3241,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="21.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3467,7 +3276,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -3485,7 +3293,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -3499,7 +3306,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -3511,7 +3317,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3528,7 +3333,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="16.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3568,7 +3372,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -3582,7 +3385,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -3595,7 +3397,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -3607,7 +3408,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3624,7 +3424,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3659,7 +3458,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3676,7 +3474,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3686,7 +3483,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3703,7 +3499,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="29.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3743,7 +3538,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -3760,7 +3554,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -3773,7 +3566,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -3785,7 +3577,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3811,7 +3602,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -3824,7 +3614,6 @@
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -3836,7 +3625,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3846,7 +3634,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="80.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="6.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3863,7 +3650,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3897,7 +3683,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3907,7 +3692,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3924,7 +3708,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="12.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3949,7 +3732,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="90.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3962,7 +3744,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="130.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3975,7 +3756,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="110.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3988,7 +3768,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="140.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4007,7 +3786,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4032,7 +3810,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="54.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4045,7 +3822,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="72.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4064,7 +3840,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4091,7 +3866,6 @@
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="54.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4113,7 +3887,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4130,7 +3903,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4154,7 +3926,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4171,7 +3942,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="80.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4206,7 +3976,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4222,7 +3991,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4232,7 +4000,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4249,7 +4016,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="72.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4274,7 +4040,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4291,7 +4056,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="7.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4390,7 +4154,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4414,7 +4177,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4424,7 +4186,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4434,7 +4195,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4446,7 +4206,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4459,7 +4218,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4484,7 +4242,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4501,7 +4258,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4511,7 +4267,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4536,7 +4291,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4553,7 +4307,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4563,7 +4316,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4592,7 +4344,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4609,7 +4360,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4619,7 +4369,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4660,7 +4409,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4670,7 +4418,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4687,7 +4434,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4697,7 +4443,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4738,7 +4483,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4748,7 +4492,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4765,7 +4508,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4775,7 +4517,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4804,7 +4545,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4817,7 +4557,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4831,7 +4570,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4845,7 +4583,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bcc5-8bf0-cace-8df3" name="Forward Aid Post" hidden="false" collective="false" import="true" type="unit">
@@ -4875,7 +4612,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4887,7 +4623,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eac0-ec82-a223-5466" name="Stretcher Party" hidden="false" collective="false" import="true" type="unit">
@@ -4909,7 +4644,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4919,7 +4653,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4954,7 +4687,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -4967,7 +4699,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -4979,7 +4710,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4989,7 +4719,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -5018,7 +4747,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5032,7 +4760,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5046,7 +4773,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5067,7 +4793,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="51da-b2a9-7e18-8e83" name="Humber IV Armoured Car" hidden="false" collective="false" import="true" type="model">
@@ -5080,7 +4805,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="28.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5095,7 +4819,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="26.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5107,7 +4830,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
@@ -5138,7 +4860,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -5156,7 +4877,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -5166,7 +4886,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
@@ -5193,7 +4912,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="10.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -5203,7 +4921,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="31.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
@@ -5230,7 +4947,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="8.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -5248,7 +4964,6 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -5258,7 +4973,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="35.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
@@ -5299,7 +5013,6 @@
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -5309,7 +5022,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5323,7 +5035,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5337,7 +5048,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5353,7 +5063,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="16.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5365,7 +5074,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="28.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
@@ -5398,7 +5106,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="48.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5414,7 +5121,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="40.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5429,7 +5135,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5445,7 +5150,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="62.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5457,7 +5161,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
@@ -5500,7 +5203,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5510,7 +5212,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -5539,7 +5240,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5549,7 +5249,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -5559,7 +5258,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
@@ -5583,7 +5281,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -5601,7 +5298,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -5611,7 +5307,6 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
@@ -5639,7 +5334,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="54.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5656,7 +5350,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="54.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5670,7 +5363,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="12.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5684,7 +5376,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="16.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5701,7 +5392,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="50.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5717,7 +5407,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="60.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5729,7 +5418,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -5763,7 +5451,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5779,7 +5466,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5795,7 +5481,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5805,7 +5490,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="10.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -5826,7 +5510,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5839,7 +5522,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5853,7 +5535,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5865,7 +5546,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="26.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -5896,7 +5576,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="12.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -5913,7 +5592,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -5932,7 +5610,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5950,7 +5627,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -5960,7 +5636,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -5972,7 +5647,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="864f-1015-6a25-0d3f" name="Light Bridging Unit" hidden="false" collective="false" import="true" type="unit">
@@ -5994,7 +5668,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -6011,7 +5684,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -6021,7 +5693,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -6048,7 +5719,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -6061,7 +5731,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="16.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -6075,7 +5744,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -6088,7 +5756,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="16.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -6102,7 +5769,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -6114,7 +5780,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -6146,7 +5811,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f10b-472a-ac47-5e90" name="Crusader AA Mk.I" hidden="false" collective="false" import="true" type="model">
@@ -6166,7 +5830,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6f35-4be0-5abb-de3a" name="Crusader AA Mk.II" hidden="false" collective="false" import="true" type="model">
@@ -6186,7 +5849,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8496-a328-5404-a6e5" name="Crusader AA &apos;Triple&apos;" hidden="false" collective="false" import="true" type="model">
@@ -6204,7 +5866,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="38.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -6216,7 +5877,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -6242,7 +5902,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -6269,7 +5928,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -6279,7 +5937,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -6309,7 +5966,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -6322,7 +5978,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -6334,7 +5989,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -6354,7 +6008,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -6375,7 +6028,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -6396,7 +6048,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -6410,7 +6061,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="27.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -6430,7 +6080,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -6452,7 +6101,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="28.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -6466,7 +6114,6 @@
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -6480,7 +6127,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="102.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="9.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -6508,7 +6154,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -6526,7 +6171,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -6547,7 +6191,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -6560,7 +6203,6 @@
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -6574,7 +6216,6 @@
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="edce-523a-4d07-4933" name="Specialist Armoured Vehicle" hidden="false" collective="false" import="true" type="unit">
@@ -6603,7 +6244,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="87fd-dae7-20a4-1808" name="Churchill AVRE" hidden="false" collective="false" import="true" type="model">
@@ -6619,7 +6259,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2fa1-3962-0a2c-1128" name="Churchill Crocodile" hidden="false" collective="false" import="true" type="model">
@@ -6636,7 +6275,6 @@
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6646,7 +6284,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -6671,7 +6308,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -6687,7 +6323,6 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -6705,7 +6340,6 @@
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -6715,7 +6349,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="36.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
