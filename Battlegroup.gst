@@ -201,17 +201,20 @@
     <categoryEntry id="7588-a541-97da-c713" name="Paratroopers" hidden="false"/>
     <categoryEntry id="a076-3266-83b1-1bfa" name="Off-Table" hidden="false">
       <modifiers>
-        <modifier type="set" field="hidden" value="true">
+        <modifier type="set" field="53f1-8829-c462-4819" value="0.0">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0828-adc9-4783-6ab0" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0828-adc9-4783-6ab0" type="atLeast"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="75c5-51f4-48b7-30cf" type="atLeast"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="53f1-8829-c462-4819" type="max"/>
+      </constraints>
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
