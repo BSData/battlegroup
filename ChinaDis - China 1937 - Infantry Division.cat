@@ -41,7 +41,7 @@
     </categoryEntry>
   </categoryEntries>
   <selectionEntries>
-    <selectionEntry id="b33b-dc8d-5aeb-64fc" name="Chinese Close Air Support 1937" hidden="true" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b33b-dc8d-5aeb-64fc" name="Chinese Close Air Support 1937" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="decrement" field="7b9b-1419-a240-658f" value="1.0">
           <conditions>
@@ -152,6 +152,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fa89-f157-d576-a43e" name="Conscript Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -170,6 +177,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1469-6c24-37ec-29b7" name="Conscript Company" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -337,6 +351,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b31b-b349-c13d-3822" name="Infantry Squad" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -362,6 +383,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="95da-5a0c-8b24-042f" name="Dare to Die Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -502,8 +530,8 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="58.0"/>
-            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="8.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="6.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
@@ -517,6 +545,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="244e-3b41-20ef-05e8" name="Dire Consequences" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -843,8 +878,22 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="900d-cc79-656a-962f" name="Infantry Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a28b-637a-2a1b-2649" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="0af7-0957-a895-90ce" name="New CategoryLink" hidden="false" targetId="a529-162f-ec0b-e961" primary="true"/>
       </categoryLinks>
@@ -861,6 +910,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="558e-77f4-ad7a-6db8" name="Light Machine Gun Dug-out" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -937,6 +993,9 @@
       <costs>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="146c-6cbd-a6bd-cbf0" name="Off-Table Artillery Fire" hidden="false" collective="false" import="true" type="unit">
@@ -1254,6 +1313,153 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f575-73a6-ee6b-7ebf" name="Death Squad" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5a83-f940-1267-f8f7" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="e3f2-67a6-ac65-e016" name="New CategoryLink" hidden="false" targetId="a529-162f-ec0b-e961" primary="true"/>
+        <categoryLink id="766a-a135-e799-e18b" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9d8a-e785-269d-c4ad" name="Death Squad" hidden="false" collective="false" import="true" targetId="a28b-637a-2a1b-2649" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ec6-c05b-0818-ef4f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a98a-aaa4-265e-050d" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4e04-3a27-0f56-477f" name="Infantry Support" hidden="false" collective="false" import="true" targetId="042b-69b4-f075-530a" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d27e-3f72-4b4c-3e8f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="85bf-c07f-c9e0-0c6c" name="Dispatch Rider" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="072f-1354-686e-ecb8" name="New CategoryLink" hidden="false" targetId="0891-5f08-126a-7f90" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="63a6-1626-5338-dc18" name="Dispatch Rider" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7891-0767-a6af-6bfd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abbb-7a39-ee0a-b3d6" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b310-f0cc-07f7-d7d8" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+            <infoLink id="565d-98d2-942d-e5c6" name="Horses" hidden="false" targetId="d491-350f-7c5c-1282" type="profile"/>
+            <infoLink id="b16e-4c46-dc14-a81e" name="Chiang Kai-Shek Rifle" hidden="false" targetId="8030-1ff3-9014-0aea" type="profile"/>
+            <infoLink id="a007-33ea-1c47-77d3" name="Dispatch" hidden="false" targetId="6be2-f7b2-6bc0-8fc1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="12.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="e38f-794e-20a1-5043" name="FHQ Support" hidden="false" collective="false" import="true" targetId="6d8e-d736-112d-a5ac" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb12-09d3-fa18-709b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="44c9-d59f-b9e3-e5b1" name="International Spectacle" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="3bc8-6ab0-29eb-2f9d" name="International Spectacle" hidden="false">
+          <description>Intense fighting at large international cities has drawn the attention of the world. Newsreels from bystanders are recording this battle. Any sign of weakness might dissuade desperately needed potential allies. At the start of the game, roll a D6 and add the result to the Battlegroup’s total BR.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="5692-9f06-39ce-7d58" name="New CategoryLink" hidden="false" targetId="0891-5f08-126a-7f90" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="92ca-413f-234d-e3d9" name="Roll D6 BR" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4ef-5dd0-69c8-4597" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a105-d965-5867-c416" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ba4c-54c7-0596-69f6" name="1" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cfd8-bd49-588b-0476" name="3" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="91bd-050d-01e1-0269" name="4" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1f25-97ff-25db-a526" name="5" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="5.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e62f-378d-1da9-7604" name="6" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="6.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4a57-2b04-af19-1e37" name="2" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -1361,6 +1567,9 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
       </costs>
     </selectionEntry>
     <selectionEntry id="f45e-27ae-8110-3150" name="Armoured Car" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="2463-19f7-08d1-cd4b" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8d86-5cb9-ee48-9382" name="Vickers Crossley" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -2330,13 +2539,33 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
     <selectionEntryGroup id="042b-69b4-f075-530a" name="Infantry Support" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="4e09-dbd7-6e8b-41ca" name="Reconnaissance Support" hidden="false" collective="false" import="true" targetId="aab6-1351-8d90-13ab" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="262f-477c-b1f2-961b" name="Death Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5a83-f940-1267-f8f7" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="c99a-aa7d-ac18-c496" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="db42-66a5-9d94-ed99" name="Death Squad" hidden="false" collective="false" import="true" targetId="a28b-637a-2a1b-2649" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adef-3302-a3d8-56c0" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5752-d22c-ee7a-b718" type="min"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
           <entryLinks>
             <entryLink id="1506-61c5-bfaf-6310" name="Armoured Car" hidden="false" collective="false" import="true" targetId="f45e-27ae-8110-3150" type="selectionEntry"/>
-            <entryLink id="25b8-d839-339c-e9c0" name="Death Squad" hidden="false" collective="false" import="true" targetId="a28b-637a-2a1b-2649" type="selectionEntry">
-              <costs>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
-              </costs>
-            </entryLink>
             <entryLink id="c858-a7b5-bed9-3f4b" name="Sniper" hidden="false" collective="false" import="true" targetId="8080-2c06-23ca-e0ba" type="selectionEntry"/>
           </entryLinks>
         </entryLink>
@@ -2372,13 +2601,33 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
           </entryLinks>
         </entryLink>
         <entryLink id="52d4-805b-a086-c971" name="Reconnaissance Support" hidden="false" collective="false" import="true" targetId="aab6-1351-8d90-13ab" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="0df1-0e64-dc77-0196" name="Death Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5a83-f940-1267-f8f7" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <categoryLinks>
+                <categoryLink id="a983-a625-0351-eb66" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="81ba-01ef-b2f8-8252" name="Death Squad" hidden="false" collective="false" import="true" targetId="a28b-637a-2a1b-2649" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="216b-e5a0-8508-1a1e" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a177-49c4-746c-e6cd" type="min"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
           <entryLinks>
             <entryLink id="222d-4cf3-1681-057e" name="Armoured Car" hidden="false" collective="false" import="true" targetId="f45e-27ae-8110-3150" type="selectionEntry"/>
-            <entryLink id="37f2-8cdd-1078-9567" name="Death Squad" hidden="false" collective="false" import="true" targetId="a28b-637a-2a1b-2649" type="selectionEntry">
-              <costs>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
-              </costs>
-            </entryLink>
             <entryLink id="97d5-16bf-7543-aa31" name="Sniper" hidden="false" collective="false" import="true" targetId="8080-2c06-23ca-e0ba" type="selectionEntry"/>
           </entryLinks>
         </entryLink>
