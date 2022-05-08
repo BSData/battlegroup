@@ -630,7 +630,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
@@ -1346,6 +1346,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="85bf-c07f-c9e0-0c6c" name="Dispatch Rider" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -1379,6 +1386,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="44c9-d59f-b9e3-e5b1" name="International Spectacle" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -2520,6 +2534,22 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2622-5ae8-e705-6af9" name="Infantry Patrol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c056-622b-837c-55bc" name="Infantry Patrol" hidden="false" targetId="1afc-ce66-1c75-fee8" type="profile"/>
+        <infoLink id="6ec3-3b84-906b-5361" name="Basic Infantry Small Arms" hidden="false" targetId="78a8-c880-8650-e4a1" type="infoGroup"/>
+        <infoLink id="11b9-1435-968a-2213" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+        <infoLink id="ba20-622e-32d0-2b9d" name="Scout" hidden="false" targetId="d3dc-e766-4136-b3ad" type="rule"/>
+        <infoLink id="6b66-eb4f-ca0a-e774" name="Short Supplies" hidden="false" targetId="0ae1-bb1d-cfba-0f66" type="rule"/>
+        <infoLink id="c32b-9e39-9e11-a853" name="Auxiliary" hidden="false" targetId="8f98-b1c1-eb4e-1ad9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="14.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="818b-58fc-5f58-ede0" name="Artillery Support" hidden="false" collective="false" import="true">
@@ -2562,11 +2592,19 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
                   </costs>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="1506-61c5-bfaf-6310" name="Armoured Car" hidden="false" collective="false" import="true" targetId="f45e-27ae-8110-3150" type="selectionEntry"/>
             <entryLink id="c858-a7b5-bed9-3f4b" name="Sniper" hidden="false" collective="false" import="true" targetId="8080-2c06-23ca-e0ba" type="selectionEntry"/>
+            <entryLink id="7d1c-4388-fdc4-3f45" name="Infantry Patrol" hidden="false" collective="false" import="true" targetId="2622-5ae8-e705-6af9" type="selectionEntry"/>
           </entryLinks>
         </entryLink>
         <entryLink id="fb37-0d84-7383-b3fa" name="Engineer Support" hidden="false" collective="false" import="true" targetId="2494-90d6-5c75-42d9" type="selectionEntryGroup">
@@ -2624,11 +2662,19 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
                   </costs>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="222d-4cf3-1681-057e" name="Armoured Car" hidden="false" collective="false" import="true" targetId="f45e-27ae-8110-3150" type="selectionEntry"/>
             <entryLink id="97d5-16bf-7543-aa31" name="Sniper" hidden="false" collective="false" import="true" targetId="8080-2c06-23ca-e0ba" type="selectionEntry"/>
+            <entryLink id="360b-aff9-6033-e3ef" name="Infantry Patrol" hidden="false" collective="false" import="true" targetId="2622-5ae8-e705-6af9" type="selectionEntry"/>
           </entryLinks>
         </entryLink>
         <entryLink id="b647-d054-064e-5fd8" name="Specialist Support" hidden="false" collective="false" import="true" targetId="ff54-c6af-ba02-c6f1" type="selectionEntryGroup">

@@ -503,6 +503,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="475c-28dd-f664-6962" name="Forward Headquarters" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -723,6 +730,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3cf6-9e14-c93a-887a" name="Mountain Gun" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1081,6 +1095,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="007a-ee9d-bc75-730d" name="Infantry Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -1099,6 +1120,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="00a0-7cca-6722-34ba" name="Infantry Company" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -1253,6 +1281,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f8c9-5910-3bc9-e3b8" name="Remnant Platoon" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1607,7 +1642,6 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
     <selectionEntry id="ca52-9350-b953-28e8" name="Anti-Tank Gun" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2691-0227-264b-ceb8" name="Anti-Tank Gun Crew [V.Light]" hidden="false" targetId="f184-73c7-f1e0-6019" type="profile"/>
-        <infoLink id="69e0-3709-0854-96bd" name="37mmL46" hidden="false" targetId="4fa9-e0fa-54bb-225a" type="profile"/>
         <infoLink id="eb76-79e1-a302-fd0e" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
         <infoLink id="a80c-7d89-da2d-bd6b" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
         <infoLink id="c196-0213-2fe3-bfd3" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
@@ -1633,6 +1667,29 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bff3-b795-6253-317b" name="Anti-Tank Gun" hidden="false" collective="false" import="true" defaultSelectionEntryId="323b-ddeb-5590-3077">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d51f-64ea-ad8a-3908" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1051-6b58-19df-82c5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="323b-ddeb-5590-3077" name="37mmL46" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9a2c-edf2-e83c-daa0" name="37mmL46" hidden="false" targetId="4fa9-e0fa-54bb-225a" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="a13b-89c6-d137-b959" name="45mmL46" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c95d-2fbf-762f-2927" name="45mmL46" hidden="false" targetId="7109-75af-5bcf-1e24" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="34.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
@@ -2793,6 +2850,22 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4d74-ea07-5ad2-275a" name="Infantry Patrol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="34f4-6818-c881-bd9c" name="Infantry Patrol" hidden="false" targetId="1afc-ce66-1c75-fee8" type="profile"/>
+        <infoLink id="2e50-dd2d-f045-3e5d" name="Basic Infantry Small Arms" hidden="false" targetId="78a8-c880-8650-e4a1" type="infoGroup"/>
+        <infoLink id="9209-2dcc-054b-c3e3" name="Scout" hidden="false" targetId="d3dc-e766-4136-b3ad" type="rule"/>
+        <infoLink id="3e10-a32d-efa9-dcb4" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+        <infoLink id="7e98-2cab-3591-d921" name="Auxiliary" hidden="false" targetId="8f98-b1c1-eb4e-1ad9" type="rule"/>
+        <infoLink id="ab68-2fb3-418b-0a33" name="Short Supplies" hidden="false" targetId="0ae1-bb1d-cfba-0f66" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="28.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="14.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="53e5-f8b7-2543-9d31" name="Artillery Support" hidden="false" collective="false" import="true">
@@ -2866,6 +2939,7 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
             <entryLink id="152c-e7f2-1cf1-90bf" name="Sniper" hidden="false" collective="false" import="true" targetId="c1a8-4766-25b6-b964" type="selectionEntry"/>
             <entryLink id="4865-d078-878b-5d02" name="Motorcycle HMG Team" hidden="false" collective="false" import="true" targetId="8158-588f-fd78-4e37" type="selectionEntry"/>
             <entryLink id="2abe-64a2-9c56-d11a" name="Motorised Patrol" hidden="false" collective="false" import="true" targetId="d13d-cb9f-903e-06f7" type="selectionEntry"/>
+            <entryLink id="569e-8d7d-f3bb-44b6" name="Infantry Patrol" hidden="false" collective="false" import="true" targetId="4d74-ea07-5ad2-275a" type="selectionEntry"/>
           </entryLinks>
         </entryLink>
         <entryLink id="0dde-d335-e310-e7b2" name="Engineer Support" hidden="false" collective="false" import="true" targetId="2494-90d6-5c75-42d9" type="selectionEntryGroup">
@@ -2926,6 +3000,7 @@ Before any game, a Chinese battlegroup can always choose to be the Defender in a
             <entryLink id="d009-84d3-8018-3520" name="Sniper" hidden="false" collective="false" import="true" targetId="c1a8-4766-25b6-b964" type="selectionEntry"/>
             <entryLink id="6537-8d07-84e4-f3df" name="Motorcycle HMG Team" hidden="false" collective="false" import="true" targetId="8158-588f-fd78-4e37" type="selectionEntry"/>
             <entryLink id="b7d1-a58e-d286-0d3c" name="Motorised Patrol" hidden="false" collective="false" import="true" targetId="d13d-cb9f-903e-06f7" type="selectionEntry"/>
+            <entryLink id="a849-2808-d371-b8c4" name="Infantry Patrol" hidden="false" collective="false" import="true" targetId="4d74-ea07-5ad2-275a" type="selectionEntry"/>
           </entryLinks>
         </entryLink>
         <entryLink id="2124-ee73-98f1-42ad" name="Engineer Support" hidden="false" collective="false" import="true" targetId="2494-90d6-5c75-42d9" type="selectionEntryGroup">
