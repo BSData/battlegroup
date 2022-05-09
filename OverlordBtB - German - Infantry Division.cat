@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bb48-8b9f-e882-3dc9" name="Overlord:BtB - German - Infantry Division" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bb48-8b9f-e882-3dc9" name="Overlord:BtB - German - Infantry Division" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="42bf-1814-50f9-87dc" name="Infantry Platoon" hidden="false">
       <modifiers>
@@ -64,7 +64,6 @@
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -88,7 +87,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -113,7 +111,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -130,7 +127,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="14.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -142,107 +138,78 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
       <categoryLinks>
         <categoryLink id="21d3-aca2-287e-c7bc" name="New CategoryLink" hidden="false" targetId="0891-5f08-126a-7f90" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="4987-0689-3665-8aea" name="Unit Composition" hidden="false" collective="false" import="true" defaultSelectionEntryId="624f-fdd1-e5ef-bccc">
+      <selectionEntries>
+        <selectionEntry id="05f6-bbe6-2a44-05e1" name="Forward HQ Team" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="709d-8d69-4931-7fb7" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03c5-014a-5542-ae7b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b97-ce81-4bee-e091" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c13-c341-dce2-4433" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="624f-fdd1-e5ef-bccc" name="3 men and Sd.Kfz.251/3" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="7891-1be0-63eb-0a51" name="Artillery Spotter" hidden="false" targetId="71b0-1be2-e377-c5c9" type="rule"/>
-                <infoLink id="bd22-775c-5f68-26eb" name="Senior Officer" hidden="false" targetId="aca9-bca6-75d1-68de" type="rule"/>
-                <infoLink id="9349-36ae-2c01-dfa4" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
-              </infoLinks>
+          <infoLinks>
+            <infoLink id="8a12-21b9-7124-ad9e" name="Forward HQ Team" hidden="false" targetId="9ff1-db98-cb11-10bc" type="profile"/>
+            <infoLink id="e1e1-452a-e836-d0ce" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e27a-7045-8951-bb9f" name="Transport" hidden="false" collective="false" import="true" defaultSelectionEntryId="d524-a353-bf92-98fb">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d532-3bfc-f36b-fdf0" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e14d-9e9f-e528-34a5" type="max"/>
+              </constraints>
               <selectionEntries>
-                <selectionEntry id="f067-1c9f-893d-b111" name="Sd.Kfz.251/3" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5447-a5eb-44e6-52b3" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11d9-6d54-d85c-70e9" type="min"/>
-                  </constraints>
+                <selectionEntry id="d524-a353-bf92-98fb" name="Kubelwagen" hidden="false" collective="false" import="true" type="model">
                   <infoLinks>
-                    <infoLink id="5c32-f84d-d71b-fb31" name="Sd.Kfz. 251/3 or 18" hidden="false" targetId="d3ab-e8a6-fe52-e51c" type="profile"/>
-                    <infoLink id="4425-bbec-b7a7-b3ca" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
+                    <infoLink id="89fa-75de-9455-184c" name="Senior Officer" hidden="false" targetId="aca9-bca6-75d1-68de" type="rule"/>
+                    <infoLink id="3f58-d03d-9440-147c" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+                    <infoLink id="fe62-2072-cbae-fc76" name="Artillery Spotter" hidden="false" targetId="71b0-1be2-e377-c5c9" type="rule"/>
+                    <infoLink id="068b-168c-6832-db7b" name="Kübelwagen" hidden="false" targetId="d096-dbcf-6544-ba35" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="0d86-4141-1d69-c592" name="Forward HQ Team" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e71b-9373-2e70-ee07" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a699-96cf-3e44-71e6" type="max"/>
-                  </constraints>
+                <selectionEntry id="f7e1-9f68-2e82-50b0" name="Schwimmwagen" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="87e4-f4df-8c88-2176" name="Forward HQ Team" hidden="false" targetId="9ff1-db98-cb11-10bc" type="profile"/>
-                    <infoLink id="704d-a4fd-1da0-28d4" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                    <infoLink id="7288-250c-b06f-b18f" name="Schwimmwagen" hidden="false" targetId="d9cb-60ce-759b-c7f0" type="profile"/>
+                    <infoLink id="3f48-3379-2305-8264" name="Artillery Spotter" hidden="false" targetId="71b0-1be2-e377-c5c9" type="rule"/>
+                    <infoLink id="bad6-5486-0fbb-4b36" name="Senior Officer" hidden="false" targetId="aca9-bca6-75d1-68de" type="rule"/>
+                    <infoLink id="1439-49f8-2fdd-dea2" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
+                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="fd48-d0e3-b6a8-ecb6" name="Heavy Car" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="e1d6-9e9f-95cb-9604" name="Heavy Car [Steyr/Horch 108]" hidden="false" targetId="a37d-f8e3-764b-2607" type="profile"/>
+                    <infoLink id="e461-1319-ded5-672e" name="Artillery Spotter" hidden="false" targetId="71b0-1be2-e377-c5c9" type="rule"/>
+                    <infoLink id="08a1-2888-44f2-2c99" name="Senior Officer" hidden="false" targetId="aca9-bca6-75d1-68de" type="rule"/>
+                    <infoLink id="d438-9533-64f8-6dcd" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="68d9-d3a1-a4e7-db71" name="Panzer IV-H/J" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="192d-ea80-2fb3-9fc5" name="Panzer IV-H/J" hidden="false" targetId="5d4f-f7c3-3628-6a9e" type="profile"/>
-                <infoLink id="1c96-b930-5e9f-5453" name="75mm/L48 [KwK40/48]" hidden="false" targetId="0917-fe41-f14f-c385" type="profile"/>
-                <infoLink id="4f2a-8750-e378-2882" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
-                <infoLink id="478f-0eb7-1629-d620" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
-                <infoLink id="82e8-4929-129b-af5e" name="Artillery Spotter" hidden="false" targetId="71b0-1be2-e377-c5c9" type="rule"/>
-                <infoLink id="54ef-5b6b-9667-7a0f" name="Senior Officer" hidden="false" targetId="aca9-bca6-75d1-68de" type="rule"/>
-                <infoLink id="2bf3-997f-ddda-2218" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="50.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5d46-b3e1-6e3d-4278" name="Panther A/G" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="01a6-953a-b95d-db36" name="Panther A/G" hidden="false" targetId="b80e-f848-0452-cd93" type="profile"/>
-                <infoLink id="1ce8-54fc-f590-0348" name="75mm/L70 [KwK42]" hidden="false" targetId="9e19-c7e8-08d9-3399" type="profile"/>
-                <infoLink id="3f8a-85c8-c0b1-c93e" name="Tank MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
-                <infoLink id="1c9e-e566-9154-1351" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
-                <infoLink id="0632-935a-5570-f4f0" name="Artillery Spotter" hidden="false" targetId="71b0-1be2-e377-c5c9" type="rule"/>
-                <infoLink id="04db-670d-3caf-fec8" name="Senior Officer" hidden="false" targetId="aca9-bca6-75d1-68de" type="rule"/>
-                <infoLink id="80fe-fbf7-354f-294b" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="77.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="c2b8-cf53-1e91-8fe0" name="FHQ Support" hidden="false" collective="false" import="true" targetId="a10a-f020-69a1-8fcb" type="selectionEntryGroup">
           <constraints>
@@ -251,10 +218,9 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="28.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="21.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -288,7 +254,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -298,7 +263,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -315,7 +279,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="17.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -353,7 +316,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -363,7 +325,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -380,7 +341,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -423,7 +383,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -443,7 +402,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -456,7 +414,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -468,7 +425,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -490,7 +446,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -519,7 +474,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -532,7 +486,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -544,7 +497,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -570,7 +522,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -580,7 +531,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -590,7 +540,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -624,7 +573,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -634,7 +582,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -661,7 +608,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -671,7 +617,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="12.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -688,7 +633,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -705,7 +649,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -732,7 +675,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -753,7 +695,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -766,7 +707,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -778,7 +718,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -804,7 +743,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -824,7 +762,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -837,7 +774,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -858,7 +794,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                           <costs>
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
@@ -873,7 +808,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -887,7 +821,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="13.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -917,7 +850,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                               </costs>
@@ -927,7 +859,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -941,7 +872,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="17.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -953,7 +883,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -980,7 +909,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1000,7 +928,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -1013,7 +940,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -1025,7 +951,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="19.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1037,7 +962,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="100.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="11.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -1054,7 +978,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -1084,7 +1007,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1113,7 +1035,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1126,7 +1047,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1138,7 +1058,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1164,7 +1083,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1174,7 +1092,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1184,7 +1101,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="26.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -1201,7 +1117,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -1235,7 +1150,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1256,7 +1170,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1276,7 +1189,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -1289,7 +1201,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -1301,7 +1212,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1313,7 +1223,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -1330,7 +1239,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="29.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -1364,7 +1272,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1374,7 +1281,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -1391,7 +1297,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="12.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -1416,7 +1321,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="90.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1429,7 +1333,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="135.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1442,7 +1345,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="135.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1455,7 +1357,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="208.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1468,7 +1369,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="252.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1487,7 +1387,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -1512,7 +1411,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="54.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1525,7 +1423,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="72.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1544,7 +1441,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -1576,7 +1472,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1611,7 +1506,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -1624,7 +1518,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -1636,7 +1529,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1662,7 +1554,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1672,7 +1563,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="8.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1682,7 +1572,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -1717,7 +1606,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1727,7 +1615,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1755,7 +1642,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1765,7 +1651,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="11.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1783,7 +1668,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1811,7 +1695,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1832,7 +1715,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -1845,7 +1727,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -1857,7 +1738,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="16.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -1884,7 +1764,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -1904,7 +1783,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -1917,7 +1795,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -1938,7 +1815,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                           <costs>
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
@@ -1953,7 +1829,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -1967,7 +1842,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="13.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -1997,7 +1871,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                               </costs>
@@ -2007,7 +1880,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -2021,7 +1893,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="17.0"/>
                             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                           </costs>
@@ -2033,7 +1904,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2054,7 +1924,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2067,7 +1936,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="16.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2079,7 +1947,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="63.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="5.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -2096,7 +1963,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -2121,7 +1987,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="12.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="8.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -2138,7 +2003,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -2166,7 +2030,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -2185,7 +2048,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="567b-b911-58c6-0818" name="Panzer IV" hidden="false" collective="false" import="true" type="unit">
@@ -2211,7 +2073,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2228,7 +2089,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2247,7 +2107,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="50.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -2256,82 +2115,27 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
       <categoryLinks>
         <categoryLink id="7b31-dece-ea60-8240" name="New CategoryLink" hidden="false" targetId="4226-01bf-f07d-976e" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="2c61-e881-5c68-321d" name="Upgrade to StuG III-G" hidden="false" collective="false" import="true" defaultSelectionEntryId="bbbf-c0ce-0791-b0a9">
+      <selectionEntries>
+        <selectionEntry id="6596-106b-9ca0-bcc3" name="StuG III-G" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1589-61a2-09fd-0576" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="412f-56f2-a947-4ebf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d3a-e13b-c05c-8704" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2403-ee00-6d81-0e24" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="bbbf-c0ce-0791-b0a9" name="StuG III-F" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="9241-00a9-52cd-4763" name="StuG III-F" hidden="false" targetId="36fb-fa34-ae84-13ab" type="profile"/>
-                <infoLink id="85d2-a291-7f8f-ca0b" name="75mm/L43 [StuK40/43]" hidden="false" targetId="0617-0a98-57c7-5af0" type="profile"/>
-                <infoLink id="a734-2c2d-5ed5-c3cc" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
-                <infoLink id="426e-f1ab-b411-51f6" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a45e-6896-04f8-5ca7" name="StuG III-G" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="8160-717d-69ae-b5b8" name="StuG III-G" hidden="false" targetId="f529-3605-b440-cdc0" type="profile"/>
-                <infoLink id="eefb-9932-1116-947c" name="75mm/L48 [StuK40]" hidden="false" targetId="1f09-701a-58b4-4d31" type="profile"/>
-                <infoLink id="b169-7a41-bb04-601a" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
-                <infoLink id="ea9c-9ca7-1c82-f4e1" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="41c1-755c-0200-8e5c" name="Add Saukopf Co-axial MG" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="423a-4f3a-5c21-3713" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="bdc1-db37-063e-3b82" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
-                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="3.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="598a-2538-95ce-3ea6" name="StuG III-F/8" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="6776-852c-7811-872d" name="StuG III-F/8" hidden="false" targetId="fe0a-c200-d370-be3b" type="profile"/>
-                <infoLink id="b575-7fc1-ebd6-33f8" name="75mm/L48 [StuK40/48]" hidden="false" targetId="1f09-701a-58b4-4d31" type="profile"/>
-                <infoLink id="ec2a-1f6c-6002-b84f" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
-                <infoLink id="64d9-2b6d-9162-3b82" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+          <infoLinks>
+            <infoLink id="fafb-0b7f-91c6-5190" name="StuG III-G" hidden="false" targetId="f529-3605-b440-cdc0" type="profile"/>
+            <infoLink id="3279-03ad-d8e5-743b" name="75mm/L48 [StuK40]" hidden="false" targetId="1f09-701a-58b4-4d31" type="profile"/>
+            <infoLink id="0fa2-d0e7-e1d1-fc29" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
+            <infoLink id="1c21-009b-a46d-ca49" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="3.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="6c1b-67ec-92d9-df8b" name="Tank Support" hidden="false" collective="false" import="true" targetId="4ca7-1f45-4b23-f7e4" type="selectionEntryGroup">
           <constraints>
@@ -2343,7 +2147,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="40.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -2352,214 +2155,63 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
       <categoryLinks>
         <categoryLink id="c726-219b-734a-b70a" name="New CategoryLink" hidden="false" targetId="4226-01bf-f07d-976e" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="3c3f-cd73-fc7f-18c4" name="Upgrade StuG III-F Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="2034-8c3a-d97a-62a0">
+      <selectionEntries>
+        <selectionEntry id="d751-4f1d-4041-6877" name="StuG III-G Battery" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efba-ef67-658e-1eb5" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f98-2c34-c648-6488" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f55-d4fa-ada4-39e3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e46-284f-c2c2-f982" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2034-8c3a-d97a-62a0" name="StuG III-F Battery" hidden="false" collective="false" import="true" type="unit">
-              <selectionEntries>
-                <selectionEntry id="29d7-5d0c-516d-67d0" name="StuG III-F" hidden="false" collective="false" import="true" type="model">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="012a-d2e7-58ed-055a" type="max"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28c9-b24e-a00b-21f8" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="ca81-3876-3232-aae9" name="StuG III-F" hidden="false" targetId="36fb-fa34-ae84-13ab" type="profile"/>
-                    <infoLink id="a85a-f6f9-4b9a-47f8" name="75mm/L43 [StuK40/43]" hidden="false" targetId="0617-0a98-57c7-5af0" type="profile"/>
-                    <infoLink id="5ad5-4a02-92bd-1819" name="MG Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
-                    <infoLink id="80da-70e4-1fbb-0b6e" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="8945-6d4c-fb71-1bfe" name="StuG III-F - Battery Commander" hidden="false" collective="false" import="true" type="model">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="837d-85b9-a323-5380" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ef2-52a5-4fa8-11e7" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="76a0-6332-70f8-709f" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
-                    <infoLink id="efd6-e43e-f45e-6948" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
-                    <infoLink id="8194-fc28-7d22-c735" name="StuG III-F" hidden="false" targetId="36fb-fa34-ae84-13ab" type="profile"/>
-                    <infoLink id="5cde-4405-f14b-0871" name="MG Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
-                    <infoLink id="1dee-8543-5e78-88c0" name="75mm/L43 [StuK40/43]" hidden="false" targetId="0617-0a98-57c7-5af0" type="profile"/>
-                    <infoLink id="a366-969c-c9bf-6e16" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
-                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+            <selectionEntry id="97e2-a61a-eebd-8f98" name="StuG III-G - Battery Commander" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f04-ffa4-a770-7102" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b47-bfa9-b06d-1d7c" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3251-2c2e-2b88-1791" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
+                <infoLink id="91a7-6272-33fd-6b84" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
+                <infoLink id="0767-91bd-a43e-00a9" name="StuG III-G" hidden="false" targetId="f529-3605-b440-cdc0" type="profile"/>
+                <infoLink id="d6c8-146c-6a4f-c2f6" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
+                <infoLink id="43d0-9140-4948-97c7" name="75mm/L48 [StuK40/48]" hidden="false" targetId="1f09-701a-58b4-4d31" type="profile"/>
+                <infoLink id="114b-0628-7481-720e" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a29d-5d7a-81c9-55f9" name="StuG III-G Battery" hidden="false" collective="false" import="true" type="unit">
-              <selectionEntries>
-                <selectionEntry id="a06c-ef10-cf8e-2ce8" name="StuG III-G - Battery Commander" hidden="false" collective="false" import="true" type="model">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0351-f7ae-b91f-8fed" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d832-ac5e-066e-bbe5" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="6ce6-ebfe-f2c5-3142" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
-                    <infoLink id="8521-fef1-4a7b-9d02" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
-                    <infoLink id="fde7-d0ae-03e8-43fd" name="StuG III-G" hidden="false" targetId="f529-3605-b440-cdc0" type="profile"/>
-                    <infoLink id="ab0e-1997-50d8-8b5d" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
-                    <infoLink id="f85b-dbbd-5ae3-6b88" name="75mm/L48 [StuK40/48]" hidden="false" targetId="1f09-701a-58b4-4d31" type="profile"/>
-                    <infoLink id="de56-c6ae-459c-b92f" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
-                  </infoLinks>
-                  <selectionEntries>
-                    <selectionEntry id="7065-9783-1d87-85d0" name="Add Saukopf Co-axial MG" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3854-b775-3e7a-2502" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="a97a-25ed-aff4-19af" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
-                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
-                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="c538-e8cf-75de-b509" name="StuG III-G" hidden="false" collective="false" import="true" type="model">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a33-a734-e0d4-240c" type="max"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="913b-e5da-4665-1695" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="cce9-5a30-0000-d859" name="StuG III-G" hidden="false" targetId="f529-3605-b440-cdc0" type="profile"/>
-                    <infoLink id="5db2-8628-2af3-56ee" name="75mm/L48 [StuK40/48]" hidden="false" targetId="1f09-701a-58b4-4d31" type="profile"/>
-                    <infoLink id="59bd-f594-f4fb-1453" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
-                    <infoLink id="f08f-028a-9bc6-ca2f" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
-                  </infoLinks>
-                  <selectionEntries>
-                    <selectionEntry id="84ae-8ab4-02b1-9a3c" name="Add Saukopf Co-axial MG" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e335-e0a9-7d42-1bd1" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="c0d9-fbaf-4670-9fe8" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
-                        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+            <selectionEntry id="c85b-b0af-9647-cb5c" name="StuG III-G" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="429d-d107-e69b-adec" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c62-2871-ea9f-2e97" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="dbd3-eeb3-f42f-5781" name="StuG III-G" hidden="false" targetId="f529-3605-b440-cdc0" type="profile"/>
+                <infoLink id="512f-4555-f27e-3d32" name="75mm/L48 [StuK40/48]" hidden="false" targetId="1f09-701a-58b4-4d31" type="profile"/>
+                <infoLink id="8af4-cf8c-b559-02b4" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
+                <infoLink id="2907-08a3-d818-8125" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="cfcd-42e8-f970-540d" name="StuG III-F/8 Battery" hidden="false" collective="false" import="true" type="unit">
-              <selectionEntries>
-                <selectionEntry id="b80f-b01a-280c-e45c" name="StuG III-F/8" hidden="false" collective="false" import="true" type="model">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be69-9f49-094e-3445" type="max"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c58-bc7a-e1a1-48cc" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="bdaa-bd4c-a770-8c12" name="StuG III-F/8" hidden="false" targetId="fe0a-c200-d370-be3b" type="profile"/>
-                    <infoLink id="f713-2239-fd65-dd44" name="75mm/L48 [StuK40/48]" hidden="false" targetId="1f09-701a-58b4-4d31" type="profile"/>
-                    <infoLink id="a4c0-2006-a1aa-0fb4" name="MG Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
-                    <infoLink id="afbd-26e0-2874-6c4a" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="16ee-aee8-439b-c7f6" name="StuG III-F/8 - Battery Commander" hidden="false" collective="false" import="true" type="model">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82a8-02b5-019f-d430" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02eb-84f3-a06f-6acc" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="2612-5020-9b87-e7ff" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
-                    <infoLink id="02c7-4b48-1629-cb34" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
-                    <infoLink id="ea6f-b662-41ad-2526" name="StuG III-F/8" hidden="false" targetId="fe0a-c200-d370-be3b" type="profile"/>
-                    <infoLink id="3338-6961-c138-1627" name="Vehicle MG - Pintle" hidden="false" targetId="f270-1b11-b6cc-36cc" type="profile"/>
-                    <infoLink id="b8e4-4383-b02d-464f" name="75mm/L48 [StuK40/48]" hidden="false" targetId="1f09-701a-58b4-4d31" type="profile"/>
-                    <infoLink id="536f-a25d-fb4f-c1a3" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
-                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="f128-ca89-5653-9f0e" name="Tank Support" hidden="false" collective="false" import="true" targetId="4ca7-1f45-4b23-f7e4" type="selectionEntryGroup">
           <constraints>
@@ -2568,10 +2220,9 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="110.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="120.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="9.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -2606,7 +2257,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2626,7 +2276,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -2639,7 +2288,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -2651,7 +2299,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="36.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2675,7 +2322,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2695,7 +2341,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -2708,7 +2353,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -2720,7 +2364,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="54.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2744,7 +2387,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -2764,7 +2406,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -2777,7 +2418,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -2789,7 +2429,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="54.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -2808,7 +2447,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -2833,7 +2471,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -2850,7 +2487,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="7.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -2880,7 +2516,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d1e0-1e32-fdf6-144c" name="Marder III H" hidden="false" collective="false" import="true" type="model">
@@ -2897,7 +2532,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6447-395d-4dbe-922d" name="Marder III M" hidden="false" collective="false" import="true" type="model">
@@ -2914,7 +2548,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2318-0450-6a45-0b7a" name="Marder 38(t) PaK36(r)" hidden="false" collective="false" import="true" type="model">
@@ -2931,7 +2564,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2947,7 +2579,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
@@ -3049,7 +2680,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3073,7 +2703,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3083,7 +2712,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3093,7 +2721,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3105,7 +2732,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3118,7 +2744,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3140,7 +2765,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3157,7 +2781,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3167,7 +2790,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3192,7 +2814,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3209,7 +2830,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3219,7 +2839,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3244,7 +2863,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3261,7 +2879,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3271,7 +2888,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3296,7 +2912,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3313,7 +2928,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3323,7 +2937,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3361,7 +2974,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -3374,7 +2986,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -3386,7 +2997,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3413,7 +3023,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3429,7 +3038,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3446,7 +3054,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3463,7 +3070,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3473,7 +3079,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3490,19 +3095,17 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="42.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="48.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ac0-4407-1caa-aa3b" name="Heavy Bridging Unit" hidden="false" collective="false" import="true" type="unit">
@@ -3531,7 +3134,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="12.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3548,7 +3150,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3567,7 +3168,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3585,7 +3185,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3595,7 +3194,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3607,7 +3205,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c5b-c2e5-5237-75fb" name="Light Bridging Unit" hidden="false" collective="false" import="true" type="unit">
@@ -3629,7 +3226,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3646,7 +3242,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3656,7 +3251,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3672,7 +3266,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3701,7 +3294,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3714,7 +3306,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3728,7 +3319,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="79b2-44a2-8fed-55ac" name="Forward Aid Post" hidden="false" collective="false" import="true" type="unit">
@@ -3758,7 +3348,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3770,7 +3359,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a4c-d750-ccce-d91f" name="Stretcher Party" hidden="false" collective="false" import="true" type="unit">
@@ -3784,66 +3372,37 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a46a-dcd0-6a86-d0ca" name="Supply Column" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="409c-7e7f-f625-2020" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="107b-4ff6-312e-6d3b" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="a534-b4fb-cac4-f896" name="Re-supply" hidden="false" targetId="765d-531e-212b-6909" type="rule"/>
-        <infoLink id="d34d-70d1-9ce0-cb5d" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
-        <infoLink id="c8b2-5bdc-f816-a1de" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
-        <infoLink id="a8f1-dd71-fea0-84fa" name="3t Medium Truck [Opel Blitz, Ford V3000]" hidden="false" targetId="c9c4-dcc9-70de-303e" type="profile"/>
+        <infoLink id="a4d8-2011-81e9-9af3" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
       </infoLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="3cf6-789b-c18f-1f32" name="Supply Trucks" hidden="false" collective="false" import="true" defaultSelectionEntryId="d50d-0923-24e5-cf18">
+      <selectionEntries>
+        <selectionEntry id="e9dc-2b8d-e453-f29f" name="Horse drawn wagon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75b8-775d-8730-44a0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5614-64ec-beb4-fe4f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6648-4cc1-c78a-bf01" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ca9-4ac0-0151-5333" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="d50d-0923-24e5-cf18" name="1x Supply Truck" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="40a9-c806-cbd4-b8c3" name="2x Supply Trucks" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c255-8cb2-012b-753a" name="3x Supply Trucks" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+          <infoLinks>
+            <infoLink id="20fd-4e0c-c878-0e60" name="Horse and Wagon" hidden="false" targetId="a8ba-3709-9272-068d" type="profile"/>
+            <infoLink id="4118-fa42-6902-711a" name="Resupply" hidden="false" targetId="765d-531e-212b-6909" type="rule"/>
+            <infoLink id="7810-61ee-ce99-f5f2" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="3.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -3871,7 +3430,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="20.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3886,7 +3444,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3898,7 +3455,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
@@ -3931,7 +3487,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -3941,7 +3496,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="5.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -3969,7 +3523,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -3982,7 +3535,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                     <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                     <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                     <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                     <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
@@ -3994,7 +3546,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4004,7 +3555,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="36.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
@@ -4025,46 +3575,28 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <infoLink id="1f70-9f81-d0d1-d148" name="Reconnaissance Patrol" hidden="false" targetId="e44d-b862-b382-4bfc" type="profile"/>
             <infoLink id="548c-d55e-1491-e3d9" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
           </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="21fb-9858-0bd2-8e06" name="Add Panzerfausts" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="0c31-0e9f-dc28-3ed3" name="Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdce-aa0f-dc7b-8d2d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="618c-b17c-1838-b8a3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f397-52a2-0c37-1938" type="min"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="bbf7-68ce-9545-8f2f" name="1x Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="3bf7-0bab-851b-df21" name="Panzerfaust" hidden="false" targetId="ea4f-fe7a-d1c8-f263" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
-                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="d9e4-5a46-fff8-d704" name="2x Panzerfausts" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="3c75-97b4-381d-1a8d" name="Panzerfaust" hidden="false" targetId="ea4f-fe7a-d1c8-f263" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
-                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+              <infoLinks>
+                <infoLink id="d902-a7e6-876e-8252" name="Panzerfaust" hidden="false" targetId="ea4f-fe7a-d1c8-f263" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4081,17 +3613,15 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="32.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="25.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
@@ -4122,7 +3652,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4132,7 +3661,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="35.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
@@ -4160,7 +3688,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4177,7 +3704,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4185,9 +3711,8 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
       </selectionEntries>
       <costs>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
-        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="11.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
@@ -4200,7 +3725,7 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <categoryLink id="9626-fac9-7340-00a9" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="91a9-4a8a-cd1c-f4dd" name="Unit Composition: 1x AA-Vehicle" hidden="false" collective="false" import="true" defaultSelectionEntryId="3e54-af9c-24d3-e37f">
+        <selectionEntryGroup id="91a9-4a8a-cd1c-f4dd" name="Unit Composition: 1x AA-Vehicle" hidden="false" collective="false" import="true" defaultSelectionEntryId="384b-dc48-141f-e355">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65bd-dbca-6716-637c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="246a-6de5-b350-f007" type="max"/>
@@ -4219,23 +3744,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3e54-af9c-24d3-e37f" name="Medium Truck w/20mm" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="9553-f371-1b77-f059" name="3t Medium Truck [Opel Blitz, Ford V3000]" hidden="false" targetId="c9c4-dcc9-70de-303e" type="profile"/>
-                <infoLink id="80d4-d382-9e94-7c25" name="20mm/L65 [FlaK30/38]" hidden="false" targetId="7774-cf60-4327-68ac" type="profile"/>
-                <infoLink id="b493-86a9-31f0-a2e4" name="Light Autocannon (20mm)" hidden="false" targetId="106f-77a4-af91-33bb" type="profile"/>
-                <infoLink id="dbe3-18a9-7b71-b41d" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="14.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fc03-6d6c-0392-2d60" name="Sd.Kfz. 7/1 w/20mm FlaKvierling" hidden="false" collective="false" import="true" type="model">
@@ -4251,7 +3759,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="384b-dc48-141f-e355" name="Sd.Kfz. 10/4 w/20mm" hidden="false" collective="false" import="true" type="model">
@@ -4267,7 +3774,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4276,7 +3782,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
@@ -4303,7 +3808,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4315,7 +3819,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f968-d348-cf24-5996" name="Heavy Anti-Aircraft Gun" hidden="false" collective="false" import="true" type="unit">
@@ -4338,7 +3841,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4355,7 +3857,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4377,7 +3878,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4395,7 +3895,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="6.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4409,7 +3908,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e756-e858-d40f-4eae" name="Heavy Anti-Tank Gun" hidden="false" collective="false" import="true" type="unit">
@@ -4432,7 +3930,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4449,57 +3946,33 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="04e7-f6b8-23ae-5e52" name="88mm PaK43" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01b2-5de5-2995-7949" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b22-7acc-cb16-1f92" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b1bb-48c1-2599-6467" name="Anti-Tank Gun Crew [PaK43]" hidden="false" targetId="4404-d7ef-6653-198d" type="profile"/>
+            <infoLink id="5dd8-b707-dd3e-4768" name="88mm/L71 [PaK43]" hidden="false" targetId="0eb6-f9ea-eb97-e5dc" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="36c4-e947-fb5f-ed2a" name="Upgrade to PaK43" hidden="false" collective="false" import="true" defaultSelectionEntryId="4e28-e0da-1a56-2862">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3176-2f62-c622-acba" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cf8-61a9-1b4f-b73c" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="4e28-e0da-1a56-2862" name="88mm FlaK36" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="c647-69aa-a203-298e" name="88mm/L56 [FlaK36]" hidden="false" targetId="b435-476b-ad96-04d1" type="profile"/>
-                <infoLink id="ec97-4940-baa0-1f3c" name="Anti-Tank Gun Crew [FlaK36]" hidden="false" targetId="2db2-7a34-5ac9-9f46" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="77fa-cbe2-e015-2cd5" name="88mm PaK43" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="5b67-3945-057e-7482" name="Anti-Tank Gun Crew [PaK43]" hidden="false" targetId="4404-d7ef-6653-198d" type="profile"/>
-                <infoLink id="f8cc-46b1-8691-d62a" name="88mm/L71 [PaK43]" hidden="false" targetId="0eb6-f9ea-eb97-e5dc" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="23.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="48.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="71.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="4.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f98b-937b-1bd4-b704" name="Panzerjäger Team" hidden="false" collective="false" import="true" type="unit">
@@ -4509,10 +3982,9 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <infoLink id="c530-e75c-b211-658f" name="Panzerschreck" hidden="false" targetId="a16d-9120-8dae-a528" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="24.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
@@ -4534,7 +4006,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-            <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
@@ -4567,7 +4038,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -4580,7 +4050,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -4593,7 +4062,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -4605,7 +4073,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="28.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4630,7 +4097,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -4643,7 +4109,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -4655,7 +4120,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="36.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4680,7 +4144,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -4693,7 +4156,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
                         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                       </costs>
@@ -4705,7 +4167,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="42.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
@@ -4717,7 +4178,6 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-        <cost name="Restricted" typeId="b2f5-dd55-0081-8b9f" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>

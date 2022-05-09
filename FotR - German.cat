@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ab6-9ae1-70be-cd3d" name="FotR - German" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ab6-9ae1-70be-cd3d" name="FotR - German" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="8fdc-0939-c1b4-d970" name="Infantry Platoon" hidden="false">
       <modifiers>
@@ -7391,13 +7391,16 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
     <selectionEntry id="0de7-246b-9856-a574" name="Heavy Self-Propelled Anti-Tank Gun" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="508a-ce3d-0073-c71a" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
-        <infoLink id="7902-0836-5ad4-54cc" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4e21-cb08-4fef-e891" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6878-9f84-e7b3-ca12" name="Unit Composition" hidden="false" collective="false" import="true" defaultSelectionEntryId="477f-bd4e-897c-553f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8f9-d37c-c504-9fd2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fb2-b27e-91e9-1363" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="477f-bd4e-897c-553f" name="Jagdpanther" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
@@ -7405,10 +7408,11 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                 <infoLink id="54c2-69d1-e619-14a6" name="88mm/L71 [PaK43/3]" hidden="false" targetId="d8ee-1619-d97f-23a8" type="profile"/>
                 <infoLink id="afd2-28ab-8907-612c" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
                 <infoLink id="a217-77f3-85e2-d2df" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
+                <infoLink id="58e4-0192-09c5-ac46" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="45.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="90.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
@@ -7420,10 +7424,11 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                 <infoLink id="b220-de87-5863-04be" name="128mm/L55 [PaK44/1]" hidden="false" targetId="f241-2ee8-d5a4-33b6" type="profile"/>
                 <infoLink id="7fa8-2991-868f-fc46" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
                 <infoLink id="d507-817a-ea77-75e3" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
+                <infoLink id="30f7-cbe9-66ae-b86a" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="45.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="5.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="142.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
@@ -7441,9 +7446,6 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
       </costs>
     </selectionEntry>
     <selectionEntry id="bdae-2f52-abd4-c338" name="Heavy Tank" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="36ce-efe5-2208-dd9a" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="f157-a0b6-9e38-72ae" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
       </categoryLinks>
@@ -7461,6 +7463,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                 <infoLink id="9b84-26fe-e3d7-1f05" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
                 <infoLink id="db92-7af6-bfe7-c366" name="Tank MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
                 <infoLink id="260a-0a99-fe9a-260e" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
+                <infoLink id="c32f-4dcc-184a-ffd7" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="87.0"/>
@@ -7477,6 +7480,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                 <infoLink id="9094-c962-8e85-b2d5" name="Vehicle MG - Bow" hidden="false" targetId="1862-f580-ea92-9de8" type="profile"/>
                 <infoLink id="f552-ac13-814f-b8af" name="Vehicle MG - Co-axial" hidden="false" targetId="67cd-6c41-2e6f-6c13" type="profile"/>
                 <infoLink id="d5c6-9cc9-2dff-dbe2" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
+                <infoLink id="32fd-8578-2885-140b" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d842-fd8f-4744-0a94" value="121.0"/>
@@ -8056,20 +8060,6 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3700-7226-ff57-bc31" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a194-2541-8cbf-9dd3" name="Marder 38(t) PaK36(r)" hidden="false" collective="false" import="true" type="unit">
-              <infoLinks>
-                <infoLink id="5931-e9b2-38d8-605e" name="Marder 38(t) PaK36(r)" hidden="false" targetId="4369-33c4-bd91-0437" type="profile"/>
-                <infoLink id="7086-b12b-e1e9-73f1" name="76.2mm/L54 [PaK36(r), Hull]" hidden="false" targetId="87bb-078b-1a21-dd43" type="profile"/>
-                <infoLink id="8b5b-5cab-4adf-2f64" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="34.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="adb2-2885-bff5-d91e" name="Marder III H" hidden="false" collective="false" import="true" type="unit">
               <infoLinks>
                 <infoLink id="2552-5495-1b4e-7620" name="Marder III H" hidden="false" targetId="4a65-54dd-8e70-d04f" type="profile"/>
@@ -8122,7 +8112,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                 <infoLink id="982b-c207-b42b-8710" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="50.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="52.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
@@ -8136,7 +8126,7 @@ a remote controlled vehicle cannot be repaired! If you have a model of a crater,
                 <infoLink id="ddbf-1905-e138-be43" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="50.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="64.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
