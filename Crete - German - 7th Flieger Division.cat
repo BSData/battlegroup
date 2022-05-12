@@ -1,0 +1,1357 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f7eb-c921-6031-5e68" name="Crete - German - 7th Flieger Division" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="42d6-9c40-f52b-1506" name="Infantry Platoon" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="2e0f-2fe1-5ab1-b364" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="350.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="c817-0f3b-1ad5-0fef" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="350.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="2e0f-2fe1-5ab1-b364" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="750.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="c817-0f3b-1ad5-0fef" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="750.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="c817-0f3b-1ad5-0fef" value="3.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="2e0f-2fe1-5ab1-b364" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2e0f-2fe1-5ab1-b364" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c817-0f3b-1ad5-0fef" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <selectionEntries>
+    <selectionEntry id="4712-cb00-b284-db7a" name="Forward Headquarters" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a29d-e426-15e3-2072" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="28e3-24fe-d15a-7440" name="New CategoryLink" hidden="false" targetId="0891-5f08-126a-7f90" primary="true"/>
+        <categoryLink id="b95b-994d-9600-e639" name="Paratroopers" hidden="false" targetId="7588-a541-97da-c713" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="541a-e341-b57b-8333" name="Forward Headquarters" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcf8-5958-4ba4-ff67" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d548-13b4-f261-3ee7" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a486-c05d-210e-31fe" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
+            <infoLink id="8e9f-fbe7-9942-cdbb" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
+            <infoLink id="f77d-3d5b-c65a-ca3f" name="Artillery Spotter" hidden="false" targetId="71b0-1be2-e377-c5c9" type="rule"/>
+            <infoLink id="15bf-383e-f1e9-d0f7" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+            <infoLink id="255a-13d7-ba5d-1b86" name="Dispatch" hidden="false" targetId="6be2-f7b2-6bc0-8fc1" type="rule"/>
+            <infoLink id="e048-14e1-7aac-5bb9" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+            <infoLink id="3bd5-4123-9909-e334" name="Forward HQ Team" hidden="false" targetId="9ff1-db98-cb11-10bc" type="profile"/>
+            <infoLink id="f456-5475-094d-4186" name="Senior Officer" hidden="false" targetId="aca9-bca6-75d1-68de" type="rule"/>
+            <infoLink id="ecba-0ee9-8f4e-8606" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="fd44-4d23-5003-d977" name="Extra men" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e04-e9d1-d92f-3e72" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="25.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="71c8-90d8-449f-b363" name="FHQ Support" hidden="false" collective="false" import="true" targetId="7521-44e8-9184-4751" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce25-6f51-b701-ec25" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="cd76-e47f-84c8-36aa" name="Luftwaffe Air Liaison Officer" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3b3-69ae-a7be-817e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="90c2-d5b8-e7c9-3b8c" name="New CategoryLink" hidden="false" targetId="0891-5f08-126a-7f90" primary="true"/>
+        <categoryLink id="9d48-08bc-8b8e-0b93" name="Paratroopers" hidden="false" targetId="7588-a541-97da-c713" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c69e-4e2c-c305-9615" name="Luftwaffe Air Liaison Officer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6689-4759-ccd3-04bd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2684-87a5-6ab1-0e7f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8729-3efd-59dc-0d2b" name="Luftwaffe Air Liaison Officer" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+              <characteristics>
+                <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
+                <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7176-9c6b-d0e0-025d" name="Air Spotter (3+)" hidden="false" targetId="aeb7-e5aa-410f-94ac" type="rule"/>
+            <infoLink id="60ba-5199-8a10-f9a9" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
+            <infoLink id="45d7-4854-465f-b052" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+            <infoLink id="e79a-380b-df54-0426" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+            <infoLink id="3da7-b0b9-d631-cb87" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
+            <infoLink id="0f24-91a6-33c4-db57" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="28.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8b99-1b2e-0476-4a68" name="FHQ Support" hidden="false" collective="false" import="true" targetId="7521-44e8-9184-4751" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be83-c131-ea4a-8e93" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="93ab-18ca-fb42-6429" name="Forward Signals Unit" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="608e-4e0a-bcb0-e1e5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f094-31a5-a74e-afe7" name="New CategoryLink" hidden="false" targetId="0891-5f08-126a-7f90" primary="true"/>
+        <categoryLink id="9c78-8e00-a838-7983" name="Paratroopers" hidden="false" targetId="7588-a541-97da-c713" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7578-98a2-9138-026b" name="Forward Signals Unit" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aad-c3de-0bef-5252" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7634-4286-7616-c14e" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="d084-1419-f713-baa5" name="Forward Signals Unit" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+              <characteristics>
+                <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+                <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d72e-e92c-d22d-f2ff" name="Communications" hidden="false" targetId="8b72-bf95-402a-4eea" type="rule"/>
+            <infoLink id="42f0-fa55-b199-b3d3" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+            <infoLink id="17a5-8b49-a586-fd37" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
+            <infoLink id="d87f-1c84-a381-6308" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
+            <infoLink id="a68b-5435-a8b8-a068" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="19.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="6939-7f5c-2f39-7d08" name="FHQ Support" hidden="false" collective="false" import="true" targetId="7521-44e8-9184-4751" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2141-18b7-2b8c-f79a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="8ec8-d8f5-7752-2d46" name="Comms Relay Team" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="e06a-af9a-54e4-a716" name="New CategoryLink" hidden="false" targetId="0891-5f08-126a-7f90" primary="true"/>
+        <categoryLink id="08a3-01ff-f28f-c4f4" name="Paratroopers" hidden="false" targetId="7588-a541-97da-c713" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ee15-f46b-7429-1f7d" name="Comms Relay Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="968d-d84f-c6fb-5601" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b3a-b095-7210-23f9" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="301e-bbef-939b-1337" name="Comms Relay Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+              <characteristics>
+                <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
+                <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8e16-be30-d931-e19c" name="Communications" hidden="false" targetId="8b72-bf95-402a-4eea" type="rule"/>
+            <infoLink id="35fd-7597-b1ef-e3e7" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+            <infoLink id="770b-7cfd-4510-9f58" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
+            <infoLink id="918e-b741-f3dd-489d" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="16.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="654f-b940-263d-29fc" name="FHQ Support" hidden="false" collective="false" import="true" targetId="7521-44e8-9184-4751" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bc3-ee91-71e6-3789" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="0831-ccf0-3cc0-de5b" name="Adler Tage" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9737-74e8-3304-b869" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="3c24-f385-33c5-4903" name="Adler Tage" hidden="false">
+          <description>The Fluftwaffe have complete dominance of the air and today are making a maximum effort to support the paratroopers on the ground with air strikes and strafing runs. Any special counter the German player draws may be used as an Air Attack counter.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="40da-4dd2-ec38-029c" name="New CategoryLink" hidden="false" targetId="0891-5f08-126a-7f90" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86de-80e7-df36-fe96" name="Fallschirmjäger Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="1e10-ed51-65ac-2eb1" name="New CategoryLink" hidden="false" targetId="a529-162f-ec0b-e961" primary="true"/>
+        <categoryLink id="5add-06c7-d5f7-6b38" name="Infantry Platoon" hidden="false" targetId="42d6-9c40-f52b-1506" primary="false"/>
+        <categoryLink id="3a2b-58d1-1cac-9cac" name="Paratroopers" hidden="false" targetId="7588-a541-97da-c713" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a101-87cc-0ce3-9aac" name="Fallschirmjäger Platoon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fef0-4733-27aa-f751" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ec3-2ae0-51a8-4d2d" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b323-ab94-e721-18b1" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="15bb-e35a-7c0d-e3c5" name="Fallschirmjäger Platoon Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52ce-417b-41a8-42ea" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="522b-9254-4149-5adb" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e7cb-05b1-08c2-eda1" name="Fallschirmjäger Platoon Command Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">6 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="a4a9-5b04-dc28-4560" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                <infoLink id="a0c4-c116-a39b-ed0f" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
+                <infoLink id="1374-fcf5-8629-37b9" name="Dispatch" hidden="false" targetId="6be2-f7b2-6bc0-8fc1" type="rule"/>
+                <infoLink id="d9c7-56ed-af5e-577f" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5043-3100-afce-0c52" name="Fallschirmjäger Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4d7-727d-d0b7-be0d" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="786f-5213-e9f8-6480" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="9d75-531f-e690-6b21" name="Fallschirmjäger Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">6 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="2501-1705-c6b4-c990" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                <infoLink id="8372-6a47-fbda-40c6" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fb54-c6cf-9767-52cb" name="MG Team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83d2-4962-1786-2706" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2266-6aa0-802d-a050" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="76fb-5fbe-39c4-421e" name="MG Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="035c-0e67-53b2-cd8c" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                <infoLink id="8c22-9178-bbba-9e5b" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                <infoLink id="318b-3366-2172-810f" name="MG34 - Bipod" hidden="false" targetId="5cb7-9da2-54f0-a104" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c1b1-ec4c-b573-5e1f" name="Platoon Support Options" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c90-292d-fc31-261b" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="4657-c3c5-d9cc-1bf3" name="Combat Medic" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1908-0840-eb99-5498" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="0db5-2f27-a954-b5de" name="Medic" hidden="false" targetId="eb76-f1f1-bfc5-0a95" type="rule"/>
+                    <infoLink id="cd45-44ac-2e22-f0ec" name="Combat Medic" hidden="false" targetId="9483-fb35-75d5-78b3" type="profile"/>
+                    <infoLink id="58f6-b675-c671-71ba" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="9.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b874-15dc-570a-883e" name="Light Mortar team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4f3-044e-8249-43ca" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="2ecc-946d-8b07-4aba" name="Light Mortar team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                      <characteristics>
+                        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+                        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="256e-231b-1edd-0b50" name="50mm Light Mortar [leGrW 36]" hidden="false" targetId="d0a3-5649-dc84-0a65" type="profile"/>
+                    <infoLink id="b9dd-ad68-2864-cd83" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="17.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4599-807d-1dd3-9d7c" name="Heavy Machine Gun team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c303-662e-ceb7-79c5" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="85f7-ccf5-8301-158c" name="Heavy Machine Gun team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                      <characteristics>
+                        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+                        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="0980-d34d-ad41-f39d" name="MG34 - Tripod" hidden="false" targetId="e29f-f506-9871-320b" type="profile"/>
+                    <infoLink id="eb8c-b0d7-87ca-a0fc" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                    <infoLink id="f2be-8b82-c938-28a0" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink id="f29d-0a43-cbf7-2795" name="Loader team" hidden="false" collective="false" import="true" targetId="4b9c-a174-b0b0-6ec1" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="22.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="90d4-6cc2-33c7-1f8e" name="Anti-tank Rifle team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0d1-ddb1-c0d4-4f8f" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="8109-24ba-2689-5258" name="Panzerbüsche 39 Anti-Tank Rifle" hidden="false" targetId="e183-bd0d-2771-98ab" type="profile"/>
+                    <infoLink id="76b3-e58c-0a97-3b35" name="Anti-Tank Rifle Team" hidden="false" targetId="9af2-4545-5cad-94a7" type="profile"/>
+                    <infoLink id="b842-7527-c641-cc3b" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                    <infoLink id="9ff4-82a2-4389-c0a0" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="16.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b4e3-db84-8de8-d5e5" name="Medium Mortar team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e630-1456-cff4-9bda" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="994e-7013-5353-1dae" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                    <infoLink id="f3e3-3c23-7e37-3e84" name="81mm Medium Mortar [GrW 34]" hidden="false" targetId="4c85-ccd1-fb17-1f30" type="profile"/>
+                    <infoLink id="93c2-c26a-909c-7c27" name="Mortar Team [Medium]" hidden="false" targetId="b154-d174-97ab-f75f" type="profile"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink id="1df2-3dd5-ca91-7cdc" name="Loader team" hidden="false" collective="false" import="true" targetId="4b9c-a174-b0b0-6ec1" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="27.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="120.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="4140-827b-f7cb-c5f1" name="Infantry Support" hidden="false" collective="false" import="true" targetId="a4d6-fa13-ee12-3fab" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a11-17d5-1a9e-66e6" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="9e98-53f7-157f-fb95" name="Fallschirmjäger Squad" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="743f-da43-ed3b-192d" name="New CategoryLink" hidden="false" targetId="a529-162f-ec0b-e961" primary="true"/>
+        <categoryLink id="c44d-1779-78b4-f0b4" name="Paratroopers" hidden="false" targetId="7588-a541-97da-c713" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ba05-06f7-39b5-465d" name="Fallschirmjäger Squad" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0229-9d29-9757-fe5e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bd9-922e-d4ee-1aca" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4b07-b84a-6482-6c56" name="Fallschirmjäger Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef52-52fe-ae51-beb4" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f763-761f-4cce-b4f5" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3518-d85e-cd22-ed5d" name="Fallschirmjäger Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">6 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="bac7-6387-af1e-6e5d" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                <infoLink id="b6df-311c-cbb3-b583" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                <infoLink id="99c1-e7e4-a957-2950" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ceb3-80bf-8e34-ffce" name="MG Team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d78-2931-bf38-0156" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d37-d37c-af0d-58c1" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="f199-f1fd-7ff7-cef8" name="MG Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ee8c-2cbc-a0ff-c09f" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
+                <infoLink id="68fd-0f10-f0e1-0973" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                <infoLink id="377a-b3ed-1408-f7d7" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                <infoLink id="5fb7-6f7e-de12-f3c9" name="MG34 - Bipod" hidden="false" targetId="5cb7-9da2-54f0-a104" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="32.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5d5c-b01f-32de-4f33" name="Infantry Support" hidden="false" collective="false" import="true" targetId="a4d6-fa13-ee12-3fab" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ade8-3b8a-dd6c-8792" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="bc57-f7a7-3c2a-17cb" name="Fallschirmjäger Sturm Squad" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="79ee-5633-90e9-cc07" name="New CategoryLink" hidden="false" targetId="a529-162f-ec0b-e961" primary="true"/>
+        <categoryLink id="07e6-e095-9df4-e447" name="Paratroopers" hidden="false" targetId="7588-a541-97da-c713" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ec55-c362-e3ea-bb3d" name="Fallschirmjäger Sturm Squad" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcb4-f245-051d-4ce6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fec-c377-69e3-3b6f" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a6cd-a3e4-88c0-c7b1" name="Fallschirmjäger Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3876-6062-d2e7-b692" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10f7-97dc-e34d-9d65" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="10d0-4fa5-d038-f00d" name="Fallschirmjäger Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">6 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8dd3-6c66-8cc6-71f1" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                <infoLink id="0493-537f-3cca-2061" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                <infoLink id="b730-9a96-b19b-b52b" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
+                <infoLink id="6d88-6749-ac04-648e" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="31c5-fe92-dc01-a63c" name="MG Team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69b7-c8c9-3daf-bd6a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5862-81c5-181c-0beb" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="9ad3-d1d3-f939-2598" name="MG Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="b028-e045-b6fe-a4e3" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                <infoLink id="9f90-ed34-aad2-461d" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                <infoLink id="f68f-5786-3ce3-4c03" name="MG34 - Bipod" hidden="false" targetId="5cb7-9da2-54f0-a104" type="profile"/>
+                <infoLink id="8b07-e252-db71-efbf" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
+                <infoLink id="8c8f-56d8-4814-01f8" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="41.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="75f5-4c19-2c1b-6903" name="Infantry Support" hidden="false" collective="false" import="true" targetId="a4d6-fa13-ee12-3fab" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6526-f0be-2927-5915" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="39ea-02b3-2718-be3c" name="Fallschirmjäger Sturm Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="3af4-2d4f-feee-503f" name="New CategoryLink" hidden="false" targetId="a529-162f-ec0b-e961" primary="true"/>
+        <categoryLink id="1b21-687d-a577-8ad1" name="Infantry Platoon" hidden="false" targetId="42d6-9c40-f52b-1506" primary="false"/>
+        <categoryLink id="e3b7-0f31-6e8d-4b13" name="Paratroopers" hidden="false" targetId="7588-a541-97da-c713" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6c4c-c896-7fb9-2d17" name="Fallschirmjäger Sturm Platoon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ced2-86a8-836c-063d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa7f-1544-654f-58a5" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b094-20ac-d051-972c" name="Elite" hidden="false" targetId="e191-f37f-274b-c725" type="rule"/>
+            <infoLink id="e69e-d742-3390-1141" name="Experience - Elite" hidden="false" targetId="121d-5ca4-f8c7-9d10" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="e5ca-aa69-fbde-482e" name="Fallschirmjäger Platoon Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a0-813d-07fb-00d3" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8421-bb30-b8e6-db51" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b53d-49c6-a74b-bc6a" name="Fallschirmjäger Platoon Command Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">6 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8cf9-4e27-dc1c-47ba" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                <infoLink id="a942-c007-8adf-5bb6" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
+                <infoLink id="32c1-cc5b-ba42-fba4" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="9801-b4fc-6158-7009" name="Spotter" hidden="false" collective="false" import="true" defaultSelectionEntryId="e20b-80d6-73dd-0ba5">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13fc-cc11-c224-7be8" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="597e-948b-fa4d-956c" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="e1d8-2069-4adc-2ffb" name="Mortar Spotters" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="0b8e-4fc8-63b6-b181" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="e20b-80d6-73dd-0ba5" name="Runner" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="c7f8-9653-95bc-64f8" name="Dispatch" hidden="false" targetId="6be2-f7b2-6bc0-8fc1" type="rule"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="c8e6-717b-8371-67bd" name="Mount in DFS-230 glider" hidden="false" collective="false" import="true" targetId="fb55-cfcd-6db3-cb9c" type="selectionEntry"/>
+                <entryLink id="3bfd-6b3c-a337-231a" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" targetId="bae2-220f-62b9-1b4f" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a1d6-7fca-d891-7c2f" name="Fallschirmjäger Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e2-2090-003d-a219" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="848e-164d-08f3-07c9" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="2a8c-9aa1-9cf3-4e2e" name="Fallschirmjäger Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">6 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="11a0-2f72-e2e8-c9fd" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                <infoLink id="92da-4101-7bca-764d" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+              </infoLinks>
+              <entryLinks>
+                <entryLink id="e727-7aaf-4fd3-0fc2" name="Mount in DFS-230 glider" hidden="false" collective="false" import="true" targetId="fb55-cfcd-6db3-cb9c" type="selectionEntry"/>
+                <entryLink id="6f77-082b-f9d6-c9ab" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" targetId="bae2-220f-62b9-1b4f" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1781-ec0c-2b25-5c36" name="MG Team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b6d-884d-dc61-ebda" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acdb-77a8-b7b8-e420" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="6f19-ec96-4afc-a063" name="MG Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="f65c-5cd2-ae80-3e14" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                <infoLink id="ea90-4a97-1a35-947e" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                <infoLink id="3494-fcc5-bc2c-7e6a" name="MG34 - Bipod" hidden="false" targetId="5cb7-9da2-54f0-a104" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="17f1-cf7c-4cd9-4cd4" name="Platoon Support Options" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e266-8968-e869-3b43" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="2d6d-c828-0435-85fe" name="Combat Medic" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73d3-367d-e50e-f099" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="c162-1309-1453-842f" name="Medic" hidden="false" targetId="eb76-f1f1-bfc5-0a95" type="rule"/>
+                    <infoLink id="b43b-3557-d76d-78b0" name="Combat Medic" hidden="false" targetId="9483-fb35-75d5-78b3" type="profile"/>
+                    <infoLink id="c9a5-79ea-54cc-47d9" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="da3e-7491-a416-032c" name="Light Mortar team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6d1-c35f-a241-24c3" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="7fdb-ddb4-49a8-b53b" name="50mm Light Mortar [leGrW 36]" hidden="false" targetId="d0a3-5649-dc84-0a65" type="profile"/>
+                    <infoLink id="4cf6-afa3-189a-defd" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                    <infoLink id="634a-14d8-ce69-1603" name="Mortar Team [Light]" hidden="false" targetId="2c64-83f3-2084-71b0" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="17.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4d3d-1f72-c3e4-e75a" name="Heavy Machine Gun team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebde-8f91-6af7-5513" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="b67d-3bec-3d6f-ee91" name="Heavy Machine Gun team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                      <characteristics>
+                        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+                        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="22a4-772d-008c-58a0" name="MG34 - Tripod" hidden="false" targetId="e29f-f506-9871-320b" type="profile"/>
+                    <infoLink id="0fdd-346f-6302-37e8" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                    <infoLink id="9c3c-2c94-e700-f256" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink id="d97e-40f7-5180-1ba5" name="Loader team" hidden="false" collective="false" import="true" targetId="4b9c-a174-b0b0-6ec1" type="selectionEntry"/>
+                    <entryLink id="8055-cec6-ea81-f113" name="Mount in DFS-230 glider" hidden="false" collective="false" import="true" targetId="fb55-cfcd-6db3-cb9c" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="25.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7fbd-8d9e-26cb-1088" name="Anti-tank Rifle team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc3b-658b-5498-eb4f" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="5d49-12d7-e311-7af9" name="Panzerbüsche 39 Anti-Tank Rifle" hidden="false" targetId="e183-bd0d-2771-98ab" type="profile"/>
+                    <infoLink id="640c-2ba2-54d3-273b" name="Anti-Tank Rifle Team" hidden="false" targetId="9af2-4545-5cad-94a7" type="profile"/>
+                    <infoLink id="87f7-0398-4bcb-20e9" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                    <infoLink id="82bc-c133-731b-1b19" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4c46-d4ef-85cf-45ec" name="Medium Mortar team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f932-915b-54de-dd30" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="19f1-e359-c590-5266" name="Paratrooper" hidden="false" targetId="ce07-d5c4-4729-b08a" type="rule"/>
+                    <infoLink id="40a4-44a2-1154-b03c" name="81mm Medium Mortar [GrW 34]" hidden="false" targetId="4c85-ccd1-fb17-1f30" type="profile"/>
+                    <infoLink id="0717-f59d-dabc-14bb" name="Mortar Team [Medium]" hidden="false" targetId="b154-d174-97ab-f75f" type="profile"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink id="3072-f962-85a1-1423" name="Loader team" hidden="false" collective="false" import="true" targetId="4b9c-a174-b0b0-6ec1" type="selectionEntry"/>
+                    <entryLink id="175e-edfa-5978-89db" name="Mount in DFS-230 glider" hidden="false" collective="false" import="true" targetId="fb55-cfcd-6db3-cb9c" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="153.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0a18-bd3d-53fd-107f" name="Infantry Support" hidden="false" collective="false" import="true" targetId="a4d6-fa13-ee12-3fab" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e884-6ed8-12c8-65e6" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="590c-2189-73e8-9712" name="Gebirgsjäger Squad" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="01e0-8839-3684-a24a" name="New CategoryLink" hidden="false" targetId="a529-162f-ec0b-e961" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0ffc-f2b8-567a-82cd" name="Gebirgsjäger Squad" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="550d-8de5-14d1-a638" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a07-d6a6-1ee1-dec6" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="343e-e05a-3aae-3bbf" name="Gebirgsjäger Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58b5-b382-f315-0ca2" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df23-3d88-6b59-d6f8" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="c9a8-0b79-c6ad-d715" name="Gebirgsjäger Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">6 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8f51-e957-c9da-dd8c" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                <infoLink id="4ce2-d7bc-1df6-4b43" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="9b74-6306-f37f-9dde" name="MG Team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c94d-a707-de0d-121e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="420d-dd27-38c1-a703" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="b342-74dc-1d47-8f4b" name="MG Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="c24f-f501-301f-633f" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+                <infoLink id="c932-c562-f069-89bc" name="MG34 - Bipod" hidden="false" targetId="5cb7-9da2-54f0-a104" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="23.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5a96-e95c-67f4-eca1" name="Infantry Support" hidden="false" collective="false" import="true" targetId="a4d6-fa13-ee12-3fab" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7b3-8796-b9ce-55e9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="7dcc-394d-d3ad-41ad" name="Gebirgsjäger Platoon" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="e51c-b01b-d7f9-095b" name="New CategoryLink" hidden="false" targetId="a529-162f-ec0b-e961" primary="true"/>
+        <categoryLink id="a8c2-5a65-13c5-0813" name="Infantry Platoon" hidden="false" targetId="42d6-9c40-f52b-1506" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9883-2e7c-9e84-bcb1" name="Gebirgsjäger Platoon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10b1-2475-6f2b-7c40" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d01-7ac6-0fe5-1468" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bd66-de95-d3b5-1132" name="Gebirgsjäger Platoon Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d57-60d5-6f00-a5f6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1093-59ee-8d32-878d" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="5d9e-b7e5-1d9f-1819" name="Gebirgsjäger Platoon Command Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">6 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ff71-1887-e780-cf51" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                <infoLink id="36d3-9124-1c9c-afef" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="3205-6431-45bb-ec6b" name="Spotter" hidden="false" collective="false" import="true" defaultSelectionEntryId="3b39-c328-08cf-b09e">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f586-10c6-79f0-92aa" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f743-08fb-1535-4d56" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="4a17-9453-84a5-07aa" name="Mortar Spotters" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="df90-6ed0-e0a0-61ff" name="Mortar Spotter" hidden="false" targetId="9031-a725-1c93-3f1d" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3b39-c328-08cf-b09e" name="Runner" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="dbca-4f3a-4ded-177e" name="Dispatch" hidden="false" targetId="6be2-f7b2-6bc0-8fc1" type="rule"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
+                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ab7-fe88-cd4e-4c2f" name="Gebirgsjäger Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3627-9425-76d7-55aa" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5265-35cf-2f1f-7b43" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="6180-8ea8-d2a2-a4ad" name="Gebirgsjäger Squad" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">6 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="0184-77cf-54f5-6532" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8bfb-7d7b-4063-7c9b" name="MG Team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfbd-5f5e-965d-ba05" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="450b-e8aa-027f-b8e1" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="30ba-c587-cecb-c0ec" name="MG Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                  <characteristics>
+                    <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+                    <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                    <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="1aa2-6425-e0e9-1946" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                <infoLink id="7b18-6b53-a03d-05df" name="MG34 - Bipod" hidden="false" targetId="5cb7-9da2-54f0-a104" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="0735-6748-e171-9f73" name="Experience" hidden="false" collective="false" import="true" defaultSelectionEntryId="cb0e-11de-68a3-6faf">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd0a-41f7-2ce4-81e7" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b73-8df2-3777-b743" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="cb0e-11de-68a3-6faf" name="Regular" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="9d0d-ffe5-896f-b03d" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry id="2e51-94fc-e185-d45a" name="Veteran" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="47a5-d317-0758-7fca" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="33.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="d61b-e6cd-0163-676d" name="Platoon Support Options" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c54e-9aa2-bf56-fe53" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="bc66-f70a-4348-f508" name="Combat Medic" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4d6-a3c4-58d6-4959" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="d3bb-fd26-54d4-d2ba" name="Medic" hidden="false" targetId="eb76-f1f1-bfc5-0a95" type="rule"/>
+                    <infoLink id="7569-6814-83b3-9555" name="Combat Medic" hidden="false" targetId="9483-fb35-75d5-78b3" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="8.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7f4f-851f-6ffd-2278" name="Light Mortar team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af5a-977b-95dc-0d29" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="8200-2288-932f-f4c0" name="Light Mortar team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                      <characteristics>
+                        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
+                        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="abfa-eff2-7a0b-dc50" name="50mm Light Mortar [leGrW 36]" hidden="false" targetId="d0a3-5649-dc84-0a65" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="14.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1c36-93cf-86e9-8c0f" name="Heavy Machine Gun team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2288-bc4a-79d7-ad26" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="7b63-d3da-e1d6-c583" name="Heavy Machine Gun team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+                      <characteristics>
+                        <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">3 Men</characteristic>
+                        <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                        <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="1b17-ca65-02f8-de4e" name="MG34 - Tripod" hidden="false" targetId="e29f-f506-9871-320b" type="profile"/>
+                    <infoLink id="5f00-fb8f-f76d-4670" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink id="1136-2fe7-a9b2-ac9c" name="Loader team" hidden="false" collective="false" import="true" targetId="4b9c-a174-b0b0-6ec1" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="21.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5b01-b9f9-4ce8-7007" name="Anti-tank Gun" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d81-34b8-73b1-381b" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="1ebe-720f-74e8-e2f4" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                    <infoLink id="0210-9531-ba6d-3aff" name="Anti-Tank Gun Crew [V.Light]" hidden="false" targetId="f184-73c7-f1e0-6019" type="profile"/>
+                    <infoLink id="fb60-8be1-dfda-351a" name="37mm/L45 [PaK36]" hidden="false" targetId="637c-8771-c5ab-4420" type="profile"/>
+                  </infoLinks>
+                  <categoryLinks>
+                    <categoryLink id="1b4b-2a5e-098d-8790" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink id="8e60-35f0-ed9b-cdcb" name="Loader team" hidden="false" collective="false" import="true" targetId="4b9c-a174-b0b0-6ec1" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="21.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="0683-45ac-72e3-2510" name="Medium Mortar team" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38f0-8154-6232-608f" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="9e34-3f22-724f-861f" name="81mm Medium Mortar [GrW 34]" hidden="false" targetId="4c85-ccd1-fb17-1f30" type="profile"/>
+                    <infoLink id="b768-16ce-adc1-290a" name="Mortar Team [Medium]" hidden="false" targetId="b154-d174-97ab-f75f" type="profile"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink id="1a70-6390-f8fd-b39c" name="Loader team" hidden="false" collective="false" import="true" targetId="4b9c-a174-b0b0-6ec1" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="26.0"/>
+                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="70bf-e195-11a8-e2d4" name="Infantry Gun" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61d6-e38b-f775-c9f8" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="6491-244f-65f0-02f0" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+                    <infoLink id="8691-d385-db17-ff4d" name="Infantry Gun Crew [Light Gun]" hidden="false" targetId="4d11-1635-065e-d558" type="profile"/>
+                    <infoLink id="b86a-1b3c-3769-0247" name="75mm/L11 [IG18]" hidden="false" targetId="324a-1049-dd10-4258" type="profile"/>
+                  </infoLinks>
+                  <categoryLinks>
+                    <categoryLink id="0b3a-5ab9-2d0d-ad4e" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink id="caaf-fd42-fda2-b333" name="Loader team" hidden="false" collective="false" import="true" targetId="4b9c-a174-b0b0-6ec1" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="120.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f96d-89d1-e924-b2bb" name="Infantry Support" hidden="false" collective="false" import="true" targetId="a4d6-fa13-ee12-3fab" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71cd-1a33-1459-d9d4" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="011c-db02-6ae8-0fff" name="Forward Observer Team" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="12d7-ba40-d6f4-0099" name="New CategoryLink" hidden="false" targetId="3513-6f08-58bc-2d59" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cda1-eba3-1f4a-5bcb" name="Forward Observer Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd30-9067-be8b-baaf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f33-07dc-dc03-335a" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a80e-c90e-427e-f314" name="Forward Observer Team" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
+              <characteristics>
+                <characteristic name="Unit Composition" typeId="c321-2ee9-f9a5-5ad5">2 Men</characteristic>
+                <characteristic name="Movement" typeId="7f85-4e33-5dc5-18d2">5&quot;</characteristic>
+                <characteristic name="Special Rules" typeId="7388-c72e-b747-11b2"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3b80-42df-85bf-0f50" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+            <infoLink id="7cfe-344c-05b7-f752" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
+            <infoLink id="9b51-736f-f70f-9912" name="Artillery Spotter+" hidden="false" targetId="3a41-a9a9-f880-76bc" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="21.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="1.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="2.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="23e4-d808-68e9-b2a3" name="FHQ Support" hidden="false" collective="false" import="true" targetId="7521-44e8-9184-4751" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="603e-1c4a-0d21-18d2" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="7ae3-32f1-ba8a-3972" name="Off-Table Mortar Fire" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="c071-4369-b7da-c820" name="New CategoryLink" hidden="false" targetId="3513-6f08-58bc-2d59" primary="true"/>
+        <categoryLink id="dc3f-d498-07ad-96cc" name="Off-Table" hidden="false" targetId="a076-3266-83b1-1bfa" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="03f4-50cd-b5ff-e5eb" name="2x 81mm Mortar" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3fd-dc2f-adf9-d590" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58f3-2127-3144-b753" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9012-83b6-3fd7-5ba2" name="81mm Medium Mortar [GrW 34]" hidden="false" targetId="4c85-ccd1-fb17-1f30" type="profile"/>
+            <infoLink id="c85c-3ea2-88a0-3ffa" name="Mortar Team [Medium]" hidden="false" targetId="b154-d174-97ab-f75f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="54.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b843-621b-3fcc-4831" name="Artillery Support" hidden="false" collective="false" import="true" targetId="9abb-8459-39b7-ad27" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f30-7c07-af70-e18d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="0cbd-82b2-46ca-6587" name="Towed Artillery Gun" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="fd2c-918e-43eb-8cda" name="New CategoryLink" hidden="false" targetId="3513-6f08-58bc-2d59" primary="true"/>
+        <categoryLink id="a751-a0c6-9ebc-ab3f" name="Off-Table" hidden="false" targetId="a076-3266-83b1-1bfa" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6e9b-2634-4861-b871" name="Towed Artillery Gun" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7a7-0caa-7187-31ae" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cb2-d2f9-d08f-9e5c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fcbf-f142-0381-a0e4" name="75mmL12 Infantry Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8f81-89f1-ecf5-e7be" name="Artillery Gun Crew [Light]" hidden="false" targetId="bdb8-c944-759c-a6ba" type="profile"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="4f0c-3f16-5c29-9a55" name="Kettenkrad tow" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd4c-7ecd-d404-9801" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="bab2-a6e3-c89e-6a9b" name="Kettenkrad" hidden="false" targetId="3315-30ab-3432-732d" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="5696-7d58-fc09-ca50" name="Loader team" hidden="false" collective="false" import="true" targetId="4b9c-a174-b0b0-6ec1" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry id="2fb9-5da2-1ddb-1f0d" name="75mmLG40 Recoilless Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="63b4-b1f1-a735-771d" name="Artillery Gun Crew [Light]" hidden="false" targetId="bdb8-c944-759c-a6ba" type="profile"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="d6e5-570c-a39d-410f" name="Kettenkrad tow" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b24-eda0-948f-cce9" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="4e96-6aa8-d6ec-1c99" name="Kettenkrad" hidden="false" targetId="3315-30ab-3432-732d" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="7de2-92e7-8afd-8d72" name="Loader team" hidden="false" collective="false" import="true" targetId="4b9c-a174-b0b0-6ec1" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f595-dc64-802e-e5b1" name="Artillery Support" hidden="false" collective="false" import="true" targetId="9abb-8459-39b7-ad27" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0692-c9b7-cb84-3635" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <infoLinks>
+    <infoLink id="da51-f742-dddc-9496" name="Rounds on the Way" hidden="false" targetId="b95c-e7fe-15f2-1617" type="rule"/>
+    <infoLink id="7e60-c6b6-6143-92a2" name="Communications Breakdown " hidden="false" targetId="91f6-ce4f-8b66-d69f" type="rule"/>
+  </infoLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="4b9c-a174-b0b0-6ec1" name="Loader team" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1303-7d7d-87c7-1f4f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2c69-2aaf-086c-1e3a" name="Loader Team" hidden="false" targetId="97de-c016-3c90-8dfb" type="profile"/>
+        <infoLink id="e284-69e5-2b15-7877" name="Loader Team" hidden="false" targetId="f9fc-eaf5-5f58-f4bd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="10.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb55-cfcd-6db3-cb9c" name="Mount in DFS-230 glider" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e25-c3f9-36b9-4d43" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="11b1-a66d-e675-96c1" name="DFS-230 glider" hidden="false" typeId="b837-978a-59f1-3ef4" typeName="Aircraft">
+          <characteristics>
+            <characteristic name="Role" typeId="dacc-dd5d-6d45-0bbf">Glider</characteristic>
+            <characteristic name="Hits" typeId="81f9-7e0e-f1b5-1f2d"/>
+            <characteristic name="Loadout (3x Ammo)" typeId="bb13-2536-083e-6cce"/>
+            <characteristic name="Payload (Single Use)" typeId="e73b-1d52-d123-daf4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bae2-220f-62b9-1b4f" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="403f-d579-72b5-6c5f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="347f-725b-25b8-9ed6" name="Anti-Tank Grenades" hidden="false" targetId="f199-a819-4ca8-1d29" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="9abb-8459-39b7-ad27" name="Artillery Support" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="7521-44e8-9184-4751" name="FHQ Support" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="e7a0-f8f4-df53-2432" name="Additional Fire Support" hidden="false" collective="false" import="true" targetId="4a7b-9a3f-a26d-249d" type="selectionEntryGroup"/>
+        <entryLink id="a927-55e6-4e4d-ad2d" name="Logistics Support" hidden="false" collective="false" import="true" targetId="43ea-0366-8af6-e179" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a4d6-fa13-ee12-3fab" name="Infantry Support" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="0730-2201-6280-7b55" name="Engineer Support" hidden="false" collective="false" import="true" targetId="2494-90d6-5c75-42d9" type="selectionEntryGroup"/>
+        <entryLink id="c93b-ebf9-eb97-4093" name="Specialist Support" hidden="false" collective="false" import="true" targetId="ff54-c6af-ba02-c6f1" type="selectionEntryGroup"/>
+        <entryLink id="33f3-8619-24e5-3210" name="Reconnaissance Support" hidden="false" collective="false" import="true" targetId="aab6-1351-8d90-13ab" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink id="3be7-c824-977d-a37e" name="Library - Germany" targetId="07cd-a756-e0da-3f45" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>
