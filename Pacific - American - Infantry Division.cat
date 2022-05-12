@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c238-d182-d145-c416" name="Pacific - American - Infantry Division" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c238-d182-d145-c416" name="Pacific - American - Infantry Division" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="3b8a-f218-194b-b751" name="Forward Headquarters" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -918,7 +918,6 @@
                 <infoLink id="3564-7f4e-50fa-a56e" name="Mortar Team [Medium]" hidden="false" targetId="b154-d174-97ab-f75f" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="54.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
@@ -927,7 +926,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="54.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
