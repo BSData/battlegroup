@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="568a-cb87-4a47-6917" name="Pacific - American - Marine Corps" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="568a-cb87-4a47-6917" name="Pacific - American - Marine Corps" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="22e2-6363-0778-a0ae" name="Air Liaison Shore Party" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -600,8 +600,8 @@
             </selectionEntry>
             <selectionEntry id="ac4d-b741-86cd-84e3" name="Fire Team 1" hidden="false" collective="false" import="true" type="unit">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13c8-e104-c3af-179d" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0da7-14a7-c20c-3189" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13c8-e104-c3af-179d" type="min"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0da7-14a7-c20c-3189" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="2ca1-6972-cabc-5c0f" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
@@ -618,8 +618,8 @@
             </selectionEntry>
             <selectionEntry id="b5a6-1c78-90c6-0e74" name="Fire Team 2" hidden="false" collective="false" import="true" type="unit">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d09-d0f6-5ca1-4ba5" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdfc-3dbf-1a2f-c374" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d09-d0f6-5ca1-4ba5" type="min"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdfc-3dbf-1a2f-c374" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="2bb1-0e80-27c2-ca3b" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>
@@ -636,8 +636,8 @@
             </selectionEntry>
             <selectionEntry id="b4bc-edbb-9c74-31d5" name="Fire Team 3" hidden="false" collective="false" import="true" type="unit">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eebe-ef9b-61b5-2189" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb1b-feb8-a661-0d9f" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eebe-ef9b-61b5-2189" type="min"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb1b-feb8-a661-0d9f" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="100d-4601-9407-7dd4" name="Basic Infantry Small Arms" hidden="false" targetId="37b4-7d1a-dfa7-e2d9" type="infoGroup"/>

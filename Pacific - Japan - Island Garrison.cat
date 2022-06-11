@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6839-ef48-5b0a-e694" name="Pacific - Japan - Island Garrison" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6839-ef48-5b0a-e694" name="Pacific - Japan - Island Garrison" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="af48-7a52-d9bf-5ae9" name="Infantry Platoon" hidden="false">
       <modifiers>
@@ -524,7 +524,7 @@
         <categoryLink id="b3ed-74b3-c161-cfd1" name="Infantry Platoon" hidden="false" targetId="af48-7a52-d9bf-5ae9" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9d99-c6ce-b5dc-036f" name="Amphibious Infantry Platoon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9d99-c6ce-b5dc-036f" name="Amphibious Infantry Platoon" hidden="false" collective="true" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a08f-b31b-d99e-e5fa" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="028c-e3d7-2684-3e32" type="min"/>
@@ -535,7 +535,7 @@
             <infoLink id="0c9e-e19f-7867-307a" name="Assault Troops" hidden="false" targetId="4b1b-6db2-75f2-9f1a" type="rule"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="cdaa-d21d-88b9-24f6" name="Amphibious Platoon Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="cdaa-d21d-88b9-24f6" name="Amphibious Platoon Command Squad" hidden="false" collective="true" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1181-39f7-a9c9-3deb" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74a4-81e5-0367-37a5" type="min"/>
@@ -554,7 +554,7 @@
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b3bd-8177-194e-e952" name="Rifle Section" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="b3bd-8177-194e-e952" name="Rifle Section" hidden="false" collective="true" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d03f-eceb-3d00-166f" type="max"/>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21d2-c766-b5e5-cc99" type="min"/>
@@ -571,7 +571,7 @@
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dfc3-c0af-1e95-5f2a" name="Grenade Launcher Battery" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="dfc3-c0af-1e95-5f2a" name="Grenade Launcher Battery" hidden="false" collective="true" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="568a-5ea2-72f9-c8df" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="141c-7065-b68e-83eb" type="max"/>
@@ -614,7 +614,7 @@
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e00f-8c8c-98d0-4607" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="e87c-e392-9101-2935" name="Combat Medic" hidden="false" collective="false" import="true" type="unit">
+                <selectionEntry id="e87c-e392-9101-2935" name="Combat Medic" hidden="false" collective="true" import="true" type="unit">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96f9-40bb-4bcd-c3eb" type="max"/>
                   </constraints>
@@ -630,7 +630,7 @@
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="27dd-b9cb-7b1a-9599" name="Heavy MG Team" hidden="false" collective="false" import="true" type="unit">
+                <selectionEntry id="27dd-b9cb-7b1a-9599" name="Heavy MG Team" hidden="false" collective="true" import="true" type="unit">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="389c-08fe-d976-6985" type="max"/>
                   </constraints>
@@ -666,7 +666,7 @@
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="0d8b-e6dc-1523-fa2d" name="Infantry Gun" hidden="false" collective="false" import="true" type="unit">
+                <selectionEntry id="0d8b-e6dc-1523-fa2d" name="Infantry Gun" hidden="false" collective="true" import="true" type="unit">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b95-070e-99d0-0670" type="max"/>
                   </constraints>
@@ -735,7 +735,7 @@
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="ea2a-3f40-4a11-2dbb" name="Anti-Tank Gun" hidden="false" collective="false" import="true" type="unit">
+                <selectionEntry id="ea2a-3f40-4a11-2dbb" name="Anti-Tank Gun" hidden="false" collective="true" import="true" type="unit">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6174-c124-3c35-fe59" type="max"/>
                   </constraints>
@@ -771,7 +771,7 @@
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="0074-8868-28d6-65c2" name="Demolition Team" hidden="false" collective="false" import="true" type="unit">
+                <selectionEntry id="0074-8868-28d6-65c2" name="Demolition Team" hidden="false" collective="true" import="true" type="unit">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96d7-2817-f51d-7754" type="max"/>
                   </constraints>
@@ -790,7 +790,7 @@
                     <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="998a-b89a-539e-43a9" name="Anti-Tank Section" hidden="false" collective="false" import="true" type="unit">
+                <selectionEntry id="998a-b89a-539e-43a9" name="Anti-Tank Section" hidden="false" collective="true" import="true" type="unit">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6870-306e-4baf-13ec" type="max"/>
                   </constraints>
@@ -3848,10 +3848,9 @@
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc81-fe3c-371c-1c04" name="Anti-Tank Gun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dc81-fe3c-371c-1c04" name="Anti-Tank Gun" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb9a-7372-1891-4b48" type="max"/>
       </constraints>
