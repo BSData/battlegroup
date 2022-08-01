@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0a75-76ce-f956-7a9d" name="Battlegroup" revision="5" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0a75-76ce-f956-7a9d" name="Battlegroup" revision="6" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="1454-9043-cb31-7c4a" name="Overlord: Beyond the Beaches" shortName="O:BtB" publisher=""/>
     <publication id="a47f-374f-12cc-a194" name="Core Rulebook" shortName="CRB"/>
@@ -216,6 +216,153 @@
         <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="53f1-8829-c462-4819" type="max"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="ea4e-68d9-00be-2c01" name="Artillery Support" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="da91-8b89-3663-c74d" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3513-6f08-58bc-2d59" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71c3-ad87-0fe3-b0d4" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="da91-8b89-3663-c74d" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="3bb2-88dc-8cf8-5207" name="Forward Headquarters Support" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="e2bd-7e1f-5c8f-a6c3" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0891-5f08-126a-7f90" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="220b-d6ef-c8f5-cf27" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e2bd-7e1f-5c8f-a6c3" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="5435-8a33-ae2e-e4d0" name="Infantry Support" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="3ca2-ea9a-4aa6-04b0" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="14cb-9885-1510-86f6" repeats="3" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4d07-4cff-c9e5-a386" repeats="5" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="13ed-94de-45cb-907a" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e7f1-5176-9509-a4f9" repeats="2" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a529-162f-ec0b-e961" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3ca2-ea9a-4aa6-04b0" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="6933-b394-a3ed-cade" name="Tank Support" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="ca70-c32e-e794-d96f" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4226-01bf-f07d-976e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dce6-976f-ab25-efee" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d100-5df8-583b-656e" repeats="3" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="626d-9803-c13b-0222" repeats="2" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ca70-c32e-e794-d96f" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="dce6-976f-ab25-efee" name="Tank +1" hidden="false"/>
+    <categoryEntry id="626d-9803-c13b-0222" name="Tank +2" hidden="false"/>
+    <categoryEntry id="d100-5df8-583b-656e" name="Tank +3" hidden="false"/>
+    <categoryEntry id="13ed-94de-45cb-907a" name="Infantry +1" hidden="false"/>
+    <categoryEntry id="e7f1-5176-9509-a4f9" name="Infantry +2" hidden="false"/>
+    <categoryEntry id="14cb-9885-1510-86f6" name="Infantry +3" hidden="false"/>
+    <categoryEntry id="4d07-4cff-c9e5-a386" name="Infantry +5" hidden="false"/>
+    <categoryEntry id="71c3-ad87-0fe3-b0d4" name="Artillery +1" hidden="false"/>
+    <categoryEntry id="220b-d6ef-c8f5-cf27" name="Forward Headquarters +1" hidden="false"/>
+    <categoryEntry id="dad0-bf03-c4c8-2ee5" name="Reconnaissance Support" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="367a-2226-3a60-f663" value="40.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="562a-1814-54ca-6409" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="d842-fd8f-4744-0a94" scope="force" value="0.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="367a-2226-3a60-f663" type="min"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="7ec9-56cd-e681-87d1" name="Engineer Support" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="cc54-7b10-3c19-b951" value="40.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c484-aff7-4a79-92ba" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="d842-fd8f-4744-0a94" scope="force" value="0.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="cc54-7b10-3c19-b951" type="min"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="509a-1519-5c8c-5211" name="Specialist Support" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry id="3b2e-4796-8c51-ab71" name="Logistics Support" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry id="0e22-12be-a43c-7b9e" name="Additional Fire Support" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebca-908c-0f01-08c6" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="9853-94ea-4f1e-0cab" name="Battlegroup" hidden="false">
@@ -228,6 +375,11 @@
         <categoryLink id="3f4c-9f7c-aa5c-7272" name="Scenario" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="false"/>
         <categoryLink id="1329-0743-e6ff-ed6f" name="Air Support" hidden="false" targetId="19bc-5687-3b84-3d6c" primary="false"/>
         <categoryLink id="2cd4-d61b-3672-ace1" name="Main Scenario" hidden="false" targetId="ebca-908c-0f01-08c6" primary="false"/>
+        <categoryLink id="164e-d206-f449-4765" name="Reconnaissance Support" hidden="false" targetId="dad0-bf03-c4c8-2ee5" primary="false"/>
+        <categoryLink id="648f-a29e-5591-51ec" name="Engineer Support" hidden="false" targetId="7ec9-56cd-e681-87d1" primary="false"/>
+        <categoryLink id="df61-1223-8e3e-c84b" name="Logistics Support" hidden="false" targetId="3b2e-4796-8c51-ab71" primary="false"/>
+        <categoryLink id="0dbc-3532-a213-fd7b" name="Specialist Support" hidden="false" targetId="509a-1519-5c8c-5211" primary="false"/>
+        <categoryLink id="3ae5-8eaa-ee0a-b0fe" name="Additional Fire Support" hidden="false" targetId="0e22-12be-a43c-7b9e" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -1613,6 +1765,26 @@ Once a building is on fire, no units may enter it for the rest of the game.</des
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c484-aff7-4a79-92ba" name="Engineer Force" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="5cc1-8c75-9b2c-3aca" name="Engineer Force" hidden="false">
+          <description>This force may use Engineer Support choices as if they were Infantry choices. 40% of the force must be from Engineer Support.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1436-b257-00e6-df27" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="562a-1814-54ca-6409" name="Reconnaissance Force" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="1de4-6182-ad0e-b9c3" name="Reconnaissance Force" hidden="false">
+          <description>This force may use Recconaissance Support choices as Infantry choices. 40% of this force must be Reconnaissance Support.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="eaea-5fe4-4ad4-bc18" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ffc4-eff4-8b72-0f78" name="Foxholes" hidden="false" collective="false" import="true" type="upgrade">
@@ -2016,6 +2188,138 @@ Once a building is on fire, no units may enter it for the rest of the game.</des
     <selectionEntryGroup id="aab6-1351-8d90-13ab" name="Reconnaissance Support" hidden="false" collective="false" import="true"/>
     <selectionEntryGroup id="ff54-c6af-ba02-c6f1" name="Specialist Support" hidden="false" collective="false" import="true"/>
     <selectionEntryGroup id="2494-90d6-5c75-42d9" name="Engineer Support" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="c652-a968-a030-244e" name="Engineer Support Choice" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72f7-9c6d-d046-84e2" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4709-26f6-70b4-44c5" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="fefe-c1bc-eb77-a491" name="Infantry Support" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="remove" field="category" value="5435-8a33-ae2e-e4d0">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c484-aff7-4a79-92ba" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="a529-162f-ec0b-e961">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c484-aff7-4a79-92ba" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="b3dc-71a0-96cc-56a1" name="Infantry Support" hidden="false" targetId="5435-8a33-ae2e-e4d0" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="0303-0983-2c60-4ab3" name="Tank Support" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="remove" field="category" value="6933-b394-a3ed-cade">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c484-aff7-4a79-92ba" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="a529-162f-ec0b-e961">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c484-aff7-4a79-92ba" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="b547-92f3-1598-2b52" name="Tank Support" hidden="false" targetId="6933-b394-a3ed-cade" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9f01-f622-158f-8b1c" name="Reconnaissance Support Choice" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="655a-e5e7-21bd-3f6a" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="562a-1814-54ca-6409" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="a529-162f-ec0b-e961">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="562a-1814-54ca-6409" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="3ee2-4789-9c17-4e7b" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="562a-1814-54ca-6409" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="655a-e5e7-21bd-3f6a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ee2-4789-9c17-4e7b" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="6547-33f1-5fb6-a82a" name="Infantry Support" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="438b-12dc-b1d3-8bd3" name="Infantry Support" hidden="false" targetId="5435-8a33-ae2e-e4d0" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="31c6-7714-dc63-4672" name="Tank Support" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="fd57-caa7-e42f-eb8b" name="Tank Support" hidden="false" targetId="6933-b394-a3ed-cade" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4d70-120d-903d-8d02" name="Logistics Support Choice" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e2c-d615-7a21-a0c3" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f97e-1bc5-f211-9644" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f3df-4836-ff22-acd2" name="Forward Headquarters Support" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="f504-ca39-c796-6d76" name="Infantry Support" hidden="false" targetId="5435-8a33-ae2e-e4d0" primary="false"/>
+            <categoryLink id="3678-1d08-b803-dbcc" name="Forward Headquarters Support" hidden="false" targetId="3bb2-88dc-8cf8-5207" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="d0e3-5d43-d781-7b3c" name="Tank Support" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="e5bf-fe4d-70d4-ea38" name="Tank Support" hidden="false" targetId="6933-b394-a3ed-cade" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8fe0-e737-d77e-94d1" name="Specialist Support Choice" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79d6-8aba-4b38-abc2" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c70-1191-5fbd-c8ab" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8c22-bbe8-870b-f23d" name="Infantry Support" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="c032-fb3a-b41c-b1e1" name="Infantry Support" hidden="false" targetId="5435-8a33-ae2e-e4d0" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="8327-0955-3563-cf3d" name="Tank Support" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="6f25-728b-0a8b-d1cf" name="Tank Support" hidden="false" targetId="6933-b394-a3ed-cade" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7f1c-4dd0-faef-6003" name="Additional Fire Support Choice" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b0a-9c95-8c97-6e0b" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afee-d078-b756-a69a" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8588-7b65-e16a-ac36" name="Artillery Support" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="7423-152e-f5ad-640f" name="Artillery Support" hidden="false" targetId="ea4e-68d9-00be-2c01" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="20d9-3283-742a-2489" name="Forward Headquarters Support" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="5880-9b83-bfa3-79d3" name="Forward Headquarters Support" hidden="false" targetId="3bb2-88dc-8cf8-5207" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="6fce-6bdd-4a46-f6da" name="Officer" hidden="false">
