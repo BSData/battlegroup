@@ -1100,6 +1100,9 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="47d7-07cd-138b-941f" name="Tracker Dog" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9809-ee37-19a8-646e" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="4e1c-a2ea-08de-16ea" name="Scout (2)" hidden="false" targetId="3708-42cd-a708-ec1a" type="rule"/>
           </infoLinks>
@@ -1108,7 +1111,7 @@
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
