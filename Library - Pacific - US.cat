@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0b1f-5cdd-b049-6ef6" name="Library - Pacific - US" revision="2" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0b1f-5cdd-b049-6ef6" name="Library - Pacific - US" revision="4" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="0380-3c97-b250-7acd" name="Infantry Platoon" hidden="false">
       <modifiers>
@@ -251,7 +251,7 @@
     </selectionEntry>
     <selectionEntry id="4c5f-8956-d7b2-5bbc" name="Aerial Artillery Observer" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecae-3a87-c94a-21e7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecae-3a87-c94a-21e7" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="629b-0883-2ace-96ef" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
@@ -328,7 +328,7 @@
     </selectionEntry>
     <selectionEntry id="da48-dc59-f0d6-6182" name="Artillery Observation Post" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ac6-beae-7386-2e08" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ac6-beae-7386-2e08" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="fb90-c3f3-531d-e023" name="Artillery Spotter+" hidden="false" targetId="3a41-a9a9-f880-76bc" type="rule"/>
@@ -388,7 +388,7 @@
     </selectionEntry>
     <selectionEntry id="16b3-35f5-5e8a-9151" name="Forward Aid Post" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb1d-7fcd-8e05-02b8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb1d-7fcd-8e05-02b8" type="max"/>
       </constraints>
       <profiles>
         <profile id="efc9-12cf-3667-aa16" name="Forward Aid Post" hidden="false" typeId="1b37-2675-2a04-215e" typeName="Infantry Team">
@@ -420,7 +420,7 @@
     </selectionEntry>
     <selectionEntry id="21d9-03c9-d54e-3d5b" name="Forward Air Control Officer" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47bd-f7bd-36f0-41e1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47bd-f7bd-36f0-41e1" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="7d05-8844-60f9-2bf4" name="Forward Air Control Team" hidden="false" targetId="7af0-d0b5-843b-d774" type="profile"/>
@@ -512,7 +512,7 @@
     </selectionEntry>
     <selectionEntry id="137d-0325-3a8d-c591" name="Forward Signals Unit" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b15-f820-1378-5dad" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b15-f820-1378-5dad" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="f589-231e-d9dc-94e9" name="Forward Signals Team" hidden="false" targetId="d051-7941-176c-af9e" type="profile"/>
@@ -582,7 +582,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b375-5f45-a5c3-2bec" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b375-5f45-a5c3-2bec" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="b336-9058-5f4c-ec16" name="Drenching Barrage" hidden="false" targetId="54e9-0ca5-ebc7-1806" type="rule"/>
@@ -707,7 +707,7 @@
     </selectionEntry>
     <selectionEntry id="c7b9-ed9b-1571-ba27" name="Motor Pool" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="825a-2e79-0f74-10d1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="825a-2e79-0f74-10d1" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="8a7c-ef3a-e052-0567" name="Experience - Inexperienced" hidden="false" targetId="21e1-a386-abc9-450b" type="rule"/>
@@ -747,7 +747,7 @@
     </selectionEntry>
     <selectionEntry id="096a-b41f-5b87-a897" name="Out of Supply" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ebd-1569-0f3d-b437" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ebd-1569-0f3d-b437" type="max"/>
       </constraints>
       <rules>
         <rule id="195f-670c-34b9-d9ac" name="Out of Supply" hidden="false">
@@ -756,6 +756,7 @@
       </rules>
       <categoryLinks>
         <categoryLink id="b5fd-3067-befe-de76" name="New CategoryLink" hidden="false" targetId="0891-5f08-126a-7f90" primary="true"/>
+        <categoryLink id="49f6-737b-9eab-8902" name="Forward Headquarters -1" hidden="false" targetId="f3a0-fac0-cac3-0f1a" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="18.0"/>
@@ -839,7 +840,7 @@
     </selectionEntry>
     <selectionEntry id="d35c-67c5-72a4-dc0d" name="Rocket Launcher Battery" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f56-5206-fb75-cbc9" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f56-5206-fb75-cbc9" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="11d9-77f3-23c9-6b53" name="Restricted" hidden="false" targetId="c0ce-106c-705a-21ba" type="rule"/>
@@ -879,7 +880,7 @@
     </selectionEntry>
     <selectionEntry id="b8ed-358b-4b92-78b9" name="Self-Propelled Howitzer Battery" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24fb-5f77-e675-6fd7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24fb-5f77-e675-6fd7" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="eeea-f4f3-9fbc-4653" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
@@ -975,7 +976,7 @@
     </selectionEntry>
     <selectionEntry id="e22f-77e7-195c-fdae" name="Supply Column" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c5a-5226-d835-4676" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c5a-5226-d835-4676" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="f67a-0a1c-5c45-cbc6" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>

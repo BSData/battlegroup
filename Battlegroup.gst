@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0a75-76ce-f956-7a9d" name="Battlegroup" revision="6" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0a75-76ce-f956-7a9d" name="Battlegroup" revision="7" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="1454-9043-cb31-7c4a" name="Overlord: Beyond the Beaches" shortName="O:BtB" publisher=""/>
     <publication id="a47f-374f-12cc-a194" name="Core Rulebook" shortName="CRB"/>
@@ -145,9 +145,14 @@
     <categoryEntry id="b6a3-9f91-0350-5714" name="Defenses" hidden="false">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8d31-1ade-d61e-89b6" type="atMost"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd32-36ab-0f77-af3f" type="atLeast"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8d31-1ade-d61e-89b6" type="atMost"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </categoryEntry>
@@ -229,6 +234,11 @@
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71c3-ad87-0fe3-b0d4" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
+        <modifier type="decrement" field="da91-8b89-3663-c74d" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db1c-8b4c-6b61-d1c9" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="da91-8b89-3663-c74d" type="max"/>
@@ -245,6 +255,11 @@
           <repeats>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0891-5f08-126a-7f90" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="220b-d6ef-c8f5-cf27" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="e2bd-7e1f-5c8f-a6c3" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f3a0-fac0-cac3-0f1a" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -268,6 +283,11 @@
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a529-162f-ec0b-e961" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
+        <modifier type="decrement" field="3ca2-ea9a-4aa6-04b0" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="26b8-33ba-3af4-dfbf" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3ca2-ea9a-4aa6-04b0" type="max"/>
@@ -286,6 +306,11 @@
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dce6-976f-ab25-efee" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d100-5df8-583b-656e" repeats="3" roundUp="false"/>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="626d-9803-c13b-0222" repeats="2" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="ca70-c32e-e794-d96f" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f03-34fa-9c8d-4800" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -363,6 +388,10 @@
         </modifier>
       </modifiers>
     </categoryEntry>
+    <categoryEntry id="f3a0-fac0-cac3-0f1a" name="Forward Headquarters -1" hidden="false"/>
+    <categoryEntry id="26b8-33ba-3af4-dfbf" name="Infantry -1" hidden="false"/>
+    <categoryEntry id="db1c-8b4c-6b61-d1c9" name="Artillery -1" hidden="false"/>
+    <categoryEntry id="4f03-34fa-9c8d-4800" name="Tank -1" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="9853-94ea-4f1e-0cab" name="Battlegroup" hidden="false">
@@ -1774,6 +1803,13 @@ Once a building is on fire, no units may enter it for the rest of the game.</des
       <categoryLinks>
         <categoryLink id="1436-b257-00e6-df27" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="562a-1814-54ca-6409" name="Reconnaissance Force" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -1784,6 +1820,30 @@ Once a building is on fire, no units may enter it for the rest of the game.</des
       <categoryLinks>
         <categoryLink id="eaea-5fe4-4ad4-bc18" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd32-36ab-0f77-af3f" name="Reinforcement Force" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="8229-7cf1-5509-2243" name="Reinforcement Force" hidden="false">
+          <description>This force is in reserve and will join the battle late as reinforcements.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7dd7-1c8e-9d0a-2eef" name="New CategoryLink" hidden="false" targetId="5e37-ddcf-0b7b-0d71" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -2210,6 +2270,13 @@ Once a building is on fire, no units may enter it for the rest of the game.</des
           <categoryLinks>
             <categoryLink id="b3dc-71a0-96cc-56a1" name="Infantry Support" hidden="false" targetId="5435-8a33-ae2e-e4d0" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0303-0983-2c60-4ab3" name="Tank Support" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -2227,41 +2294,69 @@ Once a building is on fire, no units may enter it for the rest of the game.</des
           <categoryLinks>
             <categoryLink id="b547-92f3-1598-2b52" name="Tank Support" hidden="false" targetId="6933-b394-a3ed-cade" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="9f01-f622-158f-8b1c" name="Reconnaissance Support Choice" hidden="false" collective="false" import="true">
-      <modifiers>
-        <modifier type="set" field="655a-e5e7-21bd-3f6a" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="562a-1814-54ca-6409" type="atLeast"/>
-          </conditions>
-        </modifier>
-        <modifier type="add" field="category" value="a529-162f-ec0b-e961">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="562a-1814-54ca-6409" type="atLeast"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="3ee2-4789-9c17-4e7b" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="562a-1814-54ca-6409" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="655a-e5e7-21bd-3f6a" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ee2-4789-9c17-4e7b" type="min"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="6547-33f1-5fb6-a82a" name="Infantry Support" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="remove" field="category" value="5435-8a33-ae2e-e4d0">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="562a-1814-54ca-6409" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="a529-162f-ec0b-e961">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="562a-1814-54ca-6409" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <categoryLinks>
             <categoryLink id="438b-12dc-b1d3-8bd3" name="Infantry Support" hidden="false" targetId="5435-8a33-ae2e-e4d0" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="31c6-7714-dc63-4672" name="Tank Support" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="add" field="category" value="a529-162f-ec0b-e961">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="562a-1814-54ca-6409" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="remove" field="category" value="6933-b394-a3ed-cade">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="562a-1814-54ca-6409" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <categoryLinks>
             <categoryLink id="fd57-caa7-e42f-eb8b" name="Tank Support" hidden="false" targetId="6933-b394-a3ed-cade" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -2276,11 +2371,25 @@ Once a building is on fire, no units may enter it for the rest of the game.</des
             <categoryLink id="f504-ca39-c796-6d76" name="Infantry Support" hidden="false" targetId="5435-8a33-ae2e-e4d0" primary="false"/>
             <categoryLink id="3678-1d08-b803-dbcc" name="Forward Headquarters Support" hidden="false" targetId="3bb2-88dc-8cf8-5207" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d0e3-5d43-d781-7b3c" name="Tank Support" hidden="false" collective="false" import="true" type="upgrade">
           <categoryLinks>
             <categoryLink id="e5bf-fe4d-70d4-ea38" name="Tank Support" hidden="false" targetId="6933-b394-a3ed-cade" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -2294,11 +2403,25 @@ Once a building is on fire, no units may enter it for the rest of the game.</des
           <categoryLinks>
             <categoryLink id="c032-fb3a-b41c-b1e1" name="Infantry Support" hidden="false" targetId="5435-8a33-ae2e-e4d0" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8327-0955-3563-cf3d" name="Tank Support" hidden="false" collective="false" import="true" type="upgrade">
           <categoryLinks>
             <categoryLink id="6f25-728b-0a8b-d1cf" name="Tank Support" hidden="false" targetId="6933-b394-a3ed-cade" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -2312,11 +2435,25 @@ Once a building is on fire, no units may enter it for the rest of the game.</des
           <categoryLinks>
             <categoryLink id="7423-152e-f5ad-640f" name="Artillery Support" hidden="false" targetId="ea4e-68d9-00be-2c01" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="20d9-3283-742a-2489" name="Forward Headquarters Support" hidden="false" collective="false" import="true" type="upgrade">
           <categoryLinks>
             <categoryLink id="5880-9b83-bfa3-79d3" name="Forward Headquarters Support" hidden="false" targetId="3bb2-88dc-8cf8-5207" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

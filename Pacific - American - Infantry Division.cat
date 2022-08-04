@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c238-d182-d145-c416" name="Pacific - American - Infantry Division" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c238-d182-d145-c416" name="Pacific - American - Infantry Division" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="3b8a-f218-194b-b751" name="Forward Headquarters" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="535d-a6f4-665d-8652" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="535d-a6f4-665d-8652" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="aa8f-a3b0-141f-2a51" name="Forward HQ Team" hidden="false" targetId="5852-cbfa-323c-ba22" type="profile"/>
@@ -97,7 +97,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d646-d5db-595c-db61" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d646-d5db-595c-db61" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="ac32-adcb-78ca-5703" name="Naval Shore Fire Control Team" hidden="false" targetId="e6eb-cd1e-b84d-571c" type="profile"/>
@@ -1358,7 +1358,7 @@
     </selectionEntry>
     <selectionEntry id="58b7-8b52-b44f-efdb" name="Alamo Scout Team" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d47a-943a-7983-837f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d47a-943a-7983-837f" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="5698-2d09-d9f9-b3a9" name="Alamo Scout Team" hidden="false" targetId="2072-30c4-afe1-18e0" type="profile"/>
@@ -1592,7 +1592,7 @@
     </selectionEntry>
     <selectionEntry id="d640-1e5f-7895-6dc3" name="Armoured Infantry Patrol" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81f6-409b-87a7-e30f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81f6-409b-87a7-e30f" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="2b04-3eda-a97f-06bb" name="M3 Halftrack" hidden="false" targetId="2fea-4f45-c1fc-cd69" type="profile"/>
@@ -1783,7 +1783,7 @@
     </selectionEntry>
     <selectionEntry id="189f-e7c8-4992-088a" name="Heavy Bridging Unit" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5715-0dc2-59d3-c1b3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5715-0dc2-59d3-c1b3" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="66d1-716d-3a3e-5daa" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
@@ -1958,7 +1958,7 @@
     </selectionEntry>
     <selectionEntry id="c456-94c6-13d5-1ef1" name="Recon Platoon Command" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7802-f25c-8a5c-c354" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7802-f25c-8a5c-c354" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="e084-e60f-4015-b5e2" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>

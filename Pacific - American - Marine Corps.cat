@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="568a-cb87-4a47-6917" name="Pacific - American - Marine Corps" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="568a-cb87-4a47-6917" name="Pacific - American - Marine Corps" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="a58d-2cf3-8109-b72a" name="Forward Headquarters" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a001-725c-e266-840f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a001-725c-e266-840f" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="ee76-66c3-b93b-7e88" name="Forward HQ Team" hidden="false" targetId="5852-cbfa-323c-ba22" type="profile"/>
@@ -43,7 +43,7 @@
     </selectionEntry>
     <selectionEntry id="ef0f-833b-7a2f-10e2" name="Gung-Ho!" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c533-59b9-940e-723a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c533-59b9-940e-723a" type="max"/>
       </constraints>
       <rules>
         <rule id="ff25-4de8-dd3c-25f5" name="Gung-Ho!" hidden="false">
@@ -52,6 +52,7 @@
       </rules>
       <categoryLinks>
         <categoryLink id="324c-9788-48ed-b8fb" name="New CategoryLink" hidden="false" targetId="0891-5f08-126a-7f90" primary="true"/>
+        <categoryLink id="7d85-27ed-971b-b1df" name="Forward Headquarters -1" hidden="false" targetId="f3a0-fac0-cac3-0f1a" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="30.0"/>
@@ -685,7 +686,7 @@
     </selectionEntry>
     <selectionEntry id="f1bf-6966-41b9-d3d8" name="Air Liaison Shore Party" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ccd-1643-63dc-e3ff" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ccd-1643-63dc-e3ff" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="fe2f-cda9-42a9-05bb" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
@@ -725,7 +726,7 @@
     </selectionEntry>
     <selectionEntry id="aefc-832f-b8bc-2468" name="Amtrac Tank Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b84f-0431-22c3-9602" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b84f-0431-22c3-9602" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="e948-3e13-070a-4799" name="Amphibious" hidden="false" targetId="35d7-91c5-3bc2-7d4d" type="rule"/>
@@ -1056,7 +1057,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df36-22fa-2381-03cb" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df36-22fa-2381-03cb" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="4d8f-15af-400c-9129" name="Experience - Veteran" hidden="false" targetId="e6e7-c5b9-d445-da99" type="rule"/>
@@ -1328,7 +1329,7 @@
     </selectionEntry>
     <selectionEntry id="a1c1-33f7-0e5e-40af" name="Recon Platoon Command" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51a5-cc66-64eb-229d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51a5-cc66-64eb-229d" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="9809-e709-b4f2-5544" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
@@ -1403,7 +1404,7 @@
     </selectionEntry>
     <selectionEntry id="0030-0570-44fe-e6cf" name="Light Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faeb-9983-7b09-88a1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faeb-9983-7b09-88a1" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="9635-1c14-4638-468c" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
@@ -2315,7 +2316,7 @@
     </selectionEntry>
     <selectionEntry id="6a2b-de9c-a647-9099" name="Medium Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4439-ca1f-c56a-5b06" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4439-ca1f-c56a-5b06" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="2d2f-c647-7d2f-7607" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
@@ -2378,7 +2379,7 @@
     </selectionEntry>
     <selectionEntry id="4f2b-fbea-dbbf-1581" name="Naval Shore Fire Control Team" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9207-c67f-acd0-975b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9207-c67f-acd0-975b" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="93e7-c155-aa2e-0c2b" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
