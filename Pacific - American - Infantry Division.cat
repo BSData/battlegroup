@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c238-d182-d145-c416" name="Pacific - American - Infantry Division" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c238-d182-d145-c416" name="Pacific - American - Infantry Division" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="3b8a-f218-194b-b751" name="Forward Headquarters" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1614,7 +1614,7 @@
       <costs>
         <cost name="pts" typeId="d842-fd8f-4744-0a94" value="44.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="3.0"/>
-        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="10.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
         <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
       </costs>
@@ -2006,7 +2006,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e6d4-b066-3e77-927a" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
-        <categoryLink id="474e-2b1a-1e2c-3b84" name="New CategoryLink" hidden="false" targetId="509a-1519-5c8c-5211" primary="true"/>
+        <categoryLink id="fe18-0f92-966c-31c6" name="New CategoryLink" hidden="false" targetId="4226-01bf-f07d-976e" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="219d-1124-f4c1-eede" name="Self-Propelled Tank Destroyer" hidden="false" collective="false" import="true" defaultSelectionEntryId="c275-66ca-8ee0-9788">
@@ -2048,9 +2048,6 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="00cc-fd22-dc66-546e" name="Specialist Support Choice" hidden="false" collective="false" import="true" targetId="8fe0-e737-d77e-94d1" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
