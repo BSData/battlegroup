@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6d06-5653-bb7e-e9ce" name="ChinaDis - Japan" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6d06-5653-bb7e-e9ce" name="ChinaDis - Japan" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="2676-59d6-1009-1f53" name="Infantry Platoon" hidden="false">
       <modifiers>
@@ -744,6 +744,13 @@
             <infoLink id="bce4-ffbd-ba06-ab38" name="Officer" hidden="false" targetId="6fce-6bdd-4a46-f6da" type="rule"/>
             <infoLink id="7438-6fae-3d0e-8c8e" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -847,6 +854,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="63bc-869d-f6b4-8cde" name="Rifle Squad" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -930,6 +944,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="848a-c322-88ff-7016" name="Mortar Battery" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1001,6 +1022,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c1cc-ce25-a40a-40e9" name="Light Tank" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -1036,6 +1064,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="183e-d9d3-dea0-bdcb" name="Infantry Platoon" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -1367,6 +1402,13 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+        <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+        <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+        <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -1383,13 +1425,9 @@
     </entryLink>
   </entryLinks>
   <infoLinks>
-    <infoLink id="17f0-ed34-b12c-9522" name="&apos;Banzai!&apos;" hidden="false" targetId="b435-c97f-3d3b-24d7" type="rule"/>
-    <infoLink id="4838-77b5-3ceb-fe3e" name="&apos;Glory of the Emperor&apos;" hidden="false" targetId="c267-c103-8d1c-c22a" type="rule"/>
-    <infoLink id="101b-12d0-09f5-bf3f" name="Allied Air Superiority" hidden="false" targetId="46b5-358a-d28a-ddd9" type="rule"/>
     <infoLink id="bc95-4d6d-e36b-3ec6" name="Communications Breakdown " hidden="false" targetId="91f6-ce4f-8b66-d69f" type="rule"/>
-    <infoLink id="21b1-09aa-b1a7-bf1c" name="Horu" hidden="false" targetId="7eae-9f69-4762-1f02" type="rule"/>
     <infoLink id="2262-a5e7-f44c-f5fa" name="Rounds on the Way" hidden="false" targetId="b95c-e7fe-15f2-1617" type="rule"/>
-    <infoLink id="b3fe-4d20-6f08-c36d" name="To the Last Man" hidden="false" targetId="79aa-a0a1-5606-7d95" type="rule"/>
+    <infoLink id="b871-73ad-31f2-5c93" name="To the Last Man" hidden="false" targetId="79aa-a0a1-5606-7d95" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
     <selectionEntry id="40f8-4d98-6733-d203" name="Anti-Aircraft Truck" hidden="false" collective="false" import="true" type="unit">

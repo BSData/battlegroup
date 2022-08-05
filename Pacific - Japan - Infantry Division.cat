@@ -502,8 +502,8 @@
                 <categoryLink id="653b-7a2a-68f3-eed4" name="Restricted" hidden="false" targetId="6ef2-c8e6-7b4a-f82a" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="19.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
@@ -517,8 +517,8 @@
                 <infoLink id="8d19-cb9f-2ab4-8f32" name="Experience - Regular" hidden="false" targetId="fe31-8406-73c8-5be6" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="19.0"/>
+                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="2.0"/>
                 <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
@@ -1541,8 +1541,7 @@
             </selectionEntry>
             <selectionEntry id="c630-cb07-2ff9-5cea" name="Anti-Tank Rifle Team" hidden="false" collective="false" import="true" type="unit">
               <constraints>
-                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af56-f63a-f5f2-c934" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcea-4d32-be2f-2894" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af56-f63a-f5f2-c934" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="6743-196e-c37f-50f2" name="Unique" hidden="false" targetId="c2e8-0f62-4a80-1a76" type="rule"/>
