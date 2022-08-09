@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="07cd-a756-e0da-3f45" name="Library - Germany" revision="4" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="07cd-a756-e0da-3f45" name="Library - Germany" revision="5" battleScribeVersion="2.03" library="true" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="ef10-a1ee-ed86-7d5c" name="Mortar Pit" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -462,6 +462,72 @@
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="6053-1c62-e885-bad2" name="Upgrade to MG42" hidden="false" collective="false" import="true" defaultSelectionEntryId="1adf-8ea0-f6df-ae2a">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2903-5899-5597-a253" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4798-f551-35d8-5108" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="1adf-8ea0-f6df-ae2a" name="MG34 - Bipod" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="a279-6a9c-6b46-030b" name="MG34 - Bipod" hidden="false" targetId="5cb7-9da2-54f0-a104" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d444-6b2d-aedf-e275" name="MG42 - Bipod" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="ac1c-0e34-528d-4ebf" name="MG42 - Bipod" hidden="false" targetId="f8d0-7abb-fe94-fd95" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b944-3ace-5f04-de90" name="Upgrade to tripod MG42" hidden="false" collective="false" import="true" defaultSelectionEntryId="2bb3-a3d5-4b3e-36b8">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f00e-a359-4443-c288" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbbb-5538-7738-13cd" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="2bb3-a3d5-4b3e-36b8" name="MG34 - Tripod" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="97a0-2238-1d02-ba64" name="MG34 - Tripod" hidden="false" targetId="e29f-f506-9871-320b" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2991-699a-f2af-fb0b" name="MG42 - Tripod" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="6fba-4793-1e97-8917" name="MG42 - Tripod" hidden="false" targetId="0e5b-4fb1-2652-7e70" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="4.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedProfiles>
     <profile id="1479-6e88-4f93-a892" name="Panzer II-L &apos;Luchs&apos;" hidden="false" typeId="2b3e-d39e-72f5-a9a2" typeName="Armored Vehicle">
       <characteristics>
