@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9f48-5d85-f1cd-ab40" name="Overlord:BtB - British Commonwealth - Infantry Division" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9f48-5d85-f1cd-ab40" name="Overlord:BtB - British Commonwealth - Infantry Division" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="0655-7f68-caac-dfaf" name="Additional Tank" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>

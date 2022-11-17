@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bb48-8b9f-e882-3dc9" name="Overlord:BtB - German - Infantry Division" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bb48-8b9f-e882-3dc9" name="Overlord:BtB - German - Infantry Division" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="42bf-1814-50f9-87dc" name="Infantry Platoon" hidden="false">
       <modifiers>
