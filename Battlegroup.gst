@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0a75-76ce-f956-7a9d" name="Battlegroup" revision="7" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0a75-76ce-f956-7a9d" name="Battlegroup" revision="8" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="1454-9043-cb31-7c4a" name="Overlord: Beyond the Beaches" shortName="O:BtB" publisher=""/>
     <publication id="a47f-374f-12cc-a194" name="Core Rulebook" shortName="CRB"/>
@@ -2368,7 +2368,6 @@ Once a building is on fire, no units may enter it for the rest of the game.</des
       <selectionEntries>
         <selectionEntry id="f3df-4836-ff22-acd2" name="Forward Headquarters Support" hidden="false" collective="false" import="true" type="upgrade">
           <categoryLinks>
-            <categoryLink id="f504-ca39-c796-6d76" name="Infantry Support" hidden="false" targetId="5435-8a33-ae2e-e4d0" primary="false"/>
             <categoryLink id="3678-1d08-b803-dbcc" name="Forward Headquarters Support" hidden="false" targetId="3bb2-88dc-8cf8-5207" primary="false"/>
           </categoryLinks>
           <costs>

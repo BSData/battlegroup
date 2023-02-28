@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2412-090f-6528-4da0" name="Pacific - Japan - Infantry Division" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2412-090f-6528-4da0" name="Pacific - Japan - Infantry Division" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="de5c-77cf-4b6e-d4dc" name="Infantry Platoon" hidden="false">
       <modifiers>
@@ -813,7 +813,7 @@
         <categoryLink id="95d0-656e-9db0-5fec" name="Forward Headquarters -1" hidden="false" targetId="f3a0-fac0-cac3-0f1a" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+        <cost name="pts" typeId="d842-fd8f-4744-0a94" value="15.0"/>
         <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
         <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
         <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>

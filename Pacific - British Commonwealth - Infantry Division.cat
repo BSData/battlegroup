@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0826-3b36-7ab6-c99a" name="Pacific - British Commonwealth - Infantry Division" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0826-3b36-7ab6-c99a" name="Pacific - British Commonwealth - Infantry Division" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="6ccf-e2eb-d090-dd07" name="Close Air Support Table" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -518,7 +518,7 @@
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="65a6-5f47-70a7-d1da" name="Rifle Section" hidden="false" collective="false" import="true" type="upgrade">
