@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bb48-8b9f-e882-3dc9" name="Overlord:BtB - German - Infantry Division" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bb48-8b9f-e882-3dc9" name="Overlord:BtB - German - Infantry Division" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="0a75-76ce-f956-7a9d" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="42bf-1814-50f9-87dc" name="Infantry Platoon" hidden="false">
       <modifiers>
@@ -1657,69 +1657,54 @@ Vehicles with a dozer blade or other hedge cutter device treat bocage as dangero
             <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e61f-82ff-e02a-d967" name="Rifle Squad" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="e61f-82ff-e02a-d967" name="Rifle Team" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36a9-9304-437a-8f72" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62f9-334f-8a83-b229" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="75b4-2cd7-f606-e4e0" name="Rifle Team" hidden="false" targetId="97b7-6cbe-28af-d4ba" type="profile"/>
+            <infoLink id="69ef-b908-7e89-f730" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
+          </infoLinks>
           <selectionEntries>
-            <selectionEntry id="445e-b0d8-c0bd-e9b3" name="MG Team" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="e00b-55d6-5e7a-d273" name="Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3625-536f-dc14-d955" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0891-145d-374b-8dcf" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbfc-6eff-5ff4-4cb1" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="d452-4e06-d6d1-13e5" name="Machine Gun Team [Medium]" hidden="false" targetId="ef46-f077-152c-c6f4" type="profile"/>
-                <infoLink id="6373-c515-fe2e-a681" name="Mauser Kar98k (Rifle)" hidden="false" targetId="7f45-ab73-c4d1-ba3e" type="profile"/>
+                <infoLink id="7de9-6712-6b6e-e548" name="Panzerfaust" hidden="false" targetId="ea4f-fe7a-d1c8-f263" type="profile"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="9611-dfd4-489a-2794" name="Upgrade to MG42" hidden="false" collective="false" import="true" targetId="6053-1c62-e885-bad2" type="selectionEntryGroup"/>
-              </entryLinks>
               <costs>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
                 <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="97f7-6943-3dae-5dd6" name="Rifle Team" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1ed-0146-bd2d-72cb" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d6e-522c-ff01-1f90" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="9b2d-15b8-f0a0-c729" name="Rifle Team" hidden="false" targetId="97b7-6cbe-28af-d4ba" type="profile"/>
-                <infoLink id="da82-dc98-7a1e-a4d1" name="Basic Infantry Small Arms" hidden="false" targetId="dc8c-08a1-d910-bfaf" type="infoGroup"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="28ba-fbb3-e2b6-a47a" name="Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68b9-dbaf-bae2-afba" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="f239-1cd2-5916-5262" name="Panzerfaust" hidden="false" targetId="ea4f-fe7a-d1c8-f263" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="d842-fd8f-4744-0a94" value="5.0"/>
-                    <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
-                    <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
-                    <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
-                    <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="8.0"/>
-                <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
-                <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+                <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
                 <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
                 <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="0.0"/>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="8.0"/>
+            <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
+            <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
+            <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
+            <cost name="Scouts" typeId="30b9-666e-c128-9771" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="754f-1211-91aa-4775" name="MG Team" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e1-4cf4-5525-c073" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="241e-277f-1dcf-6883" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2378-5e22-14a3-8e55" name="Machine Gun Team [Medium]" hidden="false" targetId="ef46-f077-152c-c6f4" type="profile"/>
+            <infoLink id="1fa7-e6b1-6db7-7e1b" name="Mauser Kar98k (Rifle)" hidden="false" targetId="7f45-ab73-c4d1-ba3e" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="320d-ce4f-7e1c-c0f8" name="Upgrade to MG42" hidden="false" collective="false" import="true" targetId="6053-1c62-e885-bad2" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Men" typeId="2abb-d074-7103-5ec3" value="3.0"/>
             <cost name="pts" typeId="d842-fd8f-4744-0a94" value="0.0"/>
             <cost name="BR" typeId="25f6-2f9f-8a1e-518d" value="0.0"/>
             <cost name="Officers" typeId="2612-abd7-eb77-6a12" value="0.0"/>
